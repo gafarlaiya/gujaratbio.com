@@ -676,7 +676,8 @@ exec(open(os.path.join(ROOT, "redirects_map.py"), encoding="utf-8").read())
 # live build: switch on old-URL redirects and send every other host name (gujaratbio.com, agriculture.) to www
 if LAUNCH:
     import shutil; shutil.copy(os.path.join(ROOT, "redirects-at-launch.json"), os.path.join(ROOT, "redirects.json"))
-    json.dump({"canonical": "www.gujaratbio.com", "redirect_hosts": ["gujaratbio.com", "agriculture.gujaratbio.com"]}, open(os.path.join(ROOT, "host.json"), "w"))
+    # host redirects are left to Hostinger (domain settings); doing them here caused a redirect loop behind Hostinger's proxy
+    if os.path.exists(os.path.join(ROOT, "host.json")): os.remove(os.path.join(ROOT, "host.json"))
 else:
     json.dump({}, open(os.path.join(ROOT, "redirects.json"), "w"))
     if os.path.exists(os.path.join(ROOT, "host.json")): os.remove(os.path.join(ROOT, "host.json"))
