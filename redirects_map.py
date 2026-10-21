@@ -37,6 +37,11 @@ OLD = {
  "/blog-bio-stimulants-potential": "/guides/what-are-biostimulants", "/blog-post-bio-stimulants-reducing-dead-zones": "/guides/what-are-biostimulants",
  "/blog-post19": "/guides/what-are-biostimulants", "/blog-top-10-biofertilizer-manufacturers-of-india": "/knowledge/soil-fertility",
  "/blog-organic-farming-and-yields": "/knowledge/sustainability", "/bog-n-p-k": "/knowledge/soil-fertility", "/blog-post33": "/knowledge/soil-fertility", "/blog-post31": "/knowledge/soil-fertility",
+ # Old WordPress-era URLs that still have real backlinks (backlink report, Oct 2026)
+ "/shop": "/products", "/organic-fertilizer-for-onion": "/crops/onion", "/plantonics-organic-fertilizer-in-potato-1": "/crops/potato",
+ "/improved-shelf-life-of-potato-with-potato-special-organic-fertilizer": "/products/immunity-potato-special",
+ "/organic-farmer-client-success-stories/organic-fertilizer-for-fruit-crops-organic-fertilizer-manufacturer-in-india": "/farmer-stories",
+ "/soft-soil-using-organics-fertilizer/soft-soil": "/knowledge/soil-health", "/soft-soil-using-organics-fertilizer": "/knowledge/soil-health",
  "/blog-post37": "/crops/sugarcane", "/mlp": "/", "/page": "/", "/page12": "/", "/111": "/", "/landing1": "/", "/landing2": "/", "/landing3": "/", "/deletion": "/privacy-policy", "/classic-cap-hpeszv": "/products",
 }
 for _a in ARTICLES: OLD[_a["old"]] = "/articles/" + _a["slug"]   # moved articles keep their own page
