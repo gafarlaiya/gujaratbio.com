@@ -42,7 +42,7 @@ WA_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0
 TEL_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg>'
 def btn_wa(msg, label="WhatsApp us"): return f'<a class="btn btn-wa" href="{wa(msg)}" data-ev="click_whatsapp">{WA_SVG}{esc(label)}</a>'
 def btn_call(label="Call us"): return f'<a class="btn btn-line" href="tel:{TEL}" data-ev="click_phone">{TEL_SVG}{esc(label)}</a>'
-def btn_enq(label="Send enquiry", q=""): return f'<a class="btn btn-leaf" href="/enquiry{q}" data-ev="begin_enquiry">{esc(label)}</a>'
+def btn_enq(label="Send enquiry", q=""): return f'<a class="btn btn-leaf" href="/enquiry{q}" data-ev="begin_quote">{esc(label)}</a>'
 
 # ---------------------------------------------------------------- media slots
 MEDIA = []  # (file, kind, description, page)
@@ -112,7 +112,7 @@ def header(path):
     trial = '<span class="t">Trial version of the new website.</span>' if TRIAL else "<span></span>"
     return f'''<a class="skip" href="#main">Skip to content</a><div class="strip"><div class="wrap">{trial}<span><a href="tel:{TEL}">{PHONE}</a> &middot; <a href="{OLD_SITE}" rel="nofollow">Visit our old website</a></span></div></div>
 <header class="top"><div class="wrap"><a class="brand" href="/"><img src="/assets/img/brand/gbo-logo-96.webp" alt="Gujarat Bio Organics logo" width="46" height="46" fetchpriority="high"><span class="bt"><b>Gujarat Bio Organics</b><span>Working with farmers since 2006</span></span></a>
-<button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button><nav class="nav" id="nav" aria-label="Main">{"".join(items)}<a class="enq" href="/enquiry" data-ev="begin_enquiry">Send enquiry</a></nav></div></header>'''
+<button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button><nav class="nav" id="nav" aria-label="Main">{"".join(items)}<a class="enq" href="/enquiry" data-ev="begin_quote">Send enquiry</a></nav></div></header>'''
 
 def footer():
     crops = "".join(f'<li><a href="/crops/{c["slug"]}">{c["name"]}</a></li>' for c in CRP[:10])
@@ -133,7 +133,8 @@ def tracking():
           "(function(){var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}"
           "var eu=/^(Europe\\/|Atlantic\\/(Canary|Madeira|Azores|Faroe|Reykjavik))/.test(tz);var v=eu?'denied':'granted';"
           "gtag('consent','default',{ad_storage:v,ad_user_data:v,ad_personalization:v,analytics_storage:v});"
-          "dataLayer.push({site_section:'farmer_site'});"
+          "var it='';try{var q=location.search;if(/[?&]internal=1/.test(q))localStorage.setItem('gbo_internal','1');if(/[?&]internal=0/.test(q))localStorage.removeItem('gbo_internal');it=localStorage.getItem('gbo_internal')?'internal':''}catch(e){}"
+          "var pt=location.pathname.split('/')[1]||'home';var p={site_section:'farmer_site',page_type:pt};if(it)p.traffic_type=it;dataLayer.push(p);"
           "function g(){if(window.__gtm)return;window.__gtm=1;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});"
           "var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f)})"
           f"(window,document,'script','dataLayer','{GTM_ID}')}}"
@@ -144,20 +145,23 @@ def tracking():
 FONT = "https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Mukta:wght@400;600;700&display=swap"
 CSS = re.sub(r"\s*([{};:,>])\s*", r"\1", re.sub(r"/\*.*?\*/", "", open(os.path.join(ROOT, "assets", "site.css"), encoding="utf-8").read(), flags=re.S)).replace(";}", "}")
 JS = ("document.querySelector('.menu-btn')?.addEventListener('click',function(){var n=document.getElementById('nav');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)});"
-      "document.addEventListener('click',function(e){var a=e.target.closest('[data-ev]');if(a){window.dataLayer=window.dataLayer||[];dataLayer.push({event:a.dataset.ev,link_url:a.href||'',page_path:location.pathname})}});"
+      "document.addEventListener('click',function(e){var a=e.target.closest('[data-ev]');if(a){var s=a.closest('section,header,footer,nav');window.dataLayer=window.dataLayer||[];"
+      "dataLayer.push({event:a.dataset.ev,link_url:a.href||'',link_text:(a.textContent||'').trim().slice(0,80),link_location:s?(s.querySelector('h2')||{}).textContent||s.tagName.toLowerCase():'',page_path:location.pathname})}});"
+      "document.querySelectorAll('video').forEach(function(v){v.addEventListener('play',function(){window.dataLayer=window.dataLayer||[];dataLayer.push({event:'video_start',video_provider:'self-hosted',video_title:v.getAttribute('aria-label')||'',video_id:(v.currentSrc||'').split('/').pop()})},{once:true})});"
+      "if(document.body.dataset.nf)(window.dataLayer=window.dataLayer||[]).push({event:'page_not_found',page_path:location.pathname});"
       "var SB='https://filbmvtclfcrrvxckema.supabase.co',SK='sb_publishable_qbndsVEhemxGLYZa6P3PyQ_iDNmsmmT';"
       "function st(k,v){try{localStorage.setItem(k,v)}catch(e){}}function ld(k){try{return localStorage.getItem(k)||''}catch(e){return ''}}"
       "(function(){var q=new URLSearchParams(location.search);['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','fbclid'].forEach(function(k){if(q.get(k)&&!ld('gbo_'+k))st('gbo_'+k,q.get(k))});"
       "if(!ld('gbo_ref')&&document.referrer&&document.referrer.indexOf(location.host)<0)st('gbo_ref',document.referrer);if(!ld('gbo_landing'))st('gbo_landing',location.href)})();"
       "function save(d){var r={name:d.name,company:d.shop,phone:d.phone,country:d.location?(/india/i.test(d.location)?d.location:d.location+', India'):'',interest:d.product||d.crop,grades:d.crop,qty:d['monthly volume'],form:'Farmer site: '+(d.type||'Enquiry'),channel:'whatsapp',"
-      "message:[d.message,d['current brands']?'Current brands: '+d['current brands']:''].filter(Boolean).join(' | '),raw:d,page:location.href,site:location.host,"
+      "message:[d.message,d['current brands']?'Current brands: '+d['current brands']:''].filter(Boolean).join(' | '),raw:d,event_id:d.event_id,page:location.href,site:location.host,"
       "utm_source:ld('gbo_utm_source'),utm_medium:ld('gbo_utm_medium'),utm_campaign:ld('gbo_utm_campaign'),utm_content:ld('gbo_utm_content'),utm_term:ld('gbo_utm_term'),"
       "gclid:ld('gbo_gclid'),fbclid:ld('gbo_fbclid'),referrer:ld('gbo_ref'),landing:ld('gbo_landing')};try{r.timezone=Intl.DateTimeFormat().resolvedOptions().timeZone}catch(e){}"
       "function post(x){return fetch(SB+'/rest/v1/leads',{method:'POST',keepalive:true,headers:{apikey:SK,'Content-Type':'application/json',Prefer:'return=minimal'},body:JSON.stringify(x)}).catch(function(){return null})}"
       "return post(r).then(function(x){if(x&&!x.ok&&x.status<500)return post({name:r.name,phone:r.phone,country:r.country,interest:r.interest,form:r.form,channel:r.channel,message:r.message,page:r.page,site:r.site})})}"
-      "var F=document.getElementById('enqform');if(F){var q=new URLSearchParams(location.search);['crop','product','type'].forEach(function(k){var v=q.get(k);if(v&&F[k])F[k].value=v});"
+      "var F=document.getElementById('enqform');if(F){F.addEventListener('input',function(){(window.dataLayer=window.dataLayer||[]).push({event:'form_start',form_name:'farmer_site_'+((F.type&&F.type.value)||'enquiry').toLowerCase().replace(/[^a-z]+/g,'_')})},{once:true});var q=new URLSearchParams(location.search);['crop','product','type'].forEach(function(k){var v=q.get(k);if(v&&F[k])F[k].value=v});"
       "F.addEventListener('submit',function(e){e.preventDefault();var d={},fd=new FormData(F),m='Hello Gujarat Bio Organics, I am sending an enquiry from your website.';"
-      "fd.forEach(function(v,k){if(v){d[k]=v;m+='\\n'+k.charAt(0).toUpperCase()+k.slice(1)+': '+v}});window.dataLayer=window.dataLayer||[];dataLayer.push({event:'generate_lead',enquiry_type:d.type||''});"
+      "fd.forEach(function(v,k){if(v){d[k]=v;m+='\\n'+k.charAt(0).toUpperCase()+k.slice(1)+': '+v}});window.dataLayer=window.dataLayer||[];var eid='gbo-'+Date.now()+'-'+Math.random().toString(36).slice(2,8);d.event_id=eid;dataLayer.push({event:'generate_lead',form_name:'farmer_site_'+(d.type||'enquiry').toLowerCase().replace(/[^a-z]+/g,'_'),lead_channel:'whatsapp',enquiry_type:d.type||'',event_id:eid});"
       "var go=function(){location.href='https://wa.me/919978791167?text='+encodeURIComponent(m)};var t=setTimeout(go,1500);save(d).then(function(){clearTimeout(t);go()},function(){clearTimeout(t);go()})})}"
       "var C=document.getElementById('calc');if(C){C.addEventListener('input',calc);calc()}"
       "function calc(){var g=function(i){return Math.max(0,parseFloat(document.getElementById(i).value)||0)},N=g('cn'),P=g('cp'),K=g('ck'),A=g('ca')||1,src=document.getElementById('cs').value,o=[];"
@@ -187,7 +191,7 @@ def render(path, title, desc, body, schemas=None, crumbs=None, prio="0.6", lang=
 <meta property="og:type" content="website"><meta property="og:site_name" content="{SHORT}"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{SITE}{og or "/assets/img/brand/gbo-logo.png"}"><meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#1c4720"><link rel="icon" href="/assets/img/brand/gbo-logo.png" type="image/png">
 <link rel="preload" href="/assets/fonts/mukta-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/baloo-2-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
-<style>{CSS}</style>{ldh}</head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id={GTM_ID}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<style>{CSS}</style>{ldh}</head><body{' data-nf="1"' if path == "/404" else ""}><noscript><iframe src="https://www.googletagmanager.com/ns.html?id={GTM_ID}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 {header(path)}<main id="main">{body}</main>{footer()}<script>{JS}</script></body></html>'''
     d = ROOT if path == "/" else os.path.join(ROOT, path.strip("/"))
     os.makedirs(d, exist_ok=True)
