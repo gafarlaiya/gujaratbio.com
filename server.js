@@ -46,6 +46,7 @@ let HOST = {};  // live build only: {"canonical": "...", "redirect_hosts": [...]
 try { HOST = JSON.parse(fs.readFileSync(path.join(__dirname, 'host.json'), 'utf8')); } catch (e) {}
 http.createServer((req, res) => {
   const host = (req.headers.host || '').toLowerCase().split(':')[0];
+  res.setHeader('X-Seen-Host', host + ' | xfh=' + (req.headers['x-forwarded-host'] || '-') + ' | xfp=' + (req.headers['x-forwarded-proto'] || '-'));  // temporary diagnostic
   if (HOST.canonical && (HOST.redirect_hosts || []).includes(host)) { res.writeHead(301, {Location: 'https://' + HOST.canonical + req.url}); return res.end(); }
   let p; try { p = decodeURIComponent(new URL(req.url, 'http://x').pathname); } catch (e) { res.writeHead(400); return res.end('Bad request'); }
   if (p.length > 1 && p.endsWith('/')) p = p.slice(0, -1);
