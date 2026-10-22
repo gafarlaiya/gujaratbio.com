@@ -46,11 +46,12 @@ let HOST = {};  // live build only: {"canonical": "...", "redirect_hosts": [...]
 try { HOST = JSON.parse(fs.readFileSync(path.join(__dirname, 'host.json'), 'utf8')); } catch (e) {}
 http.createServer((req, res) => {
   const host = (req.headers.host || '').toLowerCase().split(':')[0];
-  res.setHeader('X-Seen-Host', host + ' | xfh=' + (req.headers['x-forwarded-host'] || '-') + ' | xfp=' + (req.headers['x-forwarded-proto'] || '-'));  // temporary diagnostic
+  // gujaratbio.com (no www) -> https://www.gujaratbio.com, same path. Only the exact bare host; never cached, so the CDN cannot serve it to www.
+  if (host === 'gujaratbio.com') { res.writeHead(301, {Location: 'https://www.gujaratbio.com' + req.url, 'Cache-Control': 'no-store', 'Vary': 'Host'}); return res.end(); }
   if (HOST.canonical && (HOST.redirect_hosts || []).includes(host)) { res.writeHead(301, {Location: 'https://' + HOST.canonical + req.url}); return res.end(); }
   let p; try { p = decodeURIComponent(new URL(req.url, 'http://x').pathname); } catch (e) { res.writeHead(400); return res.end('Bad request'); }
   if (p.length > 1 && p.endsWith('/')) p = p.slice(0, -1);
-  const to = redirectFor(p); if (to && to !== p) { res.writeHead(301, {Location: to}); return res.end(); }
+  const to = redirectFor(p); if (to && to !== p) { const q = req.url.indexOf('?'); res.writeHead(301, {Location: to + (q > -1 && !to.includes('?') ? req.url.slice(q) : '')}); return res.end(); }
   const full = path.normalize(path.join(ROOT, p));
   if (!full.startsWith(ROOT) || /(^|\/)\.|server\.js$|package\.json$|\.py$|\.md$|\.gs$|^\/(redirects|host|redirects-at-launch|content_articles)\.json$|\.csv$/.test(p)) return send(res, 404, path.join(ROOT, '404.html'), null, req);
   fs.stat(full, (e, st) => {
