@@ -350,10 +350,10 @@ for p in PRODUCTS:
     if os.path.exists(os.path.join(ROOT, "assets", "img", "products", p["slug"] + ".webp")): prod_ld["image"] = f"{SITE}/assets/img/products/{p['slug']}.webp"
     kind = "Biofertilizer" if p["group"] == "bio" else "Organic Fertilizer"
     t = f"{p['name']} {kind} | Gujarat Bio Organics"
-    if len(t) > 66: t = f"{p['name']} {kind} | GBO"
-    if len(t) > 66: t = f"{p['name']} | Gujarat Bio Organics"
-    if len(t) > 66: t = f"{p['name']} | Gujarat Bio Organics"
-    if len(t) > 66: t = f"{p['name']} | GBO"
+    # Keep titles short enough that Google and SEO tools do not flag them (max 65).
+    if len(t) > 65: t = f"{p['name']} {kind} | GBO"
+    if len(t) > 65: t = f"{p['name']} | Gujarat Bio Organics"
+    if len(t) > 65: t = f"{p['name']} | GBO"
     _og = f"/assets/img/products/{p['slug']}.webp" if os.path.exists(os.path.join(ROOT, "assets", "img", "products", p["slug"] + ".webp")) else None
     render(path, t, f"{p['line']} Pack sizes, who it is for and how to send an enquiry.", body, [prod_ld, faq_ld(pfaq)], [("Products", "/products"), (p["name"], None)], "0.8", og=_og)
 
