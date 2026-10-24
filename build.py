@@ -685,4 +685,14 @@ if LAUNCH:
 else:
     json.dump({}, open(os.path.join(ROOT, "redirects.json"), "w"))
     if os.path.exists(os.path.join(ROOT, "host.json")): os.remove(os.path.join(ROOT, "host.json"))
+# Knowledge file for the WhatsApp AI agent (products + crop guides), read from /agent-kb.txt.
+_G = {g[0]: g[1] for g in GROUPS}
+_kb = ["## PRODUCTS (Immunity brand). Use exact names. No prices. Pack sizes as listed."]
+for _p in PRODUCTS:
+    _kb.append(f"- {_p['name']} [{_G.get(_p['group'], _p['group'])}{', crop: ' + _p['crop'] if _p.get('crop') else ''}] {_p.get('form', '')}; packs: {', '.join(_p.get('packs', []))}. {_p['line']} Made for: {'; '.join(_p.get('made_for', []))}." + (f" Background: {_p['story']}" if _p.get('story') else ""))
+_kb.append("\n## CROP GUIDES (general agronomy; stages and common problems)")
+for _c in CROPS:
+    _st = " | ".join(f"{s[0]} ({s[1]}): {s[2]}" for s in _c.get('stages', []))
+    _kb.append(f"### {_c['name']} (grown in: {_c.get('where', '')}; product: {_c.get('product', '')})\n{_c.get('intro', '')}\nStages: {_st}\nCommon problems: {'; '.join(_c.get('problems', []))}\nWhat to check: {'; '.join(_c.get('checks', []))}")
+open(os.path.join(ROOT, "agent-kb.txt"), "w", encoding="utf8").write("\n".join(_kb))
 print(f"built {len(PAGES)} pages, {len(seen)} media slots")
