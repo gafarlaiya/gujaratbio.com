@@ -303,7 +303,7 @@ for c in CROPS:
     body += sec(faq_html(c["faq"]), f"{c['name']} questions", tint=not carts) + enquiry_box(c["name"], p["name"])
     title = f"{c['name']} Farming Guide: Stages, Problems & Care | GBO"
     if len(title) > 66: title = f"{c['name']} Guide: Stages, Problems & Care | GBO"
-    render(path, title, f"{c['name']} guide for growers: stage-by-stage care, common problems, what to check, and {p['name']}.",
+    render(path, title, f"{c['name']} guide for growers: stage-by-stage care, common problems, what to check, and how farmers use {p['name']} through the season.",
            body, [faq_ld(c["faq"]), article_ld(path, f"{c['name']} farming guide", c["intro"])], [("Crops", "/crops"), (c["name"], None)], "0.8",
            og=(f"/assets/media/crop-{c['slug']}-hero.webp" if os.path.exists(os.path.join(ROOT, "assets", "media", f"crop-{c['slug']}-hero.webp")) else f"/assets/img/products/{p['slug']}.webp"))
 
@@ -355,7 +355,7 @@ for p in PRODUCTS:
     if len(t) > 65: t = f"{p['name']} | Gujarat Bio Organics"
     if len(t) > 65: t = f"{p['name']} | GBO"
     _og = f"/assets/img/products/{p['slug']}.webp" if os.path.exists(os.path.join(ROOT, "assets", "img", "products", p["slug"] + ".webp")) else None
-    render(path, t, f"{p['line']} Pack sizes, who it is for and how to send an enquiry.", body, [prod_ld, faq_ld(pfaq)], [("Products", "/products"), (p["name"], None)], "0.8", og=_og)
+    render(path, t, f"{p['line']} Pack sizes, who it is for, how farmers use it, and how to send an enquiry on WhatsApp.", body, [prod_ld, faq_ld(pfaq)], [("Products", "/products"), (p["name"], None)], "0.8", og=_og)
 
 # ---------------------------------------------------------------- farmer stories
 start("/farmer-stories")
@@ -583,7 +583,7 @@ wb += sec(f'''<ol class="stages"><li><h3>Tell us your location and crop</h3><p>S
 <li><h3>Or order direct</h3><p>Where there is no dealer, we supply direct and deliver by courier or transport.</p></li></ol>
 <div class="btns">{btn_enq("Find where to buy", "?type=Where+to+buy")}{btn_wa("Hello Gujarat Bio Organics, where can I buy Immunity near me? Village/District: / Crop: / Product:", "Ask on WhatsApp")}{btn_call()}</div>
 <p class="note">Dealer list by district coming soon.</p>''')
-render("/where-to-buy", "Where to Buy Immunity Near You | Gujarat Bio Organics", "Find the nearest Immunity dealer or order direct from Gujarat Bio Organics. Delivery across India.",
+render("/where-to-buy", "Where to Buy Immunity Near You | Gujarat Bio Organics", "Find the nearest Immunity dealer or order direct from Gujarat Bio Organics on WhatsApp or phone. Delivery across India from Bhavnagar, Gujarat.",
        wb, None, [("Dealers & Bulk", "/dealers"), ("Where to buy", None)], "0.7")
 
 # ---------------------------------------------------------------- enquiry, contact
@@ -616,7 +616,7 @@ render("/contact", "Contact Gujarat Bio Organics | WhatsApp, Phone, Address", "C
 # ---------------------------------------------------------------- legal (drafts: confirm before online payments go live)
 def legal(path, title, h, inner):
     start(path)
-    render(path, title, f"{h} for {NAME}.", hero(h, NAME, [(h, None)], light=True) + sec(f'<div class="prose">{inner}</div>'), None, [(h, None)], "0.2")
+    render(path, title, f"{h} for {NAME}, Bhavnagar, Gujarat: what applies when you use gujaratbio.com, contact us or order Immunity products.", hero(h, NAME, [(h, None)], light=True) + sec(f'<div class="prose">{inner}</div>'), None, [(h, None)], "0.2")
 legal("/shipping-and-returns", "Shipping and Returns | Gujarat Bio Organics", "Shipping and returns", f'''<h2>Shipping</h2><p>Orders are processed and dispatched within 1 to 7 working days from order confirmation, by courier, transport agency or another suitable carrier. Tracking details are shared on WhatsApp or email.</p>
 <h2>Damaged or wrong items</h2><p>If your order arrives damaged, leaking or wrong, send photos of the pack and parcel on WhatsApp ({PHONE}) or to {MAIL} within 48 hours of delivery. We will replace the item or refund it after checking.</p>
 <h2>Cancellations</h2><p>You can cancel an order before dispatch by contacting us. Once dispatched, an order cannot be cancelled.</p>
