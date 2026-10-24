@@ -17,7 +17,7 @@ WA = "919978791167"; PHONE = "+91 99787 91167"; TEL = "+919978791167"; MAIL = "s
 NAME = "Gujarat Bio Organics Pvt. Ltd."; SHORT = "Gujarat Bio Organics"
 CIN = "U24123GJ2009PTC058701"
 FACTORY = "Plot No. 321, GIDC 2, Ghanghali Road, Shihor, Bhavnagar, Gujarat 364240"
-REGOFF = "First Floor, 110 Shoppers Plaza, Parimal Chowk, Waghawadi Road, Bhavnagar, Gujarat 364002"
+REGOFF = "First Floor, 110 Shoppers Plaza, Parimal Chowk, Waghawadi Road, Bhavnagar, Gujarat 364001"
 SOCIAL = ["https://www.facebook.com/gujaratbio", "https://www.youtube.com/@Gujaratbio"]
 OWNER_LINE = f"This website is owned and maintained by {NAME.replace('Pvt. Ltd.', 'Private Limited')} (CIN {CIN}), Bhavnagar, Gujarat, India."
 RESULTS = "Results differ from farm to farm with soil, weather, crop and management. Farmer experiences on this site are their own reports, not a promise of results."
