@@ -13,6 +13,7 @@ TRIAL = not LAUNCH                             # trial: every page is noindex an
 OLD_SITE = "https://en.gujaratbio.com"
 B2B = "https://b2b.gujaratbio.com"
 GTM_ID = "GTM-5JDXGL2S"
+CLARITY_ID = "ny9u8r542a"  # Microsoft Clarity project "Gujarat Bio Main Site"
 WA = "919978791167"; PHONE = "+91 99787 91167"; TEL = "+919978791167"; MAIL = "sales@gujaratbio.com"
 NAME = "Gujarat Bio Organics Pvt. Ltd."; SHORT = "Gujarat Bio Organics"
 CIN = "U24123GJ2009PTC058701"
@@ -137,7 +138,10 @@ def tracking():
           "var pt=location.pathname.split('/')[1]||'home';var p={site_section:'farmer_site',page_type:pt};if(it)p.traffic_type=it;dataLayer.push(p);"
           "function g(){if(window.__gtm)return;window.__gtm=1;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});"
           "var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f)})"
-          f"(window,document,'script','dataLayer','{GTM_ID}')}}"
+          f"(window,document,'script','dataLayer','{GTM_ID}');"
+          # Microsoft Clarity (heatmaps + session recordings), same delayed loading; skipped for the team and where consent is needed
+          f"if(v==='granted'&&!it){{(function(c,l,a,r,i,t,y){{c[a]=c[a]||function(){{(c[a].q=c[a].q||[]).push(arguments)}};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;"
+          f"y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)}})(window,document,'clarity','script','{CLARITY_ID}')}}}}"
           "if(document.readyState==='complete')setTimeout(g,1);else addEventListener('load',function(){setTimeout(g,1)});"
           "['pointerdown','keydown','scroll'].forEach(function(e){addEventListener(e,g,{once:true,passive:true})})})();")
     return "<script>" + js + "</script>"
