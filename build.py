@@ -640,12 +640,12 @@ _ev_form = f'''<div id="evbook" class="evbox"><form id="evform" class="form" nov
 <div><label for="ev_phone">મોબાઈલ નંબર (WhatsApp)</label><input id="ev_phone" name="phone" required inputmode="numeric" autocomplete="tel" maxlength="14" placeholder="98xxxxxxxx"></div>
 <div class="two-col"><div><label for="ev_village">ગામ</label><input id="ev_village" name="village" required maxlength="60"></div>
 <div><label for="ev_taluka">તાલુકો</label><input id="ev_taluka" name="taluka" maxlength="60"></div></div>
-<div class="two-col"><div><label for="ev_district">જિલ્લો</label><select id="ev_district" name="district"><option value="Navsari">નવસારી</option><option value="Surat">સુરત</option><option value="Tapi">તાપી</option><option value="Valsad">વલસાડ</option><option value="Bharuch">ભરૂચ</option><option value="Narmada">નર્મદા</option><option value="Dang">ડાંગ</option><option value="">બીજો જિલ્લો</option></select></div>
-<div><label for="ev_people">કેટલા લોકો આવશો? (તમારી સાથે)</label><select id="ev_people" name="people"><option value="1">1 (હું એકલો/એકલી)</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select></div></div>
+<div><div><label for="ev_district">જિલ્લો</label><select id="ev_district" name="district"><option value="Navsari">નવસારી</option><option value="Surat">સુરત</option><option value="Tapi">તાપી</option><option value="Valsad">વલસાડ</option><option value="Bharuch">ભરૂચ</option><option value="Narmada">નર્મદા</option><option value="Dang">ડાંગ</option><option value="">બીજો જિલ્લો</option></select></div>
+</div>
 <div><label for="ev_area">શેરડી કેટલા વીઘામાં છે? (મરજિયાત)</label><input id="ev_area" name="acreage" inputmode="decimal" maxlength="10" placeholder="જેમ કે 10"></div>
 <p class="everr" id="everr" role="alert"></p>
 <button class="btn btn-leaf" type="submit" id="evbtn">મારી જગ્યા બુક કરો</button>
-<p class="note">બુકિંગ પછી તરત બુકિંગ નંબર મળશે. મિટિંગમાં એ નંબર બતાવવાનો રહેશે.</p></form></div>
+<p class="note">બુકિંગ પછી તરત બુકિંગ નંબર મળશે. મીટિંગમાં એ નંબર બતાવવાનો રહેશે.</p></form></div>
 <div id="evdone" class="ticket" hidden></div>'''
 _ev_js = r'''<script>(function(){
 var SB='https://filbmvtclfcrrvxckema.supabase.co',SK='sb_publishable_qbndsVEhemxGLYZa6P3PyQ_iDNmsmmT',EV='__EV__',MAP='__MAP__',PAGE=location.origin+location.pathname;
@@ -657,19 +657,31 @@ function seats(){rpc('event_status',{p_event:EV}).then(function(r){return r.ok?r
   if(!s.open){S.textContent='બુકિંગ બંધ થઈ ગયું છે';F.hidden=true;return}
   if(s.left<=0){S.textContent='બધી જગ્યા ભરાઈ ગઈ છે';full();return}
   S.textContent='બાકી જગ્યા: '+s.left+' / '+s.capacity}).catch(function(){})}
-function full(){F.hidden=true;D.hidden=false;D.innerHTML='<h3>બધી 100 જગ્યા ભરાઈ ગઈ છે</h3><p>આગલી મિટિંગની જાણ મેળવવા WhatsApp કરો.</p><a class="btn btn-wa" href="https://wa.me/919978791167?text='+encodeURIComponent('નમસ્તે, શેરડી કાપણી મિટિંગની જગ્યા ભરાઈ ગઈ છે. આગલી મિટિંગ થાય તો મને જણાવજો.')+'">WhatsApp કરો</a>'}
+function full(){F.hidden=true;D.hidden=false;D.innerHTML='<h3>બધી 100 જગ્યા ભરાઈ ગઈ છે</h3><p>આગલી મીટિંગની જાણ મેળવવા WhatsApp કરો.</p><a class="btn btn-wa" href="https://wa.me/919978791167?text='+encodeURIComponent('નમસ્તે, શેરડી હાર્વેસ્ટિંગ મીટિંગની જગ્યા ભરાઈ ગઈ છે. આગલી મીટિંગ થાય તો મને જણાવજો.')+'">WhatsApp કરો</a>'}
 function esc(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
-function ics(b){var t='BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Gujarat Bio Organics//EN\r\nBEGIN:VEVENT\r\nUID:'+b.no+'@gujaratbio.com\r\nDTSTAMP:20261026T000000Z\r\nDTSTART:20261028T050000Z\r\nDTEND:20261028T090000Z\r\nSUMMARY:Sugarcane harvest meeting (booking '+b.no+')\r\nLOCATION:Falguniben Patel farm, Nani Chovisi, beside Swaminarayan Temple, near Navsari Grid\r\nDESCRIPTION:Booking '+b.no+' for '+b.people+' people. Lunch together.\r\nEND:VEVENT\r\nEND:VCALENDAR';return 'data:text/calendar;charset=utf-8,'+encodeURIComponent(t)}
-function show(b){F.hidden=true;D.hidden=false;var wa='નમસ્તે, મેં 28 ઓક્ટોબરની શેરડી કાપણી મિટિંગ માટે બુકિંગ કર્યું છે.\nબુકિંગ નંબર: '+b.no+'\nનામ: '+b.name+'\nલોકો: '+b.people+'\nમને લોકેશન મોકલજો.';
-  var share='ફાલ્ગુનીબેન પટેલના ખેતર પર શેરડી કાપણી મિટિંગ, બુધવાર 28 ઓક્ટોબર સવારે 10:30, સાથે ભોજન. બુકિંગ ફરજિયાત, ફક્ત 100 જગ્યા: '+PAGE;
+function ics(b){var t='BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Gujarat Bio Organics//EN\r\nBEGIN:VEVENT\r\nUID:'+b.no+'@gujaratbio.com\r\nDTSTAMP:20261026T000000Z\r\nDTSTART:20261028T050000Z\r\nDTEND:20261028T090000Z\r\nSUMMARY:Sugarcane harvest meeting (booking '+b.no+')\r\nLOCATION:Falguniben Patel farm, Nani Chovisi, beside Swaminarayan Temple, near Navsari Grid\r\nDESCRIPTION:Booking '+b.no+'. Lunch together.\r\nEND:VEVENT\r\nEND:VCALENDAR';return 'data:text/calendar;charset=utf-8,'+encodeURIComponent(t)}
+function show(b){F.hidden=true;D.hidden=false;var wa='નમસ્તે, મેં 28 ઓક્ટોબરની શેરડી હાર્વેસ્ટિંગ મીટિંગ માટે બુકિંગ કર્યું છે.\nબુકિંગ નંબર: '+b.no+'\nનામ: '+b.name+'\nમને લોકેશન મોકલજો.';
+  var share='ફાલ્ગુનીબેન પટેલના ખેતર પર શેરડી હાર્વેસ્ટિંગ મીટિંગ, બુધવાર 28 ઓક્ટોબર સવારે 10:30, સાથે ભોજન. બુકિંગ ફરજિયાત, ફક્ત 100 જગ્યા: '+PAGE;
   D.innerHTML='<p style="font-weight:800;font-size:1.25rem;margin:0">✅ તમારું બુકિંગ પાક્કું થયું'+(b.already?' (પહેલેથી બુક છે)':'')+'</p><p style="margin:.4rem 0 0">બુકિંગ નંબર</p><div class="no">'+esc(b.no)+'</div>'
-   +'<dl><dt>નામ</dt><dd>'+esc(b.name)+'</dd><dt>લોકો</dt><dd>'+esc(b.people)+'</dd><dt>તારીખ</dt><dd>બુધવાર, 28 ઓક્ટોબર 2026, સવારે 10:30</dd><dt>સ્થળ</dt><dd>ફાલ્ગુનીબેન પટેલનું ખેતર, નાની ચોવીસી, નવસારી ગ્રીડ પાસે, સ્વામિનારાયણ મંદિરની બાજુમાં</dd></dl>'
-   +'<p>આ સ્ક્રીનનો ફોટો પાડી રાખો અને મિટિંગમાં બુકિંગ નંબર બતાવજો.</p><div class="btns">'
+   +'<dl><dt>નામ</dt><dd>'+esc(b.name)+'</dd><dt>વ્યક્તિ</dt><dd>1</dd><dt>તારીખ</dt><dd>બુધવાર, 28 ઓક્ટોબર 2026, સવારે 10:30</dd><dt>સ્થળ</dt><dd>ફાલ્ગુનીબેન પટેલનું ખેતર, નાની ચોવીસી, નવસારી ગ્રીડ પાસે, સ્વામિનારાયણ મંદિરની બાજુમાં</dd></dl>'
+   +'<p>આ સ્ક્રીનનો ફોટો પાડી રાખો અને મીટિંગમાં બુકિંગ નંબર બતાવજો.</p><div class="btns">'
    +'<a class="btn btn-wa" data-ev="click_whatsapp" href="https://wa.me/919978791167?text='+encodeURIComponent(wa)+'">WhatsApp પર કન્ફર્મેશન મેળવો</a>'
    +'<a class="btn btn-line" href="'+MAP+'" target="_blank" rel="noopener">નકશો ખોલો</a>'
    +'<a class="btn btn-line" href="https://wa.me/?text='+encodeURIComponent(share)+'">મિત્રને આમંત્રણ મોકલો</a>'
+   +'<button type="button" class="btn btn-leaf" id="evpass">પાસ ડાઉનલોડ કરો</button>'
    +'<a class="btn btn-line" download="sugarcane-meeting.ics" href="'+ics(b)+'">કેલેન્ડરમાં ઉમેરો</a></div>';
+  var pb=document.getElementById('evpass');if(pb)pb.onclick=function(){pass(b)};
   D.scrollIntoView({behavior:'smooth',block:'start'})}
+function pass(b){var c=document.createElement('canvas'),W=900,H=1300;c.width=W;c.height=H;var x=c.getContext('2d');
+  x.fillStyle='#ffffff';x.fillRect(0,0,W,H);x.fillStyle='#1c4720';x.fillRect(0,0,W,230);x.fillStyle='#fff';x.textAlign='center';
+  x.font='700 46px "Baloo 2","Noto Sans Gujarati",sans-serif';x.fillText('શેરડી હાર્વેસ્ટિંગ મીટિંગ',W/2,105);x.font='600 32px "Mukta","Noto Sans Gujarati",sans-serif';x.fillText('પ્રવેશ પાસ',W/2,170);
+  x.strokeStyle='#2f7a3a';x.setLineDash([14,10]);x.lineWidth=4;x.strokeRect(40,270,W-80,H-330);x.setLineDash([]);
+  x.fillStyle='#555';x.font='30px "Mukta","Noto Sans Gujarati",sans-serif';x.fillText('બુકિંગ નંબર',W/2,350);x.fillStyle='#1c4720';x.font='800 110px "Baloo 2",sans-serif';x.fillText(b.no,W/2,470);
+  x.fillStyle='#1d241f';x.font='700 44px "Mukta","Noto Sans Gujarati",sans-serif';x.fillText(b.name,W/2,570);x.font='30px "Mukta","Noto Sans Gujarati",sans-serif';x.fillStyle='#555';x.fillText('1 વ્યક્તિ',W/2,620);
+  x.fillStyle='#1d241f';x.font='700 36px "Mukta","Noto Sans Gujarati",sans-serif';x.fillText('બુધવાર, 28 ઓક્ટોબર 2026',W/2,720);x.fillText('સવારે 10:30',W/2,775);
+  x.font='32px "Mukta","Noto Sans Gujarati",sans-serif';['ફાલ્ગુનીબેન પટેલનું ખેતર, નાની ચોવીસી','નવસારી ગ્રીડ પાસે,','સ્વામિનારાયણ મંદિરની બાજુમાં'].forEach(function(t,i){x.fillText(t,W/2,870+i*48)});
+  x.fillStyle='#2f7a3a';x.font='600 30px "Mukta","Noto Sans Gujarati",sans-serif';x.fillText('સાથે ભોજન',W/2,1060);x.fillStyle='#555';x.font='26px "Mukta","Noto Sans Gujarati",sans-serif';x.fillText('આ પાસ મીટિંગમાં બતાવજો. એક પાસ પર એક વ્યક્તિ.',W/2,1130);x.fillText('ગુજરાત બાયો ઓર્ગેનિક્સ, 99787 91167',W/2,1180);
+  var a=document.createElement('a');a.download='pass-'+b.no+'.png';a.href=c.toDataURL('image/png');document.body.appendChild(a);a.click();a.remove()}
 var saved=ld('gbo_ev_'+EV);if(saved){try{show(JSON.parse(saved))}catch(e){}}
 seats();
 F.addEventListener('submit',function(e){e.preventDefault();E.textContent='';
@@ -681,19 +693,19 @@ F.addEventListener('submit',function(e){e.preventDefault();E.textContent='';
   var src={page:location.href,referrer:document.referrer,landing:ld('gbo_landing')||location.href,utm_source:ld('gbo_utm_source'),utm_medium:ld('gbo_utm_medium'),utm_campaign:ld('gbo_utm_campaign'),utm_content:ld('gbo_utm_content'),fbclid:ld('gbo_fbclid'),gclid:ld('gbo_gclid')};
   var area=v('acreage')?v('acreage')+' vingha':'';
   var done=function(b){st('gbo_ev_'+EV,JSON.stringify(b));(window.dataLayer=window.dataLayer||[]).push({event:'generate_lead',form_name:'event_booking',event_id:'ev-'+b.no+'-'+ph});show(b)};
-  rpc('book_event',{p_event:EV,p_name:v('name'),p_phone:ph,p_village:v('village'),p_taluka:v('taluka'),p_district:F.district.value,p_people:+F.people.value,p_acreage:area,p_src:src})
+  rpc('book_event',{p_event:EV,p_name:v('name'),p_phone:ph,p_village:v('village'),p_taluka:v('taluka'),p_district:F.district.value,p_people:1,p_acreage:area,p_src:src})
   .then(function(r){if(r.status===404)throw {fallback:1};return r.json()})
   .then(function(j){if(j&&j.ok){done({no:j.booking_no,name:j.name||v('name'),people:j.people,already:j.already});return}
-    var why={full:'માફ કરશો, જગ્યા ભરાઈ ગઈ છે'+(j&&j.left?' (ફક્ત '+j.left+' જગ્યા બાકી, લોકો ઓછા પસંદ કરો)':'')+'.',closed:'બુકિંગ બંધ થઈ ગયું છે.',phone:'કૃપા કરી સાચો મોબાઈલ નંબર લખો.',name:'કૃપા કરી તમારું નામ લખો.'}[j&&j.reason]||'બુકિંગ થયું નહીં, ફરી પ્રયત્ન કરો અથવા WhatsApp કરો: 99787 91167';
+    var why={full:'માફ કરશો, જગ્યા ભરાઈ ગઈ છે.',closed:'બુકિંગ બંધ થઈ ગયું છે.',phone:'કૃપા કરી સાચો મોબાઈલ નંબર લખો.',name:'કૃપા કરી તમારું નામ લખો.'}[j&&j.reason]||'બુકિંગ થયું નહીં, ફરી પ્રયત્ન કરો અથવા WhatsApp કરો: 99787 91167';
     E.textContent=why;if(j&&j.reason==='full'&&!j.left)full()})
   .catch(function(x){
-    if(x&&x.fallback){var no='HM-'+ph.slice(-4);fetch(SB+'/rest/v1/leads',{method:'POST',headers:{apikey:SK,'Content-Type':'application/json',Prefer:'return=minimal'},body:JSON.stringify({name:v('name'),phone:'+91'+ph,country:'Gujarat, India',interest:'Sugarcane harvest meeting',qty:F.people.value+' people',form:'Event: Sugarcane harvest meeting 28 Oct (booking '+no+')',channel:'website',site:location.host,message:'Booking '+no+' for '+F.people.value+' people',village:v('village'),taluka:v('taluka'),district:F.district.value,crop:'Sugarcane',acreage:area||null,page:location.href,utm_source:src.utm_source||null,utm_campaign:src.utm_campaign||null,fbclid:src.fbclid||null})})
-      .then(function(r){if(!r.ok)throw 0;done({no:no,name:v('name'),people:F.people.value})}).catch(function(){E.textContent='બુકિંગ થયું નહીં. કૃપા કરી WhatsApp કરો: 99787 91167'})}
+    if(x&&x.fallback){var no='HM-'+ph.slice(-4);fetch(SB+'/rest/v1/leads',{method:'POST',headers:{apikey:SK,'Content-Type':'application/json',Prefer:'return=minimal'},body:JSON.stringify({name:v('name'),phone:'+91'+ph,country:'Gujarat, India',interest:'Sugarcane harvest meeting',qty:'1 person',form:'Event: Sugarcane harvest meeting 28 Oct (booking '+no+')',channel:'website',site:location.host,message:'Booking '+no+' for 1 person (harvest meeting 28 Oct)',village:v('village'),taluka:v('taluka'),district:F.district.value,crop:'Sugarcane',acreage:area||null,page:location.href,utm_source:src.utm_source||null,utm_campaign:src.utm_campaign||null,fbclid:src.fbclid||null})})
+      .then(function(r){if(!r.ok)throw 0;done({no:no,name:v('name'),people:'1'})}).catch(function(){E.textContent='બુકિંગ થયું નહીં. કૃપા કરી WhatsApp કરો: 99787 91167'})}
     else E.textContent='ઇન્ટરનેટ ધીમું છે. ફરી પ્રયત્ન કરો અથવા WhatsApp કરો: 99787 91167'})
   .finally(function(){btn.disabled=false;btn.textContent='મારી જગ્યા બુક કરો'})});
 })();</script>'''.replace("__EV__", EV_KEY).replace("__MAP__", EV_MAP)
-_ev_body = _ev_css + f'''<section class="hero"><div class="wrap"><div class="crumbs"><a href="/">Home</a> / શેરડી કાપણી મિટિંગ</div>
-<h1>શેરડી કાપણી મિટિંગ, ફાલ્ગુનીબેન પટેલના ખેતર પર</h1>
+_ev_body = _ev_css + f'''<section class="hero"><div class="wrap"><div class="crumbs"><a href="/">Home</a> / શેરડી હાર્વેસ્ટિંગ મીટિંગ</div>
+<h1>શેરડી હાર્વેસ્ટિંગ મીટિંગ, ફાલ્ગુનીબેન પટેલના ખેતર પર</h1>
 <p class="lead">ફેસબુક પર ફાલ્ગુનીબેનની વાત લગભગ 1 લાખ લોકોએ જોઈ. હવે આવો, તેમનું ખેતર અને કાપણી જાતે જુઓ, તેમની પાસેથી સાંભળો અને સાથે ભોજન કરીએ.</p>
 <div class="evtop"><span class="evchip">બુધવાર, 28 ઓક્ટોબર 2026</span><span class="evchip">સવારે 10:30</span><span class="evchip">નાની ચોવીસી, નવસારી</span><span class="evchip">સાથે ભોજન</span></div>
 <div class="seats" id="seats">બુકિંગ ફરજિયાત, ફક્ત 100 જગ્યા</div>
@@ -701,15 +713,15 @@ _ev_body = _ev_css + f'''<section class="hero"><div class="wrap"><div class="cru
 ''' + sec(ul(["ફાલ્ગુનીબેનના ખેતરમાં શેરડીની કાપણી નજરે જુઓ.",
              "ફાલ્ગુનીબેન પોતે કહેશે કે યુરિયા, DAP અને પોટાશ ઘટાડીને ઈમ્યુનિટી શુગરકેન સ્પેશિયલ અપનાવ્યા પછી તેમના ખેતરમાં શું બદલાયું.",
              "ગુજરાત બાયો ઓર્ગેનિક્સની ટીમ સાથે પ્રશ્નોત્તરી: તમારી જમીન અને તમારી શેરડી માટે શું કરવું.",
-             "બધા ખેડૂતો સાથે બપોરનું ભોજન."]), "મિટિંગમાં શું થશે?") \
+             "બધા ખેડૂતો સાથે બપોરનું ભોજન."]), "મીટિંગમાં શું થશે?") \
   + sec(f'<div class="evbox"><p style="margin:0;font-weight:700">ફાલ્ગુનીબેન પટેલનું ખેતર</p><p style="margin:.3rem 0 .8rem">નાની ચોવીસી, નવસારી ગ્રીડ પાસે, સ્વામિનારાયણ મંદિરની બાજુમાં, નવસારી</p>'
         f'<a class="btn btn-line" href="{EV_MAP}" target="_blank" rel="noopener">Google નકશામાં જુઓ</a></div>', "ક્યાં?", tint=True) \
-  + sec(_ev_form, "તમારી જગ્યા બુક કરો", "જગ્યા અને ભોજન મર્યાદિત છે, એટલે બુકિંગ ફરજિયાત છે. એક મોબાઈલ નંબર પરથી એક બુકિંગ, વધુમાં વધુ 5 લોકો.", id="book") \
-  + sec(f'<p class="prose">કોઈ પ્રશ્ન હોય તો WhatsApp અથવા ફોન કરો.</p><div class="btns">{btn_wa("નમસ્તે, શેરડી કાપણી મિટિંગ વિશે પૂછવું છે.", "WhatsApp કરો")}{btn_call("ફોન કરો")}</div>', "પ્રશ્ન છે?", tint=True) \
+  + sec(_ev_form, "તમારી જગ્યા બુક કરો", "જગ્યા અને ભોજન મર્યાદિત છે, એટલે બુકિંગ ફરજિયાત છે. એક બુકિંગમાં એક જ વ્યક્તિ. સાથે કોઈ આવવાના હોય તો તેમના મોબાઈલ નંબરથી અલગ બુકિંગ કરો.", id="book") \
+  + sec(f'<p class="prose">કોઈ પ્રશ્ન હોય તો WhatsApp અથવા ફોન કરો.</p><div class="btns">{btn_wa("નમસ્તે, શેરડી હાર્વેસ્ટિંગ મીટિંગ વિશે પૂછવું છે.", "WhatsApp કરો")}{btn_call("ફોન કરો")}</div>', "પ્રશ્ન છે?", tint=True) \
   + _ev_js
-render("/sugarcane-meeting", "શેરડી કાપણી મિટિંગ, 28 ઓક્ટોબર, નવસારી | બુકિંગ",
-       "ફાલ્ગુનીબેન પટેલના ખેતર પર શેરડી કાપણી મિટિંગ: બુધવાર 28 ઓક્ટોબર 2026, સવારે 10:30, નાની ચોવીસી, નવસારી. સાથે ભોજન. બુકિંગ ફરજિયાત, ફક્ત 100 જગ્યા.",
-       _ev_body, [_ev_ld], [("શેરડી કાપણી મિટિંગ", None)], "0.8", lang="gu")
+render("/sugarcane-meeting", "શેરડી હાર્વેસ્ટિંગ મીટિંગ, 28 ઓક્ટોબર, નવસારી | બુકિંગ",
+       "ફાલ્ગુનીબેન પટેલના ખેતર પર શેરડી હાર્વેસ્ટિંગ મીટિંગ: બુધવાર 28 ઓક્ટોબર 2026, સવારે 10:30, નાની ચોવીસી, નવસારી. સાથે ભોજન. બુકિંગ ફરજિયાત, ફક્ત 100 જગ્યા.",
+       _ev_body, [_ev_ld], [("શેરડી હાર્વેસ્ટિંગ મીટિંગ", None)], "0.8", lang="gu")
 
 # ---------------------------------------------------------------- legal (drafts: confirm before online payments go live)
 def legal(path, title, h, inner):
