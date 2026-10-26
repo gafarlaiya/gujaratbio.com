@@ -619,7 +619,7 @@ render("/contact", "Contact Gujarat Bio Organics | WhatsApp, Phone, Address", "C
 
 # ---------------------------------------------------------------- event: sugarcane harvest meeting (booking page, Gujarati)
 EV_KEY = "sugarcane-harvest-2026-10-28"
-EV_MAP = "https://www.google.com/maps/search/?api=1&query=" + quote("Swaminarayan Temple, Nani Chovisi, Navsari, Gujarat")
+EV_MAP = "https://maps.app.goo.gl/5P9fgnkZU6PUS7Zw9"  # exact farm pin shared by Gafar, 26 Oct
 start("/sugarcane-meeting")
 _ev_ld = {"@context": "https://schema.org", "@type": "Event", "name": "Sugarcane harvest meeting at Falguniben Patel's farm",
           "startDate": "2026-10-28T10:30:00+05:30", "endDate": "2026-10-28T14:30:00+05:30",
