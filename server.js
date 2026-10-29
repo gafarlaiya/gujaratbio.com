@@ -29,7 +29,8 @@ function send(res, code, file, extra, req) {
     });
   }
   fs.readFile(file, (e, buf) => {
-    if (e) { res.writeHead(500); return res.end('Server error'); }
+    if (e && !(req && req._retried)) { if (req) req._retried = true; return setTimeout(() => send(res, code, file, extra, req), 150); }  // one quick retry (files can be mid-deploy)
+    if (e) { res.writeHead(503, {'Retry-After': '120', 'Cache-Control': 'no-store'}); return res.end('Temporarily unavailable'); }  // 503 = "try later" to Google, not a permanent error
     const ext = path.extname(file);
     const h = Object.assign({'Content-Type': MIME[ext] || 'application/octet-stream', 'X-Content-Type-Options': 'nosniff', 'Vary': 'Accept-Encoding'}, extra || {});
     h['Cache-Control'] = ext === '.html' ? 'public, max-age=300' : (ext === '.css' || ext === '.js') ? 'public, max-age=31536000, immutable' : 'public, max-age=31536000, immutable';

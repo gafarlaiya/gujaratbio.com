@@ -42,7 +42,7 @@ OLD = {
  "/improved-shelf-life-of-potato-with-potato-special-organic-fertilizer": "/products/immunity-potato-special",
  "/organic-farmer-client-success-stories/organic-fertilizer-for-fruit-crops-organic-fertilizer-manufacturer-in-india": "/farmer-stories",
  "/soft-soil-using-organics-fertilizer/soft-soil": "/knowledge/soil-health", "/soft-soil-using-organics-fertilizer": "/knowledge/soil-health",
- "/blog-post37": "/crops/sugarcane", "/mlp": "/", "/page": "/", "/page12": "/", "/111": "/", "/landing1": "/", "/landing2": "/", "/landing3": "/", "/deletion": "/privacy-policy", "/classic-cap-hpeszv": "/products",
+ "/blog-post37": "/crops/sugarcane", "/mlp": "/", "/home": "/", "/privacy": "/privacy-policy", "/page": "/", "/page12": "/", "/111": "/", "/landing1": "/", "/landing2": "/", "/landing3": "/", "/deletion": "/privacy-policy", "/classic-cap-hpeszv": "/products",
 }
 for _a in ARTICLES: OLD[_a["old"]] = "/articles/" + _a["slug"]   # moved articles keep their own page
 _valid = {p for p, _ in PAGES}
