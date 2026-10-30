@@ -218,7 +218,18 @@ def sec(inner, title=None, sub=None, tint=False, id=None):
     i = f' id="{id}"' if id else ""
     return f'<section class="sec{" tint" if tint else ""}"{i}><div class="wrap">{t}{s}{inner}</div></section>'
 def ul(items, cls="ticks"): return f'<ul class="{cls}">' + "".join(f"<li>{esc(i)}</li>" for i in items) + "</ul>"
-def body_of(x): return ul(x, "") if isinstance(x, list) else f"<p>{esc(x)}</p>"
+def _li(i):  # escape text, but keep simple <a href> links
+    return re.sub(r"&lt;a href=&quot;([^&\"]+)&quot;&gt;(.*?)&lt;/a&gt;", r'<a href="\1">\2</a>', esc(i))
+def body_of(x):
+    if isinstance(x, tuple): return x[1]
+    if isinstance(x, list):  # strings become a bullet list; ("html", raw) tuples are inserted as they are
+        out, cur = "", []
+        for i in x + [None]:
+            if isinstance(i, str): cur.append(i); continue
+            if cur: out += "<ul>" + "".join(f"<li>{_li(c)}</li>" for c in cur) + "</ul>"; cur = []
+            if i is not None: out += i[1]
+        return out
+    return f"<p>{esc(x)}</p>"
 def answer(t): return f'<p class="answer">{esc(t)}</p>'
 def faq_html(qs): return '<div class="faq">' + "".join(f"<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in qs) + "</div>"
 def faq_ld(qs): return {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in qs]}
@@ -393,6 +404,8 @@ def article_page(path, basename, baseurl, x, crop=None, hero_media=None):
     inner = answer(x["answer"])
     for fn, ds in (hero_media or []): inner += media(fn, ds)
     inner += "".join(f"<h2>{esc(h)}</h2>" + body_of(items) for h, items in x["sections"])
+    if "__IMG__" in inner:
+        inner = inner.replace("__IMG__", media("gravitropism-root-stages.webp", "Illustration of a germinating seed, a seedling and a vegetative plant, showing the root growing down and the shoot growing up at each stage", cls="diagram") + '<p class="note">Illustration of the first three crop stages: the root grows down (positive gravitropism) and the shoot grows up (negative gravitropism).</p>')
     if crop:
         c = CBY[crop]; p = PBY[c["product"]]
         inner += f'<p>See the full <a href="/crops/{crop}">{c["name"].lower()} guide</a> and <a href="/products/{p["slug"]}">{p["name"]}</a>.</p>'
@@ -400,6 +413,11 @@ def article_page(path, basename, baseurl, x, crop=None, hero_media=None):
     body += sec(f'<div class="prose">{inner}</div>') + sec(faq_html(x["faq"]), "Questions", tint=True) + x.get("extra", "") + (ganna_box() if crop == "sugarcane" else "") + enquiry_box(CBY[crop]["name"] if crop else "")
     render(path, x["title"] if len(x["title"]) <= 66 else x["title"][:66], x["desc"], body, [faq_ld(x["faq"]), article_ld(path, x["h1"], x["desc"])],
            [(basename, baseurl), (x["h1"].split(":")[0][:40], None)], "0.7")
+
+for g in GUIDES:
+    if g["slug"] == "gravitropism-and-root-growth":
+        g["extra"] = sec('<div class="grid">' + "".join(card(f"/guides/{x['slug']}", x["h1"], x["desc"], "Guide") for x in GUIDES if x["slug"] != g["slug"]) + "</div>"
+                         + f'<p class="note" style="margin-top:1rem">Buying in bulk, private label or export? See <a href="{B2B}/biostimulants-manufacturer-india">our biostimulant manufacturing pages</a> for business buyers.</p>', "Read next", tint=True)
 
 KCAT = {"soil-health": "soil", "soil-fertility": "soil", "sustainability": "organic", "potato-fertilizer-schedule": ""}
 for k in KNOW:

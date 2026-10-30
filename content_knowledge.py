@@ -53,6 +53,75 @@ PROBLEMS = [
 ]
 
 GUIDES = [
+ dict(slug="gravitropism-and-root-growth", title="Gravitropism and Roots: How Biostimulants Support Root Growth",
+      h1="Gravitropism and root growth: how roots find their way, and how biostimulants can help",
+      desc="How roots sense gravity, what goes wrong when roots are weak, and how seaweed, amino acid and humic biostimulants can support root growth.",
+      answer="Roots grow downward because of gravitropism: cells in the root tip sense gravity and shift the plant hormone auxin, so the root bends toward the soil. Biostimulants do not switch this on. Selected seaweed, amino acid and humic products can support root growth, nutrient uptake and stress tolerance, but only after you find out why the roots are weak.",
+      sections=[
+       ("Weak roots are usually a soil or stress problem first", [
+         "Hard or compacted soil that roots cannot push through.",
+         "Waterlogging that leaves roots without oxygen.",
+         "Salty soil or salty irrigation water that burns root tips.",
+         "Low organic matter, so the soil holds little water and few nutrients.",
+         "Transplanting shock, when roots are damaged or dry out at planting.",
+         "Nutrient imbalance, such as too much nitrogen and too little phosphorus or potash.",
+         "Root diseases and nematodes."]),
+       ("How to check the roots in your own field", [
+         "Pick three or four plants that look weak and three or four that look healthy. Dig them up with a spade; do not pull them.",
+         "Healthy roots are mostly pale or white at the tips, with plenty of fine root hairs. Brown, black, slimy or stunted roots point to waterlogging, disease or salt.",
+         "Look for roots that turn sideways or stop at a hard layer. That points to compaction.",
+         "Compare the depth: weak plants usually have a shallow, short root system.",
+         "Take a soil sample and test for salinity (EC), pH and nutrients before spending money on any product. See <a href=\"/guides/how-to-take-a-soil-sample\">how to take a soil sample</a>."]),
+       ("What gravitropism is, in simple words", [
+         ("html", "<p>Plants have no eyes or muscles, yet a root knows which way is down. Cells in the root tip contain small starch-filled grains called amyloplasts. They settle to the lower side of the cell, and that tells the plant which way gravity points.</p>"
+                  "<p>The signal changes how the growth hormone auxin is spread. In a root, more auxin on the lower side slows growth there, so the root bends downward. In a shoot, more auxin on the lower side speeds growth there, so the shoot bends upward. That is why a seed sown at any angle still sends its root down and its shoot up.</p>"
+                  "<p>Side roots grow at an angle, not straight down, so the plant can search a wider volume of soil. Gravity is also not the only cue. Roots respond to water, oxygen and nutrient-rich patches as well, which is why moisture and soil condition shape the root system as much as gravity does.</p>")]),
+       ("Gravitropism in the first three crop stages", [
+         ("html", "__IMG__")]),
+       ("What roots need at each crop stage", [
+         ("html", '<div class="tablewrap"><table class="packs"><thead><tr><th>Stage</th><th>What the roots are doing</th><th>What can go wrong</th><th>What growers can check</th></tr></thead><tbody>'
+                  '<tr><td>Germination</td><td>The first root (radicle) pushes down for water and anchorage</td><td>Crust, dry soil, poor seed or cold soil</td><td>Seed quality, moisture, depth of sowing</td></tr>'
+                  '<tr><td>Seedling</td><td>The main root and side roots begin to branch</td><td>Transplanting shock, salt, compaction</td><td>Handling at transplant, irrigation water quality</td></tr>'
+                  '<tr><td>Vegetative growth</td><td>Roots explore deeper layers for water and nutrients</td><td>Shallow roots, waterlogging, nutrient imbalance</td><td>Root depth, drainage, soil test</td></tr>'
+                  '<tr><td>Flowering and fruiting</td><td>Roots must keep supplying a high demand for water and nutrients</td><td>Heat and moisture stress, root damage</td><td>Steady irrigation, root health, nutrient supply</td></tr>'
+                  '<tr><td>Grain or fruit fill</td><td>Roots stay active to support filling</td><td>Early root decline, stress</td><td>Water supply and plant health late in the crop</td></tr>'
+                  '</tbody></table></div>')]),
+       ("What biostimulants can and cannot do", [
+         ("html", "<p>A biostimulant is not a fertilizer and not a pesticide. It helps the plant use nutrients better and cope with stress. It does not replace gravity sensing, and it does not fix a hard, salty or waterlogged soil by itself. Effects depend on the active ingredient, the formulation, the crop, the soil and the weather.</p>")]),
+       ("The main types and what they are used for", [
+         "Seaweed extracts: contain a mixture of natural plant-growth substances. They are used to support root and shoot growth and to help crops handle stress.",
+         "Amino acids and protein hydrolysates: building blocks that support plant metabolism, and are used to help crops recover from stress and take up nutrients.",
+         "Humic and fulvic acid: work through the soil. They are used to support root growth and to help roots reach nutrients. See <a href=\"/guides/compost-and-humic-acid\">compost and humic acid</a>.",
+         "Microbial products: beneficial microorganisms that live around the roots and can help release nutrients."]),
+       ("Match the problem to the approach", [
+         ("html", '<div class="tablewrap"><table class="packs"><thead><tr><th>Problem in the field</th><th>Check first</th><th>Approach that may help</th></tr></thead><tbody>'
+                  '<tr><td>Poor root growth</td><td>Compaction, drainage, soil test</td><td>Fix soil first; seaweed or amino acid products to support roots</td></tr>'
+                  '<tr><td>Transplanting shock</td><td>Root damage, watering after transplant</td><td>Careful handling plus a stress-support product at transplant</td></tr>'
+                  '<tr><td>Salinity</td><td>Soil and water EC</td><td>Better water and drainage first; products evaluated for stress tolerance can support</td></tr>'
+                  '<tr><td>Poor use of fertilizer</td><td>Soil test, balance of nutrients</td><td>Balanced nutrition; humic substances and suitable microbial products can support uptake</td></tr>'
+                  '<tr><td>Uneven crop establishment</td><td>Seed, sowing depth, moisture</td><td>Good seed and moisture; early-stage applications can support even growth</td></tr>'
+                  '<tr><td>Heat or moisture stress</td><td>Irrigation schedule, mulch</td><td>Crop-specific stress management at sensitive stages</td></tr>'
+                  '</tbody></table></div><p class="note">No single product solves every problem. Start with the cause, then choose the product.</p>')]),
+       ("How to choose and use a biostimulant", [
+         "In India, only biostimulants listed in Schedule VI of the Fertiliser Control Order can be sold. Ask your supplier for proof.",
+         "Pick the product for the problem and the crop stage, not for the name on the pack.",
+         "Keep balanced fertilizer and soil care going. A biostimulant works alongside nutrition, not instead of it.",
+         "Test on a small strip first and leave a strip untreated. Compare roots and plants after two to three weeks.",
+         "Follow the label for dose and timing, and check that the product mixes with what you spray.",
+         "Write down what you applied and when, so you can judge the result honestly."]),
+       ("From more inputs to better processes", [
+         ("html", "<p>Farming has long asked only how much fertilizer to apply. A better question is whether the roots can use what is already in the soil. Is the root system growing well? Is the plant under salt or water stress? Is the soil alive and rich in organic matter? Biostimulants have a place in this thinking, when they are properly formulated, matched to the problem and tested in the field.</p>")]),
+       ("How we work with farmers at Gujarat Bio Organics", [
+         "Understand the plant: what the crop needs at each stage.",
+         "Understand the soil: what limits the roots and nutrient uptake.",
+         "Choose the right solution: a suitable product, tested in the field, with an honest expectation of results.",
+         ("html", '<p>Tell us your crop, stage and what you see in the roots, and we will suggest a programme. <a href="/enquiry">Send an enquiry</a> or see <a href="/products">the Immunity range</a>.</p>')])],
+      faq=[("What is gravitropism in simple words?", "It is the way plants sense gravity and grow accordingly: roots grow down and shoots grow up."),
+           ("Do biostimulants make roots grow downward?", "No. Gravity decides the direction. Biostimulants may support the growth, nutrient uptake and stress tolerance of the roots, depending on the product, crop and soil."),
+           ("Which biostimulant is best for root development?", "It depends on the cause. Seaweed extracts, amino acids and humic substances are commonly used to support roots, but check soil, drainage and salinity first."),
+           ("How can I tell if my crop has a root problem?", "Dig up a few weak plants and a few healthy ones and compare the roots. Short, brown, slimy or shallow roots, or roots that stop at a hard layer, show a problem."),
+           ("Can biostimulants replace fertilizer?", "No. They help the crop use nutrients better, but the crop still needs balanced nutrition."),
+           ("How do I know a biostimulant can be sold in India?", "Only products listed in Schedule VI of the Fertiliser Control Order are allowed. Ask the supplier for proof of listing.")]),
  dict(slug="what-are-biostimulants", title="What Are Biostimulants? A Plain Guide for Farmers",
       h1="What are biostimulants? A plain guide for farmers",
       desc="What biostimulants are, how they differ from fertilizers and pesticides, the main types, and how farmers use them.",
