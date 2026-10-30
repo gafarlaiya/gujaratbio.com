@@ -23,8 +23,17 @@ SOCIAL = ["https://www.facebook.com/gujaratbio", "https://www.youtube.com/@Gujar
 OWNER_LINE = f"This website is owned and maintained by {NAME.replace('Pvt. Ltd.', 'Private Limited')} (CIN {CIN}), Bhavnagar, Gujarat, India."
 RESULTS = "Results differ from farm to farm with soil, weather, crop and management. Farmer experiences on this site are their own reports, not a promise of results."
 
-for _f in ("content_products.py", "content_crops.py", "content_crops2.py", "content_knowledge.py", "content_pages.py"):
+for _f in ("content_products.py", "content_crops.py", "content_crops2.py", "content_knowledge.py", "content_series.py", "content_pages.py"):
     exec(open(os.path.join(ROOT, _f), encoding="utf-8").read())
+SERIES = ["gravitropism-and-root-growth", "auxin-master-regulator-of-growth", "seaweed-extracts-and-plant-physiology", "humic-acid-and-root-zone-development",
+          "protein-hydrolysates-and-nutrient-use-efficiency", "biostimulants-for-salinity-and-drought-stress"]
+GUIDES = GUIDES + SERIES_GUIDES
+_GB = {g["slug"]: g for g in GUIDES}
+_GB["gravitropism-and-root-growth"]["refs"] = ["Morita MT (2010). Directional gravity sensing in gravitropism. Annual Review of Plant Biology 61:705-720.",
+    "Vanneste S, Friml J (2009). Auxin: a trigger for change in plant development. Cell 136:1005-1016.",
+    "du Jardin P (2015). Plant biostimulants: definition, concept, main categories and regulation. Scientia Horticulturae 196:3-14."]
+GUIDES = [_GB[x] for x in SERIES] + [g for g in GUIDES if g["slug"] not in SERIES]
+SERIES_NAME = "Plant Science Series"
 
 ARTICLES = json.load(open(os.path.join(ROOT, "content_articles.json"), encoding="utf-8"))
 CROP_KW = {"apple": ["apple", "root rot"], "potato": ["potato"], "banana": ["banana"], "sugarcane": ["sugarcane", "गन्न"], "cotton": ["cotton", "कपास"],
@@ -394,7 +403,7 @@ kn = hero("Agriculture knowledge", "Plain answers on soil, crops and sustainable
 kn += sec('<div class="grid">' + "".join(card(f"/knowledge/{k['slug']}", k["h1"].split(":")[0], k["desc"], "Pillar guide") for k in KNOW) + "</div>", "Soil and sustainability")
 kn += sec('<div class="grid two">' + card("/tools/fertilizer-dose-calculator", "Fertilizer dose calculator", "Turn your soil test N, P and K into bags of urea, DAP or SSP and MOP.", "Tool", "Open calculator") + card("/knowledge/potato-fertilizer-schedule", "Potato fertilizer schedule", "What to apply at each stage of the potato crop.", "Schedule") + "</div>", "Tools and schedules", tint=True)
 kn += sec('<div class="grid">' + "".join(card(f"/crop-problems/{x['slug']}", cap(x["h1"]), x["desc"], CBY[x["crop"]]["name"]) for x in PROBLEMS) + "</div>", "Crop problems", tint=True)
-kn += sec('<div class="grid">' + "".join(card(f"/guides/{g['slug']}", g["h1"], g["desc"], "Guide") for g in GUIDES) + '</div><div class="btns"><a class="btn btn-leaf" href="/articles">All articles</a></div>', "Farming guides")
+kn += sec('<div class="grid">' + "".join(card(f"/guides/{g['slug']}", g["h1"], g["desc"], "Guide") for g in GUIDES) + '</div><div class="btns"><a class="btn btn-leaf" href="/plant-science-series">Plant Science Series</a><a class="btn btn-line" href="/articles">All articles</a></div>', "Farming guides", "New: the Plant Science Series, six guides on roots, hormones and biostimulant science by Gafar Laiya.")
 render("/knowledge", "Agriculture Knowledge: Soil, Crops, Sustainability | GBO", "Guides on soil health, soil fertility, sustainable farming and the 5 Rs, crop problems and practical farming topics from Gujarat Bio Organics.",
        kn, None, [("Knowledge", None)], "0.8")
 
@@ -402,6 +411,9 @@ def article_page(path, basename, baseurl, x, crop=None, hero_media=None):
     start(path)
     body = hero(cap(x["h1"]), x["desc"], [(basename, baseurl), (x["h1"].split(":")[0][:40], None)], light=True)
     inner = answer(x["answer"])
+    if x["slug"] in SERIES and path.startswith("/guides/"):
+        _n = SERIES.index(x["slug"]) + 1
+        inner += f'<p class="note"><strong>Part {_n} of {len(SERIES)}</strong> in the <a href="/plant-science-series">{SERIES_NAME}</a> by Gafar Laiya: plant physiology and biostimulant science, in plain language.</p>'
     for fn, ds in (hero_media or []): inner += media(fn, ds)
     inner += "".join(f"<h2>{esc(h)}</h2>" + body_of(items) for h, items in x["sections"])
     if "__IMG__" in inner:
@@ -415,9 +427,14 @@ def article_page(path, basename, baseurl, x, crop=None, hero_media=None):
            [(basename, baseurl), (x["h1"].split(":")[0][:40], None)], "0.7")
 
 for g in GUIDES:
-    if g["slug"] == "gravitropism-and-root-growth":
-        g["extra"] = sec('<div class="grid">' + "".join(card(f"/guides/{x['slug']}", x["h1"], x["desc"], "Guide") for x in GUIDES if x["slug"] != g["slug"]) + "</div>"
-                         + f'<p class="note" style="margin-top:1rem">Buying in bulk, private label or export? See <a href="{B2B}/biostimulants-manufacturer-india">our biostimulant manufacturing pages</a> for business buyers.</p>', "Read next", tint=True)
+    if g["slug"] in SERIES:
+        _n = SERIES.index(g["slug"]); _g = _GB
+        _nav = []
+        if _n > 0: _nav.append(card(f"/guides/{SERIES[_n-1]}", _g[SERIES[_n-1]]["h1"], _g[SERIES[_n-1]]["desc"], f"Previous: Part {_n}", "Read the previous part"))
+        if _n < len(SERIES) - 1: _nav.append(card(f"/guides/{SERIES[_n+1]}", _g[SERIES[_n+1]]["h1"], _g[SERIES[_n+1]]["desc"], f"Next: Part {_n+2}", "Read the next part"))
+        _refs = "<ol>" + "".join(f"<li>{esc(r)}</li>" for r in g.get("refs", [])) + "</ol>" if g.get("refs") else ""
+        g["extra"] = (sec(_refs + '<p class="note">These are starting points for readers who want to look at the research. Findings differ between crops, products and conditions.</p>', "Further reading") if _refs else "") + \
+            sec('<div class="grid two">' + "".join(_nav) + f'</div><p class="note" style="margin-top:1rem"><a href="/plant-science-series">See all six parts of the {SERIES_NAME}</a>. Buying in bulk, private label or export? See <a href="{B2B}/biostimulants-manufacturer-india">our pages for business buyers</a>.</p>', "Continue the series", tint=True)
 
 KCAT = {"soil-health": "soil", "soil-fertility": "soil", "sustainability": "organic", "potato-fertilizer-schedule": ""}
 for k in KNOW:
@@ -434,9 +451,20 @@ for x in PROBLEMS: article_page(f"/crop-problems/{x['slug']}", "Crop problems", 
 start("/guides")
 render("/guides", "Farming Guides: Biostimulants, Compost, Soil Tests | GBO",
        "Plain farming guides from Gujarat Bio Organics: biostimulants, tired soil, compost and humic acid, and how to take a soil sample.",
-       hero("Farming guides", "Plain answers to the questions farmers ask us most.", [("Knowledge", "/knowledge"), ("Guides", None)])
+       hero("Farming guides", "Plain answers to the questions farmers ask us most.", [("Knowledge", "/knowledge"), ("Guides", None)]) + sec('<p class="answer">New: the <a href="/plant-science-series">Plant Science Series</a>, six guides on roots, plant hormones and biostimulant science by Gafar Laiya.</p>')
        + sec('<div class="grid">' + "".join(card(f"/guides/{g['slug']}", g["h1"], g["desc"], "Guide") for g in GUIDES) + "</div>") + enquiry_box(), None, [("Knowledge", "/knowledge"), ("Guides", None)], "0.7")
 for g in GUIDES: article_page(f"/guides/{g['slug']}", "Guides", "/guides", g)
+
+start("/plant-science-series")
+_hub = hero(SERIES_NAME, "Six plain-language guides on how plants grow and how biostimulants fit in, written by Gafar Laiya.", [("Knowledge", "/knowledge"), (SERIES_NAME, None)], light=True)
+_hub += sec('<div class="prose"><p class="answer">Good farming advice starts with understanding the plant. This series explains the science behind root growth, plant hormones, seaweed extracts, humic substances, protein hydrolysates and stress tolerance, and then turns it into what a grower can check and do in the field.</p>'
+            '<p>Each part is written to be accurate and honest: what the research reports, what it does not show, and what to test on your own farm. We do not promise yields. We want growers, students, advisers and buyers to understand biostimulants well enough to judge any product, including ours.</p></div>')
+_hub += sec('<div class="grid">' + "".join(card(f"/guides/{x}", _GB[x]["h1"], _GB[x]["desc"], f"Part {i+1} of {len(SERIES)}", "Read this part") for i, x in enumerate(SERIES)) + "</div>", "The six parts", tint=True)
+_hub += sec(f'<div class="prose"><p class="note">Written by Gafar Laiya, founder of {SHORT}, working with farmers since 2006. {RESULTS}</p>'
+            '<p>Have a question the series does not answer? <a href="/enquiry">Send us your crop, stage and what you see</a>. Related: <a href="/guides/what-are-biostimulants">what are biostimulants</a>, <a href="/guides/compost-and-humic-acid">compost and humic acid</a>.</p></div>')
+render("/plant-science-series", "Plant Science Series: Roots, Auxin, Biostimulants | GBO", "Six plain guides by Gafar Laiya on plant physiology and biostimulant science: gravitropism, auxin, seaweed extracts, humic acid, protein hydrolysates, salinity and drought.",
+       _hub, [{"@context": "https://schema.org", "@type": "ItemList", "name": SERIES_NAME, "itemListElement": [{"@type": "ListItem", "position": i+1, "url": SITE + f"/guides/{x}", "name": _GB[x]["h1"]} for i, x in enumerate(SERIES)]}],
+       [("Knowledge", "/knowledge"), (SERIES_NAME, None)], "0.8")
 
 # ---------------------------------------------------------------- tools: fertilizer dose calculator
 start("/tools/fertilizer-dose-calculator")
