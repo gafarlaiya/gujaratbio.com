@@ -34,6 +34,7 @@ _GB["gravitropism-and-root-growth"]["refs"] = ["Morita MT (2010). Directional gr
     "du Jardin P (2015). Plant biostimulants: definition, concept, main categories and regulation. Scientia Horticulturae 196:3-14."]
 GUIDES = [_GB[x] for x in SERIES] + [g for g in GUIDES if g["slug"] not in SERIES]
 SERIES_NAME = "Plant Science Series"
+for _x in SERIES: _GB[_x]["date"] = "2026-10-30"
 
 ARTICLES = json.load(open(os.path.join(ROOT, "content_articles.json"), encoding="utf-8"))
 CROP_KW = {"apple": ["apple", "root rot"], "potato": ["potato"], "banana": ["banana"], "sugarcane": ["sugarcane", "गन्न"], "cotton": ["cotton", "कपास"],
@@ -134,7 +135,7 @@ def footer():
 <p><a href="{SOCIAL[0]}" rel="noopener">Facebook</a> &middot; <a href="{SOCIAL[1]}" rel="noopener">YouTube</a></p></div>
 <div><h2>Crops</h2><ul>{crops}<li><a href="/crops">All crops</a></li></ul></div>
 <div><h2>Immunity</h2><ul>{"".join(f'<li><a href="/products#{g}">{t}</a></li>' for g, t, _ in GROUPS)}<li><a href="/where-to-buy">Where to buy</a></li><li><a href="/enquiry">Send enquiry</a></li></ul></div>
-<div><h2>Company</h2><ul><li><a href="/about">About us</a></li><li><a href="/our-story">Our story</a></li><li><a href="/our-impact">Our impact</a></li><li><a href="/quality">Quality and approvals</a></li><li><a href="/farmer-stories">Farmer stories</a></li><li><a href="/knowledge">Knowledge</a></li><li><a href="/dealers">Dealers</a></li><li><a href="/contact">Contact</a></li><li><a href="/privacy-policy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/shipping-and-returns">Shipping and returns</a></li><li><a href="{OLD_SITE}" rel="nofollow">Old website</a></li></ul><h2>Our websites</h2><ul><li><a href="{GANNA}/" rel="noopener">ganna.in: sugarcane (Gujarati)</a></li><li><a href="{B2B}/">b2b.gujaratbio.com: bulk, OEM, export</a></li><li><a href="/our-websites">All our websites</a></li></ul></div>
+<div><h2>Company</h2><ul><li><a href="/about">About us</a></li><li><a href="/our-story">Our story</a></li><li><a href="/our-impact">Our impact</a></li><li><a href="/quality">Quality and approvals</a></li><li><a href="/farmer-stories">Farmer stories</a></li><li><a href="/knowledge">Knowledge</a></li><li><a href="/plant-science-series">Plant science series</a></li><li><a href="/dealers">Dealers</a></li><li><a href="/contact">Contact</a></li><li><a href="/privacy-policy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/shipping-and-returns">Shipping and returns</a></li><li><a href="{OLD_SITE}" rel="nofollow">Old website</a></li></ul><h2>Our websites</h2><ul><li><a href="{GANNA}/" rel="noopener">ganna.in: sugarcane (Gujarati)</a></li><li><a href="{B2B}/">b2b.gujaratbio.com: bulk, OEM, export</a></li><li><a href="/our-websites">All our websites</a></li></ul></div>
 </div><p class="note" style="color:#bfb3a5;margin-top:20px">{RESULTS}</p><p class="note" style="color:#bfb3a5">{OWNER_LINE} &copy; 2026 Gujarat Bio Organics Private Limited. All rights reserved. Immunity is a brand of {SHORT}. <a href="/about#this-website">About this website</a> &middot; <a href="/our-websites">Our websites</a></p></div></footer>
 <nav class="bar" aria-label="Quick contact"><a class="c" href="tel:{TEL}" data-ev="click_phone">Call</a><a class="w" href="{wa("Hello Gujarat Bio Organics, I need help with my crop.")}" data-ev="click_whatsapp">WhatsApp</a></nav>'''
 
@@ -251,8 +252,9 @@ def enquiry_box(crop="", product="", title="Send us your enquiry"):
     what = product or (f"my {crop.lower()} crop" if crop else "my crop")
     return sec(f'<p class="prose">Tell us your crop, the problem and your location, and send a photo if you can. Our team replies on WhatsApp or calls you with what to check, which product suits and where to buy it near you.</p>'
                f'<div class="btns">{btn_enq("Send enquiry", q)}{btn_wa(f"Hello Gujarat Bio Organics, I want to know about {what}.", "WhatsApp a photo")}{btn_call()}</div>', title, tint=True)
-def article_ld(path, headline, desc):
-    return {"@context": "https://schema.org", "@type": "Article", "headline": headline, "description": desc, "mainEntityOfPage": SITE + path,
+def article_ld(path, headline, desc, date=None):
+    _d = {"datePublished": date, "dateModified": date} if date else {}
+    return {"@context": "https://schema.org", "@type": "Article", "headline": headline, "description": desc, "mainEntityOfPage": SITE + path, "image": SITE + "/assets/img/brand/gbo-logo.png", **_d,
             "author": {"@type": "Person", "name": "Gafar Laiya", "jobTitle": "Founder, Gujarat Bio Organics", "url": SITE + "/about"},
             "publisher": {"@id": SITE + "/#org"}, "inLanguage": "en-IN"}
 def picker():
@@ -413,7 +415,7 @@ def article_page(path, basename, baseurl, x, crop=None, hero_media=None):
     inner = answer(x["answer"])
     if x["slug"] in SERIES and path.startswith("/guides/"):
         _n = SERIES.index(x["slug"]) + 1
-        inner += f'<p class="note"><strong>Part {_n} of {len(SERIES)}</strong> in the <a href="/plant-science-series">{SERIES_NAME}</a> by Gafar Laiya: plant physiology and biostimulant science, in plain language.</p>'
+        inner += f'<p class="note"><strong>Part {_n} of {len(SERIES)}</strong> in the <a href="/plant-science-series">{SERIES_NAME}</a> by Gafar Laiya: plant physiology and biostimulant science, in plain language. Published 30 October 2026.</p>'
     for fn, ds in (hero_media or []): inner += media(fn, ds)
     inner += "".join(f"<h2>{esc(h)}</h2>" + body_of(items) for h, items in x["sections"])
     if "__IMG__" in inner:
@@ -423,8 +425,21 @@ def article_page(path, basename, baseurl, x, crop=None, hero_media=None):
         inner += f'<p>See the full <a href="/crops/{crop}">{c["name"].lower()} guide</a> and <a href="/products/{p["slug"]}">{p["name"]}</a>.</p>'
     inner += f'<p class="note">Written by Gafar Laiya, founder of {SHORT}, working with farmers since 2006. {RESULTS}</p>'
     body += sec(f'<div class="prose">{inner}</div>') + sec(faq_html(x["faq"]), "Questions", tint=True) + x.get("extra", "") + (ganna_box() if crop == "sugarcane" else "") + enquiry_box(CBY[crop]["name"] if crop else "")
-    render(path, x["title"] if len(x["title"]) <= 66 else x["title"][:66], x["desc"], body, [faq_ld(x["faq"]), article_ld(path, x["h1"], x["desc"])],
+    render(path, x["title"] if len(x["title"]) <= 66 else x["title"][:66], x["desc"], body, [faq_ld(x["faq"]), article_ld(path, x["h1"], x["desc"], x.get("date"))],
            [(basename, baseurl), (x["h1"].split(":")[0][:40], None)], "0.7")
+
+_BL = {"gravitropism-and-root-growth": ["what-is-a-biostimulant", "fco-schedule-vi-biostimulants"],
+       "auxin-master-regulator-of-growth": ["what-is-a-biostimulant", "kappaphycus-vs-ascophyllum-vs-sargassum"],
+       "seaweed-extracts-and-plant-physiology": ["seaweed-extract-uses-in-agriculture", "kappaphycus-vs-ascophyllum-vs-sargassum"],
+       "humic-acid-and-root-zone-development": ["humic-acid-uses-in-agriculture", "humic-acid-vs-fulvic-acid", "potassium-humate-vs-humic-acid"],
+       "protein-hydrolysates-and-nutrient-use-efficiency": ["protein-hydrolysate-vs-amino-acid", "biostimulant-vs-fertilizer-vs-biofertilizer"],
+       "biostimulants-for-salinity-and-drought-stress": ["what-is-a-biostimulant", "fco-schedule-vi-biostimulants"]}
+_BLT = {"what-is-a-biostimulant": "What is a biostimulant?", "fco-schedule-vi-biostimulants": "FCO Schedule VI biostimulants in India", "kappaphycus-vs-ascophyllum-vs-sargassum": "Kappaphycus vs Ascophyllum vs Sargassum",
+        "seaweed-extract-uses-in-agriculture": "Seaweed extract uses in agriculture", "humic-acid-uses-in-agriculture": "Humic acid uses in agriculture", "humic-acid-vs-fulvic-acid": "Humic acid vs fulvic acid",
+        "potassium-humate-vs-humic-acid": "Potassium humate vs humic acid", "protein-hydrolysate-vs-amino-acid": "Protein hydrolysate vs amino acid", "biostimulant-vs-fertilizer-vs-biofertilizer": "Biostimulant vs fertilizer vs biofertilizer"}
+def _bl(slug):
+    items = "".join(f'<li><a href="{B2B}/{("" if k.startswith("fco-") else "resources/")}{k}">{_BLT[k]}</a></li>' for k in _BL[slug])
+    return f'<h3 style="margin-top:1.4rem">For business buyers and formulators</h3><p class="note">Technical notes on our business site (b2b.gujaratbio.com), for manufacturers, importers and brand owners:</p><ul>{items}</ul><p class="note"><a href="{B2B}/biostimulants-manufacturer-india">Biostimulant manufacturer in India: bulk, private label and export</a></p>'
 
 for g in GUIDES:
     if g["slug"] in SERIES:
@@ -434,7 +449,7 @@ for g in GUIDES:
         if _n < len(SERIES) - 1: _nav.append(card(f"/guides/{SERIES[_n+1]}", _g[SERIES[_n+1]]["h1"], _g[SERIES[_n+1]]["desc"], f"Next: Part {_n+2}", "Read the next part"))
         _refs = "<ol>" + "".join(f"<li>{esc(r)}</li>" for r in g.get("refs", [])) + "</ol>" if g.get("refs") else ""
         g["extra"] = (sec(_refs + '<p class="note">These are starting points for readers who want to look at the research. Findings differ between crops, products and conditions.</p>', "Further reading") if _refs else "") + \
-            sec('<div class="grid two">' + "".join(_nav) + f'</div><p class="note" style="margin-top:1rem"><a href="/plant-science-series">See all six parts of the {SERIES_NAME}</a>. Buying in bulk, private label or export? See <a href="{B2B}/biostimulants-manufacturer-india">our pages for business buyers</a>.</p>', "Continue the series", tint=True)
+            sec('<div class="grid two">' + "".join(_nav) + f'</div><p class="note" style="margin-top:1rem"><a href="/plant-science-series">See all six parts of the {SERIES_NAME}</a>.</p>' + _bl(g["slug"]), "Continue the series", tint=True)
 
 KCAT = {"soil-health": "soil", "soil-fertility": "soil", "sustainability": "organic", "potato-fertilizer-schedule": ""}
 for k in KNOW:
