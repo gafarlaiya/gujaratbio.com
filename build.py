@@ -11,6 +11,9 @@ LAUNCH = os.environ.get("TRIAL") != "1"        # live build for www.gujaratbio.c
 SITE = "https://www.gujaratbio.com" if LAUNCH else "https://agriculture.gujaratbio.com"
 TRIAL = not LAUNCH                             # trial: every page is noindex and a trial notice shows
 OLD_SITE = "https://en.gujaratbio.com"
+def _cr(t, n=48):
+    t = t.strip()
+    return t if len(t) <= n else t[:n].rsplit(" ", 1)[0].rstrip(",;:-") + "..."
 B2B = "https://b2b.gujaratbio.com"
 GTM_ID = "GTM-5JDXGL2S"
 CLARITY_ID = "ny9u8r542a"  # Microsoft Clarity project "Gujarat Bio Main Site"
@@ -121,7 +124,7 @@ def header(path):
             s = f'<div class="sub{" wide" if len(sub) > 8 else ""}">' + "".join(f'<a href="{u}">{esc(n)}</a>' for u, n in sub) + "</div>"
         items.append(f'<div class="ni"><a href="{h}"{cur}>{t}</a>{s}</div>')
     trial = '<span class="t">Trial version of the new website.</span>' if TRIAL else "<span></span>"
-    return f'''<a class="skip" href="#main">Skip to content</a><div class="strip"><div class="wrap">{trial}<span><a href="tel:{TEL}">{PHONE}</a> &middot; <a href="{OLD_SITE}" rel="nofollow">Visit our old website</a></span></div></div>
+    return f'''<a class="skip" href="#main">Skip to content</a><div class="strip"><div class="wrap">{trial}<span><a href="tel:{TEL}">{PHONE}</a></span></div></div>
 <header class="top"><div class="wrap"><a class="brand" href="/"><img src="/assets/img/brand/gbo-logo-96.webp" alt="Gujarat Bio Organics logo" width="46" height="46" fetchpriority="high"><span class="bt"><b>Gujarat Bio Organics</b><span>Working with farmers since 2006</span></span></a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button><nav class="nav" id="nav" aria-label="Main">{"".join(items)}<a class="enq" href="/enquiry" data-ev="begin_quote">Send enquiry</a></nav></div></header>'''
 
@@ -411,7 +414,7 @@ render("/knowledge", "Agriculture Knowledge: Soil, Crops, Sustainability | GBO",
 
 def article_page(path, basename, baseurl, x, crop=None, hero_media=None):
     start(path)
-    body = hero(cap(x["h1"]), x["desc"], [(basename, baseurl), (x["h1"].split(":")[0][:40], None)], light=True)
+    body = hero(cap(x["h1"]), x["desc"], [(basename, baseurl), (_cr(x["h1"].split(":")[0]), None)], light=True)
     inner = answer(x["answer"])
     if x["slug"] in SERIES and path.startswith("/guides/"):
         _n = SERIES.index(x["slug"]) + 1
@@ -426,7 +429,7 @@ def article_page(path, basename, baseurl, x, crop=None, hero_media=None):
     inner += f'<p class="note">Written by Gafar Laiya, founder of {SHORT}, working with farmers since 2006. {RESULTS}</p>'
     body += sec(f'<div class="prose">{inner}</div>') + sec(faq_html(x["faq"]), "Questions", tint=True) + x.get("extra", "") + (ganna_box() if crop == "sugarcane" else "") + enquiry_box(CBY[crop]["name"] if crop else "")
     render(path, x["title"] if len(x["title"]) <= 66 else x["title"][:66], x["desc"], body, [faq_ld(x["faq"]), article_ld(path, x["h1"], x["desc"], x.get("date"))],
-           [(basename, baseurl), (x["h1"].split(":")[0][:40], None)], "0.7")
+           [(basename, baseurl), (_cr(x["h1"].split(":")[0]), None)], "0.7")
 
 _BL = {"gravitropism-and-root-growth": ["what-is-a-biostimulant", "fco-schedule-vi-biostimulants"],
        "auxin-master-regulator-of-growth": ["what-is-a-biostimulant", "kappaphycus-vs-ascophyllum-vs-sargassum"],
@@ -531,11 +534,11 @@ for a in ARTICLES:
         see = f'<p class="answer">See also: <a href="/crops/{_c["slug"]}">{_c["name"]} guide</a> and <a href="/products/{_p["slug"]}">{esc(_p["name"])}</a>.</p>'
     else:
         _u, _t = CAT_PAGE[a["cat"]]; see = f'<p class="answer">See also: <a href="{_u}">{_t}</a> and <a href="/products">the Immunity range</a>.</p>'
-    body = hero(a["h1"], a["desc"] or "", [("Articles", "/articles"), (a["h1"][:40], None)], light=True)
+    body = hero(a["h1"], a["desc"] or "", [("Articles", "/articles"), (_cr(a["h1"]), None)], light=True)
     body += sec(f'<div class="prose">{see}{md_html(a["body"])}<p class="note">By Gafar Laiya, founder of {SHORT}, working with farmers since 2006. {RESULTS}</p></div>')
     body += sec('<div class="grid">' + "".join(card(f"/articles/{x['slug']}", x["h1"], (x["desc"] or "")[:140], "Read next") for x in rel) + "</div>", "Read next", tint=True) + enquiry_box()
     t = a["title"] if len(a["title"]) <= 66 else a["title"][:63].rsplit(" ", 1)[0] + "..."
-    render(path, t, (a["desc"] or a["h1"])[:160], body, [article_ld(path, a["h1"], a["desc"] or a["h1"])], [("Articles", "/articles"), (a["h1"][:40], None)], "0.6", a["lang"])
+    render(path, t, (a["desc"] or a["h1"])[:160], body, [article_ld(path, a["h1"], a["desc"] or a["h1"])], [("Articles", "/articles"), (_cr(a["h1"]), None)], "0.6", a["lang"])
 
 # ---------------------------------------------------------------- about / story / impact / quality / factory
 start("/about")
