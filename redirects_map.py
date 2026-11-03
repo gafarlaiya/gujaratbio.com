@@ -44,9 +44,18 @@ OLD = {
  "/soft-soil-using-organics-fertilizer/soft-soil": "/knowledge/soil-health", "/soft-soil-using-organics-fertilizer": "/knowledge/soil-health",
  "/blog-post37": "/crops/sugarcane", "/mlp": "/", "/home": "/", "/privacy": "/privacy-policy", "/page": "/", "/page12": "/", "/111": "/", "/landing1": "/", "/landing2": "/", "/landing3": "/", "/deletion": "/privacy-policy", "/classic-cap-hpeszv": "/products",
 }
+# Old URLs flagged by Bing Webmaster (Nov 2026) that now 404
+OLD.update({
+ "/zyme-granules": "https://b2b.gujaratbio.com/private-label-zyme-granules",
+ "/plantonics-magnesium": "/products", "/plantonics-mango-special": "/products/immunity-mango-special",
+ "/plantonics-citrus-special-organic-fertilizer-for-orange": "/products/immunity-citrus-special",
+ "/root-rot-affected-apple-with-plantonics-organic-fertilizer": "/crop-problems/apple-root-rot",
+ "/organic-fertilizer-for-vegetable": "/crops/vegetables",
+ "/certificate-of-incorporation": "/quality", "/events": "/",
+})
 for _a in ARTICLES: OLD[_a["old"]] = "/articles/" + _a["slug"]   # moved articles keep their own page
 _valid = {p for p, _ in PAGES}
-_bad = {k: v for k, v in OLD.items() if v.split("#")[0] not in _valid}
+_bad = {k: v for k, v in OLD.items() if not v.startswith("https://") and v.split("#")[0] not in _valid}
 assert not _bad, _bad
 # Remaining numbered blog posts go to the knowledge hub until each article is moved.
 for _n in range(1, 40):
