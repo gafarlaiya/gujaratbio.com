@@ -1,0 +1,1671 @@
+### /knowledge
+0	<a href="/">Home</a> / Knowledge
+1	Agriculture knowledge
+2	Plain answers on soil, crops and sustainable farming, from nearly 20 years in the field.
+3	Soil and sustainability
+4	Pillar guide
+5	Tools and schedules
+6	Tool
+7	<a href="/tools/fertilizer-dose-calculator">Fertilizer dose calculator</a>
+8	Turn your soil test N, P and K into bags of urea, DAP or SSP and MOP.
+9	Open calculator
+10	Schedule
+11	What to apply at each stage of the potato crop.
+12	Knowledge hub
+13	<a href="/micronutrients">Micronutrients and trace elements</a>
+14	What zinc, boron, iron, calcium, magnesium, sulphur and other nutrients do, how to read deficiency signs and how to correct them.
+15	Open the guide
+16	<a href="/micronutrients/deficiency-symptoms">Read the leaves: deficiency symptom guide</a>
+17	Old leaves or new, pattern and colour: which nutrient each sign points to.
+18	Why apple trees get root and collar rot, how to recognise it early, and the orchard practices that lower the risk. For growers in Himachal Pradesh and Jammu and Kashmir.
+19	Why mango trees drop flowers and young fruit, which drop is natural, and the orchard care that reduces heavy losses.
+20	Why mango trees give a heavy crop one year and a poor crop the next, and the orchard care that evens out bearing.
+21	Why sugarcane setts fail to germinate, why young plants die, and what growers can do at planting to get an even stand.
+22	Why potato plants set few tubers or produce small, uneven tubers, and the crop stages when growers can act to prevent it.
+23	Why lemon, lime and orange branches dry from the tip back, the common causes, and how growers can save declining trees.
+24	New: the Plant Science Series, six guides on roots, hormones and biostimulant science by Gafar Laiya.
+25	<a href="/guides/gravitropism-and-root-growth">Gravitropism and root growth: how roots find their way, and how biostimulants can help</a>
+26	How roots sense gravity, what goes wrong when roots are weak, and how seaweed, amino acid and humic biostimulants can support root growth.
+27	<a href="/guides/auxin-master-regulator-of-growth">Auxin: the master regulator of root and shoot growth</a>
+28	What auxin does in roots, shoots, branching and fruit, why too much is as bad as too little, and what growers can do to protect it.
+29	<a href="/guides/seaweed-extracts-and-plant-physiology">How seaweed extracts influence plant physiology</a>
+30	What seaweed extracts contain, how they are reported to affect roots, nutrient uptake and stress response, and how to choose and test one.
+31	<a href="/guides/humic-acid-and-root-zone-development">Humic acid and root-zone development</a>
+32	How humic and fulvic substances work in the soil and at the root, what makes a good product, and how to use it for a stronger root zone.
+33	<a href="/guides/protein-hydrolysates-and-nutrient-use-efficiency">Protein hydrolysates and nutrient-use efficiency</a>
+34	What amino acid and protein hydrolysate biostimulants are, how they are reported to help nutrient uptake and stress recovery, and how to use them.
+35	<a href="/guides/biostimulants-for-salinity-and-drought-stress">Biostimulants for salinity and drought stress</a>
+36	How salt and drought hurt crops, which fixes come first, and where seaweed, amino acid and humic biostimulants may help the plant cope.
+37	<a href="/guides/what-are-biostimulants">What are biostimulants? A plain guide for farmers</a>
+38	What biostimulants are, how they differ from fertilizers and pesticides, the main types, and how farmers use them.
+39	<a href="/guides/why-yields-fall-on-old-land">Why yields fall on old land, and how to rebuild the soil</a>
+40	Why the same land gives less every year even with more fertilizer, what tired soil looks like, and practical steps to rebuild soil health.
+41	<a href="/guides/compost-and-humic-acid">Compost and humic acid: why they work better together</a>
+42	How compost and humic acid each improve soil, why using them together helps, and how to make good compost on the farm.
+43	<a href="/guides/how-to-take-a-soil-sample">How to take a soil sample for testing</a>
+44	A step-by-step guide to taking a soil sample that gives an accurate soil test, and what to ask the lab to test.
+45	Plant Science Series
+46	All articles
+47	Agriculture Knowledge: Soil, Crops, Sustainability | GBO
+48	Guides on soil health, soil fertility, sustainable farming and the 5 Rs, crop problems and practical farming topics from Gujarat Bio Organics.
+### /crop-problems
+49	<a href="/">Home</a> / <a href="/knowledge">Knowledge</a> / Crop problems
+50	What you see in the field, why it happens, and what growers can do.
+51	Apple root rot is caused by soil fungi that attack roots in wet, poorly drained soil. Trees show weak growth, yellow leaves and small fruit, then die...
+52	Some fruit drop in mango is natural: a tree sets far more fruit than it can carry. Heavy drop follows stress, such as dry soil, hot winds, pests like...
+53	A mango tree that carries a heavy crop uses up its stored food and makes little new growth, so it flowers poorly the next year. Feeding after...
+54	Poor sugarcane germination usually comes from old or damaged setts, soil that is too dry, too wet or too hard at planting, and sett rot. Tired soil...
+55	The number of potato tubers is decided at tuber initiation, around six to eight weeks after planting; their size is decided during bulking. Stress at...
+56	Citrus dieback, where branches dry from the tip back, has several causes: root rot from poor drainage, nutrient shortages such as zinc, pests and old...
+57	Crop Problems: Causes, Signs and What to Do | GBO
+58	Plain guides to common crop problems: apple root rot, mango fruit drop and alternate bearing, sugarcane poor germination, small potatoes and citrus dieback.
+### /farmer-stories
+59	<a aria-current="page" href="/farmer-stories">Farmer Stories</a>
+60	<a href="/">Home</a> / Farmer stories
+61	Farmer stories
+62	Growers tell, in their own words, what they faced and what changed on their farm.
+63	What farmers told us
+64	Last year I did 3 times re-transplanting of my sugarcane crop.
+65	Jagdish Bhai
+66	Sugarcane grower, on the problem he faced before working with us
+67	Reported a single sugarcane of 4.5 kg from his field, shown in his Facebook video.
+68	Dharmesh Patel
+69	Sugarcane grower, South Gujarat. Farmer reported
+70	Sugarcane growers
+71	Potato growers
+72	story-potato-1.mp4
+73	Potato farmer story 1: farmer in his field, name and village on screen
+74	story-potato-2.mp4
+75	Potato farmer story 2
+76	story-potato-photo.webp
+77	Photo of a potato farmer with his crop or harvest
+78	Mango growers
+79	story-mango-1.mp4
+80	Mango farmer story 1: farmer in his field, name and village on screen
+81	story-mango-2.mp4
+82	Mango farmer story 2
+83	story-mango-photo.webp
+84	Photo of a mango farmer with his crop or harvest
+85	Apple growers
+86	story-apple-1.mp4
+87	Apple farmer story 1: farmer in his field, name and village on screen
+88	story-apple-2.mp4
+89	Apple farmer story 2
+90	story-apple-photo.webp
+91	Photo of a apple farmer with his crop or harvest
+92	Banana growers
+93	story-banana-1.mp4
+94	Banana farmer story 1: farmer in his field, name and village on screen
+95	story-banana-2.mp4
+96	Banana farmer story 2
+97	story-banana-photo.webp
+98	Photo of a banana farmer with his crop or harvest
+99	Citrus growers
+100	story-citrus-1.mp4
+101	Citrus farmer story 1: farmer in his field, name and village on screen
+102	story-citrus-2.mp4
+103	Citrus farmer story 2
+104	story-citrus-photo.webp
+105	Photo of a citrus farmer with his crop or harvest
+106	Coconut growers
+107	story-coconut-1.mp4
+108	Coconut farmer story 1: farmer in his field, name and village on screen
+109	story-coconut-2.mp4
+110	Coconut farmer story 2
+111	story-coconut-photo.webp
+112	Photo of a coconut farmer with his crop or harvest
+113	Cotton growers
+114	story-cotton-1.mp4
+115	Cotton farmer story 1: farmer in his field, name and village on screen
+116	story-cotton-2.mp4
+117	Cotton farmer story 2
+118	story-cotton-photo.webp
+119	Photo of a cotton farmer with his crop or harvest
+120	Onion growers
+121	story-onion-1.mp4
+122	Onion farmer story 1: farmer in his field, name and village on screen
+123	story-onion-2.mp4
+124	Onion farmer story 2
+125	story-onion-photo.webp
+126	Photo of a onion farmer with his crop or harvest
+127	Pomegranate growers
+128	story-pomegranate-1.mp4
+129	Pomegranate farmer story 1: farmer in his field, name and village on screen
+130	story-pomegranate-2.mp4
+131	Pomegranate farmer story 2
+132	story-pomegranate-photo.webp
+133	Photo of a pomegranate farmer with his crop or harvest
+134	Field visits
+135	Our team with growers in their fields.
+136	At farmer fairs
+137	Farmers at the Immunity stall.
+138	Share your story
+139	Have you used Immunity on your farm? Send us your story and photos on WhatsApp. With your permission, we will share it to help other farmers.
+140	Farmer Stories and Videos | Gujarat Bio Organics
+141	Sugarcane, potato, mango, apple, banana and other growers tell what they faced on their farms and what changed. Videos and farmer reports.
+142	Photo of a sugarcane farmer with his crop or harvest
+143	Sugarcane farmer story 1: farmer in his field, name and village on screen
+144	Sugarcane farmer story 2
+145	Video coming soon: Potato farmer story 1: farmer in his field, name and village on screen
+146	Video coming soon: Potato farmer story 2
+147	Photo coming soon: Photo of a potato farmer with his crop or harvest
+148	Video coming soon: Mango farmer story 1: farmer in his field, name and village on screen
+149	Video coming soon: Mango farmer story 2
+150	Photo coming soon: Photo of a mango farmer with his crop or harvest
+151	Video coming soon: Apple farmer story 1: farmer in his field, name and village on screen
+152	Video coming soon: Apple farmer story 2
+153	Photo coming soon: Photo of a apple farmer with his crop or harvest
+154	Video coming soon: Banana farmer story 1: farmer in his field, name and village on screen
+155	Video coming soon: Banana farmer story 2
+156	Photo coming soon: Photo of a banana farmer with his crop or harvest
+157	Video coming soon: Citrus farmer story 1: farmer in his field, name and village on screen
+158	Video coming soon: Citrus farmer story 2
+159	Photo coming soon: Photo of a citrus farmer with his crop or harvest
+160	Video coming soon: Coconut farmer story 1: farmer in his field, name and village on screen
+161	Video coming soon: Coconut farmer story 2
+162	Photo coming soon: Photo of a coconut farmer with his crop or harvest
+163	Video coming soon: Cotton farmer story 1: farmer in his field, name and village on screen
+164	Video coming soon: Cotton farmer story 2
+165	Photo coming soon: Photo of a cotton farmer with his crop or harvest
+166	Video coming soon: Onion farmer story 1: farmer in his field, name and village on screen
+167	Video coming soon: Onion farmer story 2
+168	Photo coming soon: Photo of a onion farmer with his crop or harvest
+169	Video coming soon: Pomegranate farmer story 1: farmer in his field, name and village on screen
+170	Video coming soon: Pomegranate farmer story 2
+171	Photo coming soon: Photo of a pomegranate farmer with his crop or harvest
+### /dealers
+172	<a href="/">Home</a> / Dealers & Bulk
+173	Become an Immunity dealer
+174	Sell a range farmers ask for: Immunity formulas for 20 crops, biofertilizers and soil granules, from a manufacturer working with farmers since 2006.
+175	dealer-hero-shop.webp
+176	Agri input shop with Immunity bottles on the shelf and the dealer at the counter
+177	What you get as a dealer
+178	Products farmers ask for
+179	26 Immunity formulas for 20 crops, plus 11 biofertilizers, in 250 mL to 5 L packs.
+180	Proof that it sells
+181	Nearly 20 years of field work and farmer stories from sugarcane, potato, mango, apple and banana growers.
+182	Approvals
+183	NOCs from the Directorate of Agriculture, Government of Gujarat.
+184	Fast supply
+185	Dispatch usually within a week, direct from our factory in Shihor, Bhavnagar.
+186	Margin
+187	Dealer prices and margins shared on enquiry.
+188	Marketing support
+189	Posters, crop leaflets, farmer videos and field demonstrations in your area.
+190	The range you will sell
+191	Pack sizes from 250 mL to 5 L; granules in 8 kg bags.
+192	<a class="btn btn-line" href="/products">See the full range</a>
+193	Apply to become a dealer
+194	Shop or company name
+195	District and state
+196	Brands you sell now
+197	Expected monthly purchase
+198	Up to 50 litres
+199	50 to 200 litres
+200	200 to 1000 litres
+201	More than 1000 litres
+202	Your details are saved for our team and open in WhatsApp so you can check them before sending. See our <a href="/privacy-policy">privacy policy</a>.
+203	Buying for an FPO, plantation or farm company instead? See <a href="/bulk-buyers">bulk buyers</a>.
+204	Dealer questions
+205	What margin do dealers get?
+206	Dealer prices and margins are shared on enquiry and depend on volume and area.
+207	Is there a minimum order?
+208	Tell us your expected monthly purchase and we will suggest a starting order.
+209	Do you support dealers with marketing?
+210	Ask us about posters, crop leaflets, farmer videos and field demonstrations for your area.
+211	Become an Immunity Dealer | Gujarat Bio Organics
+212	Become a dealer for Immunity crop formulas, biofertilizers and soil granules from Gujarat Bio Organics. Range, approvals, support and dealer enquiry.
+213	Photo coming soon: Agri input shop with Immunity bottles on the shelf and the dealer at the counter
+### /bulk-buyers
+214	<a href="/">Home</a> / <a href="/dealers">Dealers &amp; Bulk</a> / Bulk buyers
+215	Farm companies, FPOs, plantations, government buyers and large growers: buy Immunity and our biostimulants in bulk, direct from the factory.
+216	Who buys in bulk
+217	Farmer producer organisations (FPOs) and cooperatives
+218	Plantations, orchards and farm companies
+219	Sugar factories for their growers
+220	Government and institutional buyers
+221	Large growers
+222	What we offer
+223	Direct factory supply, dispatch usually within a week
+224	Pack sizes from 1 L to 5 L, and larger packs on request
+225	Crop programmes and field support for your growers
+226	Third-party testing on request
+227	Manufacturer, formulator or brand?
+228	Need raw biostimulants, OEM manufacturing or your own private-label brand? See grades, specifications and export terms on our business site.
+229	Bulk supply on the business site
+230	bulk-dispatch-truck.webp
+231	Truck being loaded with Immunity cartons at the factory
+232	Send a bulk enquiry
+233	Bulk Buyers: FPOs, Plantations, Farm Companies | GBO
+234	Buy Immunity crop formulas and biostimulants in bulk direct from the factory: FPOs, plantations, sugar factories, farm companies and institutions.
+235	Photo coming soon: Truck being loaded with Immunity cartons at the factory
+### /oem-private-label
+236	<a href="/">Home</a> / <a href="/dealers">Dealers &amp; Bulk</a> / OEM and private label
+237	We manufacture biostimulants and biofertilizers under your brand, at our factory in Shihor, Bhavnagar.
+238	Brands, distributors and importers use Gujarat Bio Organics to make products under their own name: we formulate, manufacture, fill and label, and you sell.
+239	36 biostimulant grades and 11 biofertilizer types covered by Gujarat NOCs
+240	Liquid, powder and granule formats
+241	Packs from 250 mL bottles to 1000 L IBC tanks
+242	Export by sea from Indian ports
+243	Full details, grades and specifications are on our business site.
+244	Private label and OEM details
+245	OEM and Private Label Fertilizer Manufacturing | GBO
+246	Need OEM manufacturing or a private-label biostimulant or biofertilizer brand? Gujarat Bio Organics manufactures under your brand in Bhavnagar, Gujarat.
+### /quality
+247	<a href="/">Home</a> / <a href="/about">About</a> / Quality
+248	How we make and check our products, and the approvals we hold.
+249	The Directorate of Agriculture, Government of Gujarat has issued No Objection Certificates to Gujarat Bio Organics for 36 biostimulant grades listed in Schedule VI of the Fertiliser Control Order and 11 biofertilizer types.
+250	Why approvals matter
+251	Since June 2025 only biostimulants listed in Schedule VI of the Fertiliser Control Order can be sold in India. Before you buy any biostimulant, ask the seller which Schedule VI grade it is and for proof of approval.
+252	How we check quality
+253	Raw materials chosen from nearly 20 years of field experience
+254	Made at our own factory in Shihor, Bhavnagar
+255	In-house quality control on every batch
+256	Third-party testing available for bulk buyers
+257	quality-lab-testing.webp
+258	Photo of our quality control lab with a technician testing a sample
+259	Full grade lists and specifications are on our <a href="https://b2b.gujaratbio.com/quality-compliance">business site</a>.
+260	Quality and Approvals | Gujarat Bio Organics
+261	Gujarat Bio Organics holds NOCs from the Directorate of Agriculture, Gujarat for 36 Schedule VI biostimulant grades and 11 biofertilizer types. How we check...
+262	Photo coming soon: Photo of our quality control lab with a technician testing a sample
+### /factory-and-rd
+263	<a href="/">Home</a> / <a href="/about">About</a> / Factory and R&D
+264	Everything we sell is made at our own factory in Shihor, Bhavnagar, Gujarat.
+265	factory-aerial.webp
+266	Aerial or wide photo of the factory in Shihor
+267	Our factory
+268	Liquid and granular production, packing from 250 mL bottles to bulk, and dispatch across India and abroad. Address: Plot No. 321, GIDC 2, Ghanghali Road, Shihor, Bhavnagar, Gujarat 364240.
+269	Research and development
+270	Formulas are developed from field problems and tested on farms before they reach the market. Extraction is done in-house without harsh chemicals, very high pH or heat.
+271	Inside the factory
+272	factory-liquid-line.webp
+273	Liquid production and bottling line
+274	factory-granules-line.webp
+275	Granule production line
+276	factory-rd-lab.webp
+277	R&D lab with formulation work in progress
+278	factory-packing-dispatch.webp
+279	Packing and dispatch area with Immunity cartons
+280	factory-raw-materials.webp
+281	Raw material store (seaweed, humus) ready for extraction
+282	factory-tour.mp4
+283	Two-minute factory tour video
+284	Bulk, OEM and private label buyers can see grades and specifications on our <a href="https://b2b.gujaratbio.com/manufacturing-facility">business site</a>.
+285	Factory and R&D in Shihor, Bhavnagar | Gujarat Bio Organics
+286	Gujarat Bio Organics makes all its products at its own factory in Shihor, Bhavnagar, Gujarat, with in-house R&D and quality control.
+287	Photo coming soon: Aerial or wide photo of the factory in Shihor
+288	Photo coming soon: Liquid production and bottling line
+289	Photo coming soon: Granule production line
+290	Photo coming soon: R&D lab with formulation work in progress
+291	Photo coming soon: Packing and dispatch area with Immunity cartons
+292	Photo coming soon: Raw material store (seaweed, humus) ready for extraction
+293	Video coming soon: Two-minute factory tour video
+### /our-websites
+294	<a href="/">Home</a> / Our websites
+295	All websites owned and maintained by Gujarat Bio Organics Private Limited.
+296	<a href="https://www.gujaratbio.com/" rel="noopener">www.gujaratbio.com</a>
+297	Main company website: Immunity products, crop guides and farmer knowledge (this site, after the trial).
+298	Visit
+299	<a href="https://b2b.gujaratbio.com/" rel="noopener">b2b.gujaratbio.com</a>
+300	Business buyers: bulk supply, private label, OEM and export of biostimulants and biofertilizers.
+301	<a href="https://ganna.in/" rel="noopener">ganna.in</a>
+302	Sugarcane growers, in Gujarati: Immunity Sugarcane Program, dose schedule and farmer results.
+303	<a href="https://en.gujaratbio.com/" rel="noopener">en.gujaratbio.com</a>
+304	Our previous website, kept for reference for a limited time.
+305	This website is owned and maintained by Gujarat Bio Organics Private Limited (CIN U24123GJ2009PTC058701), Bhavnagar, Gujarat, India. Registered office: First Floor, 110 Shoppers Plaza, Parimal Chowk, Waghawadi Road, Bhavnagar, Gujarat 364001. If you find a website using our name or the Immunity brand that is not listed here, please tell us at <a href="mailto:sales@gujaratbio.com">sales@gujaratbio.com</a>.
+306	Our Websites | Gujarat Bio Organics
+307	All websites owned and maintained by Gujarat Bio Organics Private Limited: main site, business site for bulk and OEM buyers, and ganna.in for sugarcane growers.
+### /plant-science-series
+308	<a href="/">Home</a> / <a href="/knowledge">Knowledge</a> / Plant Science Series
+309	Six plain-language guides on how plants grow and how biostimulants fit in, written by Gafar Laiya.
+310	Good farming advice starts with understanding the plant. This series explains the science behind root growth, plant hormones, seaweed extracts, humic substances, protein hydrolysates and stress tolerance, and then turns it into what a grower can check and do in the field.
+311	Each part is written to be accurate and honest: what the research reports, what it does not show, and what to test on your own farm. We do not promise yields. We want growers, students, advisers and buyers to understand biostimulants well enough to judge any product, including ours.
+312	The six parts
+313	Part 1 of 6
+314	Read this part
+315	Part 2 of 6
+316	Part 3 of 6
+317	Part 4 of 6
+318	Part 5 of 6
+319	Part 6 of 6
+320	Written by Gafar Laiya, founder of Gujarat Bio Organics, working with farmers since 2006. Results differ from farm to farm with soil, weather, crop and management. Farmer experiences on this site are their own reports, not a promise of results.
+321	Have a question the series does not answer? <a href="/enquiry">Send us your crop, stage and what you see</a>. Related: <a href="/guides/what-are-biostimulants">what are biostimulants</a>, <a href="/guides/compost-and-humic-acid">compost and humic acid</a>.
+322	Plant Science Series: Roots, Auxin, Biostimulants | GBO
+323	Six plain guides by Gafar Laiya on plant physiology and biostimulant science: gravitropism, auxin, seaweed extracts, humic acid, protein hydrolysates...
+### /sugarcane-meeting
+324	<a href="/">Home</a> / શેરડી હાર્વેસ્ટિંગ મીટિંગ
+325	ફાલ્ગુનીબેને હિંમત કરી: યુરિયા, DAP અને પોટાશ ઘટાડ્યા અને ઈમ્યુનિટી શુગરકેન સ્પેશિયલ અપનાવ્યું. આજે તેમના ખેતરમાં કાપણી ચાલુ છે. શું બદલાયું, એ જાતે આવીને જુઓ અને તેમના જ મોઢે સાંભળો.
+326	Google નકશામાં જુઓ
+327	મોબાઈલ નંબર (WhatsApp)
+328	કોઈ પ્રશ્ન હોય તો WhatsApp અથવા ફોન કરો.
+### /tools/fertilizer-dose-calculator
+329	<a href="/">Home</a> / <a href="/knowledge">Knowledge</a> / Fertilizer dose calculator
+330	Turn your soil test recommendation (kg of N, P and K per acre) into kilos and bags of urea, DAP or SSP, and MOP.
+331	Nitrogen (N) needed, kg per acre
+332	Phosphorus (P2O5) needed, kg per acre
+333	Potash (K2O) needed, kg per acre
+334	Area in acres
+335	Phosphorus source
+336	DAP
+337	SSP
+338	Fertilizer
+339	Total
+340	Bags
+341	Fertilizer bags: urea 45 kg, DAP, SSP and MOP 50 kg. Nutrient contents used: urea 46% N; DAP 18% N and 46% P2O5; SSP 16% P2O5; MOP 60% K2O.
+342	Take the N, P2O5 and K2O recommendation from your soil test report or soil health card.
+343	Enter the amounts per acre and your area.
+344	Choose DAP or SSP for phosphorus. With DAP, the nitrogen it supplies is subtracted from the urea.
+345	This calculator only converts nutrients into fertilizer weights. It does not decide how much your crop needs; that comes from a soil test and your crop stage. <a href="/guides/how-to-take-a-soil-sample">How to take a soil sample</a>.
+346	Want a programme for your crop?
+347	Fertilizer Dose Calculator: Urea, DAP, SSP, MOP Bags | GBO
+348	Free fertilizer dose calculator: convert your soil test N, P and K per acre into kilos and bags of urea, DAP or SSP, and MOP for your area.
+### /privacy-policy
+349	<a href="/">Home</a> / Privacy policy
+350	Privacy policy
+351	This page explains what Gujarat Bio Organics Pvt. Ltd. collects when you use this website or contact us.
+352	What we collect
+353	What you send us on WhatsApp, phone, email or forms: name, phone, location, crop, photos and order details.
+354	Order and delivery details needed to deliver your order.
+355	If you allow it, Google Analytics records how the site is used (pages viewed, device, approximate location).
+356	Why
+357	To answer your questions, deliver orders, send crop advice you ask for, and improve the site. We do not sell your details.
+358	Your choices
+359	You can ask us to show, correct or delete your details, or to stop messaging you: write to sales@gujaratbio.com or message us on WhatsApp. We aim to follow India's Digital Personal Data Protection Act, 2023.
+360	Contact
+361	Gujarat Bio Organics Pvt. Ltd., First Floor, 110 Shoppers Plaza, Parimal Chowk, Waghawadi Road, Bhavnagar, Gujarat 364001.
+362	Privacy Policy | Gujarat Bio Organics
+363	Privacy policy for Gujarat Bio Organics Pvt. Ltd., Bhavnagar, Gujarat: what applies when you use gujaratbio.com, contact us or order Immunity products.
+### /terms
+364	<a href="/">Home</a> / Terms of use and sale
+365	Terms of use and sale
+366	These terms apply to this website and to orders placed with Gujarat Bio Organics Pvt. Ltd. ("we").
+367	Website owner
+368	This website is owned and maintained by Gujarat Bio Organics Private Limited (CIN U24123GJ2009PTC058701), Bhavnagar, Gujarat, India. Registered office: First Floor, 110 Shoppers Plaza, Parimal Chowk, Waghawadi Road, Bhavnagar, Gujarat 364001. Factory: Plot No. 321, GIDC 2, Ghanghali Road, Shihor, Bhavnagar, Gujarat 364240.
+369	Products and advice
+370	Product information and crop guides on this site are general guidance. Results depend on soil, weather, crop and management and are not guaranteed. Always follow the label.
+371	Orders and prices
+372	Prices are shared on enquiry, are in Indian rupees and may change. Taxes and delivery charges are confirmed before payment.
+373	Shipping, cancellation and refunds
+374	See <a href="/shipping-and-returns">shipping and returns</a>.
+375	Governing law
+376	These terms are governed by the laws of India. Courts in Bhavnagar, Gujarat have jurisdiction.
+377	Gujarat Bio Organics Pvt. Ltd., First Floor, 110 Shoppers Plaza, Parimal Chowk, Waghawadi Road, Bhavnagar, Gujarat 364001. +91 99787 91167, sales@gujaratbio.com. CIN U24123GJ2009PTC058701.
+378	Terms of Use and Sale | Gujarat Bio Organics
+379	Terms of use and sale for Gujarat Bio Organics Pvt. Ltd., Bhavnagar, Gujarat: what applies when you use gujaratbio.com, contact us or order Immunity products.
+### /shipping-and-returns
+380	<a href="/">Home</a> / Shipping and returns
+381	Shipping and returns
+382	Shipping
+383	Orders are processed and dispatched within 1 to 7 working days from order confirmation, by courier, transport agency or another suitable carrier. Tracking details are shared on WhatsApp or email.
+384	Damaged or wrong items
+385	If your order arrives damaged, leaking or wrong, send photos of the pack and parcel on WhatsApp (+91 99787 91167) or to sales@gujaratbio.com within 48 hours of delivery. We will replace the item or refund it after checking.
+386	Cancellations
+387	You can cancel an order before dispatch by contacting us. Once dispatched, an order cannot be cancelled.
+388	Refunds
+389	Approved refunds are paid to the original payment method within 7 working days.
+390	Gujarat Bio Organics Pvt. Ltd., First Floor, 110 Shoppers Plaza, Parimal Chowk, Waghawadi Road, Bhavnagar, Gujarat 364001. +91 99787 91167, sales@gujaratbio.com.
+391	Shipping and Returns | Gujarat Bio Organics
+392	Shipping and returns for Gujarat Bio Organics Pvt. Ltd., Bhavnagar, Gujarat: what applies when you use gujaratbio.com, contact us or order Immunity products.
+### /crop-problems/apple-root-rot
+393	<a href="/">Home</a> / <a href="/crop-problems">Crop problems</a> / Apple root rot
+394	Apple root rot: causes, signs and what to do
+395	Apple root rot is caused by soil fungi that attack roots in wet, poorly drained soil. Trees show weak growth, yellow leaves and small fruit, then die over one or two seasons. Better drainage, healthy soil and early action lower the losses.
+396	problem-apple-root-rot.webp
+397	Clear field photo showing apple root rot
+398	Leaves turn pale or yellow and fall early.
+399	New shoots are short; the tree looks tired.
+400	Fruit is small and colours poorly.
+401	Bark at the collar (soil level) is dark, soft or cracked.
+402	Roots are brown and soft instead of white and firm.
+403	Why it happens
+404	Water standing around the trunk after rain or irrigation.
+405	Heavy soil with little air.
+406	Old orchard soil with few helpful soil organisms left.
+407	Wounds on roots and collar from tools or pests.
+408	Trees already weak from heavy cropping or stress.
+409	What growers can do
+410	Make sure water drains away from trunks; open drains in low spots.
+411	Keep the collar clear of soil, mulch and weeds.
+412	Avoid wounding roots and the collar.
+413	Build soil organic matter so helpful organisms return.
+414	Get badly affected trees checked by an expert; follow their advice on treatment.
+415	Remove dead trees and roots before replanting.
+416	See the full <a href="/crops/apple">apple guide</a> and <a href="/products/immunity-apple-special">Immunity Apple Special</a>.
+417	Can a tree with root rot recover?
+418	Trees caught early, with part of the root system still healthy, can recover if drainage and soil are fixed. Trees with most roots gone rarely do.
+419	Is root rot the same as collar rot?
+420	They are related. Collar rot attacks the trunk at soil level, root rot attacks the roots. Both are favoured by wet soil.
+421	Where does Immunity Apple Special fit?
+422	It supports roots and soil life as part of orchard care. It is not a fungicide; disease control follows an expert's advice.
+423	Apple Root Rot: Causes, Signs and What to Do
+424	Why apple trees get root and collar rot, how to recognise it early, and the orchard practices that lower the risk. For growers in Himachal Pradesh and Jammu...
+425	Photo coming soon: Clear field photo showing apple root rot
+### /crop-problems/citrus-dieback
+426	<a href="/">Home</a> / <a href="/crop-problems">Crop problems</a> / Citrus dieback
+427	Citrus dieback: why branches dry from the tip
+428	Citrus dieback, where branches dry from the tip back, has several causes: root rot from poor drainage, nutrient shortages such as zinc, pests and old age. Fixing the root zone and nutrition comes before pruning dry branches.
+429	problem-citrus-dieback.webp
+430	Clear field photo showing citrus dieback
+431	Common causes
+432	Root rot and gummosis in wet soil.
+433	Zinc, iron and other micronutrient shortage, especially in alkaline soil.
+434	Pests such as bark borers.
+435	Old, neglected trees.
+436	Improve drainage; keep water off the trunk.
+437	Test soil and leaves for nutrient shortage.
+438	Prune dead wood back to healthy tissue.
+439	Feed the tree and build soil organic matter.
+440	See the full <a href="/crops/citrus">citrus guide</a> and <a href="/products/immunity-citrus-special">Immunity Citrus Special</a>.
+441	Should I cut the dry branches?
+442	Yes, prune back to healthy wood, but also find the cause, or the dieback will return.
+443	Citrus Dieback: Causes and Care for Lemon and Orange Trees
+444	Photo coming soon: Clear field photo showing citrus dieback
+### /crop-problems/mango-alternate-bearing
+445	<a href="/">Home</a> / <a href="/crop-problems">Crop problems</a> / Mango alternate bearing
+446	Mango alternate bearing: why trees fruit every other year
+447	A mango tree that carries a heavy crop uses up its stored food and makes little new growth, so it flowers poorly the next year. Feeding after harvest, timely pruning and steady nutrition help the tree make new shoots every year.
+448	problem-mango-alternate-bearing.webp
+449	Clear field photo showing mango alternate bearing
+450	How the cycle works
+451	Fruit grows on shoots that matured in the season before.
+452	A heavy crop takes the food that would have built new shoots.
+453	Few mature shoots means few flowers next year, and the cycle repeats.
+454	Harvest on time and prune soon after harvest to start new growth.
+455	Feed the tree after harvest, when it is building next year's shoots.
+456	Thin very heavy crops on young trees.
+457	Keep records of each tree's yield to see the pattern.
+458	See the full <a href="/crops/mango">mango guide</a> and <a href="/products/immunity-mango-special">Immunity Mango Special</a>.
+459	Are some mango varieties more prone to alternate bearing?
+460	Yes. Many traditional varieties bear alternately more than some newer ones.
+461	Can alternate bearing be stopped completely?
+462	It can be reduced, not always removed. Good care over several seasons evens out the crop.
+463	Mango Alternate Bearing: Why Trees Fruit Every Other Year
+464	Photo coming soon: Clear field photo showing mango alternate bearing
+### /crop-problems/mango-fruit-drop
+465	<a href="/">Home</a> / <a href="/crop-problems">Crop problems</a> / Mango flower and fruit drop
+466	Mango flower and fruit drop: why it happens
+467	Some fruit drop in mango is natural: a tree sets far more fruit than it can carry. Heavy drop follows stress, such as dry soil, hot winds, pests like hoppers, or a tree low on stored food. Steady water and nutrition through fruit set reduce it.
+468	problem-mango-fruit-drop.webp
+469	Clear field photo showing mango flower and fruit drop
+470	Natural drop and problem drop
+471	A mango panicle carries hundreds of flowers but keeps only a few fruits; most of the drop in the first weeks is normal.
+472	Problem drop is when most young fruit falls, or fruit keeps falling at marble size and later.
+473	Dry soil during fruit set and growth.
+474	Hot, dry winds.
+475	Hoppers, mealybugs and other pests on the panicles.
+476	Poor pollination in cloudy or rainy weather.
+477	A tree weak from a heavy crop last year.
+478	Keep soil moisture steady from fruit set onward; avoid sudden heavy watering after a dry spell.
+479	Watch panicles for hoppers and act early.
+480	Feed the tree after harvest so it has reserves for next season.
+481	Mulch the basin to hold moisture.
+482	When should I water mango trees during fruiting?
+483	Once fruit has set, light and regular watering is better than none or very heavy watering. Your local horticulture office can advise for your soil.
+484	Does alternate bearing cause fruit drop?
+485	In the off year the tree has fewer reserves, so it holds less fruit. Good care after harvest helps both problems.
+486	Mango Fruit Drop: Why It Happens and How to Reduce It
+487	Photo coming soon: Clear field photo showing mango flower and fruit drop
+### /crop-problems/potato-small-tubers
+488	<a href="/">Home</a> / <a href="/crop-problems">Crop problems</a> / Why potatoes are small, or too few
+489	Why potatoes are small, or too few
+490	The number of potato tubers is decided at tuber initiation, around six to eight weeks after planting; their size is decided during bulking. Stress at either stage, from water, heat, weak roots or nutrient shortage, means fewer or smaller potatoes.
+491	problem-potato-small-tubers.webp
+492	Clear field photo showing why potatoes are small, or too few
+493	Fewer tubers
+494	Stress at tuber initiation.
+495	Poor or old seed tubers.
+496	Weak root systems in hard or salty soil.
+497	Small tubers
+498	Dry spells or heat during bulking.
+499	Too many tubers on a weak plant.
+500	Shortage of potash and other nutrients late in the crop.
+501	Early leaf loss from blight or other disease.
+502	Use healthy seed of the right size.
+503	Test soil before planting and correct problems.
+504	Keep water steady at tuber initiation and bulking.
+505	Protect leaves; they feed the tubers.
+506	See the full <a href="/crops/potato">potato guide</a> and <a href="/products/immunity-potato-special">Immunity Potato Special</a>.
+507	Does more urea give bigger potatoes?
+508	Too much nitrogen gives a big leafy plant and can delay tubers. Balanced nutrition works better than more of one fertilizer.
+509	Small Potato Tubers and Fewer Tubers: Causes
+510	Photo coming soon: Clear field photo showing why potatoes are small, or too few
+### /crop-problems/sugarcane-poor-germination
+511	<a href="/">Home</a> / <a href="/crop-problems">Crop problems</a> / Sugarcane poor germination and gaps
+512	Sugarcane poor germination and gaps
+513	Poor sugarcane germination usually comes from old or damaged setts, soil that is too dry, too wet or too hard at planting, and sett rot. Tired soil with little organic matter makes every one of these worse.
+514	problem-sugarcane-poor-germination.webp
+515	Clear field photo showing sugarcane poor germination and gaps
+516	Setts from an old or diseased crop.
+517	Buds damaged while cutting or transporting.
+518	Dry soil, or waterlogged soil, at planting.
+519	Hard soil with little air for new roots.
+520	Sett rot and termites.
+521	Planting too deep.
+522	Use fresh setts from a healthy nursery crop.
+523	Plant into moist, well-prepared soil.
+524	Treat setts as advised by your sugar factory or agriculture office.
+525	Fill gaps early, within the first weeks.
+526	Build organic matter in the soil over seasons.
+527	See the full <a href="/crops/sugarcane">sugarcane guide</a> and <a href="/products/immunity-sugarcane-special">Immunity Sugarcane Special</a>.
+528	How long does sugarcane take to germinate?
+529	Buds usually start within one to three weeks; germination continues for about six weeks depending on soil and weather.
+530	What is a good germination rate?
+531	Ask your sugar factory for the local benchmark; poor fields show clear gaps along the row.
+532	Sugarcane Poor Germination and Gaps: Causes and Fixes
+533	Photo coming soon: Clear field photo showing sugarcane poor germination and gaps
+### /knowledge/potato-fertilizer-schedule
+534	<a href="/">Home</a> / <a href="/knowledge">Knowledge</a> / Potato fertilizer schedule
+535	Potato fertilizer schedule: stage-by-stage nutrition plan
+536	A good potato fertilizer schedule follows the crop: organic manure and the basal dose before planting, the rest of the nitrogen at earthing up, steady water and potash through tuber initiation and bulking, and no irrigation in the last 10 to 15 days. The exact amounts should come from your soil test.
+537	potato-schedule-field-stages.webp
+538	Photo of a potato field at earthing up, with ridges and healthy green plants
+539	Before planting
+540	Get a soil test; it decides how much nitrogen, phosphorus and potash your field needs.
+541	Mix well-rotted farmyard manure or compost into the field.
+542	Apply the full phosphorus and potash and about half of the nitrogen as the basal dose at planting, unless your soil test advice says otherwise.
+543	Biofertilizers such as Azotobacter and PSB can go in with the manure.
+544	Earthing up (about 25 to 30 days after planting)
+545	Apply the remaining nitrogen just before earthing up.
+546	Earth up well so tubers stay covered and protected.
+547	Irrigate lightly after earthing up.
+548	Tuber initiation (about 35 to 50 days)
+549	This is when the plant decides how many tubers it will carry; avoid any water stress.
+550	Correct zinc or boron shortage if your soil test shows it.
+551	Biostimulants and crop formulas such as Immunity Potato Special are used around this stage to support roots.
+552	Bulking (about 50 to 80 days)
+553	Tubers grow in size and weight; potash and steady water matter most.
+554	Protect the leaves from late blight; healthy leaves fill the tubers.
+555	Avoid late nitrogen; it delays maturity and weakens skins.
+556	Maturity and harvest
+557	Stop irrigation about 10 to 15 days before harvest.
+558	Cut haulms when advised so the skin sets.
+559	Harvest when skins do not peel when rubbed.
+560	When should urea be applied to potato?
+561	A common practice is half the nitrogen at planting and the rest at earthing up, about 25 to 30 days after planting. Follow your soil test advice for the amount.
+562	When should I stop irrigating potato before harvest?
+563	About 10 to 15 days before harvest, so the skins set and the tubers store well.
+564	Immunity Potato Special. Send us your crop stage and location for a schedule.
+565	Related articles
+566	Potato Fertilizer Schedule: Stage-by-Stage Nutrition | GBO
+567	Photo coming soon: Photo of a potato field at earthing up, with ridges and healthy green plants
+### /knowledge/soil-fertility
+568	<a href="/">Home</a> / <a href="/knowledge">Knowledge</a> / Soil fertility
+569	Soil fertility: nutrients, organic carbon and soil tests
+570	Soil fertility is the soil's ability to supply the nutrients a crop needs, in the right amounts and at the right time. It depends on the nutrients present, on organic carbon and pH, and on the soil organisms that make nutrients available.
+571	soil-test-report-farmer.webp
+572	Photo of a farmer holding a soil health card or soil test report in the field
+573	Nutrients crops need
+574	Major: nitrogen (N), phosphorus (P), potassium (K)
+575	Secondary: calcium, magnesium, sulphur
+576	Micronutrients: zinc, iron, boron, manganese, copper, molybdenum
+577	Why organic carbon matters
+578	Organic carbon is the best single sign of soil fertility. It holds nutrients and water, feeds soil organisms and keeps the soil crumbly. Many Indian soils now test low in organic carbon.
+579	Why pH matters
+580	Most nutrients are easiest for plants to take up in near-neutral soil
+581	In alkaline soil, zinc, iron and phosphorus get locked up
+582	In acidic soil, phosphorus and some micronutrients get locked up
+583	Locked nutrients
+584	Soil often holds plenty of phosphorus, potash and zinc that the crop cannot use. Phosphate-solubilising, potash-mobilising and zinc-solubilising bacteria help release them, which is why our biofertilizer range includes PSB, KMB and ZSB.
+585	How often should I test my soil?
+586	Every two to three years for each field, and whenever yields drop without a clear reason.
+587	What is a good organic carbon level?
+588	Soil labs commonly treat below about 0.5 percent as low. Ask your lab for the local standard.
+589	<a href="/articles/stop-creating-dead-zones-how-bio-stimulants-like-humic">Stop Creating Dead Zones: How Bio-Stimulants Like Humic Acid &amp; Seaweed Extract Protect Our Water</a>
+590	How fertilizer runoff creates dead zones in rivers and seas, and how humic acid and seaweed inputs help crops use nutrients so less washes a
+591	<a href="/articles/soil-first-food-later-the-overlooked-link-between-soil">Soil First, Food Later: The Overlooked Link Between Soil Health and Human Health</a>
+592	How declining soil life affects the nutrition in our food, and why healthy, biologically active soil matters for both crops and human health
+593	<a href="/articles/the-real-carbon-sink-how-organic-farms-could-save">The Real Carbon Sink: How Organic Farms Could Save the Climate</a>
+594	How regenerative organic farms capture carbon in the soil, how this compares with forests, and what it means for farm soils and the climate.
+595	<a href="/articles/the-cost-of-yield-how-chemical-farming-is-bankrupting">The Cost of Yield: How Chemical Farming is Bankrupting Indian Farmers</a>
+596	How heavy use of synthetic fertilizer and pesticide raises costs and weakens soil over time, and the economic case for balanced organic inpu
+597	<a href="/articles/why-the-green-revolution-turned-brown-the-other-side">Why the Green Revolution Turned Brown: The Other Side of the Story</a>
+598	The hidden costs of the Green Revolution: lost crop diversity, declining soil health and water stress, and what farmers can learn from it to
+599	<a href="/articles/organic-inputs-vs-chemicals-insights-from-5-years-of">Organic Inputs vs Chemicals: Insights from 5 Years of Field Trials</a>
+600	What multi-year field comparisons show about organic inputs versus chemicals: productivity, input cost and soil health over the long run.
+601	Soil Fertility: Nutrients, Organic Carbon and Soil Tests | GBO
+602	Photo coming soon: Photo of a farmer holding a soil health card or soil test report in the field
+### /knowledge/soil-health
+603	<a href="/">Home</a> / <a href="/knowledge">Knowledge</a> / Soil health
+604	Soil health: what it is and how to improve it
+605	Healthy soil is soil that is alive: it has enough organic matter, crumbly structure, and billions of helpful organisms that feed the crop. Healthy soil holds water, releases nutrients steadily and grows strong roots, so the crop needs less help.
+606	soil-healthy-vs-tired.webp
+607	Side-by-side photo: a handful of dark, crumbly, healthy soil next to hard, pale, tired soil
+608	Signs of healthy soil
+609	Dark colour and an earthy smell
+610	Crumbly; breaks easily in the hand
+611	Earthworms and roots throughout
+612	Water soaks in quickly and does not stand
+613	Crops grow evenly across the field
+614	Signs of tired soil
+615	Needs more fertilizer every year for the same yield
+616	Hard, cracks when dry, sticky when wet
+617	Few earthworms
+618	Short, shallow roots
+619	Low organic carbon in the soil test
+620	How to bring soil back to life
+621	Add organic matter every season: compost, farmyard manure, crop residue
+622	Keep the soil covered with mulch or a crop
+623	Rotate crops and include legumes
+624	Use fertilizer based on a soil test, not habit
+625	Support soil life with biofertilizers and biostimulants such as humic acid
+626	Reduce hazardous chemicals that kill soil organisms
+627	Where Gujarat Bio Organics fits
+628	For nearly 20 years our work has started with the soil. Immunity Granules are applied to the soil for structure and soil life, our biofertilizers add helpful microbes, and every Immunity formula is built to work with living soil, not against it.
+629	What is the quickest way to improve soil health?
+630	There is no instant fix. Adding organic matter, keeping the soil covered and supporting soil life show changes in one or two seasons.
+631	Does chemical fertilizer harm soil health?
+632	Used alone and in excess for years, it lowers organic matter and soil life. Balanced use with organic inputs protects the soil.
+633	Soil Health: What It Is and How to Improve It | GBO
+634	Photo coming soon: Side-by-side photo: a handful of dark, crumbly, healthy soil next to hard, pale, tired soil
+### /knowledge/sustainability
+635	<a href="/">Home</a> / <a href="/knowledge">Knowledge</a> / Sustainable farming and the 5 Rs
+636	Sustainable farming and the 5 Rs
+637	Sustainable farming means growing good crops at a fair cost without using up the soil, water and health the next generation will need. The 5 Rs (reduce, reuse, recycle, restore and restrict) are a simple way to put it into practice.
+638	sustainable-farm-wide.webp
+639	Wide photo of a green, mulched farm with compost heap and healthy crop, farmer walking in the field
+640	Reduce
+641	Use fertilizer and chemicals based on need, not habit. A soil test and a crop schedule usually show where money is being wasted.
+642	Reuse
+643	Return crop residue to the soil as mulch instead of burning it. Residue is free organic matter.
+644	Recycle
+645	Turn farm waste, dung and residue into compost. Good compost is the cheapest soil improver a farmer can make.
+646	Restore
+647	Bring soil life back with organic matter, biofertilizers and biostimulants. Living soil feeds the crop better.
+648	Restrict
+649	Limit hazardous chemicals that kill soil life, pollute water and leave residues in food. Use them only when truly needed, and safely.
+650	Our part
+651	Our mission is to make farming free of hazardous chemicals and make sustainable food growing easier for the generations to come. Every Immunity formula is made with that aim.
+652	Does sustainable farming mean lower yields?
+653	Not necessarily. Many growers keep yields while cutting costs once the soil recovers; results vary by farm.
+654	Where should a farmer start?
+655	With a soil test and compost. Those two steps show what the soil needs and start rebuilding it.
+656	<a href="/articles/unlocking-plant-potential-the-role-of-bio-stimulants-in">Unlocking Plant Potential: The Role of Bio Stimulants in Agriculture</a>
+657	What bio stimulants are, how seaweed and humic inputs support roots and stress tolerance, and where they fit in a practical crop nutrition p
+658	<a href="/articles/debunking-the-myth-organic-farming-and-yields-the-truth">Debunking the Myth: Organic Farming and Yields – The Truth Revealed</a>
+659	What long-term trials say about organic versus chemical yields, why organic soils can hold up better in drought, and what it means for Gujar
+660	<a href="/articles/what-s-really-in-your-food-hidden-residues-in">What’s Really in Your Food? Hidden Residues in India’s Food Chain</a>
+661	What studies have found about pesticide residues in Indian food and exports, why it matters for consumers, and how farmers can reduce residu
+662	<a href="/articles/eye-opening-statistics-on-organic-farming-in-india-you">Eye-Opening Statistics on Organic Farming in India You Were Never Told</a>
+663	Key numbers on organic farming in India, from area and farmer count to yields and market demand, that challenge the idea organic cannot scal
+664	<a href="/articles/india-s-organic-market-is-growing-20-per-year">India's Organic Market is Growing 20% Per Year — Are Farmers Ready?</a>
+665	India's organic food market is growing about 20% a year. What is driving demand, and what farmers need to supply it: certification, inputs,
+666	<a href="/articles/inside-the-lab-breakthroughs-in-biofertilizers-and-bio-pesticides">Inside the Lab: Breakthroughs in Biofertilizers and Bio-Pesticides</a>
+667	New developments in biofertilizers and bio-pesticides, how microbial and plant-based inputs work, and examples of their use on Indian farms.
+668	Sustainable Farming and the 5 Rs | Gujarat Bio Organics
+669	Photo coming soon: Wide photo of a green, mulched farm with compost heap and healthy crop, farmer walking in the field
+### /micronutrients/boron/boron-deficiency-symptoms-in-crops
+670	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/boron">Boron</a> / Boron deficiency symptoms crop by crop
+671	Boron deficiency symptoms crop by crop
+672	Boron deficiency shows at the growing tips, flowers and fruit: dying tips with bushy side shoots, thick brittle young leaves, shedding of flowers and young fruit, cracked or misshapen fruit and hollow stems or kernels. Cotton, groundnut, mango, pomegranate, coconut and cauliflower are commonly affected.
+673	<a href="#s0">Crop by crop</a>
+674	<a href="#s1">Look-alikes</a>
+675	<a href="#s2">When to look</a>
+676	<a href="#s3">Confirm and correct</a>
+677	Small, deformed bunches and curled young leaves.
+678	Hollow stem, brown curd or head, and corky patches.
+679	Uneven berries (hen and chicken), poor bunch set.
+680	Papaya
+681	Lumpy, misshapen fruit with hard patches.
+682	Look-alikes
+683	Calcium shortage also causes fruit disorders; boron and calcium work together, so test both.
+684	Insect damage can kill growing tips; look for holes or larvae.
+685	Heat and water stress also drop flowers; boron-short crops drop flowers even in good weather.
+686	When to look
+687	Before and during flowering.
+688	During fruit and pod development.
+689	After a dry spell on light soils.
+690	Confirm and correct
+691	Confirm with a soil or leaf test before you spend.
+692	Read the full <a href="/micronutrients/boron">boron guide</a> for causes and correction.
+693	Use the <a href="/micronutrients/deficiency-symptoms">symptom guide</a> to compare with other nutrients.
+694	<a href="/micronutrients/boron">Boron guide</a>
+695	Boron is a micronutrient the crop needs to build cell walls, to grow at its tips, and above all for pollen to germinate and grow, so...
+696	What does boron deficiency look like in cotton?
+697	What does boron deficiency look like in groundnut?
+698	What does boron deficiency look like in mango?
+699	Boron Deficiency Symptoms: Cotton, Groundnut, Mango, Coconut
+### /micronutrients/boron/boron-flowering-fruit-set
+700	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/boron">Boron</a> / Boron for flowering and fruit set: why the dose...
+701	Boron for flowering and fruit set: why the dose window is narrow
+702	Boron lets pollen germinate and grow, so it decides how many flowers become fruit or seed. That is why boron shortage shows as flower drop, poor set and cracked fruit. But the gap between the boron a crop needs and the amount that burns its leaves is small, so boron should be applied to a soil test and the label, at the right stage, and never doubled.
+703	<a href="#s0">Why flowers need boron</a>
+704	<a href="#s1">Timing</a>
+705	<a href="#s2">Avoiding excess</a>
+706	<a href="#s3">Read more</a>
+707	Why flowers need boron
+708	Pollen tubes need boron to grow.
+709	Young fruit needs boron to build cell walls as it expands.
+710	Sugars that feed flowers and fruit move with boron's help.
+711	Timing
+712	For fruit crops, before and at flowering.
+713	For field crops, at sowing where the soil is short, and before flowering if needed.
+714	Steady soil moisture during flowering helps the roots take it up.
+715	Avoiding excess
+716	Test the soil before repeated use.
+717	Use the label dose; do not add extra 'to be safe'.
+718	Do not stack several boron products in one tank.
+719	Watch for leaf edge burn on older leaves as a sign of excess.
+720	The full <a href="/micronutrients/boron">boron guide</a>.
+721	<a href="/micronutrients/boron/boron-deficiency-symptoms-in-crops">Boron deficiency symptoms crop by crop</a>.
+722	When should boron be sprayed on mango?
+723	Before and during flowering, at the label dose and where needed. Ask your horticulture officer for your region.
+724	Can boron toxicity be reversed?
+725	Stop adding boron. Rain or irrigation slowly washes it down in light soils, but heavy soils hold it longer.
+726	Boron for Flowering and Fruit Set: Why the Dose Window Is Narrow
+### /micronutrients/calcium/calcium-deficiency-symptoms-in-crops
+727	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/calcium">Calcium</a> / Calcium deficiency symptoms crop by crop
+728	Calcium deficiency symptoms crop by crop
+729	Calcium shortage shows in fruit and growing tips: blossom-end rot in tomato and chilli, bitter pit in apple, tip burn in cabbage, empty pods in groundnut and brown spots in potato tubers. These often appear on soils with plenty of calcium, because the plant cannot move calcium to the fruit when water supply is uneven or other nutrients crowd it out.
+730	Cabbage and cauliflower
+731	Tip burn of inner leaves and brown curd.
+732	Fruit cracking with irregular watering.
+733	Sunscald also damages fruit, but on the sunny side, not the flower end.
+734	Fruit borer damage leaves holes and frass.
+735	Boron shortage also causes cracking and corky fruit; test both.
+736	During fast fruit growth.
+737	After a dry spell followed by heavy watering.
+738	In humid, cloudy weeks.
+739	Read the full <a href="/micronutrients/calcium">calcium guide</a> for causes and correction.
+740	<a href="/micronutrients/calcium">Calcium guide</a>
+741	Calcium is a secondary nutrient the crop needs to build strong cell walls, keep cell membranes healthy and grow new root and shoot tips. A...
+742	What does calcium deficiency look like in tomato, chilli and watermelon?
+743	What does calcium deficiency look like in apple?
+744	What does calcium deficiency look like in mango?
+745	Calcium Deficiency Symptoms: Tomato, Apple, Groundnut | GBO
+### /micronutrients/calcium/calcium-disorders-when-soil-has-calcium
+746	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/calcium">Calcium</a> / Blossom-end rot, bitter pit and tip burn: when...
+747	Blossom-end rot, bitter pit and tip burn: when the soil has enough calcium
+748	Calcium travels in the plant only with the water stream to the leaves. Fruits lose little water, so they get little calcium, and any break in water supply cuts it further. Too much potash, magnesium or ammonium also crowds calcium out, and without boron calcium cannot do its job in the cell wall. That is why a field can show calcium problems on calcium-rich soil, and why calcium sprays alone often fail.
+749	The real causes
+750	Irregular watering: the biggest cause of blossom-end rot.
+751	Humid, still weather that slows water movement.
+752	Heavy potash, magnesium or ammonium nitrogen.
+753	Boron shortage, which stops calcium from building cell walls.
+754	Very fast growth from heavy nitrogen.
+755	What fixes it
+756	Water little and often during fruit growth.
+757	Balance potash and nitrogen to the soil test.
+758	Check magnesium and boron along with calcium.
+759	Use calcium sprays at fruit development as a support, not the only fix.
+760	See <a href="/micronutrients/nutrient-interactions">how nutrients block each other</a>.
+761	The full <a href="/micronutrients/calcium">calcium guide</a>.
+762	<a href="/micronutrients/calcium/calcium-deficiency-symptoms-in-crops">Calcium deficiency symptoms crop by crop</a>.
+763	Why did my calcium spray not fix the problem?
+764	Because the cause was not a lack of calcium in the soil but water supply, nutrient imbalance or boron. Fix those and the calcium already in the soil reaches the fruit.
+765	Is gypsum or lime better for calcium?
+766	Gypsum supplies calcium without changing pH and suits most Indian soils. Lime is for acid soils that also need their pH raised.
+767	Calcium Disorders When the Soil Has Enough Calcium
+### /micronutrients/chlorine/chloride-deficiency-and-toxicity
+768	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/chlorine">Chlorine</a> / Chloride deficiency and toxicity: how to tell...
+769	Chloride deficiency and toxicity: how to tell them apart
+770	Chloride shortage is rare in the field: it shows as wilting leaf tips, pale leaves and stubby roots. Chloride excess, from saline water or soil, is far more common: older leaves burn at the tips and edges, then drop. Testing the irrigation water and soil tells you which you have.
+771	Side by side
+772	Shortage (rare)
+773	Excess (common)
+774	Leaves
+775	Wilting tips, pale, bronzed
+776	Burnt tips and edges of older leaves
+777	Roots
+778	Short, stubby, thick
+779	Weak, salt-stressed
+780	Where
+781	Leached sandy soils with no chloride input
+782	Saline water, coastal and saline soils
+783	Fix
+784	Chloride fertilizer
+785	Drainage, leaching, sulphate of potash, tolerant crops
+786	Read the full <a href="/micronutrients/chlorine">chlorine guide</a> for causes and correction.
+787	<a href="/micronutrients/chlorine">Chlorine (chloride) guide</a>
+788	Chlorine, taken up as chloride, is a micronutrient the crop needs for its water balance, for opening and closing stomata and for...
+789	What does chlorine deficiency look like in coconut?
+790	What does chlorine deficiency look like in potato?
+791	What does chlorine deficiency look like in tobacco?
+792	Chloride Deficiency vs Toxicity in Crops: How to Tell Apart
+### /micronutrients/chlorine/chloride-sensitive-crops-mop
+793	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/chlorine">Chlorine</a> / Chloride-sensitive crops: when muriate of...
+794	Chloride-sensitive crops: when muriate of potash is a problem
+795	Muriate of potash supplies potassium and chloride. Most crops handle the chloride well, and some, like coconut, benefit from it. But chloride-sensitive crops such as tobacco, grapes, some citrus and potato grown for processing can lose quality, especially on saline water. For these, sulphate of potash supplies potassium without chloride.
+796	<a href="#s0">Sensitive crops</a>
+797	<a href="#s1">Crops that tolerate or benefit</a>
+798	<a href="#s2">How to decide</a>
+799	Sensitive crops
+800	Tobacco: leaf burning quality.
+801	Potato for chips and processing: dry matter and quality.
+802	Grapes and citrus: leaf edge burn on saline water.
+803	Strawberry, beans and some vegetables.
+804	Crops that tolerate or benefit
+805	Coconut and oil palm.
+806	Sugarcane, cereals and cotton in most soils.
+807	Beet and some leafy vegetables.
+808	How to decide
+809	Test your irrigation water and soil for salinity.
+810	For sensitive crops on saline water, prefer sulphate of potash.
+811	Keep total salt input in mind when fertigating.
+812	The full <a href="/micronutrients/chlorine">chlorine guide</a>.
+813	<a href="/micronutrients/chlorine/chloride-deficiency-and-toxicity">Chloride deficiency and toxicity: how to tell them apart</a>.
+814	Is sulphate of potash better than muriate of potash?
+815	Not for every crop. It avoids chloride, which matters for sensitive crops and saline conditions. For many crops muriate of potash is fine and cheaper.
+816	Does coconut need chloride?
+817	Coconut is one of the crops known to respond to chloride, which muriate of potash supplies.
+818	Chloride-Sensitive Crops: When Muriate of Potash Is a Problem
+### /micronutrients/cobalt/cobalt-deficiency-legumes-fodder
+819	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/cobalt">Cobalt</a> / Cobalt deficiency signs in legumes and...
+820	Cobalt deficiency signs in legumes and livestock fodder
+821	Cobalt shortage shows in legumes as nitrogen-starved plants with poor nodules, because the nodule bacteria cannot make vitamin B12. It also matters for livestock, which need cobalt from their fodder. Because molybdenum, sulphur and poor inoculation cause similar signs, check those first.
+822	<a href="#s1">Check these before cobalt</a>
+823	<a href="#s2">Signs in animals</a>
+824	Check these before cobalt
+825	Was the seed inoculated with the right Rhizobium culture?
+826	Is the soil acid, suggesting molybdenum shortage?
+827	Are young leaves pale, suggesting sulphur shortage?
+828	Is the field waterlogged?
+829	Signs in animals
+830	Poor appetite and weight loss on cobalt-poor pasture.
+831	Ask a veterinarian; mineral supplements for animals are the usual fix.
+832	Read the full <a href="/micronutrients/cobalt">cobalt guide</a> for causes and correction.
+833	<a href="/micronutrients/cobalt">Cobalt guide</a>
+834	Cobalt is a beneficial element. The plant itself is not shown to need it, but the Rhizobium bacteria in legume nodules do: they need cobalt...
+835	What does cobalt deficiency look like in pulses?
+836	What does cobalt deficiency look like in groundnut and soybean?
+837	What does cobalt deficiency look like in fodder legumes such as berseem and lucerne?
+838	Cobalt Deficiency Signs in Legumes and Livestock Fodder
+### /micronutrients/cobalt/cobalt-rhizobium-nitrogen-fixation
+839	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/cobalt">Cobalt</a> / Cobalt and Rhizobium: the trace element behind...
+840	Cobalt and Rhizobium: the trace element behind nitrogen fixation
+841	Rhizobium bacteria in legume nodules need vitamin B12 to grow and fix nitrogen, and B12 contains cobalt. A trace of cobalt in the soil is enough in most fields; where it is short, nodules stay small and pale. Because excess cobalt is toxic, it is supplied only in tiny amounts, usually with seed treatment, and only where advised.
+842	How nodules work
+843	Rhizobium bacteria enter legume roots and form nodules.
+844	Inside, they turn nitrogen from the air into forms the plant uses.
+845	They need molybdenum for the fixing enzyme and cobalt for vitamin B12.
+846	Good nodulation practice
+847	Use the right Rhizobium culture for the crop.
+848	Treat seed in shade and sow soon.
+849	Keep the soil well drained.
+850	Correct acid soils and sulphur shortage.
+851	Add cobalt or molybdenum only where advised.
+852	The full <a href="/micronutrients/cobalt">cobalt guide</a>.
+853	<a href="/micronutrients/cobalt/cobalt-deficiency-legumes-fodder">Cobalt deficiency signs in legumes and livestock fodder</a>.
+854	Does every pulse field need cobalt?
+855	No. Most fields supply enough. It is used only where advised for the soil.
+856	Can cobalt be mixed with Rhizobium culture?
+857	Follow the culture label and your agriculture officer's advice.
+858	Cobalt and Rhizobium: the Trace Element Behind Nitrogen Fixation
+### /micronutrients/consequences-of-micronutrient-deficiency
+859	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / What happens when micronutrients are not managed
+860	What happens when micronutrients are not managed
+861	A micronutrient shortage limits the whole crop, however much NPK is applied. It shows as weak germination and growth, poor flowering and fruit set, fruit drop, small and low-quality produce with low brix and poor shelf life, and lower market prices. It also wastes fertilizer and leaves the crop weaker against pests, diseases, heat, cold, drought and salt.
+862	<a href="#s0">The law of the minimum</a>
+863	<a href="#s1">Hidden hunger</a>
+864	<a href="#s2">Stage by stage losses</a>
+865	<a href="#s3">Quality, brix and price</a>
+866	<a href="#s4">More fertilizer for the same crop</a>
+867	<a href="#s5">More pest and disease problems</a>
+868	<a href="#s6">Weaker against weather</a>
+869	<a href="#s7">For people and animals</a>
+870	The law of the minimum
+871	A crop grows only as well as its scarcest nutrient allows. Think of a bucket made of wooden staves of different heights: water fills only up to the shortest stave. If zinc or boron is the short stave, more urea or DAP raises the other staves but not the water level. This is why yields can stay flat while fertilizer bills rise.
+872	Hidden hunger
+873	Yield is often lost before any symptom appears. A crop slightly short of a micronutrient looks normal but grows and yields less. Soil surveys count these latent shortages too. By the time leaves show it, a part of the yield is already gone, so testing before the season is worth more than spraying after symptoms appear.
+874	Stage by stage losses
+875	Stage
+876	What a shortage does
+877	Nutrients most involved
+878	Germination and seedling
+879	Weak germination, poor vigour, gaps in the stand
+880	Zinc, phosphorus, calcium, boron
+881	Stunted plants, small leaves, fewer tillers and branches
+882	Zinc, iron, manganese, magnesium, sulphur
+883	Late, weak or no flowering; flower drop
+884	Boron, zinc, molybdenum, copper
+885	Fruit and pod set
+886	Poor set, few fruits, empty pods and grains
+887	Boron, calcium, copper, zinc
+888	Fruit drop, small fruit, cracking
+889	Boron, calcium, magnesium, potassium
+890	Ripening and harvest
+891	Poor colour, low brix, poor shelf life
+892	Magnesium, potassium, calcium, boron
+893	Quality, brix and price
+894	Small and uneven fruit, tubers and grains fetch lower grades.
+895	Low sugar (brix) in fruit and sugarcane when magnesium, potassium or boron limit sugar movement.
+896	Cracked, misshapen and spotted fruit is rejected or sold cheap.
+897	Poor firmness and shelf life cause losses in transport and storage.
+898	Low oil in oilseeds and low protein in grain when sulphur is short.
+899	More fertilizer for the same crop
+900	Nitrogen is used poorly when sulphur, zinc or molybdenum is short, so more urea is applied for the same growth.
+901	Unused nitrogen washes out or escapes to the air, wasting money and harming water and soil.
+902	Rising doses without rising yields are a common sign of a hidden micronutrient limit.
+903	More pest and disease problems
+904	Crops short of zinc, manganese, copper, boron, calcium and silicon have weaker cell walls and defences.
+905	Soft, lush growth from heavy nitrogen with poor balance attracts sucking pests.
+906	Sprays then rise, adding cost and residue. Balanced nutrition is part of pest and disease prevention, not a replacement for scouting and control.
+907	Weaker against weather
+908	Zinc, potassium, calcium and boron help cells cope with heat, cold and drought.
+909	Silicon and potassium help crops hold water and stand up.
+910	A well-fed crop recovers faster after stress.
+911	For people and animals
+912	Grain grown on zinc and iron-poor soil carries less zinc and iron for the people who eat it, and fodder poor in cobalt, copper or selenium affects animal health. Healthy soil grows healthier food.
+913	Can micronutrient shortage reduce yield without symptoms?
+914	Yes. This hidden hunger cuts yield before any leaf symptom appears. Soil testing before the season finds it.
+915	Why do my yields stay flat even with more fertilizer?
+916	One common reason is that a micronutrient or sulphur is the limiting factor. Adding more NPK does not lift that limit.
+917	Does good nutrition reduce pests and diseases?
+918	Balanced nutrition makes crops harder to attack and quicker to recover, but it does not replace scouting and pest control.
+919	What Happens When Micronutrients Are Not Managed | GBO
+### /micronutrients/copper/copper-deficiency-symptoms-in-crops
+920	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/copper">Copper</a> / Copper deficiency symptoms crop by crop
+921	Copper deficiency symptoms crop by crop
+922	Copper deficiency shows at the shoot tips: wilting and dieback with moist soil, pale twisted young leaves, white leaf tips in cereals and empty grain heads. It is less common than zinc or boron, so test before treating, because too much copper harms roots and soil life.
+923	<a href="#s2">Before you apply copper</a>
+924	Water stress also wilts tips; copper-short crops wilt even when the soil is moist.
+925	Frost and heat damage can whiten leaf tips.
+926	Boron shortage also kills growing points but makes leaves thick and brittle.
+927	Before you apply copper
+928	Check the spray history for copper fungicides.
+929	Test the soil and a leaf sample.
+930	Treat only the fields that test short.
+931	Read the full <a href="/micronutrients/copper">copper guide</a> for causes and correction.
+932	<a href="/micronutrients/copper">Copper guide</a>
+933	Copper is a micronutrient the crop needs for enzymes in photosynthesis and respiration, for lignin that keeps stems and cell walls strong,...
+934	What does copper deficiency look like in wheat and cereals?
+935	What does copper deficiency look like in citrus?
+936	What does copper deficiency look like in onion?
+937	Copper Deficiency Symptoms in Wheat, Citrus and Onion | GBO
+### /micronutrients/copper/copper-too-little-too-much
+938	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/copper">Copper</a> / Copper: too little and too much
+939	Copper: too little and too much
+940	Crops need only a little copper, and soils that are sprayed often with copper fungicides usually have more than enough. Over years, copper builds up in the topsoil of orchards and vineyards, where it can harm roots, earthworms and microbes and lower iron uptake. Test before you add copper, and spray copper fungicides only when the disease needs it.
+941	Where copper builds up
+942	Orchards and vineyards sprayed with copper fungicides for many years.
+943	Fields that received some industrial wastes or sludge.
+944	The top few centimetres of soil, where it does not move down.
+945	How to keep it in balance
+946	Test soil copper every few years in sprayed orchards.
+947	Follow the disease forecast and label instead of calendar spraying.
+948	Add organic matter to support soil life.
+949	Do not add copper fertilizer where tests show enough.
+950	The full <a href="/micronutrients/copper">copper guide</a>.
+951	<a href="/micronutrients/copper/copper-deficiency-symptoms-in-crops">Copper deficiency symptoms crop by crop</a>.
+952	How do I know if my orchard soil has too much copper?
+953	A soil test for copper shows it. Signs in the tree include weak roots and yellow young leaves.
+954	Can copper build-up be reversed?
+955	Copper stays in the soil for a long time. Organic matter and soil life reduce its harm, and stopping unneeded sprays stops the build-up.
+956	Copper in Farming: Too Little and Too Much From Fungicides
+### /micronutrients/guides
+957	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / Blogs
+958	Micronutrient blogs
+959	Practical reading on nutrient problems farmers meet in the field.
+960	General
+961	By nutrient
+962	Micronutrient Guides and Blogs for Farmers | GBO
+963	Practical blogs on micronutrients: why sprays and urea do not fix nutrient problems, fruit quality and brix, soil health and types of micronutrient fertilizers.
+### /micronutrients/guides/micronutrients-for-fruit-size-quality-brix
+964	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/guides">Blogs</a> / Micronutrients for fruit size, quality, brix...
+965	Micronutrients for fruit size, quality, brix and market price
+966	Market price depends on size, colour, sweetness, firmness and freedom from cracks and spots, and micronutrients shape every one of these. Boron and zinc decide how many flowers set fruit, calcium and boron decide firmness and cracking, and magnesium and potassium move sugars into the fruit for brix and colour. A short supply of any of them shows up as lower grades at the market.
+967	What each nutrient adds
+968	Quality trait
+969	Fruit set and number
+970	<a href="/micronutrients/boron">Boron</a>, <a href="/micronutrients/zinc">zinc</a>
+971	Size
+972	Zinc, boron, potassium, magnesium
+973	Sweetness (brix) and colour
+974	<a href="/micronutrients/magnesium">Magnesium</a>, potassium, boron
+975	Firmness, cracking, shelf life
+976	<a href="/micronutrients/calcium">Calcium</a>, boron
+977	Freedom from spots and disorders
+978	Calcium, boron, balanced nitrogen
+979	Crops where it matters most
+980	Mango: fruit set, cracking, internal disorders and shelf life.
+981	Pomegranate: cracking and colour.
+982	Grapes: uneven berries and sweetness.
+983	Banana: bunch size and finger fill.
+984	Citrus: fruit drop, size and juice quality.
+985	Tomato and chilli: blossom-end rot and firmness.
+986	Sugarcane: sugar recovery.
+987	Practices that help
+988	Test the soil and leaves before flowering.
+989	Correct boron and zinc before flowering.
+990	Keep watering steady from fruit set to harvest.
+991	Balance potash with magnesium and calcium.
+992	Avoid heavy nitrogen late in fruit growth, which softens fruit.
+993	See our <a href="/crops">crop guides</a> and <a href="/products#specials">Immunity Specials</a> for crop programmes.
+994	Which nutrient increases fruit sweetness?
+995	Sugars are made in the leaves and moved into fruit with the help of magnesium, potassium and boron. A shortage of these lowers brix.
+996	What causes fruit cracking?
+997	Irregular watering combined with boron or calcium shortage is a common cause, especially in pomegranate, mango and tomato.
+998	Micronutrients for Fruit Size, Quality and Brix | GBO
+### /micronutrients/guides/micronutrients-soil-health-sustainable-farming
+999	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/guides">Blogs</a> / Micronutrients, soil health and sustainable...
+1000	Micronutrients, soil health and sustainable farming
+1001	Most micronutrient shortages in India are not caused by soil running out of the element but by tired soil that cannot supply it: low organic matter, high pH, poor drainage and unbalanced fertilizer use. Building organic matter, returning residues, rotating crops, feeding to a soil test and protecting soil life keep micronutrients available and cut the need for rescue sprays.
+1002	<a href="#s0">Why soil organic matter matters</a>
+1003	<a href="#s1">Practices that conserve soil and nutrients</a>
+1004	<a href="#s2">Balanced feeding protects the environment</a>
+1005	<a href="#s3">For the next generation</a>
+1006	Why soil organic matter matters
+1007	Organic matter holds micronutrients in forms roots can use, even in alkaline soils.
+1008	It feeds the soil microbes that release nutrients.
+1009	It holds water, so nutrients reach the roots in dry spells.
+1010	See <a href="/knowledge/soil-health">soil health</a> and <a href="/guides/compost-and-humic-acid">compost and humic acid</a>.
+1011	Practices that conserve soil and nutrients
+1012	Return crop residues; do not burn straw or trash.
+1013	Add farmyard manure, compost or green manure each season.
+1014	Rotate crops and include legumes.
+1015	Use irrigation carefully: over-watering washes nutrients and drowns roots.
+1016	Feed to a soil test rather than by habit.
+1017	Cover the soil with mulch or crops to stop erosion.
+1018	Balanced feeding protects the environment
+1019	Less wasted nitrogen and phosphorus in rivers and groundwater.
+1020	Fewer rescue sprays and lower residues.
+1021	Lower costs for the same yield.
+1022	See <a href="/knowledge/sustainability">sustainable farming and the 5 Rs</a>.
+1023	For the next generation
+1024	Soil is the farm's most valuable asset. Practices that keep it alive keep yields steady and costs down for the next generation, and grow food that carries the micronutrients people need.
+1025	Can organic matter fix micronutrient deficiency?
+1026	It helps keep micronutrients available and prevents many shortages over time. Severe shortages still need the nutrient applied, guided by a test.
+1027	Does burning crop residue affect micronutrients?
+1028	Yes. Burning destroys organic matter and soil life and removes nutrients such as silicon and sulphur held in the residue.
+1029	Micronutrients, Soil Health and Sustainable Farming | GBO
+### /micronutrients/guides/types-of-micronutrient-fertilizers
+1030	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/guides">Blogs</a> / Types of micronutrient fertilizers: sulphates...
+1031	Types of micronutrient fertilizers: sulphates, chelates, organic and more
+1032	Micronutrients are sold in several forms. Sulphate salts are cheap but can be locked up in alkaline soil. Chelates and organic complexes cost more but stay available longer and are gentle in sprays. Fortified fertilizers and mixtures save an application but may not match the field. Biofertilisers and manure keep nutrients available over time. The right choice depends on the soil, the crop and the test result.
+1033	How to choose
+1034	Start from a soil test: buy only the nutrients that are short.
+1035	On alkaline and calcareous soils, prefer foliar sprays or chelates made for high pH over plain sulphates in the soil.
+1036	For boron, choose a product with a clear content and follow the dose exactly.
+1037	For several shortages at once, a mixture can help if it matches the test.
+1038	Read the label: nutrient content, form and compatibility.
+1039	Mixing and compatibility
+1040	Do a jar test before mixing products in one tank.
+1041	Do not mix zinc sulphate with phosphate fertilizers.
+1042	Some chelates and organic complexes mix better with other products; check the label.
+1043	Spray in the cool part of the day.
+1044	What is a chelated micronutrient?
+1045	A micronutrient held by an organic molecule so it stays dissolved and available longer, in soil or in a spray.
+1046	Are chelates worth the extra cost?
+1047	On alkaline and calcareous soils and for sprays, often yes, because plain sulphates are locked up quickly. Match the chelate to the soil pH.
+1048	Is a micronutrient mixture better than single products?
+1049	Only if its contents match what the soil test shows is short.
+1050	Types of Micronutrient Fertilizers: Pros and Cons | GBO
+### /micronutrients/guides/why-more-urea-does-not-fix-yellow-leaves
+1051	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/guides">Blogs</a> / Why more urea or water-soluble fertilizer does...
+1052	Why more urea or water-soluble fertilizer does not fix yellow leaves
+1053	Urea fixes yellowing only when nitrogen is short, and nitrogen shortage starts on the old leaves. When young leaves are yellow, or old leaves are yellow between green veins, the cause is usually sulphur, iron, zinc, manganese or magnesium, and more urea or NPK water-soluble fertilizer will not help. It can even make it worse by speeding growth the crop cannot support.
+1054	<a href="#s0">Which yellow is which</a>
+1055	<a href="#s1">Why more urea can make it worse</a>
+1056	<a href="#s2">Water-soluble NPK is not a cure-all</a>
+1057	<a href="#s3">What to do instead</a>
+1058	Which yellow is which
+1059	Likely cause
+1060	Will urea help?
+1061	Old leaves yellow from the tip down the midrib
+1062	Nitrogen
+1063	Yes
+1064	Young leaves pale yellow, veins too
+1065	No
+1066	Young leaves yellow, fine green vein net
+1067	Young leaves small, narrow, pale
+1068	Old leaves yellow between green veins
+1069	Whole field pale after heavy rain or irrigation
+1070	Waterlogging
+1071	Not until drainage improves
+1072	Why more urea can make it worse
+1073	Extra nitrogen speeds growth, so the crop needs even more of the nutrient that is short.
+1074	Soft, lush growth attracts sucking pests.
+1075	Ammonium from urea competes with calcium and magnesium.
+1076	Wasted nitrogen washes out and pollutes water.
+1077	Water-soluble NPK is not a cure-all
+1078	Most NPK water-soluble grades supply little or no micronutrient.
+1079	They help when NPK is short, not when zinc, boron or iron is.
+1080	Check the label: what nutrients and how much.
+1081	What to do instead
+1082	Check drainage and roots.
+1083	Test the soil for sulphur and micronutrients.
+1084	Correct the nutrient that is short and the cause behind it.
+1085	Why do my leaves stay yellow after urea?
+1086	Because the cause is not nitrogen. Young-leaf yellowing usually means sulphur, iron, zinc or manganese; old-leaf yellowing between green veins usually means magnesium.
+1087	Does NPK 19:19:19 contain micronutrients?
+1088	Standard NPK water-soluble grades are made for nitrogen, phosphorus and potassium. Check the label for any micronutrients added.
+1089	Why More Urea Does Not Fix Yellow Leaves | GBO
+### /micronutrients/guides/why-pesticide-spray-wont-fix-a-nutrient-problem
+1090	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/guides">Blogs</a> / Why a pesticide spray will not fix a nutrient...
+1091	Why a pesticide spray will not fix a nutrient problem
+1092	When a crop turns pale, curls or drops flowers, a common habit is to spray a pesticide or fungicide in case a pest is behind it. If the real cause is a nutrient shortage, the spray cannot fix it: it costs money, adds residue, kills helpful insects and delays the right action. Check for pests first; if there are none, look at the leaves for nutrient patterns and test the soil.
+1093	<a href="#s0">Why it happens</a>
+1094	<a href="#s1">What an unneeded spray costs</a>
+1095	<a href="#s2">Check this before you spray</a>
+1096	<a href="#s3">When both are true</a>
+1097	Weak plants look like a pest problem.
+1098	Sprays are easy to buy and quick to apply.
+1099	Pest damage and nutrient shortage can look alike: curling, yellowing, spots and drop.
+1100	What an unneeded spray costs
+1101	Money for the product and the labour.
+1102	Residue on the crop and in the soil.
+1103	Loss of helpful insects such as pollinators and natural enemies of pests.
+1104	Pests that become harder to control when sprays are overused.
+1105	Time lost while the real cause keeps cutting yield.
+1106	Check this before you spray
+1107	Look for the pest itself: check the underside of leaves, shoots and fruit with a hand lens.
+1108	Look for droppings, webbing, holes or eggs.
+1109	Check whether the symptom follows a nutrient pattern: old or young leaves, between veins, tips.
+1110	Use our <a href="/micronutrients/deficiency-symptoms">symptom guide</a> and test the soil.
+1111	Ask before you spray: send us a photo on WhatsApp.
+1112	When both are true
+1113	A nutrient-short crop is weaker and attracts some pests, so both can happen together. Fix the nutrition and control the pest only when scouting shows it is there. A balanced crop usually needs fewer sprays.
+1114	Can a fungicide cure yellow leaves?
+1115	Only if a fungus is the cause. Yellowing from nutrient shortage needs the nutrient, not a fungicide.
+1116	How do I know whether it is a pest or a deficiency?
+1117	Look for the pest and its damage. Nutrient problems follow leaf patterns, often across the field; pest damage shows the insect, its droppings or bite marks.
+1118	Why a Pesticide Spray Won't Fix a Nutrient Problem | GBO
+### /micronutrients/how-to-diagnose-and-correct
+1119	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / How to diagnose and correct micronutrient...
+1120	How to diagnose and correct micronutrient deficiency
+1121	Find the problem before you spray: observe where and how the symptom appears, rule out pests, disease and water, and confirm with a soil or leaf test. Then correct the cause, choose soil, foliar or seed treatment as the situation needs, apply at the right stage, and build soil organic matter so the shortage does not keep coming back.
+1122	<a href="#s0">Step 1: observe</a>
+1123	<a href="#s1">Step 2: rule out other causes</a>
+1124	<a href="#s2">Step 3: test</a>
+1125	<a href="#s3">Step 4: fix the cause</a>
+1126	<a href="#s4">Step 5: choose the method</a>
+1127	<a href="#s5">Step 6: time it right</a>
+1128	<a href="#s6">Step 7: apply safely</a>
+1129	<a href="#s7">Step 8: build the soil</a>
+1130	Step 1: observe
+1131	Note which leaves show it, the pattern and colour.
+1132	Note where in the field: patches, low spots, edges, or everywhere.
+1133	Note the stage of the crop and recent weather, irrigation, fertilizer and sprays.
+1134	Use the <a href="/micronutrients/deficiency-symptoms">symptom guide</a>.
+1135	Step 2: rule out other causes
+1136	Check for pests and disease on both sides of the leaves and on the roots.
+1137	Check drainage and soil moisture.
+1138	Ask whether a herbicide or spray could have drifted.
+1139	Step 3: test
+1140	Get a soil test before the season; the Soil Health Card scheme tests sulphur, zinc, iron, manganese, copper and boron.
+1141	Use a leaf test for orchards and high-value crops.
+1142	See <a href="/guides/how-to-take-a-soil-sample">how to take a soil sample</a>.
+1143	Step 4: fix the cause
+1144	Correct drainage and over-irrigation.
+1145	Correct soil pH: lime for acid soils, gypsum for sodic soils, organic matter for all.
+1146	Balance phosphorus, potash and nitrogen to the soil test.
+1147	Step 5: choose the method
+1148	Method
+1149	Best for
+1150	Soil application
+1151	Building up a deficient field for the season
+1152	Can be locked up in alkaline soil; slower
+1153	Foliar spray
+1154	Quick correction of a standing crop; iron, manganese, zinc, boron
+1155	Short-lived; may need repeats; only new growth recovers
+1156	Seed treatment
+1157	Molybdenum, cobalt and zinc for some crops
+1158	Small amounts only
+1159	Fertigation
+1160	Drip-irrigated orchards and vegetables
+1161	Needs compatible, soluble products
+1162	Biofertilisers and organic matter
+1163	Freeing locked nutrients and keeping them available
+1164	Works over time
+1165	Step 6: time it right
+1166	Before or at sowing for soil application.
+1167	Before flowering for boron and zinc in fruit crops.
+1168	At early symptoms on new growth for foliar sprays.
+1169	Avoid spraying in hot midday sun.
+1170	Step 7: apply safely
+1171	Take the dose from the soil test report, the label or your agriculture officer.
+1172	Never double a dose; boron, copper, nickel and cobalt are harmful in excess.
+1173	Do not mix zinc sulphate with phosphate fertilizers in one bag.
+1174	Step 8: build the soil
+1175	Add farmyard manure, compost or green manure every season.
+1176	Return crop residues instead of burning them.
+1177	Rotate crops, including legumes.
+1178	Keep records and test every two to three years.
+1179	Should I spray micronutrients without a soil test?
+1180	A test avoids wasting money on nutrients that are not short and avoids the harm of excess. At least test before repeating a spray every season.
+1181	Is foliar or soil application better?
+1182	Foliar spray corrects a standing crop quickly. Soil application builds up a deficient field. Many fields need both, guided by a test.
+1183	How long does a correction last?
+1184	A foliar spray helps the growth that follows for a few weeks. Soil application can last a season or more, depending on the nutrient and the soil.
+1185	How to Diagnose and Correct Micronutrient Deficiency | GBO
+### /micronutrients/iron/iron-chlorosis-calcareous-soil
+1186	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/iron">Iron</a> / Iron chlorosis in calcareous soil: why iron...
+1187	Iron chlorosis in calcareous soil: why iron sulphate in the soil often fails
+1188	Calcareous soils hold plenty of iron, but the high pH and bicarbonate lock it into forms roots cannot use. Ferrous sulphate added to such soil is often locked up in the same way within days. Foliar sprays, iron chelates made for high pH soils, better drainage and more organic matter work better than adding more plain iron to the soil.
+1189	<a href="#s0">Why the soil iron is locked</a>
+1190	<a href="#s1">What works better</a>
+1191	<a href="#s2">What not to do</a>
+1192	Why the soil iron is locked
+1193	At high pH, iron turns into insoluble forms.
+1194	Bicarbonate in soil and irrigation water makes it harder for roots to take up iron.
+1195	Waterlogging and compaction make it worse.
+1196	What works better
+1197	Avoid over-irrigation and improve drainage.
+1198	Spray iron on the leaves, repeating as new leaves appear.
+1199	Use iron chelates designed to stay available at high pH for soil or drip use.
+1200	Add compost and organic manure to support root health and iron availability.
+1201	Ask your agriculture officer about varieties that tolerate calcareous soil.
+1202	What not to do
+1203	Do not keep adding plain ferrous sulphate to calcareous soil if it has not worked before.
+1204	Do not treat yellowing with more urea; nitrogen does not fix iron chlorosis.
+1205	See <a href="/micronutrients/guides/why-more-urea-does-not-fix-yellow-leaves">why more urea does not fix yellow leaves</a>.
+1206	The full <a href="/micronutrients/iron">iron guide</a>.
+1207	<a href="/micronutrients/iron/iron-deficiency-symptoms-in-crops">Iron deficiency symptoms crop by crop</a>.
+1208	<a href="/micronutrients/iron">Iron guide</a>
+1209	Iron is a micronutrient the crop needs to make chlorophyll and to run photosynthesis and respiration. An iron-short crop shows yellow young...
+1210	What is lime-induced chlorosis?
+1211	Yellowing of young leaves caused by iron becoming unavailable in soils with free lime and high pH.
+1212	Which iron chelate works in alkaline soil?
+1213	Chelates made for high pH soil hold iron available longer. Ask for one labelled for alkaline or calcareous soil.
+1214	Iron Chlorosis in Calcareous Soil: Why Soil Iron Often Fails
+### /micronutrients/iron/iron-deficiency-symptoms-in-crops
+1215	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/iron">Iron</a> / Iron deficiency symptoms crop by crop
+1216	Iron deficiency symptoms crop by crop
+1217	Iron deficiency shows on the youngest leaves first: a yellow leaf with a fine net of green veins, turning white in severe cases, while the older leaves stay green. It is most common on calcareous soils and in wet patches, and is often seen in groundnut, sugarcane ratoons, citrus and grapes.
+1218	<a href="#s1">How to tell iron from other yellowing</a>
+1219	Sorghum and maize
+1220	Yellow stripes between the veins of the whole young leaf.
+1221	Chickpea and soybean
+1222	Yellow young leaves and weak nodules on high pH soils.
+1223	Uniform yellowing of young leaves on alkaline soils.
+1224	How to tell iron from other yellowing
+1225	Young leaves yellow, fine green vein net, leaf size normal
+1226	Young leaves pale and small, narrow, bunched
+1227	Old leaves yellow from the tip, whole leaf
+1228	Old leaves yellow between veins, veins green
+1229	Young leaves uniformly pale yellow, including veins
+1230	After heavy irrigation or rain.
+1231	In ratoon sugarcane and in orchards on calcareous soil.
+1232	In cold weather early in the season.
+1233	Read the full <a href="/micronutrients/iron">iron guide</a> for causes and correction.
+1234	What does iron deficiency look like in groundnut?
+1235	What does iron deficiency look like in sugarcane?
+1236	What does iron deficiency look like in citrus?
+1237	Iron Deficiency Symptoms in Groundnut, Sugarcane, Citrus | GBO
+### /micronutrients/magnesium/magnesium-deficiency-symptoms-in-crops
+1238	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/magnesium">Magnesium</a> / Magnesium deficiency symptoms crop by crop
+1239	Magnesium deficiency symptoms crop by crop
+1240	Magnesium shortage shows on the oldest leaves first: yellowing between green veins, often with red or purple tints, brittle leaves and early leaf drop. Cotton turns red during boll development, citrus shows a yellow wedge at the leaf base and banana a yellow band along the leaf edge.
+1241	<a href="#s1">How to tell it apart</a>
+1242	Small yellow spots on older leaves that turn brown and rusty.
+1243	Yellowing of older fronds with a green centre, in leached soils.
+1244	Yellowing between veins of lower leaves, often during fruiting.
+1245	How to tell it apart
+1246	What you see on old leaves
+1247	Yellow between veins, veins green, reddish tints
+1248	Whole leaf pale, from the tip down the midrib
+1249	Edges scorched and brown, centre green
+1250	Potassium
+1251	Young leaves yellow, old ones green
+1252	Iron or sulphur
+1253	During heavy fruiting and boll or tuber filling.
+1254	After heavy potash doses.
+1255	On sandy soils after heavy rain.
+1256	Read the full <a href="/micronutrients/magnesium">magnesium guide</a> for causes and correction.
+1257	<a href="/micronutrients/magnesium">Magnesium guide</a>
+1258	Magnesium is a secondary nutrient at the centre of every chlorophyll molecule. The crop also needs it to make and use energy and to move...
+1259	What does magnesium deficiency look like in cotton?
+1260	What does magnesium deficiency look like in grapes?
+1261	What does magnesium deficiency look like in citrus?
+1262	Magnesium Deficiency Symptoms: Cotton, Citrus, Banana | GBO
+### /micronutrients/magnesium/potash-magnesium-calcium-balance
+1263	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/magnesium">Magnesium</a> / Potash, magnesium and calcium: the balance that...
+1264	Potash, magnesium and calcium: the balance that decides leaf colour
+1265	Potassium, magnesium and calcium are taken up through the same doors in the root, so too much of one shuts out the others. Heavy potash brings on magnesium shortage, and an imbalance between magnesium and calcium can show symptoms that are treated with the wrong nutrient. A soil test that shows all three together is the way to see the balance.
+1266	<a href="#s0">How the competition works</a>
+1267	<a href="#s1">When the wrong nutrient gets the blame</a>
+1268	<a href="#s2">What to do</a>
+1269	How the competition works
+1270	Potassium, magnesium and calcium are all positively charged and compete for uptake.
+1271	Heavy potash or ammonium lowers magnesium and calcium uptake.
+1272	Heavy lime or calcium lowers magnesium and potassium uptake.
+1273	When the wrong nutrient gets the blame
+1274	A crop can show calcium-type fruit problems when the real limit is magnesium balance or water movement.
+1275	Spraying calcium again and again then does not solve it.
+1276	Testing all three nutrients together shows which one is out of balance.
+1277	What to do
+1278	Test exchangeable potassium, magnesium and calcium together.
+1279	Apply potash to the test, not by habit.
+1280	Add magnesium where it is short, especially on heavily potash-fed crops.
+1281	Keep watering steady so calcium can move.
+1282	The full <a href="/micronutrients/magnesium">magnesium guide</a>.
+1283	<a href="/micronutrients/magnesium/magnesium-deficiency-symptoms-in-crops">Magnesium deficiency symptoms crop by crop</a>.
+1284	Should I cut potash if magnesium is short?
+1285	Not below what the crop needs. Add magnesium so the two are in balance.
+1286	Which test shows the balance?
+1287	A soil test that reports exchangeable potassium, magnesium and calcium, and a leaf test if the problem continues.
+1288	Potash, Magnesium and Calcium: the Balance Behind Leaf Colour
+### /micronutrients/manganese/manganese-deficiency-symptoms-in-crops
+1289	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/manganese">Manganese</a> / Manganese deficiency symptoms crop by crop
+1290	Manganese deficiency symptoms crop by crop
+1291	Manganese deficiency shows on young and middle leaves as pale areas between the veins, with broad green bands along the veins and often small grey or brown spots. Wheat on light soils after paddy, citrus on alkaline soils and sugarcane on calcareous soils are commonly affected.
+1292	Pale, short plants on highly alkaline, low organic matter soils.
+1293	Leaves affected
+1294	Pattern
+1295	Young and middle
+1296	Pale between veins, broad green bands, small spots
+1297	Youngest
+1298	Yellow with a fine green vein net, no spots
+1299	Oldest
+1300	Yellow between veins, often reddish tints
+1301	Young
+1302	Small, narrow, bunched leaves
+1303	Four to eight weeks after sowing wheat on light soils.
+1304	On new flushes of citrus.
+1305	During cool, dry weather.
+1306	Read the full <a href="/micronutrients/manganese">manganese guide</a> for causes and correction.
+1307	<a href="/micronutrients/manganese">Manganese guide</a>
+1308	Manganese is a micronutrient the crop needs to split water in photosynthesis, to switch on enzymes and to build lignin, which strengthens...
+1309	What does manganese deficiency look like in wheat?
+1310	What does manganese deficiency look like in citrus?
+1311	What does manganese deficiency look like in sugarcane?
+1312	Manganese Deficiency Symptoms in Wheat, Citrus, Sugarcane | GBO
+### /micronutrients/manganese/manganese-deficiency-wheat-after-paddy
+1313	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/manganese">Manganese</a> / Manganese deficiency in wheat after paddy
+1314	Manganese deficiency in wheat after paddy
+1315	In a paddy field, flooding dissolves manganese and some of it moves down out of the root zone. When the soil dries for wheat, the manganese that remains turns into forms the roots cannot use. On light, sandy and alkaline soils this leaves wheat short of manganese, seen as pale striped leaves with grey specks. Foliar manganese is the usual correction.
+1316	Why rice-wheat fields are at risk
+1317	Years of flooding move manganese down the soil.
+1318	Light soils hold little to begin with.
+1319	Dry, well-aerated soil in winter keeps it locked.
+1320	Watch the crop from about the first irrigation onward.
+1321	Spray manganese on the leaves at the first signs; repeat if new leaves show it.
+1322	Keep crop residues and organic matter in the soil rather than burning them.
+1323	Test the soil to know which fields are short.
+1324	The full <a href="/micronutrients/manganese">manganese guide</a>.
+1325	<a href="/micronutrients/manganese/manganese-deficiency-symptoms-in-crops">Manganese deficiency symptoms crop by crop</a>.
+1326	Does burning paddy straw affect manganese?
+1327	Burning removes organic matter that helps keep nutrients available. Returning residues to the soil is better for soil health.
+1328	Will more urea fix it?
+1329	No. Nitrogen does not correct manganese shortage.
+1330	Manganese Deficiency in Wheat After Paddy: Causes and Fixes
+### /micronutrients/molybdenum/molybdenum-deficiency-symptoms-in-crops
+1331	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/molybdenum">Molybdenum</a> / Molybdenum deficiency symptoms crop by crop
+1332	Molybdenum deficiency symptoms crop by crop
+1333	Molybdenum deficiency looks like nitrogen shortage: pale older leaves that do not respond to urea, scorched or cupped leaf edges, and in legumes few, pale nodules. In cauliflower it causes whiptail, narrow strap-like leaves. It is most common on acid soils.
+1334	<a href="#s1">Check the nodules</a>
+1335	<a href="#s2">Look-alikes</a>
+1336	Check the nodules
+1337	Dig up a few plants carefully at flowering.
+1338	Healthy nodules are many, firm and pink or red inside.
+1339	Few, small, white or green nodules point to a nodulation problem, which molybdenum shortage can cause.
+1340	Nitrogen shortage: improves with urea, molybdenum shortage does not.
+1341	Waterlogging: roots and nodules rot and smell.
+1342	Sulphur shortage: yellows the young leaves rather than the old.
+1343	Read the full <a href="/micronutrients/molybdenum">molybdenum guide</a> for causes and correction.
+1344	<a href="/micronutrients/molybdenum">Molybdenum guide</a>
+1345	Molybdenum is a micronutrient the crop needs in very small amounts to turn nitrate into protein and, in legumes, for the nodule bacteria to...
+1346	What does molybdenum deficiency look like in pulses?
+1347	What does molybdenum deficiency look like in soybean and groundnut?
+1348	What does molybdenum deficiency look like in cauliflower and cabbage?
+1349	Molybdenum Deficiency Symptoms in Pulses and Cauliflower | GBO
+### /micronutrients/molybdenum/molybdenum-legumes-nodules
+1350	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/molybdenum">Molybdenum</a> / Molybdenum and legumes: nodules, nitrogen and...
+1351	Molybdenum and legumes: nodules, nitrogen and seed treatment
+1352	Legumes get much of their nitrogen from the air through bacteria living in root nodules. The enzyme those bacteria use contains molybdenum, so without it the nodules cannot fix nitrogen and the crop goes pale. Because only a tiny amount is needed, treating the seed with a molybdenum salt together with Rhizobium culture is the cheapest way to supply it.
+1353	<a href="#s0">Why legumes need more</a>
+1354	<a href="#s1">Seed treatment</a>
+1355	<a href="#s2">Acid soils</a>
+1356	Why legumes need more
+1357	Nitrogen fixation in nodules depends on a molybdenum enzyme.
+1358	The plant also needs molybdenum to use any nitrate it takes from the soil.
+1359	Cobalt is also needed by the nodule bacteria; see the cobalt page.
+1360	Treat seed with Rhizobium culture for the crop.
+1361	Add molybdenum as advised for your soil.
+1362	Dry in shade and sow soon after treatment.
+1363	Avoid mixing with fungicide seed treatments unless the label allows it.
+1364	Acid soils
+1365	Molybdenum is least available at low pH.
+1366	Liming acid soils often solves it without extra molybdenum.
+1367	The full <a href="/micronutrients/molybdenum">molybdenum guide</a>.
+1368	<a href="/micronutrients/molybdenum/molybdenum-deficiency-symptoms-in-crops">Molybdenum deficiency symptoms crop by crop</a>.
+1369	Can molybdenum be mixed with Rhizobium culture?
+1370	Many growers treat seed with both. Follow the labels of both products and your agriculture officer's advice.
+1371	Do non-legumes need molybdenum?
+1372	Yes, in small amounts, to use nitrate. Cauliflower and cabbage are especially sensitive.
+1373	Molybdenum and Legumes: Nodules, Nitrogen and Seed Treatment
+### /micronutrients/nickel/nickel-and-urea
+1374	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/nickel">Nickel</a> / Nickel and urea: why plants need nickel to use...
+1375	Nickel and urea: why plants need nickel to use urea
+1376	Urea is India's main nitrogen fertilizer. Most of it turns into ammonium and nitrate in the soil, but some urea enters the plant directly, especially from foliar sprays. The plant breaks this urea down with urease, an enzyme that contains nickel. With too little nickel, urea builds up and burns leaf tips, and nitrogen is wasted.
+1377	In the soil and in the plant
+1378	Soil microbes also use urease to turn urea into ammonium.
+1379	Inside the plant, the plant's own urease needs nickel.
+1380	Foliar urea sprays rely on the plant's urease.
+1381	What this means for growers
+1382	Most fields have enough nickel.
+1383	Balanced feeding matters more than adding nickel.
+1384	If urea sprays burn leaf tips at normal strength, ask for a leaf test.
+1385	The full <a href="/micronutrients/nickel">nickel guide</a>.
+1386	<a href="/micronutrients/nickel/nickel-deficiency-symptoms">Nickel deficiency symptoms: mouse-ear and leaf tip burn</a>.
+1387	<a href="/micronutrients/nickel">Nickel guide</a>
+1388	Nickel is the micronutrient the plant needs in the smallest amount. It is part of urease, the enzyme that breaks down urea inside the...
+1389	Does nickel make urea work better?
+1390	Only where nickel is short. In most fields it is already enough.
+1391	Is nickel safe to apply?
+1392	Only in tiny amounts where a test shows shortage. Excess nickel is toxic.
+1393	Nickel and Urea: Why Plants Need Nickel to Use Urea
+### /micronutrients/nickel/nickel-deficiency-symptoms
+1394	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/nickel">Nickel</a> / Nickel deficiency symptoms: mouse-ear and leaf...
+1395	Nickel deficiency symptoms: mouse-ear and leaf tip burn
+1396	Nickel deficiency is rare in the field. Where it happens, leaf tips burn because urea is not broken down, new leaves at shoot tips grow small and rounded (mouse-ear), and seeds germinate poorly. Because it is rare and excess is toxic, confirm it with a leaf test before treating.
+1397	Urea spray burn from too strong a spray: shows within a day or two on the whole sprayed area.
+1398	Boron excess: burns leaf edges of older leaves.
+1399	Salt damage: burns tips and edges on saline water.
+1400	Rule out the common causes first.
+1401	Test a leaf sample at a lab that tests trace elements.
+1402	Treat only if confirmed.
+1403	Read the full <a href="/micronutrients/nickel">nickel guide</a> for causes and correction.
+1404	What does nickel deficiency look like in legumes?
+1405	What does nickel deficiency look like in cereals?
+1406	What does nickel deficiency look like in tree crops?
+1407	Nickel Deficiency Symptoms: Mouse-Ear and Leaf Tip Burn | GBO
+### /micronutrients/nutrient-interactions
+1408	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / When several nutrients are short: interactions...
+1409	When several nutrients are short: interactions and why one fix fails
+1410	Nutrients do not act alone. Some compete for uptake, some need each other to work, and soil pH changes which ones are available. That is why a field can show one deficiency while the real limit is another: a calcium-type fruit problem may really be magnesium balance, boron or irregular watering, and spraying calcium does not fix it. Testing several nutrients together shows the real cause.
+1411	<a href="#s0">Nutrients that compete</a>
+1412	<a href="#s1">Nutrients that need each other</a>
+1413	<a href="#s2">Why the visible symptom misleads</a>
+1414	<a href="#s3">A better way to diagnose</a>
+1415	Nutrients that compete
+1416	When this is high
+1417	This can run short
+1418	Common situation
+1419	Phosphorus
+1420	<a href="/micronutrients/zinc">Zinc</a>, iron
+1421	Years of heavy DAP
+1422	<a href="/micronutrients/magnesium">Magnesium</a>, <a href="/micronutrients/calcium">calcium</a>
+1423	Heavy potash on fruit and vegetables
+1424	Calcium and lime (high pH)
+1425	Iron, zinc, manganese, boron, magnesium
+1426	Calcareous soils of Gujarat and the Deccan
+1427	Ammonium nitrogen
+1428	Calcium, magnesium, potassium
+1429	Heavy urea and ammonium fertilizers
+1430	<a href="/micronutrients/manganese">Manganese</a>, zinc
+1431	Heavy iron sprays
+1432	Iron, copper
+1433	Repeated heavy zinc
+1434	Iron, zinc
+1435	Orchards sprayed often with copper
+1436	Sulphate
+1437	Heavy sulphate on acid soils
+1438	Sodium and chloride
+1439	Potassium, calcium, nitrate
+1440	Saline water and soils
+1441	Nutrients that need each other
+1442	Nitrogen needs sulphur to become protein; without sulphur, nitrogen is wasted.
+1443	Calcium needs boron to build cell walls; boron shortage can look like calcium shortage.
+1444	Magnesium helps the plant take up and move phosphorus.
+1445	Molybdenum and cobalt are needed for legumes to fix nitrogen.
+1446	Zinc is needed for the plant to make the growth hormone that uses the other nutrients well.
+1447	Why the visible symptom misleads
+1448	A plant shows the symptom of whatever is most limiting at that moment, in the part of the plant that suffers first. Calcium-type fruit disorders can appear on calcium-rich soil because water supply, excess potash or ammonium, magnesium imbalance or boron shortage stop calcium from reaching or working in the fruit. Spraying calcium again and again then does not solve the problem. The same happens with iron chlorosis on lime-rich soil, where adding iron to the soil does not help because the cause is high pH and poor drainage.
+1449	In Indian soils several shortages often come together. The ICAR soil survey found sulphur with zinc, zinc with boron, and sulphur with boron among the most common pairs, and fields with three or more shortages too.
+1450	A better way to diagnose
+1451	Test the soil for pH, organic carbon, NPK, sulphur and micronutrients together, and for calcium, magnesium and potassium balance where fruit disorders appear.
+1452	Add a leaf test for orchards and high-value crops.
+1453	Look at the history: fertilizer doses, sprays, irrigation and weather.
+1454	Correct the cause, such as pH, drainage, water supply or imbalance, before adding more of the visible nutrient.
+1455	Read <a href="/micronutrients/how-to-diagnose-and-correct">how to diagnose and correct micronutrient problems</a>.
+1456	Why did calcium spray not cure the fruit problem?
+1457	Often because the cause was not calcium in the soil but magnesium imbalance, boron shortage, excess potash or irregular watering. Fix the cause and the calcium already present can do its job.
+1458	Can too much of one fertilizer cause another deficiency?
+1459	Yes. Heavy phosphorus can cause zinc shortage, heavy potash can cause magnesium shortage, and heavy lime can cause iron and zinc shortage.
+1460	Which test shows nutrient balance?
+1461	A soil test covering pH, sulphur, micronutrients and exchangeable calcium, magnesium and potassium, with a leaf test for orchards.
+1462	Nutrient Interactions: Why Treating One Deficiency Fails | GBO
+### /micronutrients/silicon/silicon-deficiency-signs
+1463	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/silicon">Silicon</a> / Silicon deficiency signs: lodging, droopy...
+1464	Silicon deficiency signs: lodging, droopy leaves and disease
+1465	Silicon shortage rarely shows a clear colour sign. Instead, crops have soft, droopy leaves, weak stems that lodge, and more pest and disease damage, especially blast and stem borer in rice. It is most likely in intensively cropped rice and sugarcane fields where straw and trash are burnt or removed.
+1466	<a href="#s1">Why it is easy to miss</a>
+1467	<a href="#s2">What to watch</a>
+1468	Why it is easy to miss
+1469	There is no yellowing pattern.
+1470	Lodging and disease are blamed on weather and pests alone.
+1471	The effect builds up over seasons as residue is removed.
+1472	What to watch
+1473	Lodging before harvest.
+1474	Blast and brown spot in rice.
+1475	Borer damage in rice and sugarcane.
+1476	Leaves that hang down instead of standing up.
+1477	Read the full <a href="/micronutrients/silicon">silicon guide</a> for causes and correction.
+1478	<a href="/micronutrients/silicon">Silicon guide</a>
+1479	Silicon is a beneficial element: not essential for all plants, but strongly useful for rice, sugarcane, wheat and many other crops. Plants...
+1480	What does silicon deficiency look like in paddy?
+1481	What does silicon deficiency look like in sugarcane?
+1482	What does silicon deficiency look like in wheat?
+1483	Silicon Deficiency Signs: Lodging, Droopy Leaves, Disease | GBO
+### /micronutrients/silicon/silicon-rice-sugarcane
+1484	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/silicon">Silicon</a> / Silicon in rice and sugarcane: stronger stems...
+1485	Silicon in rice and sugarcane: stronger stems and fewer pest and disease problems
+1486	Rice and sugarcane take up more silicon than almost any other nutrient. They lay it down in their leaves and stems, which become stronger, stand more upright and resist stem borers, planthoppers and fungal diseases. When straw, husk and trash are burnt or carried away, that silicon leaves the field. Returning residues and using silicate sources keeps it in balance.
+1487	What silicon does in these crops
+1488	Stiffer stems, less lodging.
+1489	Upright leaves that catch more light.
+1490	Harder tissue against borers and planthoppers.
+1491	Less blast and brown spot in rice.
+1492	Better tolerance to drought and salt.
+1493	Keeping silicon in the field
+1494	Do not burn straw or trash; incorporate or compost it.
+1495	Use rice husk and husk ash where available.
+1496	Use silicate sources or soluble silicon sprays as advised.
+1497	The full <a href="/micronutrients/silicon">silicon guide</a>.
+1498	<a href="/micronutrients/silicon/silicon-deficiency-signs">Silicon deficiency signs: lodging, droopy leaves and disease</a>.
+1499	Does burning sugarcane trash remove silicon?
+1500	Burning or carrying away trash and straw removes the silicon they hold from the field and damages soil organic matter.
+1501	Will silicon replace pesticides?
+1502	No. It strengthens the crop's own defences, which can reduce pest and disease pressure. Pest control still follows field scouting.
+1503	Silicon in Rice and Sugarcane: Stronger Stems, Fewer Pests
+### /micronutrients/sulphur/sulphur-deficiency-symptoms-in-crops
+1504	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/sulphur">Sulphur</a> / Sulphur deficiency symptoms crop by crop
+1505	Sulphur deficiency symptoms crop by crop
+1506	Sulphur shortage turns young leaves pale yellow, including the veins, and makes plants thin and upright. Mustard shows cupped pale leaves and poor pods, groundnut and soybean show pale leaves and weak nodules, and onion makes small, mild bulbs. Unlike nitrogen shortage, it starts on the young leaves.
+1507	<a href="#s1">Sulphur or nitrogen?</a>
+1508	Pale young leaves and thin canes.
+1509	Yellow new leaves (tea yellows) on sulphur-poor soils.
+1510	Sulphur or nitrogen?
+1511	Leaves first affected
+1512	Old
+1513	Veins
+1514	Also yellow
+1515	Yellow along the midrib
+1516	Response to urea
+1517	Little or none
+1518	Greens up
+1519	Early growth of oilseeds and pulses.
+1520	On fields fed only urea, DAP and MOP for years.
+1521	Read the full <a href="/micronutrients/sulphur">sulphur guide</a> for causes and correction.
+1522	<a href="/micronutrients/sulphur">Sulphur guide</a>
+1523	Sulphur is a secondary nutrient the crop needs to build proteins, to make oil in oilseeds, to form chlorophyll and to use nitrogen well. A...
+1524	What does sulphur deficiency look like in mustard and rapeseed?
+1525	What does sulphur deficiency look like in groundnut and soybean?
+1526	What does sulphur deficiency look like in pulses?
+1527	Sulphur Deficiency Symptoms: Mustard, Groundnut, Onion | GBO
+### /micronutrients/sulphur/sulphur-oilseeds-pulses
+1528	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/sulphur">Sulphur</a> / Sulphur for oilseeds and pulses: oil, protein...
+1529	Sulphur for oilseeds and pulses: oil, protein and the urea-DAP gap
+1530	Oilseeds need sulphur to make oil and pulses need it to make protein and fix nitrogen. Fields fed for years with urea, DAP and MOP, which carry no sulphur, often run short. Gypsum, single superphosphate, ammonium sulphate, bentonite sulphur and manure all supply it.
+1531	<a href="#s0">Why the gap opened</a>
+1532	<a href="#s1">Sulphur sources compared</a>
+1533	Why the gap opened
+1534	High-analysis fertilizers without sulphur replaced older sulphur-carrying ones.
+1535	Less farmyard manure is used.
+1536	Higher yields remove more sulphur each season.
+1537	Sulphur sources compared
+1538	Source
+1539	Also supplies
+1540	Notes
+1541	Gypsum
+1542	Suits most soils; also used for groundnut at pegging
+1543	Single superphosphate
+1544	Phosphorus, calcium
+1545	Can replace part of DAP where sulphur is short
+1546	Ammonium sulphate
+1547	Acidifying; suits alkaline soils
+1548	Bentonite or elemental sulphur
+1549	Nothing else
+1550	Slow release; lowers pH a little
+1551	Manure and compost
+1552	Many nutrients
+1553	Builds soil over time
+1554	Test the soil for available sulphur.
+1555	Choose a source that fits the rest of your fertilizer plan.
+1556	Apply at or before sowing for oilseeds and pulses.
+1557	The full <a href="/micronutrients/sulphur">sulphur guide</a>.
+1558	<a href="/micronutrients/sulphur/sulphur-deficiency-symptoms-in-crops">Sulphur deficiency symptoms crop by crop</a>.
+1559	Does sulphur increase oil content?
+1560	Sulphur is needed for oil formation, so correcting a shortage helps the crop make oil. Results vary with soil and season.
+1561	Can I use SSP instead of DAP?
+1562	SSP supplies phosphorus with sulphur and calcium. Ask your agriculture officer how to balance it for your crop.
+1563	Sulphur for Oilseeds and Pulses: Oil, Protein and the Urea Gap
+### /micronutrients/zinc/zinc-and-phosphorus-dap
+1564	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/zinc">Zinc</a> / Zinc and phosphorus: why heavy DAP can cause...
+1565	Zinc and phosphorus: why heavy DAP can cause zinc deficiency
+1566	Phosphorus and zinc compete. When a field gets heavy phosphate year after year, the crop can take up less zinc, and the soil's zinc becomes less available, especially in alkaline soils. The answer is not less phosphorus where the crop needs it, but balanced feeding: phosphorus by soil test, and zinc applied where the test shows it is short.
+1567	<a href="#s1">Signs in a DAP-heavy field</a>
+1568	High phosphate in the soil can bind zinc into forms roots cannot use.
+1569	Inside the plant, very high phosphorus can reduce the zinc that reaches new leaves.
+1570	Alkaline, calcareous soils make the problem worse.
+1571	Signs in a DAP-heavy field
+1572	Good early colour but small, narrow new leaves.
+1573	Patchy growth even with plenty of NPK.
+1574	Yields that stopped rising though fertilizer use keeps rising.
+1575	Test the soil and apply phosphorus to the test, not by habit.
+1576	Apply zinc separately from phosphate fertilizers, not mixed in the same bag.
+1577	Use foliar zinc on the standing crop if new growth shows shortage.
+1578	Build organic matter, which keeps both phosphorus and zinc available.
+1579	Read <a href="/micronutrients/nutrient-interactions">how nutrients block each other</a>.
+1580	The full <a href="/micronutrients/zinc">zinc guide</a>.
+1581	<a href="/micronutrients/zinc/zinc-deficiency-symptoms-in-crops">Zinc deficiency symptoms crop by crop</a>.
+1582	<a href="/micronutrients/zinc">Zinc guide</a>
+1583	Zinc is a micronutrient the crop needs for its growth hormone (auxin), for more than a hundred enzymes, for chlorophyll and for healthy...
+1584	Does DAP contain zinc?
+1585	Standard DAP does not. Some fortified fertilizers carry zinc; check the bag.
+1586	Should I stop using DAP?
+1587	No. Apply phosphorus to the soil test and add zinc where the test shows it is short.
+1588	Zinc and Phosphorus: Why Heavy DAP Can Cause Zinc Deficiency
+### /micronutrients/zinc/zinc-deficiency-symptoms-in-crops
+1589	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / <a href="/micronutrients/zinc">Zinc</a> / Zinc deficiency symptoms crop by crop
+1590	Zinc deficiency symptoms crop by crop
+1591	Zinc deficiency looks different in each crop, but the common thread is the young growth: small, narrow, pale leaves, short internodes and stunted plants. In paddy it shows as rusty brown spots after transplanting, in maize as a pale band beside the midrib, and in citrus as yellow mottling with small pointed leaves.
+1592	<a href="#s1">Look-alikes to rule out</a>
+1593	Pale stripes on young leaves, short internodes and poor tillering in calcareous soils.
+1594	Narrow, pointed, pale young leaves, sometimes with a reddish tinge underneath.
+1595	Little leaf and rosetting of new flushes, weak flowering.
+1596	Groundnut and pulses
+1597	Pale young leaves, short plants and poor pod filling.
+1598	Look-alikes to rule out
+1599	Iron shortage also yellows young leaves, but the leaf keeps its normal size.
+1600	Leaf curl virus and sucking pests also make small, curled young leaves; check the leaf underside for insects.
+1601	Herbicide drift distorts leaves suddenly over a patch or along the field edge.
+1602	Waterlogging and cold weather cause general paleness that clears when the weather does.
+1603	Two to six weeks after sowing or transplanting, when roots are small.
+1604	On new flushes of fruit trees.
+1605	After cold, wet spells early in the season.
+1606	Read the full <a href="/micronutrients/zinc">zinc guide</a> for causes and correction.
+1607	What does zinc deficiency look like in paddy?
+1608	What does zinc deficiency look like in maize?
+1609	What does zinc deficiency look like in wheat?
+1610	Zinc Deficiency Symptoms in Paddy, Wheat, Maize and Citrus | GBO

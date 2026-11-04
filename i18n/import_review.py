@@ -3,14 +3,14 @@
 # Usage: python3 i18n/import_review.py <file> [<file> ...]   then: python3 i18n/merge.py && python3 build.py
 import csv, json, os, re, sys
 ROOT = os.path.dirname(os.path.abspath(__file__))
-KEYS = {t: json.load(open(os.path.join(ROOT, f"src{t}.json"), encoding="utf-8")) for t in ("1", "2")}
+KEYS = {t: json.load(open(os.path.join(ROOT, f"src{t}.json"), encoding="utf-8")) for t in ("1", "2", "3")}
 TAGS = lambda s: sorted(re.findall(r"<[^>]+>", s))
 KEEP = ["Immunity", "WhatsApp"]
 for f in sys.argv[1:]:
     name = os.path.basename(f).lower()
     lang = "gu" if name.startswith("guj") else "hi" if name.startswith("hin") else None
     if not lang: print("skip (name must start with gujarati or hindi):", f); continue
-    tag = "2" if "micro" in name else "1"; keys = KEYS[tag]   # *_micro_partNN files = micronutrient pages
+    tag = "3" if "core" in name else "2" if "micro" in name else "1"; keys = KEYS[tag]   # *_micro_ = micronutrient pages, *_core_ = remaining pages
     part = re.search(r"part(\d+)", name); part = part.group(1) if part else "x"
     d = json.load(open(os.path.join(ROOT, f"{lang}.json"), encoding="utf-8"))
     ok, changed, bad = [], 0, []

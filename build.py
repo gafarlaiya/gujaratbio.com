@@ -182,8 +182,9 @@ JS = ("document.querySelector('.menu-btn')?.addEventListener('click',function(){
       "var go=function(){location.href='https://wa.me/919978791167?text='+encodeURIComponent(m)};var t=setTimeout(go,1500);save(d).then(function(){clearTimeout(t);go()},function(){clearTimeout(t);go()})})}"
       "var C=document.getElementById('calc');if(C){C.addEventListener('input',calc);calc()}"
       "function calc(){var g=function(i){return Math.max(0,parseFloat(document.getElementById(i).value)||0)},N=g('cn'),P=g('cp'),K=g('ck'),A=g('ca')||1,src=document.getElementById('cs').value,o=[];"
-      "if(src==='dap'){var dap=P/0.46,urea=Math.max(0,N-dap*0.18)/0.46;o=[['DAP (18-46-0)',dap,50],['Urea (46% N)',urea,45]]}else{o=[['SSP (16% P2O5)',P/0.16,50],['Urea (46% N)',N/0.46,45]]}"
-      "o.push(['MOP (60% K2O)',K/0.6,50]);document.getElementById('cout').innerHTML=o.map(function(x){var kg=x[1]*A;return '<tr><td>'+x[0]+'</td><td>'+kg.toFixed(1)+' kg</td><td>'+(kg/x[2]).toFixed(1)+' bags of '+x[2]+' kg</td></tr>'}).join('')}")
+      "var lg=document.documentElement.lang,U={gu:'યુરિયા',hi:'यूरिया'}[lg]||'Urea',B=function(n,s){return lg==='gu'?s+' kgની '+n+' થેલી':lg==='hi'?s+' kg के '+n+' बोरे':n+' bags of '+s+' kg'};"
+      "if(src==='dap'){var dap=P/0.46,urea=Math.max(0,N-dap*0.18)/0.46;o=[['DAP (18-46-0)',dap,50],[U+' (46% N)',urea,45]]}else{o=[['SSP (16% P2O5)',P/0.16,50],[U+' (46% N)',N/0.46,45]]}"
+      "o.push(['MOP (60% K2O)',K/0.6,50]);document.getElementById('cout').innerHTML=o.map(function(x){var kg=x[1]*A;return '<tr><td>'+x[0]+'</td><td>'+kg.toFixed(1)+' kg</td><td>'+B((kg/x[2]).toFixed(1),x[2])+'</td></tr>'}).join('')}")
 
 ORG = {"@context": "https://schema.org", "@type": "Organization", "@id": SITE + "/#org", "name": NAME, "legalName": "Gujarat Bio Organics Private Limited", "alternateName": ["Gujarat Bio Organics", "GBO"], "identifier": {"@type": "PropertyValue", "propertyID": "CIN", "value": CIN},
        "url": SITE + "/", "logo": SITE + "/assets/img/brand/gbo-logo.png", "foundingDate": "2006", "email": MAIL, "telephone": TEL, "sameAs": SOCIAL + [B2B + "/", "https://ganna.in/"],
