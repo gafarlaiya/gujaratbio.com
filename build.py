@@ -26,7 +26,7 @@ SOCIAL = ["https://www.facebook.com/gujaratbio", "https://www.youtube.com/@Gujar
 OWNER_LINE = f"This website is owned and maintained by {NAME.replace('Pvt. Ltd.', 'Private Limited')} (CIN {CIN}), Bhavnagar, Gujarat, India."
 RESULTS = "Results differ from farm to farm with soil, weather, crop and management. Farmer experiences on this site are their own reports, not a promise of results."
 
-for _f in ("content_products.py", "content_crops.py", "content_crops2.py", "content_knowledge.py", "content_series.py", "content_pages.py"):
+for _f in ("content_products.py", "content_crops.py", "content_crops2.py", "content_knowledge.py", "content_series.py", "content_pages.py", "content_micro_a.py", "content_micro_b.py", "content_micro_general.py"):
     exec(open(os.path.join(ROOT, _f), encoding="utf-8").read())
 SERIES = ["gravitropism-and-root-growth", "auxin-master-regulator-of-growth", "seaweed-extracts-and-plant-physiology", "humic-acid-and-root-zone-development",
           "protein-hydrolysates-and-nutrient-use-efficiency", "biostimulants-for-salinity-and-drought-stress"]
@@ -110,7 +110,7 @@ NAV = [("/", "Home", None),
        ("/crops", "Crops", [(f"/crops/{c['slug']}", c["name"]) for c in CRP]),
        ("/products", "Products", [(f"/products#{g}", t) for g, t, _ in GROUPS]),
        ("/farmer-stories", "Farmer Stories", None),
-       ("/knowledge", "Knowledge", [("/crop-problems", "Crop problems"), ("/knowledge/soil-health", "Soil health"), ("/knowledge/soil-fertility", "Soil fertility"),
+       ("/knowledge", "Knowledge", [("/micronutrients", "Micronutrients"), ("/crop-problems", "Crop problems"), ("/knowledge/soil-health", "Soil health"), ("/knowledge/soil-fertility", "Soil fertility"),
                                     ("/knowledge/sustainability", "Sustainability and the 5 Rs"), ("/guides", "Farming guides"), ("/articles", "Articles"), ("/knowledge/potato-fertilizer-schedule", "Potato fertilizer schedule"), ("/tools/fertilizer-dose-calculator", "Fertilizer dose calculator")]),
        ("/about", "About", [("/about", "About us"), ("/our-story", "Our story: since 2006"), ("/our-impact", "Our impact"), ("/quality", "Quality and approvals"), ("/factory-and-rd", "Factory and R&D")]),
        ("/dealers", "Dealers & Bulk", [("/dealers", "Become a dealer"), ("/bulk-buyers", "Bulk buyers"), ("/oem-private-label", "Need OEM or private label?"), ("/where-to-buy", "Where to buy")])]
@@ -138,7 +138,7 @@ def footer():
 <p><a href="{SOCIAL[0]}" rel="noopener">Facebook</a> &middot; <a href="{SOCIAL[1]}" rel="noopener">YouTube</a></p></div>
 <div><h2>Crops</h2><ul>{crops}<li><a href="/crops">All crops</a></li></ul></div>
 <div><h2>Immunity</h2><ul>{"".join(f'<li><a href="/products#{g}">{t}</a></li>' for g, t, _ in GROUPS)}<li><a href="/where-to-buy">Where to buy</a></li><li><a href="/enquiry">Send enquiry</a></li></ul></div>
-<div><h2>Company</h2><ul><li><a href="/about">About us</a></li><li><a href="/our-story">Our story</a></li><li><a href="/our-impact">Our impact</a></li><li><a href="/quality">Quality and approvals</a></li><li><a href="/farmer-stories">Farmer stories</a></li><li><a href="/knowledge">Knowledge</a></li><li><a href="/plant-science-series">Plant science series</a></li><li><a href="/dealers">Dealers</a></li><li><a href="/contact">Contact</a></li><li><a href="/privacy-policy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/shipping-and-returns">Shipping and returns</a></li><li><a href="{OLD_SITE}" rel="nofollow">Old website</a></li></ul><h2>Our websites</h2><ul><li><a href="{GANNA}/" rel="noopener">ganna.in: sugarcane (Gujarati)</a></li><li><a href="{B2B}/">b2b.gujaratbio.com: bulk, OEM, export</a></li><li><a href="/our-websites">All our websites</a></li></ul></div>
+<div><h2>Company</h2><ul><li><a href="/about">About us</a></li><li><a href="/our-story">Our story</a></li><li><a href="/our-impact">Our impact</a></li><li><a href="/quality">Quality and approvals</a></li><li><a href="/farmer-stories">Farmer stories</a></li><li><a href="/knowledge">Knowledge</a></li><li><a href="/micronutrients">Micronutrients</a></li><li><a href="/plant-science-series">Plant science series</a></li><li><a href="/dealers">Dealers</a></li><li><a href="/contact">Contact</a></li><li><a href="/privacy-policy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/shipping-and-returns">Shipping and returns</a></li><li><a href="{OLD_SITE}" rel="nofollow">Old website</a></li></ul><h2>Our websites</h2><ul><li><a href="{GANNA}/" rel="noopener">ganna.in: sugarcane (Gujarati)</a></li><li><a href="{B2B}/">b2b.gujaratbio.com: bulk, OEM, export</a></li><li><a href="/our-websites">All our websites</a></li></ul></div>
 </div><p class="note" style="color:#bfb3a5;margin-top:20px">{RESULTS}</p><p class="note" style="color:#bfb3a5">{OWNER_LINE} &copy; 2026 Gujarat Bio Organics Private Limited. All rights reserved. Immunity is a brand of {SHORT}. <a href="/about#this-website">About this website</a> &middot; <a href="/our-websites">Our websites</a></p></div></footer>
 <nav class="bar" aria-label="Quick contact"><a class="c" href="tel:{TEL}" data-ev="click_phone">Call</a><a class="w" href="{wa("Hello Gujarat Bio Organics, I need help with my crop.")}" data-ev="click_whatsapp">WhatsApp</a></nav>'''
 
@@ -317,6 +317,9 @@ for c in CROPS:
                 f'{media(f"crop-{c["slug"]}-problem-2.webp", f"Close-up photo of another {c["name"].lower()} problem: {c["problems"][1].lower()}")}'
                 f'{media(f"crop-{c["slug"]}-healthy.webp", f"Close-up photo of a healthy {c["name"].lower()} plant, roots or produce for comparison")}</div>',
                 f"Common {c['name'].lower()} problems", tint=True)
+    _mels = [e for e in ELEMENTS if c["slug"] in e["crop_links"]]
+    if _mels:
+        body += sec('<div class="prose"><p>Many weak-crop problems in ' + esc(c["name"].lower()) + ' trace back to a hidden nutrient shortage. These are the ones to check first:</p></div><div class="chips">' + "".join(f'<a href="/micronutrients/{e["slug"]}">{esc(e["name"].split(" (")[0])}</a>' for e in _mels) + '</div><p class="note" style="margin-top:12px"><a href="/micronutrients/deficiency-symptoms">How to read deficiency symptoms</a> &middot; <a href="/micronutrients">All micronutrients</a></p>', f"Micronutrients to watch in {c['name'].lower()}")
     body += sec(f'<div class="pbox"><div class="pshot">{pimg(p)}</div><div class="prose"><h3>{esc(p["name"])}</h3><p>{esc(p["line"])}</p>'
                 + (f'<p>{esc(p["story"])}</p>' if p["story"] else "") + f'<p><b>Packs:</b> {esc(", ".join(p["packs"]))}</p>'
                 f'<div class="btns"><a class="btn btn-leaf" href="/products/{p["slug"]}">See {esc(p["name"])}</a>{btn_enq("Send enquiry", "?crop=" + quote(c["name"]) + "&product=" + quote(p["name"]))}</div><p class="note">{RESULTS}</p></div></div>',
@@ -407,6 +410,7 @@ start("/knowledge")
 kn = hero("Agriculture knowledge", "Plain answers on soil, crops and sustainable farming, from nearly 20 years in the field.", [("Knowledge", None)])
 kn += sec('<div class="grid">' + "".join(card(f"/knowledge/{k['slug']}", k["h1"].split(":")[0], k["desc"], "Pillar guide") for k in KNOW) + "</div>", "Soil and sustainability")
 kn += sec('<div class="grid two">' + card("/tools/fertilizer-dose-calculator", "Fertilizer dose calculator", "Turn your soil test N, P and K into bags of urea, DAP or SSP and MOP.", "Tool", "Open calculator") + card("/knowledge/potato-fertilizer-schedule", "Potato fertilizer schedule", "What to apply at each stage of the potato crop.", "Schedule") + "</div>", "Tools and schedules", tint=True)
+kn += sec('<div class="grid two">' + card("/micronutrients", "Micronutrients and trace elements", "What zinc, boron, iron, calcium, magnesium, sulphur and other nutrients do, how to read deficiency signs and how to correct them.", "Knowledge hub", "Open the guide") + card("/micronutrients/deficiency-symptoms", "Read the leaves: deficiency symptom guide", "Old leaves or new, pattern and colour: which nutrient each sign points to.", "Guide") + "</div>", "Micronutrients")
 kn += sec('<div class="grid">' + "".join(card(f"/crop-problems/{x['slug']}", cap(x["h1"]), x["desc"], CBY[x["crop"]]["name"]) for x in PROBLEMS) + "</div>", "Crop problems", tint=True)
 kn += sec('<div class="grid">' + "".join(card(f"/guides/{g['slug']}", g["h1"], g["desc"], "Guide") for g in GUIDES) + '</div><div class="btns"><a class="btn btn-leaf" href="/plant-science-series">Plant Science Series</a><a class="btn btn-line" href="/articles">All articles</a></div>', "Farming guides", "New: the Plant Science Series, six guides on roots, hormones and biostimulant science by Gafar Laiya.")
 render("/knowledge", "Agriculture Knowledge: Soil, Crops, Sustainability | GBO", "Guides on soil health, soil fertility, sustainable farming and the 5 Rs, crop problems and practical farming topics from Gujarat Bio Organics.",
@@ -466,6 +470,7 @@ render("/crop-problems", "Crop Problems: Causes, Signs and What to Do | GBO",
        + sec('<div class="grid">' + "".join(card(f"/crop-problems/{x['slug']}", cap(x["h1"]), x["answer"][:150].rsplit(" ", 1)[0] + "...", CBY[x["crop"]]["name"]) for x in PROBLEMS) + "</div>")
        + enquiry_box(), None, [("Knowledge", "/knowledge"), ("Crop problems", None)], "0.8")
 for x in PROBLEMS: article_page(f"/crop-problems/{x['slug']}", "Crop problems", "/crop-problems", x, x["crop"], [(f"problem-{x['slug']}.webp", f"Clear field photo showing {x['h1'].split(':')[0].lower()}")])
+exec(open(os.path.join(ROOT, "micro_build.py"), encoding="utf-8").read())
 start("/guides")
 render("/guides", "Farming Guides: Biostimulants, Compost, Soil Tests | GBO",
        "Plain farming guides from Gujarat Bio Organics: biostimulants, tired soil, compost and humic acid, and how to take a soil sample.",
