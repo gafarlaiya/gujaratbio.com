@@ -14,7 +14,7 @@ for f in sys.argv[1:]:
     d = json.load(open(os.path.join(ROOT, f"{lang}.json"), encoding="utf-8"))
     ok, changed, bad = [], 0, []
     with open(f, encoding="utf-8-sig", newline="") as fh:
-        for row in csv.reader(fh, delimiter="\t", quoting=csv.QUOTE_NONE):
+        for row in csv.reader(fh, delimiter="\t"):   # handles plain and spreadsheet-quoted fields
             if not row or row[0].strip().lower() == "id": continue
             try: i = int(row[0]); t = row[3].strip()
             except (ValueError, IndexError): bad.append((row[:1], "bad row")); continue
@@ -22,6 +22,7 @@ for f in sys.argv[1:]:
             en = keys[i]
             if TAGS(en) != TAGS(t): bad.append((i, "HTML tags or links changed")); continue
             if any(w in en and w not in t for w in KEEP): bad.append((i, "brand word removed")); continue
+            if en.startswith("<") != t.startswith("<") or en.endswith(">") != t.endswith(">"): bad.append((i, "layout order changed (number or link moved)")); continue
             if d.get(en) != t: changed += 1
             ok.append(f"{i}\t{t}")
     out = os.path.join(ROOT, "tr", f"{lang}1_review_{part}.tsv")
