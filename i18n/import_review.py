@@ -3,13 +3,14 @@
 # Usage: python3 i18n/import_review.py <file> [<file> ...]   then: python3 i18n/merge.py && python3 build.py
 import csv, json, os, re, sys
 ROOT = os.path.dirname(os.path.abspath(__file__))
-keys = json.load(open(os.path.join(ROOT, "src1.json"), encoding="utf-8"))
+KEYS = {t: json.load(open(os.path.join(ROOT, f"src{t}.json"), encoding="utf-8")) for t in ("1", "2")}
 TAGS = lambda s: sorted(re.findall(r"<[^>]+>", s))
 KEEP = ["Immunity", "WhatsApp"]
 for f in sys.argv[1:]:
     name = os.path.basename(f).lower()
     lang = "gu" if name.startswith("guj") else "hi" if name.startswith("hin") else None
     if not lang: print("skip (name must start with gujarati or hindi):", f); continue
+    tag = "2" if "micro" in name else "1"; keys = KEYS[tag]   # *_micro_partNN files = micronutrient pages
     part = re.search(r"part(\d+)", name); part = part.group(1) if part else "x"
     d = json.load(open(os.path.join(ROOT, f"{lang}.json"), encoding="utf-8"))
     ok, changed, bad = [], 0, []
@@ -25,7 +26,7 @@ for f in sys.argv[1:]:
             if en.startswith("<") != t.startswith("<") or en.endswith(">") != t.endswith(">"): bad.append((i, "layout order changed (number or link moved)")); continue
             if d.get(en) != t: changed += 1
             ok.append(f"{i}\t{t}")
-    out = os.path.join(ROOT, "tr", f"{lang}1_review_{part}.tsv")
+    out = os.path.join(ROOT, "tr", f"{lang}{tag}_review_{part}.tsv")
     open(out, "w", encoding="utf-8").write("\n".join(ok) + "\n")
     print(f"{name}: {len(ok)} lines accepted, {changed} changed, {len(bad)} rejected")
     for b in bad[:20]: print("   rejected", b)

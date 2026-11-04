@@ -1,0 +1,1163 @@
+### /micronutrients
+0	<a href="/">Home</a> / Micronutrients
+1	Micronutrients in agriculture: what they are, how they work and why they matter
+2	Micronutrients and trace elements for farmers: the full list, what each does, deficiency signs, fertilizer types, and how to diagnose and correct problems.
+3	Micronutrients are the nutrients a crop needs in very small amounts: zinc, iron, manganese, copper, boron, molybdenum, chlorine and nickel. They switch on the enzymes, hormones and processes that let the crop use nitrogen, phosphorus and potassium, form chlorophyll, flower, set fruit and resist stress. A shortage of any one limits the whole crop, however much NPK is applied, and Indian soil tests show such shortages are widespread.
+4	By Gafar Laiya and the Gujarat Bio Organics team. Updated November 2026.
+5	On this page
+6	<a href="#s0">What are micronutrients?</a>
+7	<a href="#s1">How micronutrients work</a>
+8	<a href="#s2">The nutrients and trace elements, one by one</a>
+9	<a href="#s3">India's soils: shortages are widespread</a>
+10	<a href="#s4">Common practices that miss the cause</a>
+11	<a href="#s5">Types of micronutrient fertilizers</a>
+12	<a href="#s6">How to identify and solve micronutrient problems</a>
+13	<a href="#s7">Our role</a>
+14	What are micronutrients?
+15	Plants need 17 essential nutrients. Carbon, hydrogen and oxygen come from air and water. The rest come from the soil and fall into groups by how much the crop needs. Micronutrients, also called trace elements, are needed in grams per acre rather than kilograms, but a crop cannot complete its life without them.
+16	Group
+17	Nutrients
+18	Needed in
+19	Major nutrients
+20	Nitrogen (N), phosphorus (P), potassium (K)
+21	Large amounts
+22	Secondary nutrients
+23	<a href="/micronutrients/calcium">Calcium (Ca)</a>, <a href="/micronutrients/magnesium">magnesium (Mg)</a>, <a href="/micronutrients/sulphur">sulphur (S)</a>
+24	Moderate amounts
+25	Micronutrients (trace elements)
+26	<a href="/micronutrients/zinc">zinc (Zn)</a>, <a href="/micronutrients/iron">iron (Fe)</a>, <a href="/micronutrients/manganese">manganese (Mn)</a>, <a href="/micronutrients/copper">copper (Cu)</a>, <a href="/micronutrients/boron">boron (B)</a>, <a href="/micronutrients/molybdenum">molybdenum (Mo)</a>, <a href="/micronutrients/chlorine">chlorine (Cl)</a>, <a href="/micronutrients/nickel">nickel (Ni)</a>
+27	Very small amounts
+28	Beneficial elements
+29	<a href="/micronutrients/silicon">Silicon (Si)</a>, <a href="/micronutrients/cobalt">cobalt (Co)</a>, sodium (Na), selenium (Se)
+30	Useful for some crops or for the microbes and animals that depend on them
+31	How micronutrients work
+32	They switch on enzymes: zinc, manganese, copper, iron, molybdenum and nickel are parts of, or activators for, enzymes that drive growth and energy.
+33	They make chlorophyll possible: iron and manganese are needed to form it and run photosynthesis; magnesium sits at its centre.
+34	They make hormones: zinc is needed for auxin, the growth hormone.
+35	They build cell walls: boron and calcium hold walls together, and silicon strengthens them.
+36	They make flowers fertile: boron, zinc and copper are needed for pollen and seed set.
+37	They help use nitrogen: molybdenum, nickel and sulphur turn nitrogen into protein; molybdenum and cobalt help legumes fix it.
+38	They defend the crop: copper, manganese, boron and silicon strengthen tissue against pests and disease.
+39	The nutrients and trace elements, one by one
+40	Nutrient
+41	Main job in the plant
+42	Shows first on
+43	Indian soils short*
+44	<a href="/micronutrients/zinc">Zinc (Zn)</a>
+45	Micronutrient
+46	Growth hormones, enzymes and new leaf growth
+47	Young leaves
+48	<a href="/micronutrients/iron">Iron (Fe)</a>
+49	Chlorophyll formation, photosynthesis and energy
+50	Youngest leaves
+51	<a href="/micronutrients/manganese">Manganese (Mn)</a>
+52	Photosynthesis, enzymes and disease resistance
+53	Young and middle leaves
+54	<a href="/micronutrients/copper">Copper (Cu)</a>
+55	Enzymes, lignin, pollen and seed set
+56	Shoot tips
+57	<a href="/micronutrients/boron">Boron (B)</a>
+58	Cell walls, flowering, pollen and fruit set
+59	Tips, flowers, fruit
+60	<a href="/micronutrients/molybdenum">Molybdenum (Mo)</a>
+61	Using nitrate and fixing nitrogen in legumes
+62	Old leaves
+63	Not surveyed
+64	<a href="/micronutrients/chlorine">Chlorine (chloride) (Cl)</a>
+65	Water balance, stomata and photosynthesis
+66	Old leaf tips (excess)
+67	<a href="/micronutrients/nickel">Nickel (Ni)</a>
+68	Using urea nitrogen and seed viability
+69	Leaf tips
+70	<a href="/micronutrients/calcium">Calcium (Ca)</a>
+71	Secondary nutrient
+72	Cell walls, fruit quality and root tips
+73	Fruit, tips, roots
+74	<a href="/micronutrients/magnesium">Magnesium (Mg)</a>
+75	Chlorophyll, energy and moving sugars
+76	<a href="/micronutrients/sulphur">Sulphur (S)</a>
+77	Protein, oil content and nitrogen use
+78	<a href="/micronutrients/silicon">Silicon (Si)</a>
+79	Beneficial element
+80	Strong stems, pest and disease resistance and stress tolerance
+81	Whole plant (weak stems)
+82	<a href="/micronutrients/cobalt">Cobalt (Co)</a>
+83	Nitrogen fixation by nodule bacteria in legumes
+84	Legume nodules
+85	*Share of soil samples deficient, including hidden shortage, in the ICAR survey. Molybdenum, chlorine, nickel, calcium, magnesium, silicon and cobalt were not part of that survey.
+86	India's soils: shortages are widespread
+87	An ICAR survey of 2,42,827 soil samples from 615 districts found 58.6% of soils short of sulphur, 51.2% of zinc, 44.7% of boron, 19.2% of iron, 17.4% of manganese and 11.4% of copper, counting hidden shortages. Many fields were short of two or three nutrients together, most often sulphur with zinc, zinc with boron and sulphur with boron. Alkaline and calcareous soils, low organic matter and years of urea, DAP and MOP without sulphur or micronutrients are the main reasons.
+88	Indian soil figures: Shukla AK, Behera SK and others (2021). Deficiency of phyto-available sulphur, zinc, boron, iron, copper and manganese in soils of India. <em>Scientific Reports</em> 11, 19760. Based on 2,42,827 soil samples from 615 districts in 28 states. <a href="https://www.nature.com/articles/s41598-021-99040-2" rel="noopener">Read the study</a>. The figures include soils with a hidden (latent) shortage.
+89	Common practices that miss the cause
+90	Applying more urea when leaves turn yellow, though yellowing from sulphur, iron, zinc or magnesium does not respond to nitrogen.
+91	Using NPK water-soluble fertilizer as a cure-all, though most grades carry little or no micronutrient.
+92	Spraying a pesticide when the crop looks weak, even when no pest is present.
+93	Treating the nutrient that shows the symptom, when the real limit is another nutrient, the soil pH or the water supply.
+94	Read <a href="/micronutrients/guides/why-more-urea-does-not-fix-yellow-leaves">why more urea does not fix yellow leaves</a> and <a href="/micronutrients/guides/why-pesticide-spray-wont-fix-a-nutrient-problem">why a pesticide spray will not fix a nutrient problem</a>.
+95	Types of micronutrient fertilizers
+96	Type
+97	Examples
+98	Good points
+99	Limits
+100	Sulphate salts
+101	Zinc sulphate, ferrous sulphate, manganese sulphate, copper sulphate, magnesium sulphate
+102	Low cost, widely sold, dissolve in water
+103	Can be locked up quickly in alkaline and calcareous soils; some react with phosphate
+104	Borates and boric acid
+105	Borax, boric acid, soluble boron products
+106	Low cost, small amounts needed
+107	Narrow safe range: easy to overdo
+108	Molybdates
+109	Ammonium or sodium molybdate
+110	Tiny amounts work; easy seed treatment
+111	Excess harms livestock fodder quality
+112	Chelates
+113	EDTA, DTPA, EDDHA forms of zinc, iron, manganese, copper
+114	Stay available longer in the soil and mix well in sprays; some made for high pH soils
+115	Cost more; each chelate suits a certain pH range
+116	Organic complexes
+117	Amino acid, humate, fulvate or lignosulphonate complexes
+118	Gentle on leaves; humic and fulvic carriers also support roots
+119	Content varies by product; check the label
+120	Fortified fertilizers
+121	Zinc-coated urea, zincated or boronated fertilizers
+122	No extra application step
+123	Fixed ratio may not match the field's need
+124	Micronutrient mixtures
+125	Grade mixtures of several micronutrients for soil or foliar use
+126	One product for several shortages
+127	May supply what is not short and miss what is; match to a soil test
+128	Biofertilisers
+129	Zinc solubilising bacteria, mycorrhiza
+130	Free nutrients already in the soil and build soil life
+131	Work over time; need living soil and correct handling
+132	Organic manure and compost
+133	Farmyard manure, compost, vermicompost, green manure
+134	Supply many nutrients slowly and keep them available
+135	Low content; need large amounts and time
+136	More detail: <a href="/micronutrients/guides/types-of-micronutrient-fertilizers">types of micronutrient fertilizers compared</a>.
+137	How to identify and solve micronutrient problems
+138	Read the leaves: old or young, pattern and colour.
+139	Rule out pests, disease, water and weather.
+140	Test the soil before the season and the leaves in orchards.
+141	Fix the cause first: pH, drainage, water supply and fertilizer balance.
+142	Correct the short nutrient by soil, foliar or seed treatment, at the right stage and the right dose.
+143	Build soil organic matter so the shortage does not return.
+144	Follow the <a href="/micronutrients/how-to-diagnose-and-correct">step-by-step guide</a>.
+145	Our role
+146	Gujarat Bio Organics began in 2006 with farmers on tired soil that no longer paid back the fertilizer put into it. Today lakhs of farmers from Kashmir to Kanyakumari have used Immunity products on almost every crop: from the mango farms around Somnath to the apple orchards of Himachal Pradesh and Kashmir, the tea estates of Assam and Darjeeling, and the banana, coconut and cardamom farms of Tamil Nadu, Karnataka and Kerala. See <a href="/our-impact#reach">the crops and regions we serve</a>. Our team visits fields, reads crops and soil reports with growers and builds crop programmes around what the soil can supply. This section is part of that work: plain, practical knowledge so every grower can find the real cause of a weak crop, spend less on the wrong inputs and leave healthier soil for the next generation.
+147	Doses depend on the crop, soil and product, so this page gives methods, not amounts. Take the dose from your soil test report, the product label or your local agriculture officer or KVK. Results differ from farm to farm with soil, weather, crop and management. Farmer experiences on this site are their own reports, not a promise of results.
+148	Nutrient guides
+149	Growth hormones, enzymes and new leaf growth.
+150	Read the guide
+151	Chlorophyll formation, photosynthesis and energy.
+152	Photosynthesis, enzymes and disease resistance.
+153	Enzymes, lignin, pollen and seed set.
+154	Cell walls, flowering, pollen and fruit set.
+155	Using nitrate and fixing nitrogen in legumes.
+156	Water balance, stomata and photosynthesis.
+157	Using urea nitrogen and seed viability.
+158	Cell walls, fruit quality and root tips.
+159	Chlorophyll, energy and moving sugars.
+160	Protein, oil content and nitrogen use.
+161	Strong stems, pest and disease resistance and stress tolerance.
+162	Nitrogen fixation by nodule bacteria in legumes.
+163	Understand and solve
+164	Guide
+165	<a href="/micronutrients/deficiency-symptoms">Micronutrient deficiency symptoms: how to read the leaves</a>
+166	A field guide to reading nutrient deficiency symptoms: old leaves or new, pattern and colour, which nutrient each points to, and the look-alikes to rule out.
+167	<a href="/micronutrients/consequences-of-micronutrient-deficiency">What happens when micronutrients are not managed</a>
+168	How unmanaged micronutrient shortage cuts germination, flowering, fruit set, size, brix and price, and raises fertilizer and spray costs.
+169	<a href="/micronutrients/nutrient-interactions">When several nutrients are short: interactions and why one fix fails</a>
+170	How nutrients block or help each other, why a field can show one deficiency when the real limit is another, and why treating the visible symptom often fails.
+171	<a href="/micronutrients/how-to-diagnose-and-correct">How to diagnose and correct micronutrient deficiency</a>
+172	Step by step: observe, rule out other causes, test, fix the cause, choose the method, time it right, and build soil so the shortage does not return.
+173	Blogs
+174	Blog
+175	<a href="/micronutrients/guides/why-pesticide-spray-wont-fix-a-nutrient-problem">Why a pesticide spray will not fix a nutrient problem</a>
+176	Many farmers spray pesticide when a crop looks weak, even with no pest. Why that rarely helps a nutrient problem, what it costs and what to check.
+177	<a href="/micronutrients/guides/why-more-urea-does-not-fix-yellow-leaves">Why more urea or water-soluble fertilizer does not fix yellow leaves</a>
+178	Yellow leaves are often treated with more urea or NPK. Why that fails when sulphur, magnesium, iron or zinc is the real cause, and what to do instead.
+179	<a href="/micronutrients/guides/micronutrients-for-fruit-size-quality-brix">Micronutrients for fruit size, quality, brix and market price</a>
+180	How boron, calcium, magnesium, zinc and potassium decide fruit set, size, sweetness, firmness and shelf life, and so the price a grower gets.
+181	<a href="/micronutrients/guides/micronutrients-soil-health-sustainable-farming">Micronutrients, soil health and sustainable farming</a>
+182	Why micronutrient shortage is a soil health problem, and how organic matter, residues, rotation and balanced feeding protect soil for the next generation.
+183	<a href="/micronutrients/guides/types-of-micronutrient-fertilizers">Types of micronutrient fertilizers: sulphates, chelates, organic and more</a>
+184	Sulphates, borates, chelates, organic complexes, fortified fertilizers, mixtures, biofertilisers and manure compared: strengths and limits of each.
+185	<a class="btn btn-line" href="/micronutrients/guides">All micronutrient blogs</a>
+186	How Gujarat Bio Organics can help
+187	Since 2006, lakhs of farmers from Kashmir to Kanyakumari have used Immunity products on almost every crop: from the mango farms around Somnath to the apple orchards of Himachal Pradesh and Kashmir, the tea estates of Assam and Darjeeling, and the banana, coconut and cardamom farms of Tamil Nadu, Karnataka and Kerala. Each Special is one formula made for one crop and its common problems. Tell us your crop, soil test and what you see, and our team will tell you what to check, whether a micronutrient correction is needed, and which Special fits your programme.
+188	<a href="/crops/mango">Mango guide</a> and <a href="/products/immunity-mango-special">Immunity Mango Special</a>
+189	<a href="/crops/apple">Apple guide</a> and <a href="/products/immunity-apple-special">Immunity Apple Special</a>
+190	<a href="/crops/sugarcane">Sugarcane guide</a> and <a href="/products/immunity-sugarcane-special">Immunity Sugarcane Special</a>
+191	<a href="/crops/potato">Potato guide</a> and <a href="/products/immunity-potato-special">Immunity Potato Special</a>
+192	<a href="/crops/cotton">Cotton guide</a> and <a href="/products/immunity-cotton-special">Immunity Cotton Special</a>
+193	<a href="/crops/citrus">Citrus guide</a> and <a href="/products/immunity-citrus-special">Immunity Citrus Special</a>
+194	What are micronutrients in agriculture?
+195	Nutrients a crop needs in very small amounts: zinc, iron, manganese, copper, boron, molybdenum, chlorine and nickel. Calcium, magnesium and sulphur are secondary nutrients, and silicon and cobalt are beneficial elements.
+196	What is the difference between micronutrients and trace elements?
+197	In farming the two terms are used for the same group: nutrients needed only in trace amounts. Trace elements is sometimes also used for beneficial elements such as cobalt and selenium.
+198	Which micronutrient is most deficient in Indian soils?
+199	Among micronutrients, zinc, followed by boron. Sulphur, a secondary nutrient, is even more widely short.
+200	Can NPK alone give a good crop?
+201	Only if the soil supplies enough of every other nutrient. Where a micronutrient is short, more NPK does not lift the yield.
+202	How do I know which micronutrient my crop needs?
+203	Read the leaf symptoms, rule out pests and disease, and confirm with a soil and leaf test.
+204	Micronutrients in Agriculture: List, Role, Deficiency | GBO
+### /micronutrients/deficiency-symptoms
+205	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / Micronutrient deficiency symptoms: how to read...
+206	Micronutrient deficiency symptoms: how to read the leaves
+207	Start with where the symptom appears. Nutrients that move in the plant (nitrogen, phosphorus, potassium, magnesium, molybdenum) show on old leaves first. Nutrients that do not move (iron, zinc, manganese, copper, boron, calcium, sulphur) show on young leaves, tips, flowers or fruit. Then look at the pattern and colour, rule out pests, disease, water and weather, and confirm with a soil or leaf test.
+208	<a href="#s0">Step 1: old leaves or new leaves?</a>
+209	<a href="#s1">Step 2: the pattern</a>
+210	<a href="#s2">Step 3: rule out the look-alikes</a>
+211	<a href="#s3">Step 4: confirm before you spend</a>
+212	<a href="#s4">Taking a useful photo for advice</a>
+213	Step 1: old leaves or new leaves?
+214	Where it starts
+215	Nutrients to suspect
+216	Old, lower leaves
+217	Nitrogen, phosphorus, potassium, magnesium, molybdenum
+218	Young, upper leaves
+219	Iron, zinc, manganese, copper, sulphur
+220	Growing tips, flowers and fruit
+221	Boron, calcium
+222	Step 2: the pattern
+223	What you see
+224	Nutrient it often points to
+225	Old leaves yellow between green veins, reddish tints
+226	<a href="/micronutrients/magnesium">Magnesium</a>
+227	Young leaves yellow with a fine green vein net, normal size
+228	<a href="/micronutrients/iron">Iron</a>
+229	Young leaves small, narrow and bunched, short internodes
+230	Young leaves pale between veins with broad green bands and small spots
+231	<a href="/micronutrients/manganese">Manganese</a>
+232	Young leaves uniformly pale, veins also yellow
+233	Shoot tips wilt and die back, white leaf tips, empty grain
+234	<a href="/micronutrients/copper">Copper</a>
+235	Growing tip dies, brittle thick leaves, flower and fruit drop, cracked fruit
+236	<a href="/micronutrients/boron">Boron</a>
+237	Blossom-end rot, bitter pit, tip burn, empty groundnut pods
+238	Legume pale like nitrogen shortage, poor nodules, whiptail in cauliflower
+239	<a href="/micronutrients/molybdenum">Molybdenum</a>
+240	Older leaf tips and edges burnt on saline water
+241	<a href="/micronutrients/chlorine">Chloride excess</a>
+242	Soft droopy leaves, lodging, more blast and borer in rice
+243	<a href="/micronutrients/silicon">Silicon</a>
+244	Step 3: rule out the look-alikes
+245	Sucking pests and mites: check the underside of leaves with a hand lens.
+246	Viruses: mosaic patterns, curling and stunting that spread plant to plant.
+247	Fungal and bacterial disease: spots with rings or margins, rotting, a spreading pattern.
+248	Herbicide drift: sudden damage along the field edge or in the wind direction.
+249	Waterlogging, drought, cold and heat: the whole field changes after the weather does.
+250	Root damage from nematodes, termites or root rot: lift a plant and check the roots.
+251	Step 4: confirm before you spend
+252	A soil test shows what the soil can supply. The Soil Health Card test covers zinc, iron, manganese, copper, boron and sulphur.
+253	A leaf test shows what the crop actually took up.
+254	A strip test: spray one nutrient on a few rows and compare the new growth after one to two weeks.
+255	Keep photos with dates so you can compare later.
+256	Taking a useful photo for advice
+257	Photograph a whole plant, then a close-up of the worst leaf, both sides.
+258	Show the youngest and the oldest leaves.
+259	Add a photo of the field to show the pattern.
+260	Send it to us on WhatsApp with the crop, age and recent fertilizer and spray history.
+261	Read next
+262	How can I tell which nutrient is deficient from the leaves?
+263	First check whether old or young leaves show it, then the pattern and colour. Use the table on this page, rule out pests and disease, and confirm with a soil or leaf test.
+264	Can two deficiencies show at the same time?
+265	Yes, and it is common in Indian soils. The symptoms mix, so testing is the reliable way to know.
+266	Do deficiency symptoms go away after treatment?
+267	Leaves already damaged usually stay marked. The new growth after correction shows whether the treatment worked.
+268	Micronutrient Deficiency Symptoms: a Field Guide | GBO
+### /micronutrients/zinc
+269	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / Zinc
+270	Zinc (Zn) in crops: role, deficiency signs and how to correct it
+271	What zinc does in crops, how a shortage looks in each crop, why it happens, what it costs if ignored, and how growers confirm and correct it.
+272	Zinc is a micronutrient the crop needs for its growth hormone (auxin), for more than a hundred enzymes, for chlorophyll and for healthy pollen. A zinc-short crop has small, narrow, pale new leaves, short internodes and poor tillering or flowering. Zinc is the most common micronutrient shortage in Indian soils, especially in alkaline, calcareous and low organic matter fields.
+273	<a href="#s0">What zinc does in the plant</a>
+274	<a href="#s1">How zinc moves in the plant</a>
+275	<a href="#s2">Signs of zinc deficiency</a>
+276	<a href="#s3">Crop by crop</a>
+277	<a href="#s4">Where and why it happens</a>
+278	<a href="#s5">How it works with other nutrients</a>
+279	<a href="#s6">What happens if it is not managed</a>
+280	<a href="#s7">How to confirm it</a>
+281	<a href="#s8">How to correct it</a>
+282	<a href="#s9">Too much zinc</a>
+283	What zinc does in the plant
+284	Helps the plant make auxin, the hormone that drives cell growth and normal leaf size.
+285	Switches on many enzymes for energy, protein building and sugar use.
+286	Needed for chlorophyll formation, so the leaf stays green.
+287	Keeps cell membranes healthy, which helps roots hold nutrients and resist stress.
+288	Supports pollen and seed formation, so it matters at flowering and grain fill.
+289	How zinc moves in the plant
+290	Zinc moves only a little inside the plant, so a shortage shows first on young and middle leaves. Once a leaf is formed short of zinc, it does not recover; only the new growth after correction looks normal.
+291	Signs of zinc deficiency
+292	Pale or yellow patches between the veins of young leaves, while veins stay green.
+293	Small, narrow leaves, often bunched at the tip (little leaf or rosetting).
+294	Short internodes, so the plant looks stunted and bushy.
+295	Rusty brown spots on older leaves of paddy a few weeks after transplanting.
+296	A white or pale band on both sides of the midrib in young maize leaves.
+297	Delayed flowering and maturity, poor grain filling.
+298	Crop by crop
+299	What a shortage looks like
+300	Khaira disease: rusty brown spots and stunting two to four weeks after transplanting, uneven patches in the field.
+301	White bud: a broad pale band on each side of the midrib on young leaves, short plants.
+302	Wheat
+303	Grey-green or pale patches in the middle of leaves, uneven growth, poor tillering.
+304	Mottle leaf: yellow patches between green veins, small pointed leaves, rosettes at shoot tips.
+305	Small thick leaves, bronzing and short internodes.
+306	More crops and look-alikes: <a href="/micronutrients/zinc/zinc-deficiency-symptoms-in-crops">Zinc deficiency symptoms crop by crop</a>.
+307	Where and why it happens
+308	In India, an ICAR survey of more than two lakh soil samples found 51.2% of soils short of zinc, counting hidden shortages.
+309	Alkaline and calcareous soils, common in Saurashtra and much of Gujarat.
+310	Soils low in organic matter.
+311	Fields where the topsoil was removed in land levelling.
+312	Heavy, repeated use of phosphate fertilizers such as DAP.
+313	Flooded paddy soils.
+314	Cold, wet weather early in the season, which slows root uptake.
+315	Sandy soils that are low in zinc to start with.
+316	How it works with other nutrients
+317	High phosphorus can lower zinc uptake, so DAP-heavy fields often show zinc shortage.
+318	In high pH and calcareous soils zinc becomes less available.
+319	Very high zinc can lower iron uptake.
+320	Nitrogen raises the crop's need for zinc, so a well-fed crop shows zinc shortage sooner.
+321	See <a href="/micronutrients/nutrient-interactions">nutrient interactions</a>.
+322	What happens if it is not managed
+323	Stunted plants and fewer tillers or branches.
+324	Late and weak flowering, poor fruit and grain set.
+325	Lower grain weight and a poorer harvest even when NPK was applied.
+326	Grain and fodder with less zinc, which matters for people and animals who eat them.
+327	See <a href="/micronutrients/consequences-of-micronutrient-deficiency">the full picture of what unmanaged shortages cost</a>.
+328	How to confirm it
+329	Look at the youngest leaves first: small, narrow, pale leaves point to zinc.
+330	Rule out pests, virus and herbicide drift, which can look similar.
+331	Ask for a DTPA zinc soil test, which is part of the Soil Health Card test.
+332	A leaf test at the right stage confirms what the crop actually took up.
+333	Spray a small strip and compare the new growth after one to two weeks.
+334	How to correct it
+335	Soil application of zinc sulphate before or at sowing in deficient fields. Do not mix it with phosphate fertilizers in the same bag or tank.
+336	Foliar spray of zinc sulphate or a chelated zinc on the standing crop for quick correction of new growth.
+337	Zinc-coated urea or zincated fertilizers where available.
+338	Seed or seedling root dip for crops where your agriculture department advises it.
+339	Zinc solubilising bacteria and organic manure to free zinc already locked in the soil and keep it available.
+340	Take the dose from your soil test report, the product label or your agriculture officer.
+341	Too much zinc
+342	Zinc excess is rare in fields. It can happen near industrial waste or after repeated heavy doses.
+343	Too much zinc can cause iron shortage, seen as yellow young leaves.
+344	More on zinc
+345	<a href="/micronutrients/zinc/zinc-deficiency-symptoms-in-crops">Zinc deficiency symptoms crop by crop</a>
+346	How zinc deficiency looks in paddy, wheat, maize, citrus, cotton, sugarcane, banana and mango, what it is often confused with, and how to confirm it.
+347	<a href="/micronutrients/zinc/zinc-and-phosphorus-dap">Zinc and phosphorus: why heavy DAP can cause zinc deficiency</a>
+348	Why fields fed DAP year after year often run short of zinc, how phosphorus and zinc compete, and how to balance the two without losing yield.
+349	<a href="/micronutrients/deficiency-symptoms">Read the leaves: symptom guide</a>
+350	Which nutrient each pattern points to.
+351	<a href="/crops/paddy">Paddy guide</a> and <a href="/products/immunity-paddy-special">Immunity Paddy Special</a>
+352	<a href="/crops/maize">Maize guide</a> and <a href="/products/immunity-maize-special">Immunity Maize Special</a>
+353	<a href="/crops/groundnut">Groundnut (Mungfali) guide</a> and <a href="/products/immunity-mungfali-special">Immunity Mungfali (Groundnut) Special</a>
+354	Other nutrients
+355	What is the main sign of zinc deficiency?
+356	Small, narrow, pale young leaves with short internodes. In paddy, rusty brown spots a few weeks after transplanting (khaira) are a classic sign.
+357	Why is zinc deficiency common in Gujarat?
+358	Many soils in Gujarat are alkaline and calcareous and low in organic matter. Zinc becomes less available in these conditions.
+359	Can I mix zinc sulphate with DAP?
+360	Avoid mixing them in the same bag or tank. Phosphate and zinc can react, and high phosphorus also lowers zinc uptake.
+361	Is foliar or soil application better for zinc?
+362	Soil application builds up the field for the season. Foliar spray corrects the new growth quickly. Many growers use soil application where a soil test shows deficiency and foliar spray to correct a standing crop.
+363	How quickly does a zinc spray work?
+364	New leaves formed after the spray are normal in size and colour. Old damaged leaves do not recover.
+365	Zinc in Plants: Role, Deficiency Signs and Correction | GBO
+### /micronutrients/iron
+366	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / Iron
+367	Iron (Fe) in crops: role, deficiency signs and how to correct it
+368	What iron does in crops, how a shortage looks in each crop, why it happens, what it costs if ignored, and how growers confirm and correct it.
+369	Iron is a micronutrient the crop needs to make chlorophyll and to run photosynthesis and respiration. An iron-short crop shows yellow young leaves with a fine net of green veins, and in severe cases the new leaves turn almost white. Iron shortage is usually not a lack of iron in the soil but iron locked up in alkaline, calcareous or waterlogged soils.
+370	<a href="#s0">What iron does in the plant</a>
+371	<a href="#s1">How iron moves in the plant</a>
+372	<a href="#s2">Signs of iron deficiency</a>
+373	<a href="#s9">Too much iron</a>
+374	What iron does in the plant
+375	Needed to make chlorophyll, though it is not part of the chlorophyll molecule.
+376	Part of the proteins that carry energy in photosynthesis and respiration.
+377	Needed in legume nodules for nitrogen fixation.
+378	Part of enzymes that protect the plant from stress damage.
+379	How iron moves in the plant
+380	Iron does not move from old leaves to new ones, so the youngest leaves turn yellow first while older leaves stay green.
+381	Signs of iron deficiency
+382	Young leaves turn pale yellow while the veins stay green, giving a fine green net.
+383	In severe cases young leaves turn white or papery, with brown dead patches.
+384	Older leaves stay green.
+385	Shoots grow weak and short; fruit trees show dieback of twigs.
+386	Symptoms are often patchy, worst in low spots and wet parts of the field.
+387	Groundnut
+388	Bright yellow young leaves with green veins on calcareous soils, common in Saurashtra.
+389	Yellow to white stripes on young leaves, worst in ratoon crops and after waterlogging.
+390	Yellow young leaves with a green vein net, small fruit and twig dieback.
+391	Grapes
+392	Yellow new leaves at shoot tips, poor bunch set.
+393	Pale young leaves and weak new shoots on alkaline soils.
+394	More crops and look-alikes: <a href="/micronutrients/iron/iron-deficiency-symptoms-in-crops">Iron deficiency symptoms crop by crop</a>.
+395	In India, an ICAR survey of more than two lakh soil samples found 19.2% of soils short of iron, counting hidden shortages.
+396	Calcareous soils with free lime, where iron is locked up by high pH and bicarbonate (lime-induced chlorosis).
+397	Over-irrigated or waterlogged fields, where roots cannot breathe.
+398	Irrigation water high in bicarbonate.
+399	Very high phosphorus, manganese, copper or zinc.
+400	Cold soil early in the season.
+401	High lime and high pH are the main cause of iron chlorosis.
+402	Excess phosphorus, manganese, zinc or copper can lower iron uptake.
+403	Iron and manganese compete: correcting one heavily can show the other.
+404	Good organic matter keeps iron in forms roots can use.
+405	Less chlorophyll, so less food is made and growth slows.
+406	Weak flowering and fruit set in fruit crops.
+407	Fewer and weaker nodules in legumes, so less nitrogen fixed.
+408	Small fruit and twig dieback in orchards that suffer year after year.
+409	Check the youngest leaves: a yellow leaf with a fine green vein net points to iron.
+410	Note whether the problem is worse in wet or low spots and after heavy irrigation.
+411	A soil test for pH, free lime and DTPA iron helps; a leaf test confirms.
+412	Spray a few plants with an iron product and see whether the new leaves green up.
+413	Improve drainage and avoid over-irrigation first; waterlogging alone can cause iron chlorosis.
+414	Foliar sprays of ferrous sulphate or chelated iron green up new leaves. More than one spray is usually needed.
+415	In high pH soils, iron chelates made for alkaline soil hold iron available longer than plain ferrous sulphate.
+416	Plain ferrous sulphate applied to calcareous soil is often locked up quickly, so it may not work.
+417	Organic manure, compost and humic substances help keep soil iron available.
+418	Too much iron
+419	Iron toxicity happens in acidic, waterlogged paddy soils, where too much iron dissolves.
+420	Paddy leaves turn bronze or orange-brown with brown spots, and roots are coated orange.
+421	More on iron
+422	<a href="/micronutrients/iron/iron-deficiency-symptoms-in-crops">Iron deficiency symptoms crop by crop</a>
+423	How iron chlorosis looks in groundnut, sugarcane, citrus, grapes, pomegranate and cereals, and how to tell it from nitrogen, zinc and magnesium shortage.
+424	<a href="/micronutrients/iron/iron-chlorosis-calcareous-soil">Iron chlorosis in calcareous soil: why iron sulphate in the soil often fails</a>
+425	Why crops on lime-rich soils turn yellow even though the soil has iron, why ferrous sulphate in the soil often does not help, and what works better.
+426	<a href="/crops/pomegranate">Pomegranate guide</a> and <a href="/products/immunity-pomegranate-special">Immunity Pomegranate Special</a>
+427	Why are the new leaves yellow but the old leaves green?
+428	Iron does not move from old leaves to new ones. Yellow young leaves with green veins usually point to iron shortage.
+429	My soil has plenty of iron. Why is the crop iron deficient?
+430	In alkaline, calcareous or waterlogged soils, iron is present but locked up. The crop cannot take it up, so the problem is availability, not quantity.
+431	Does ferrous sulphate in the soil work?
+432	In calcareous soil it is often locked up quickly. Foliar sprays or iron chelates made for high pH soils usually work better.
+433	Can overwatering cause yellow leaves?
+434	Yes. Waterlogged roots cannot take up iron, so the crop yellows even when iron is present.
+435	Iron in Plants: Role, Deficiency Signs and Correction | GBO
+### /micronutrients/manganese
+436	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / Manganese
+437	Manganese (Mn) in crops: role, deficiency signs and how to correct it
+438	What manganese does in crops, how a shortage looks in each crop, why it happens, what it costs if ignored, and how growers confirm and correct it.
+439	Manganese is a micronutrient the crop needs to split water in photosynthesis, to switch on enzymes and to build lignin, which strengthens cell walls against disease. A manganese-short crop shows pale areas between the veins of young leaves with broad green bands along the veins, often with small grey or brown spots. It is common in wheat on light, alkaline soils and after paddy.
+440	<a href="#s0">What manganese does in the plant</a>
+441	<a href="#s1">How manganese moves in the plant</a>
+442	<a href="#s2">Signs of manganese deficiency</a>
+443	<a href="#s9">Too much manganese</a>
+444	What manganese does in the plant
+445	Splits water in photosynthesis, releasing oxygen; without it photosynthesis slows.
+446	Switches on enzymes for energy, nitrogen use and growth.
+447	Helps build lignin, which strengthens cell walls and roots against fungal attack.
+448	Supports root growth and seed formation.
+449	How manganese moves in the plant
+450	Manganese moves little inside the plant, so young and middle leaves show the shortage first.
+451	Signs of manganese deficiency
+452	Pale green to yellow areas between veins of young and middle leaves, with broad green bands along the veins.
+453	Small grey, brown or dead spots on the pale areas.
+454	Weak, limp plants that look tired in the afternoon.
+455	In wheat and oats, grey streaks or specks on leaves.
+456	Poor grain filling.
+457	Pale stripes between veins and grey-brown specks on middle leaves, common on light soils after paddy.
+458	Pale areas between veins with broad green bands, a softer pattern than zinc or iron.
+459	Pale stripes between veins of young leaves.
+460	Soybean and pulses
+461	Pale leaves with green veins and weak growth on alkaline soils.
+462	Potato and vegetables
+463	Pale young leaves with small brown spots.
+464	More crops and look-alikes: <a href="/micronutrients/manganese/manganese-deficiency-symptoms-in-crops">Manganese deficiency symptoms crop by crop</a>.
+465	In India, an ICAR survey of more than two lakh soil samples found 17.4% of soils short of manganese, counting hidden shortages.
+466	Light, sandy, alkaline soils.
+467	Soils rich in free lime.
+468	Wheat after paddy, when the soil dries and manganese turns unavailable.
+469	Over-limed acid soils.
+470	Dry, well-aerated soils during cool weather.
+471	High pH and lime reduce manganese availability.
+472	Iron and manganese compete: heavy iron can lower manganese uptake, and the reverse.
+473	Very high magnesium or calcium can lower manganese uptake.
+474	In acid soils manganese can rise to toxic levels.
+475	Slower photosynthesis and weak growth.
+476	Poor grain filling and lower test weight in cereals.
+477	Weaker cell walls, so the crop is more open to fungal diseases.
+478	Lower yield even when NPK is adequate.
+479	Look at young and middle leaves for pale areas with broad green bands along veins and small spots.
+480	Compare with iron (fine green vein net, no spots) and magnesium (older leaves).
+481	Ask for a DTPA manganese soil test; a leaf test at the right stage confirms.
+482	Spray a small strip and compare after one to two weeks.
+483	Foliar spray of manganese sulphate or a chelated manganese gives the quickest correction.
+484	Soil application works less well on alkaline soils because manganese is locked up again.
+485	Repeat sprays may be needed on light soils.
+486	Building organic matter helps keep manganese available.
+487	Too much manganese
+488	Manganese toxicity happens in acidic and waterlogged soils.
+489	Signs are brown spots on older leaves, crinkled leaves and, in cotton, crinkle leaf.
+490	Liming acid soils usually corrects it.
+491	More on manganese
+492	<a href="/micronutrients/manganese/manganese-deficiency-symptoms-in-crops">Manganese deficiency symptoms crop by crop</a>
+493	How manganese deficiency looks in wheat, citrus, sugarcane, pulses, potato and paddy, how to tell it from iron and magnesium, and how to confirm it.
+494	<a href="/micronutrients/manganese/manganese-deficiency-wheat-after-paddy">Manganese deficiency in wheat after paddy</a>
+495	Why wheat sown after paddy on light soils often runs short of manganese, how to spot it early, and how growers correct it.
+496	<a href="/crops/cereals">Wheat and cereals guide</a> and <a href="/products/immunity-dhanya-special">Immunity Dhanya Special</a>
+497	How do I tell manganese from iron deficiency?
+498	Both start on young leaves. Iron gives a fine green net of veins on a yellow leaf. Manganese gives broader green bands along veins and often small grey or brown spots.
+499	Why does wheat after paddy show manganese deficiency?
+500	In flooded paddy, manganese dissolves and moves down the soil. When the soil dries for wheat, the remaining manganese turns into forms the roots cannot use, especially in light soils.
+501	Is soil application of manganese useful?
+502	On alkaline soils foliar spray usually works better because soil-applied manganese is locked up again.
+503	Manganese in Plants: Role, Deficiency Signs and Correction | GBO
+### /micronutrients/copper
+504	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / Copper
+505	Copper (Cu) in crops: role, deficiency signs and how to correct it
+506	What copper does in crops, how a shortage looks in each crop, why it happens, what it costs if ignored, and how growers confirm and correct it.
+507	Copper is a micronutrient the crop needs for enzymes in photosynthesis and respiration, for lignin that keeps stems and cell walls strong, and for fertile pollen and good seed set. A copper-short crop shows wilting or dieback of shoot tips, pale twisted young leaves and poor grain or seed fill. Copper shortage is less common than zinc or boron, but too much copper from repeated sprays is a growing problem.
+508	<a href="#s0">What copper does in the plant</a>
+509	<a href="#s1">How copper moves in the plant</a>
+510	<a href="#s2">Signs of copper deficiency</a>
+511	<a href="#s9">Too much copper</a>
+512	What copper does in the plant
+513	Part of enzymes that carry energy in photosynthesis and respiration.
+514	Helps build lignin, which gives stems strength and resistance to fungi.
+515	Needed for fertile pollen, so it matters for grain and seed set.
+516	Helps the plant use nitrogen and make proteins.
+517	How copper moves in the plant
+518	Copper moves little from old leaves, so young leaves and shoot tips show the shortage first.
+519	Signs of copper deficiency
+520	Wilting and dieback of shoot tips even with moist soil.
+521	Pale, twisted or rolled young leaves; leaf tips turn white in cereals.
+522	Weak stems that bend or lodge.
+523	Empty or poorly filled grain heads despite good growth.
+524	In citrus, gum pockets on twigs and dieback.
+525	White, twisted leaf tips, empty or partly filled ears, more lodging.
+526	Dieback of young shoots, gum pockets and multiple weak shoots (exanthema).
+527	Thin, pale bulb scales and poor colour.
+528	Wilting of young growth and pale, twisted leaves.
+529	Fruit trees
+530	Dieback of new shoots and small leaves.
+531	More crops and look-alikes: <a href="/micronutrients/copper/copper-deficiency-symptoms-in-crops">Copper deficiency symptoms crop by crop</a>.
+532	In India, an ICAR survey of more than two lakh soil samples found 11.4% of soils short of copper, counting hidden shortages.
+533	Soils very high in organic matter, which hold copper tightly.
+534	Sandy, leached soils.
+535	Heavy nitrogen use.
+536	High zinc, iron or phosphorus.
+537	Alkaline soils, to a smaller extent.
+538	High nitrogen raises the copper need and can show copper shortage.
+539	Zinc and copper compete for uptake.
+540	High phosphorus and iron can lower copper uptake.
+541	Copper fungicides add copper to the soil year after year.
+542	Poor seed and grain set, so yield drops even when the crop looks green.
+543	Weaker stems and more lodging.
+544	More fungal disease where lignin is weak.
+545	Dieback in orchards.
+546	Look for wilting tips and dieback with moist soil, and empty grain heads.
+547	Check the spray history: orchards with frequent copper fungicide rarely lack copper.
+548	A DTPA copper soil test and a leaf test confirm.
+549	Do not assume copper shortage without testing, because excess is harmful.
+550	Use copper only where a test shows it is short.
+551	Foliar spray of copper sulphate or a chelated copper corrects the standing crop.
+552	Soil application can last several seasons; do not repeat it every year without testing.
+553	Keep copper fungicide use to what the disease needs.
+554	Too much copper
+555	Copper builds up in orchard and vineyard soils after years of copper fungicide sprays.
+556	Too much copper damages roots, lowers iron uptake and harms earthworms and soil life.
+557	Signs are stunted roots and yellow young leaves similar to iron shortage.
+558	More on copper
+559	<a href="/micronutrients/copper/copper-deficiency-symptoms-in-crops">Copper deficiency symptoms crop by crop</a>
+560	How copper deficiency looks in wheat, citrus, onion, vegetables and fruit trees, what it is confused with, and why you should test before applying copper.
+561	<a href="/micronutrients/copper/copper-too-little-too-much">Copper: too little and too much</a>
+562	Why copper is needed in small amounts, how repeated copper fungicide sprays build up in orchard soils, and how to keep copper in balance.
+563	<a href="/crops/onion">Onion guide</a> and <a href="/products/immunity-onion-special">Immunity Onion Special</a>
+564	<a href="/crops/vegetables">Vegetables guide</a> and <a href="/products/immunity-vegetable-special">Immunity Vegetable Special</a>
+565	Do copper fungicides correct copper deficiency?
+566	They do add copper, often more than the crop needs. Orchards sprayed often with copper rarely lack it and can build up excess.
+567	What is the sign of copper deficiency in wheat?
+568	White, twisted leaf tips and ears that are empty or only partly filled, even when the crop looks green.
+569	Can too much copper harm the soil?
+570	Yes. Excess copper harms roots, earthworms and soil microbes, and lowers iron uptake.
+571	Copper in Plants: Role, Deficiency Signs and Correction | GBO
+### /micronutrients/boron
+572	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / Boron
+573	Boron (B) in crops: role, deficiency signs and how to correct it
+574	What boron does in crops, how a shortage looks in each crop, why it happens, what it costs if ignored, and how growers confirm and correct it.
+575	Boron is a micronutrient the crop needs to build cell walls, to grow at its tips, and above all for pollen to germinate and grow, so flowers set fruit and seed. A boron-short crop shows dying growing tips, thick brittle young leaves, flower and fruit drop, cracked or misshapen fruit and hollow stems. The gap between too little and too much boron is narrow, so it must be applied with care.
+576	<a href="#s0">What boron does in the plant</a>
+577	<a href="#s1">How boron moves in the plant</a>
+578	<a href="#s2">Signs of boron deficiency</a>
+579	<a href="#s9">Too much boron</a>
+580	What boron does in the plant
+581	Builds and holds cell walls together, especially in growing tips and young fruit.
+582	Needed for pollen to germinate and grow, so flowers set fruit and seed.
+583	Helps sugars move to flowers, fruit and roots.
+584	Works with calcium in cell walls; a boron shortage can look like a calcium problem.
+585	Supports root tip growth and nodulation in legumes.
+586	How boron moves in the plant
+587	In most crops boron moves little once inside the plant, so growing tips, flowers and fruit show the shortage first. A steady supply through the season matters more than one big dose.
+588	Signs of boron deficiency
+589	Death of the growing tip, followed by many side shoots (a bushy top).
+590	Young leaves thick, brittle, curled or misshapen.
+591	Short internodes; hollow or cracked stems.
+592	Flowers and young fruit drop; poor fruit and seed set.
+593	Cracked, corky or misshapen fruit; uneven berry size in grapes.
+594	Hollow heart in groundnut kernels and some root crops.
+595	Shedding of squares and young bolls, dark rings on leaf stalks, distorted bolls.
+596	Hollow heart: kernels with a hollow, dark centre; poor pod filling.
+597	Fruit cracking, poor fruit set and internal browning; malformed leaves on new flush.
+598	Fruit cracking and poor flowering.
+599	Hooked, crinkled or fused leaflets on new leaves and button shedding.
+600	More crops and look-alikes: <a href="/micronutrients/boron/boron-deficiency-symptoms-in-crops">Boron deficiency symptoms crop by crop</a>.
+601	In India, an ICAR survey of more than two lakh soil samples found 44.7% of soils short of boron, counting hidden shortages.
+602	Sandy, light soils where boron washes out with rain.
+603	Calcareous and alkaline soils.
+604	Dry spells, because boron reaches the roots with soil water.
+605	High rainfall regions.
+606	Crops with a high need: cotton, groundnut, sunflower, cauliflower, mango, coconut, pomegranate.
+607	Boron and calcium work together in cell walls; a boron shortage stops calcium from doing its job, so fruit disorders can look like calcium shortage.
+608	Heavy liming and very high calcium can lower boron uptake.
+609	Dry soil reduces boron uptake even when the soil has enough.
+610	Flower and young fruit drop, so fewer fruits even with heavy flowering.
+611	Cracked and misshapen fruit with low market value.
+612	Hollow kernels and poor seed fill.
+613	Weak root tips, so the crop uses water and nutrients less well.
+614	Watch growing tips, flowers and young fruit, not only leaves.
+615	Check for hollow stems and cracked fruit.
+616	Ask for a hot-water soluble boron soil test; a leaf test confirms.
+617	Because the safe range is narrow, test before repeated applications.
+618	Apply boron where a soil test shows it is short, before flowering in fruit crops and at sowing in field crops.
+619	Foliar spray of a soluble boron product at the pre-flowering and flowering stage helps fruit set.
+620	Use only the dose on the label or advised by your agriculture officer; never double it 'to be safe'.
+621	Do not apply boron to every crop every season without testing.
+622	Keep soil moisture steady so boron can reach the roots.
+623	Organic matter helps hold boron in the root zone.
+624	Too much boron
+625	Too much boron burns leaf edges and tips, starting on older leaves, then the leaf dies.
+626	The gap between enough and too much is narrow, especially for sensitive crops such as beans and some cereals.
+627	Irrigation water high in boron can also cause toxicity.
+628	More on boron
+629	<a href="/micronutrients/boron/boron-deficiency-symptoms-in-crops">Boron deficiency symptoms crop by crop</a>
+630	How boron deficiency looks in cotton, groundnut, mango, pomegranate, coconut, banana, cauliflower, grapes and papaya, and how to confirm it safely.
+631	<a href="/micronutrients/boron/boron-flowering-fruit-set">Boron for flowering and fruit set: why the dose window is narrow</a>
+632	How boron helps pollen and fruit set, why flower and fruit drop often trace back to boron, and why the gap between too little and too much is small.
+633	<a href="/crops/coconut">Coconut guide</a> and <a href="/products/immunity-coconut-special">Immunity Coconut Special</a>
+634	Why is boron important for flowering?
+635	Pollen needs boron to germinate and grow down to the ovule. Without enough boron, flowers drop or fail to set fruit and seed.
+636	Can I spray boron on every crop every season?
+637	Not without testing. The gap between enough and too much boron is narrow, and excess burns leaves. Apply to the soil test and label.
+638	What is hollow heart in groundnut?
+639	A hollow, dark centre in the kernel caused by boron shortage during pod filling.
+640	Does boron help calcium?
+641	Yes. Boron and calcium work together in cell walls. A crop short of boron can show calcium-type fruit problems even when calcium is adequate.
+642	Boron in Plants: Role, Deficiency Signs and Correction | GBO
+### /micronutrients/molybdenum
+643	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / Molybdenum
+644	Molybdenum (Mo) in crops: role, deficiency signs and how to correct it
+645	What molybdenum does in crops, how a shortage looks in each crop, why it happens, what it costs if ignored, and how growers confirm and correct it.
+646	Molybdenum is a micronutrient the crop needs in very small amounts to turn nitrate into protein and, in legumes, for the nodule bacteria to fix nitrogen from the air. A molybdenum-short crop looks nitrogen-starved: pale older leaves, scorched or cupped leaf edges, weak nodules in pulses and the narrow 'whiptail' leaves of cauliflower. Unlike most micronutrients, it is least available in acid soils.
+647	<a href="#s0">What molybdenum does in the plant</a>
+648	<a href="#s1">How molybdenum moves in the plant</a>
+649	<a href="#s2">Signs of molybdenum deficiency</a>
+650	<a href="#s9">Too much molybdenum</a>
+651	What molybdenum does in the plant
+652	Part of the enzyme that turns nitrate taken from the soil into forms the plant can build protein from.
+653	Part of the enzyme nodule bacteria use to fix nitrogen in legumes.
+654	Helps the plant use phosphorus and iron.
+655	Needed for pollen and seed development in some crops.
+656	How molybdenum moves in the plant
+657	Molybdenum moves fairly well inside the plant, so the shortage often shows on older and middle leaves first, looking like nitrogen shortage.
+658	Signs of molybdenum deficiency
+659	Pale yellow-green older leaves, like nitrogen shortage, that do not improve with urea.
+660	Leaf edges scorched, rolled or cupped upward.
+661	Few, small, pale nodules in legumes.
+662	In cauliflower and cabbage, narrow strap-like leaves (whiptail) and poor heads.
+663	Poor flowering and seed set in legumes.
+664	Pulses: gram, tur, moong, urad
+665	Pale plants, few pink nodules, weak growth despite good soil moisture.
+666	Soybean and groundnut
+667	Pale older leaves and poor nodulation on acid soils.
+668	Cauliflower and cabbage
+669	Whiptail: narrow, twisted, strap-like leaves and small curds.
+670	Yellow spots between veins on older leaves (yellow spot).
+671	Tomato and vegetables
+672	Pale, mottled older leaves with rolled edges.
+673	More crops and look-alikes: <a href="/micronutrients/molybdenum/molybdenum-deficiency-symptoms-in-crops">Molybdenum deficiency symptoms crop by crop</a>.
+674	Acid soils, where molybdenum is held tightly; this is the opposite of zinc, iron and manganese.
+675	Heavily weathered, leached soils.
+676	Soils high in iron and aluminium oxides.
+677	Heavy sulphate fertilizer use, which can compete with molybdenum uptake.
+678	Raising the pH of acid soils with lime usually releases molybdenum.
+679	Sulphate competes with molybdenum for uptake.
+680	Phosphorus can improve molybdenum uptake.
+681	Molybdenum shortage makes nitrogen shortage worse, because nitrate is not used.
+682	Legumes fix less nitrogen, so they need more fertilizer and leave less for the next crop.
+683	Nitrate builds up in leaves instead of becoming protein.
+684	Poor flowering, pod and seed set.
+685	Low yields that urea does not fix.
+686	Suspect molybdenum when a legume looks nitrogen-starved with few or pale nodules, or when urea does not help.
+687	Dig up plants and check nodules: healthy ones are pink inside.
+688	Check soil pH: acid soils are at risk.
+689	A leaf test confirms; soil tests for molybdenum are less common.
+690	Seed treatment with a molybdenum salt, often together with Rhizobium culture, is the usual and cheapest method.
+691	Foliar spray on the standing crop for quick correction.
+692	Liming acid soils improves availability.
+693	Only tiny amounts are needed. Take the dose from the label or your agriculture officer.
+694	Too much molybdenum
+695	Plants tolerate excess molybdenum, but animals do not.
+696	Fodder very high in molybdenum can cause copper shortage in cattle (molybdenosis).
+697	Do not over-apply on fodder crops.
+698	More on molybdenum
+699	<a href="/micronutrients/molybdenum/molybdenum-deficiency-symptoms-in-crops">Molybdenum deficiency symptoms crop by crop</a>
+700	How molybdenum deficiency looks in pulses, soybean, groundnut, cauliflower, citrus and vegetables, and why it is often mistaken for nitrogen shortage.
+701	<a href="/micronutrients/molybdenum/molybdenum-legumes-nodules">Molybdenum and legumes: nodules, nitrogen and seed treatment</a>
+702	How molybdenum lets Rhizobium bacteria fix nitrogen in pulses, why acid soils run short, and how seed treatment supplies it cheaply.
+703	<a href="/crops/pulses">Pulses guide</a> and <a href="/products/immunity-pulses-special">Immunity Pulses Special</a>
+704	Why does a pulse crop look yellow even with good soil?
+705	It may be short of molybdenum, so its nodules cannot fix nitrogen. Check the nodules and soil pH.
+706	What is whiptail in cauliflower?
+707	Narrow, strap-like, twisted leaves and poor curds caused by molybdenum shortage, often on acid soils.
+708	How is molybdenum given to crops?
+709	Most often as a seed treatment along with Rhizobium, or as a light foliar spray. Very little is needed.
+710	Molybdenum in Plants: Role, Deficiency Signs and Correction | GBO
+### /micronutrients/chlorine
+711	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / Chlorine
+712	Chlorine (chloride) (Cl) in crops: role, deficiency signs and how to correct it
+713	What chlorine does in crops, how a shortage looks in each crop, why it happens, what it costs if ignored, and how growers confirm and correct it.
+714	Chlorine, taken up as chloride, is a micronutrient the crop needs for its water balance, for opening and closing stomata and for photosynthesis. Field crops rarely run short because rain, irrigation water and muriate of potash supply chloride. The bigger problem in India is too much chloride from saline water and soils, which burns the leaf tips and edges of sensitive crops.
+715	<a href="#s0">What chlorine does in the plant</a>
+716	<a href="#s1">How chlorine moves in the plant</a>
+717	<a href="#s2">Signs of chlorine deficiency</a>
+718	<a href="#s9">Too much chlorine</a>
+719	What chlorine does in the plant
+720	Keeps the water balance in cells, which keeps leaves firm.
+721	Helps stomata open and close, controlling water loss.
+722	Takes part in splitting water in photosynthesis.
+723	In some crops helps suppress certain root and leaf diseases.
+724	How chlorine moves in the plant
+725	Chloride moves freely in the plant with water, so excess shows first as burnt tips and edges of older leaves.
+726	Signs of chlorine deficiency
+727	Deficiency (rare): wilting of leaf tips, pale leaves, bronzing and stubby, thick roots.
+728	Excess (more common): burnt tips and edges of older leaves, leaf drop and stunted growth.
+729	On saline soils, a white crust on the soil surface.
+730	One of the crops that responds to chloride; muriate of potash supplies it.
+731	Excess chloride can lower dry matter and processing quality of tubers.
+732	Tobacco
+733	Excess chloride harms leaf burning quality.
+734	Grapes and citrus
+735	Sensitive to chloride: leaf edge burn on saline water.
+736	Pomegranate and vegetables
+737	Leaf tip burn and slow growth on saline irrigation water.
+738	More crops and look-alikes: <a href="/micronutrients/chlorine/chloride-deficiency-and-toxicity">Chloride deficiency and toxicity: how to tell them apart</a>.
+739	Deficiency: very rare, mostly in sandy, heavily leached soils far from the sea with no chloride fertilizer.
+740	Excess: saline soils, saline or brackish irrigation water, coastal fields and heavy use of chloride fertilizers on sensitive crops.
+741	High chloride lowers nitrate uptake.
+742	Sodium and chloride together cause salinity damage.
+743	Sulphate of potash can replace muriate of potash for chloride-sensitive crops.
+744	Excess chloride burns leaves, lowers growth and reduces quality in sensitive crops.
+745	Saline water over years builds salt in the root zone.
+746	Test irrigation water for salinity and chloride.
+747	Test soil EC and chloride on fields with leaf burn.
+748	A leaf test confirms excess.
+749	For deficiency: muriate of potash or other chloride fertilizers supply it.
+750	For excess: improve drainage, leach salts with good-quality water where possible, and use sulphate of potash for sensitive crops.
+751	Choose tolerant crops and varieties on saline land.
+752	Mulch and organic matter reduce surface salt build-up.
+753	Read our guide on <a href="/guides/biostimulants-for-salinity-and-drought-stress">salinity and drought stress</a>.
+754	Too much chlorine
+755	Leaf tip and edge burn on older leaves, leaf drop, stunted plants.
+756	Worst in grapes, citrus, avocado, tobacco, potato and beans.
+757	More on chlorine
+758	<a href="/micronutrients/chlorine/chloride-deficiency-and-toxicity">Chloride deficiency and toxicity: how to tell them apart</a>
+759	Why chloride shortage is rare but chloride excess from saline water is common, what each looks like, and what to do in each case.
+760	<a href="/micronutrients/chlorine/chloride-sensitive-crops-mop">Chloride-sensitive crops: when muriate of potash is a problem</a>
+761	Which crops are sensitive to chloride, when muriate of potash can lower quality, and when sulphate of potash is the better choice.
+762	Is chloride deficiency common?
+763	No. Rain, irrigation water and muriate of potash usually supply enough. Excess chloride from saline water is more common.
+764	Should I avoid muriate of potash?
+765	For most crops it is fine. For chloride-sensitive crops such as tobacco, grapes and some potato for processing, sulphate of potash is often preferred.
+766	How do I know if my water is saline?
+767	Get it tested for EC and chloride at a soil and water testing lab.
+768	Chlorine in Plants: Role, Deficiency Signs and Correction | GBO
+### /micronutrients/nickel
+769	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / Nickel
+770	Nickel (Ni) in crops: role, deficiency signs and how to correct it
+771	What nickel does in crops, how a shortage looks in each crop, why it happens, what it costs if ignored, and how growers confirm and correct it.
+772	Nickel is the micronutrient the plant needs in the smallest amount. It is part of urease, the enzyme that breaks down urea inside the plant. Without nickel, urea builds up in the leaves and burns their tips, and seeds may germinate poorly. Field deficiency is rare in India, but nickel matters more as crops are fed mainly with urea and foliar urea sprays.
+773	<a href="#s0">What nickel does in the plant</a>
+774	<a href="#s1">How nickel moves in the plant</a>
+775	<a href="#s2">Signs of nickel deficiency</a>
+776	<a href="#s9">Too much nickel</a>
+777	What nickel does in the plant
+778	Part of urease, the enzyme that breaks urea into ammonia the plant can use.
+779	Helps the plant use nitrogen, especially in legumes and when urea is sprayed on leaves.
+780	Needed for healthy, viable seed in some crops.
+781	Supports some plant defences.
+782	How nickel moves in the plant
+783	Nickel moves fairly well in the plant and is carried to seeds and new growth.
+784	Signs of nickel deficiency
+785	Dead, burnt leaf tips from urea build-up, especially after urea sprays.
+786	Small, rounded, blunt leaves at shoot tips (mouse-ear, seen in pecan and some tree crops).
+787	Poor seed germination.
+788	Pale young leaves.
+789	Legumes
+790	Leaf tip necrosis from urea build-up and weaker nitrogen use.
+791	Cereals
+792	Poor seed viability in severe cases.
+793	Tree crops
+794	Mouse-ear: small, rounded, blunt leaves at shoot tips, best known in pecan.
+795	Crops sprayed with urea
+796	Leaf tip burn where urea is not broken down.
+797	More crops and look-alikes: <a href="/micronutrients/nickel/nickel-deficiency-symptoms">Nickel deficiency symptoms: mouse-ear and leaf tip burn</a>.
+798	Very rare in fields; most soils supply enough.
+799	Sandy, leached soils with heavy zinc, copper or calcium.
+800	Soilless and hydroponic growing where nickel is left out.
+801	Excess zinc, copper, iron, calcium or magnesium can lower nickel uptake.
+802	Heavy urea feeding raises the crop's reliance on urease, so on nickel.
+803	Urea builds up and burns leaf tips.
+804	Weaker nitrogen use, so more fertilizer for the same growth.
+805	Poorer seed quality.
+806	Suspect it only after other causes are ruled out, because it is rare.
+807	Leaf tip burn after urea sprays is one clue.
+808	A leaf test confirms; ask a lab that tests trace elements.
+809	Usually no correction is needed in field crops.
+810	Where a test confirms shortage, a very light foliar nickel product is used.
+811	Do not add nickel without a test: excess is toxic.
+812	Too much nickel
+813	Nickel toxicity is more common than deficiency, on serpentine soils and soils that received industrial sludge.
+814	Signs are yellow young leaves similar to iron shortage and stunted roots.
+815	More on nickel
+816	<a href="/micronutrients/nickel/nickel-deficiency-symptoms">Nickel deficiency symptoms: mouse-ear and leaf tip burn</a>
+817	What nickel deficiency looks like, why it is rare in Indian fields, and how to tell it from urea burn and other leaf tip problems.
+818	<a href="/micronutrients/nickel/nickel-and-urea">Nickel and urea: why plants need nickel to use urea</a>
+819	How the nickel enzyme urease lets plants use urea, what happens without it, and why it matters for crops fed mainly with urea.
+820	Why do plants need nickel?
+821	Nickel is part of urease, the enzyme that breaks down urea inside the plant. Without it, urea burns the leaves.
+822	Should I add nickel to my crop?
+823	Rarely. Field deficiency is uncommon in India. Add it only if a test shows it is short, because excess is harmful.
+824	Is nickel the most recently recognised plant nutrient?
+825	Yes, it was accepted as essential only in the late twentieth century.
+826	Nickel in Plants: Role, Deficiency Signs and Correction | GBO
+### /micronutrients/calcium
+827	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / Calcium
+828	Calcium (Ca) in crops: role, deficiency signs and how to correct it
+829	What calcium does in crops, how a shortage looks in each crop, why it happens, what it costs if ignored, and how growers confirm and correct it.
+830	Calcium is a secondary nutrient the crop needs to build strong cell walls, keep cell membranes healthy and grow new root and shoot tips. A calcium-short crop shows dying tips, blossom-end rot in tomato and chilli, bitter pit in apple, tip burn in cabbage and poor fruit storage. Often the soil has enough calcium but the crop cannot move it to the fruit, so the real cause is water supply or another nutrient.
+831	<a href="#s0">What calcium does in the plant</a>
+832	<a href="#s1">How calcium moves in the plant</a>
+833	<a href="#s2">Signs of calcium deficiency</a>
+834	<a href="#s9">Too much calcium</a>
+835	What calcium does in the plant
+836	Builds calcium pectate, the glue that holds cell walls together.
+837	Keeps cell membranes stable, so fruit stays firm and stores longer.
+838	Needed for cell division at root and shoot tips.
+839	Acts as a signal inside the plant in response to stress.
+840	Improves soil structure in sodic soils when supplied as gypsum.
+841	How calcium moves in the plant
+842	Calcium moves only with the water stream to the leaves and hardly moves back out. Fruits and growing tips, which lose little water, are the first to run short, even when the soil has plenty.
+843	Signs of calcium deficiency
+844	Dead or hooked growing tips and young leaves.
+845	Blossom-end rot: a dark, sunken patch at the bottom of tomato, chilli or watermelon fruit.
+846	Bitter pit in apple: brown spots in the flesh under the skin.
+847	Tip burn on the inner leaves of cabbage and lettuce.
+848	Fruit cracking, soft fruit and short shelf life.
+849	Short, brown, stubby root tips.
+850	Tomato, chilli and watermelon
+851	Blossom-end rot: sunken dark patch at the flower end of the fruit.
+852	Bitter pit: small brown spots under the skin, worse in storage.
+853	Soft or spongy tissue near the stone in some varieties and poor shelf life.
+854	Empty pods (pops) and poor kernel fill, because the pod takes calcium directly from the soil.
+855	Internal brown spots and hollow heart in tubers, weak sprouts.
+856	More crops and look-alikes: <a href="/micronutrients/calcium/calcium-deficiency-symptoms-in-crops">Calcium deficiency symptoms crop by crop</a>.
+857	Irregular irrigation: dry spells followed by heavy watering.
+858	Humid, still weather, when leaves lose little water.
+859	Too much potash, magnesium or ammonium nitrogen, which compete with calcium.
+860	Acid, sandy soils low in calcium.
+861	Sodic soils, where sodium crowds out calcium.
+862	Fast-growing, heavily fed crops where fruit grows faster than calcium can reach it.
+863	Potassium, magnesium and ammonium compete with calcium; too much of any can cause calcium disorders.
+864	Boron works with calcium in cell walls; boron shortage can look like calcium shortage.
+865	A field can show calcium-type fruit problems when the real limit is water movement, boron or a nutrient imbalance, so calcium sprays alone do not fix it.
+866	High calcium (lime) lowers the availability of iron, zinc, manganese and boron.
+867	Fruit disorders that make produce unsaleable.
+868	Short shelf life and losses in storage and transport.
+869	Weak roots and growing tips.
+870	Empty groundnut pods.
+871	Check whether the soil is really low in calcium: many Indian soils are calcareous and rich in it.
+872	Look at the irrigation pattern and the potash and nitrogen doses.
+873	Test the soil for calcium, magnesium, potassium and sodium together, to see the balance.
+874	A fruit or leaf test confirms.
+875	Keep soil moisture steady during fruit growth; this is often the main fix.
+876	Balance potash, magnesium and nitrogen so they do not crowd out calcium.
+877	Gypsum supplies calcium without raising pH and helps sodic soils; groundnut gets it at pegging.
+878	Lime supplies calcium and raises pH in acid soils.
+879	Foliar or fertigation calcium on fruit crops at fruit development, as the label advises.
+880	Check boron as well, because the two work together.
+881	Too much calcium
+882	Excess calcium as lime raises soil pH and locks up iron, zinc, manganese and boron, causing their shortages.
+883	High calcium can also lower potassium and magnesium uptake.
+884	More on calcium
+885	<a href="/micronutrients/calcium/calcium-deficiency-symptoms-in-crops">Calcium deficiency symptoms crop by crop</a>
+886	How calcium disorders look in tomato, chilli, apple, mango, groundnut, potato, cabbage and pomegranate, and why they appear even on calcium-rich soils.
+887	<a href="/micronutrients/calcium/calcium-disorders-when-soil-has-calcium">Blossom-end rot, bitter pit and tip burn: when the soil has enough calcium</a>
+888	Why calcium disorders appear on calcium-rich soils, why calcium sprays alone often fail, and how water, potash, magnesium and boron decide the result.
+889	My soil is calcareous. Why does my tomato have blossom-end rot?
+890	The soil has enough calcium, but the fruit is not getting it. Irregular watering, humid weather and too much potash or ammonium stop calcium reaching the fruit.
+891	Does spraying calcium fix blossom-end rot?
+892	It can help, but only if the cause is also fixed: steady watering and balanced feeding. A calcium spray alone often fails.
+893	Why do groundnut pods stay empty?
+894	Groundnut pods take calcium directly from the soil around them. Low calcium in the pod zone gives empty pods; gypsum at pegging is the common answer.
+895	Is calcium a micronutrient?
+896	No. It is a secondary nutrient needed in larger amounts, but it is included here because its problems often appear together with micronutrient problems.
+897	Calcium in Plants: Role, Deficiency Signs and Correction | GBO
+### /micronutrients/magnesium
+898	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / Magnesium
+899	Magnesium (Mg) in crops: role, deficiency signs and how to correct it
+900	What magnesium does in crops, how a shortage looks in each crop, why it happens, what it costs if ignored, and how growers confirm and correct it.
+901	Magnesium is a secondary nutrient at the centre of every chlorophyll molecule. The crop also needs it to make and use energy and to move sugars from the leaves to fruit, grain and tubers. A magnesium-short crop shows yellowing between the veins of older leaves, often with red or purple tints, and early leaf drop. Heavy potash use is one of the most common causes.
+902	<a href="#s0">What magnesium does in the plant</a>
+903	<a href="#s1">How magnesium moves in the plant</a>
+904	<a href="#s2">Signs of magnesium deficiency</a>
+905	<a href="#s9">Too much magnesium</a>
+906	What magnesium does in the plant
+907	Sits at the centre of the chlorophyll molecule.
+908	Activates enzymes that make and use energy (ATP).
+909	Moves sugars from the leaves to fruit, grain, tubers and roots.
+910	Needed for building proteins.
+911	Helps the plant take up and use phosphorus.
+912	How magnesium moves in the plant
+913	Magnesium moves easily from old leaves to new ones, so a shortage shows first on the oldest leaves while new leaves stay green.
+914	Signs of magnesium deficiency
+915	Yellowing between the veins of older leaves while veins stay green, often in a fishbone or Christmas-tree pattern.
+916	Red, purple or bronze tints on older leaves in some crops.
+917	Leaves become brittle and may curl upward.
+918	Early drop of older leaves.
+919	Small fruit, poor sweetness and weak grain fill.
+920	Reddening of older leaves during boll development, early leaf drop.
+921	Yellow between veins of older leaves, poor berry colour and sweetness.
+922	A yellow wedge at the base of older leaves with a green tip, heavy leaf drop in fruiting years.
+923	Yellowing between veins of lower leaves, brittle leaves.
+924	Yellow band along the leaf edge of older leaves, purple mottling of leaf stalks.
+925	More crops and look-alikes: <a href="/micronutrients/magnesium/magnesium-deficiency-symptoms-in-crops">Magnesium deficiency symptoms crop by crop</a>.
+926	Heavy potash use, the most common cause.
+927	Sandy, acid, leached soils.
+928	Heavy ammonium nitrogen.
+929	High calcium in some soils.
+930	Heavy fruiting, which pulls magnesium out of the leaves.
+931	Potassium and magnesium compete: heavy potash brings on magnesium shortage.
+932	Ammonium and calcium also compete with magnesium.
+933	Magnesium helps the plant take up and use phosphorus.
+934	Magnesium and calcium must stay in balance; a field may look calcium-short when magnesium is part of the problem, and the reverse.
+935	Magnesium shortage cuts sugar movement, so fruit and tubers stay small even with good leaves.
+936	Less chlorophyll, so less food and lower yield.
+937	Poor sugar movement: small fruit, low brix and poor grain or tuber fill.
+938	Early leaf drop that weakens the crop for the next season in tree crops.
+939	Look at the oldest leaves: yellow between green veins, often with reddish tints.
+940	Check the potash dose: heavy potash often explains it.
+941	Test exchangeable magnesium, potassium and calcium together, to see the balance.
+942	A leaf test confirms.
+943	Magnesium sulphate as a foliar spray for quick correction, or to the soil.
+944	Dolomite in acid soils supplies magnesium and calcium and raises pH.
+945	Balance potash with magnesium rather than cutting potash the crop needs.
+946	Repeat foliar sprays during heavy fruiting if needed.
+947	Too much magnesium
+948	Too much magnesium can lower calcium and potassium uptake.
+949	Soils very high in magnesium can have poor structure.
+950	More on magnesium
+951	<a href="/micronutrients/magnesium/magnesium-deficiency-symptoms-in-crops">Magnesium deficiency symptoms crop by crop</a>
+952	How magnesium deficiency looks in cotton, grapes, citrus, potato, banana, sugarcane and coconut, and how to tell it from potash and nitrogen shortage.
+953	<a href="/micronutrients/magnesium/potash-magnesium-calcium-balance">Potash, magnesium and calcium: the balance that decides leaf colour</a>
+954	How potassium, magnesium and calcium compete at the root, why heavy potash causes magnesium shortage, and when a calcium problem is really magnesium.
+955	<a href="/crops/banana">Banana guide</a> and <a href="/products/immunity-banana-special">Immunity Banana Special</a>
+956	Why are the old leaves yellow between the veins?
+957	That is the classic sign of magnesium shortage, because the plant moves magnesium from old leaves to new ones.
+958	Can potash cause magnesium deficiency?
+959	Yes. Potassium and magnesium compete, so heavy potash often brings on magnesium shortage.
+960	Why do cotton leaves turn red?
+961	Reddening during boll development is often linked to magnesium and nitrogen shortage as bolls pull nutrients from the leaves.
+962	Is Epsom salt the same as magnesium sulphate?
+963	Yes, Epsom salt is a form of magnesium sulphate.
+964	Magnesium in Plants: Role, Deficiency Signs and Correction | GBO
+### /micronutrients/sulphur
+965	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / Sulphur
+966	Sulphur (S) in crops: role, deficiency signs and how to correct it
+967	What sulphur does in crops, how a shortage looks in each crop, why it happens, what it costs if ignored, and how growers confirm and correct it.
+968	Sulphur is a secondary nutrient the crop needs to build proteins, to make oil in oilseeds, to form chlorophyll and to use nitrogen well. A sulphur-short crop turns pale yellow from the young leaves, including the veins, and grows thin and weak. Sulphur shortage is the most widespread nutrient shortage in Indian soil tests, partly because urea and DAP carry no sulphur.
+969	<a href="#s0">What sulphur does in the plant</a>
+970	<a href="#s1">How sulphur moves in the plant</a>
+971	<a href="#s2">Signs of sulphur deficiency</a>
+972	<a href="#s9">Too much sulphur</a>
+973	What sulphur does in the plant
+974	Part of the amino acids cysteine and methionine, and so of every protein.
+975	Needed for oil formation in mustard, groundnut, soybean and sesame.
+976	Needed for chlorophyll formation.
+977	Helps nodules fix nitrogen in legumes.
+978	Gives onion and garlic their flavour and pungency.
+979	Helps the crop use the nitrogen it is given.
+980	How sulphur moves in the plant
+981	Sulphur moves only slowly from old leaves, so the shortage usually shows on young leaves first, unlike nitrogen, which shows on old leaves.
+982	Signs of sulphur deficiency
+983	Young leaves turn pale yellow, including the veins, while old leaves may stay greener.
+984	Thin, spindly, upright plants.
+985	Delayed maturity.
+986	Low oil content in oilseeds, low protein in grain.
+987	Poor nodulation in legumes.
+988	Mustard and rapeseed
+989	Pale, cupped young leaves, purple tints and poor pod and seed fill.
+990	Groundnut and soybean
+991	Pale young leaves, poor nodules and low oil.
+992	Pale plants, weak nodules, poor pod set.
+993	Onion and garlic
+994	Pale leaves, small bulbs and low pungency.
+995	Wheat and paddy
+996	Uniform pale plants and low grain protein.
+997	More crops and look-alikes: <a href="/micronutrients/sulphur/sulphur-deficiency-symptoms-in-crops">Sulphur deficiency symptoms crop by crop</a>.
+998	In India, an ICAR survey of more than two lakh soil samples found 58.6% of soils short of sulphur, counting hidden shortages.
+999	Use of urea, DAP and MOP, which carry no sulphur, in place of single superphosphate and ammonium sulphate.
+1000	Intensive cropping with high-yield varieties.
+1001	Little use of farmyard manure.
+1002	Nitrogen and sulphur work together: without sulphur, extra nitrogen is wasted.
+1003	Sulphate competes with molybdenum and selenium uptake.
+1004	Elemental sulphur slowly acidifies soil, which can help micronutrient availability in alkaline soils.
+1005	Lower yields and poorer quality: less oil, less protein, less flavour.
+1006	Poor nitrogen use, so more urea for the same growth.
+1007	Weaker legumes that fix less nitrogen.
+1008	Look at young leaves: pale yellow including the veins points to sulphur.
+1009	Compare with nitrogen, which yellows the old leaves first.
+1010	Ask for an available sulphur soil test, part of the Soil Health Card test.
+1011	Gypsum supplies sulphur and calcium.
+1012	Single superphosphate supplies phosphorus and sulphur.
+1013	Ammonium sulphate supplies nitrogen and sulphur.
+1014	Bentonite or elemental sulphur supplies sulphur slowly and lowers pH a little in alkaline soils.
+1015	Farmyard manure and compost supply sulphur over time.
+1016	Too much sulphur
+1017	Sulphur excess is uncommon from fertilizers.
+1018	Very heavy elemental sulphur can make soil too acid.
+1019	Sulphate salts add to salinity in saline soils.
+1020	More on sulphur
+1021	<a href="/micronutrients/sulphur/sulphur-deficiency-symptoms-in-crops">Sulphur deficiency symptoms crop by crop</a>
+1022	How sulphur deficiency looks in mustard, groundnut, soybean, pulses, onion, cereals, sugarcane and tea, and how to tell it from nitrogen shortage.
+1023	<a href="/micronutrients/sulphur/sulphur-oilseeds-pulses">Sulphur for oilseeds and pulses: oil, protein and the urea-DAP gap</a>
+1024	Why oilseeds and pulses need sulphur for oil and protein, why fields fed only urea and DAP run short, and the common ways to supply it.
+1025	<a href="/crops/tea">Tea guide</a> and <a href="/products/immunity-tea-special">Immunity Tea Special</a>
+1026	Why is sulphur deficiency so common in India?
+1027	Urea, DAP and MOP carry no sulphur. As they replaced single superphosphate and ammonium sulphate, and less manure was used, sulphur ran short. Soil tests show it as the most widespread shortage.
+1028	How do I tell sulphur from nitrogen deficiency?
+1029	Sulphur yellows the young leaves, including the veins. Nitrogen yellows the old leaves first.
+1030	Which crops need the most sulphur?
+1031	Oilseeds such as mustard, groundnut and soybean, pulses, onion and garlic.
+1032	Is gypsum a good sulphur source?
+1033	Yes. It supplies sulphur and calcium and suits most soils.
+1034	Sulphur in Plants: Role, Deficiency Signs and Correction | GBO
+### /micronutrients/silicon
+1035	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / Silicon
+1036	Silicon (Si) in crops: role, deficiency signs and how to correct it
+1037	What silicon does in crops, how a shortage looks in each crop, why it happens, what it costs if ignored, and how growers confirm and correct it.
+1038	Silicon is a beneficial element: not essential for all plants, but strongly useful for rice, sugarcane, wheat and many other crops. Plants lay it down as silica in their cell walls, which strengthens stems against lodging, toughens leaves against stem borers, planthoppers and fungal diseases, and helps the crop cope with drought, salt and heavy metals. Intensive rice and sugarcane cropping removes large amounts from the soil.
+1039	<a href="#s0">What silicon does in the plant</a>
+1040	<a href="#s1">How silicon moves in the plant</a>
+1041	<a href="#s2">Signs of silicon deficiency</a>
+1042	<a href="#s9">Too much silicon</a>
+1043	What silicon does in the plant
+1044	Strengthens stems and leaves, so crops lodge less.
+1045	Forms a physical barrier against stem borers, planthoppers and fungi such as rice blast.
+1046	Keeps leaves upright, so more light reaches the canopy.
+1047	Reduces water loss and helps under drought.
+1048	Lowers the harm from salt, iron, manganese and aluminium toxicity.
+1049	How silicon moves in the plant
+1050	Silicon is laid down as silica where water leaves the plant, in leaves, stems and husks, and does not move again.
+1051	Signs of silicon deficiency
+1052	Soft, droopy leaves and weak stems.
+1053	More lodging before harvest.
+1054	More blast, brown spot and stem borer damage in rice.
+1055	Poor grain filling and more empty grains.
+1056	In sugarcane, weaker canes and leaf spotting.
+1057	Droopy leaves, lodging, more blast and brown spot, more empty grains.
+1058	Weaker canes, more lodging and more borer damage.
+1059	Weaker pseudostems in leached soils.
+1060	Vegetables such as cucumber and tomato
+1061	More powdery mildew where silicon is short.
+1062	More crops and look-alikes: <a href="/micronutrients/silicon/silicon-deficiency-signs">Silicon deficiency signs: lodging, droopy leaves and disease</a>.
+1063	Intensive rice and sugarcane cropping, which removes a lot of silicon in straw and trash.
+1064	Burning or removing crop residue instead of returning it.
+1065	Highly weathered, leached soils.
+1066	Sandy and organic soils.
+1067	Silicon lowers the uptake of excess iron, manganese and aluminium.
+1068	It can reduce the effect of salinity.
+1069	Heavy nitrogen makes crops softer; silicon helps keep them firm.
+1070	More lodging and harvest losses.
+1071	More pest and disease pressure, so more sprays.
+1072	Weaker tolerance to drought and salt.
+1073	Suspect it in intensively cropped rice and sugarcane fields with lodging and disease problems.
+1074	A plant test for silica content and a soil test help confirm.
+1075	Compare a treated strip with the rest of the field.
+1076	Return rice straw, rice husk and sugarcane trash to the soil instead of burning them.
+1077	Rice husk ash and silicate materials supply silicon to the soil.
+1078	Soluble silicon products are used as foliar sprays.
+1079	Follow the label or your agriculture officer for dose and timing.
+1080	Too much silicon
+1081	Silicon excess is not a known field problem.
+1082	Some silicate sources are very alkaline; follow handling instructions.
+1083	More on silicon
+1084	<a href="/micronutrients/silicon/silicon-deficiency-signs">Silicon deficiency signs: lodging, droopy leaves and disease</a>
+1085	How silicon shortage shows in rice, sugarcane, wheat, banana and vegetables, and why it is easy to miss.
+1086	<a href="/micronutrients/silicon/silicon-rice-sugarcane">Silicon in rice and sugarcane: stronger stems and fewer pest and disease problems</a>
+1087	Why rice and sugarcane take up so much silicon, how it strengthens them against lodging, pests and disease, and how to keep it in the soil.
+1088	Is silicon an essential nutrient?
+1089	Not in the strict sense for all plants, but it is a well-established beneficial element, especially for rice and sugarcane.
+1090	How does silicon help against pests?
+1091	Silica in the leaf and stem makes them harder to bite and pierce, so stem borers and planthoppers do less damage.
+1092	What is the cheapest source of silicon?
+1093	Returning rice straw, husk and sugarcane trash to the soil instead of burning them.
+1094	Silicon in Plants: Role, Deficiency Signs and Correction | GBO
+### /micronutrients/cobalt
+1095	<a href="/">Home</a> / <a href="/micronutrients">Micronutrients</a> / Cobalt
+1096	Cobalt (Co) in crops: role, deficiency signs and how to correct it
+1097	What cobalt does in crops, how a shortage looks in each crop, why it happens, what it costs if ignored, and how growers confirm and correct it.
+1098	Cobalt is a beneficial element. The plant itself is not shown to need it, but the Rhizobium bacteria in legume nodules do: they need cobalt to make vitamin B12, without which they cannot fix nitrogen. A cobalt-short legume looks nitrogen-starved, with pale leaves and poor nodules. Cobalt in fodder also matters for cattle and sheep, which need it for their own vitamin B12.
+1099	<a href="#s0">What cobalt does in the plant</a>
+1100	<a href="#s1">How cobalt moves in the plant</a>
+1101	<a href="#s2">Signs of cobalt deficiency</a>
+1102	<a href="#s9">Too much cobalt</a>
+1103	What cobalt does in the plant
+1104	Needed by nodule bacteria to make vitamin B12.
+1105	Vitamin B12 is needed for the bacteria to grow and fix nitrogen.
+1106	Supports nitrogen supply in pulses and other legumes.
+1107	Fodder cobalt supplies cattle and sheep with what they need for vitamin B12.
+1108	How cobalt moves in the plant
+1109	Cobalt moves little in the plant; it matters mostly in the root nodules.
+1110	Signs of cobalt deficiency
+1111	Legumes look nitrogen-starved: pale leaves and slow growth.
+1112	Few, small or pale nodules.
+1113	Poor pod set in pulses.
+1114	In livestock grazing cobalt-poor fodder: weight loss and poor appetite.
+1115	Pale plants with poor nodules on cobalt-poor soils.
+1116	Pale leaves and weak nodulation.
+1117	Fodder legumes such as berseem and lucerne
+1118	Weak nodulation and low cobalt in fodder for animals.
+1119	More crops and look-alikes: <a href="/micronutrients/cobalt/cobalt-deficiency-legumes-fodder">Cobalt deficiency signs in legumes and livestock fodder</a>.
+1120	Sandy, leached and highly weathered soils.
+1121	Highly calcareous soils.
+1122	Heavy liming.
+1123	Cobalt and molybdenum are both needed for nitrogen fixation in nodules.
+1124	Iron and manganese in excess can lower cobalt uptake.
+1125	Less nitrogen fixed by legumes, so more nitrogen fertilizer needed.
+1126	Lower pulse yields.
+1127	Cobalt-poor fodder for livestock.
+1128	Suspect it only after checking nodules, molybdenum, sulphur and Rhizobium inoculation.
+1129	A soil or plant test at a lab that tests trace elements confirms.
+1130	Seed treatment with Rhizobium culture, and cobalt where your agriculture officer advises it.
+1131	Only tiny amounts are used, and excess is harmful.
+1132	Do not apply without advice or a test.
+1133	Too much cobalt
+1134	Excess cobalt is toxic to plants, causing yellow young leaves similar to iron shortage.
+1135	Use only advised amounts.
+1136	More on cobalt
+1137	<a href="/micronutrients/cobalt/cobalt-deficiency-legumes-fodder">Cobalt deficiency signs in legumes and livestock fodder</a>
+1138	How cobalt shortage shows in pulses and fodder legumes, how it affects animals that eat the fodder, and how to tell it from other nodulation problems.
+1139	<a href="/micronutrients/cobalt/cobalt-rhizobium-nitrogen-fixation">Cobalt and Rhizobium: the trace element behind nitrogen fixation</a>
+1140	How cobalt lets Rhizobium bacteria fix nitrogen in pulse roots, why only a trace is needed, and why too much does harm.
+1141	Do plants need cobalt?
+1142	Legumes need it indirectly, for their nodule bacteria. Most other crops are not shown to need it.
+1143	How is cobalt supplied?
+1144	Usually in tiny amounts with seed treatment, along with Rhizobium culture, where advised.
+1145	Why does cobalt matter for cattle?
+1146	Cattle and sheep need cobalt to make vitamin B12, and they get it from the fodder they eat.
+1147	Cobalt in Plants: Role, Deficiency Signs and Correction | GBO
