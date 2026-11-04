@@ -8,7 +8,8 @@ try { REDIRECTS = JSON.parse(fs.readFileSync(path.join(__dirname, 'redirects.jso
 function redirectFor(p) {
   if (REDIRECTS[p]) return REDIRECTS[p];
   const lang = p.match(/^\/(gu|hi)(\/.*)?$/);           // old Gujarati/Hindi copies
-  if (lang && Object.keys(REDIRECTS).length) { const rest = lang[2] || '/'; return REDIRECTS[rest] || '/'; }
+  if (lang && fs.existsSync(path.join(__dirname, p, 'index.html'))) return null;   // translated page exists
+  if (lang && Object.keys(REDIRECTS).length) { const rest = lang[2] || '/'; return REDIRECTS[rest] || rest; }
   return null;
 }
 function send(res, code, file, extra, req) {

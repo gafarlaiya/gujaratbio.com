@@ -883,3 +883,5 @@ for _c in CROPS:
     _kb.append(f"### {_c['name']} (grown in: {_c.get('where', '')}; product: {_c.get('product', '')})\n{_c.get('intro', '')}\nStages: {_st}\nCommon problems: {'; '.join(_c.get('problems', []))}\nWhat to check: {'; '.join(_c.get('checks', []))}")
 open(os.path.join(ROOT, "agent-kb.txt"), "w", encoding="utf8").write("\n".join(_kb))
 print(f"built {len(PAGES)} pages, {len(seen)} media slots")
+# Gujarati and Hindi versions (built from the English pages above with i18n/<lang>.json)
+import runpy; runpy.run_path(os.path.join(ROOT, "i18n", "build_lang.py"))
