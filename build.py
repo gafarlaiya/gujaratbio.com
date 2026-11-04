@@ -66,6 +66,7 @@ ALIAS = {"crop-sugarcane-farmer-video-1.mp4": "sugarcane-farmer-field.mp4", "hom
          "story-sugarcane-1.mp4": "sugarcane-farmer-field.mp4", "crop-sugarcane-field-visit.mp4": "sugarcane-field-walk.mp4",
          "immunity-sugarcane-special-farmer-story.mp4": "sugarcane-field-walk.mp4", "story-sugarcane-2.mp4": "sugarcane-field-walk.mp4"}
 POSTER = {"sugarcane-farmer-field.mp4": "gallery/farmer-field-poster.webp", "sugarcane-field-walk.mp4": "gallery/field-walk-poster.webp"}
+SHOW_SLOTS = os.environ.get("SHOW_SLOTS") == "1"
 def media(fname, desc, kind="img", cls=""):
     """A named photo/video slot. If assets/media/<fname> exists it is shown; otherwise a labelled placeholder."""
     MEDIA.append((fname, kind, desc, _CUR["page"]))
@@ -76,13 +77,13 @@ def media(fname, desc, kind="img", cls=""):
             pst = f' poster="/assets/media/{POSTER[real]}"' if real in POSTER else ""
             return f'<div class="media {cls}"><video controls preload="none" playsinline{pst} src="/assets/media/{real}" aria-label="{esc(desc)}"></video></div>'
         return f'<div class="media {cls}"><img src="/assets/media/{fname}" alt="{esc(desc)}" loading="lazy"></div>'
+    if not SHOW_SLOTS: return ""   # no empty photo boxes on the live site; the missing list is written to media-needed.csv
     label = "Video coming soon" if kind == "video" else "Photo coming soon"
     return f'<div class="slot {"video " if kind == "video" else ""}{cls}" role="img" aria-label="{esc(label + ": " + desc)}"><span>{label}</span><span class="fn">{esc(fname)}</span><span class="ds">{esc(desc)}</span></div>'
 
 SITES = [("https://www.gujaratbio.com/", "www.gujaratbio.com", "Main company website: Immunity products, crop guides and farmer knowledge (this site, after the trial)."),
          ("https://b2b.gujaratbio.com/", "b2b.gujaratbio.com", "Business buyers: bulk supply, private label, OEM and export of biostimulants and biofertilizers."),
-         ("https://ganna.in/", "ganna.in", "Sugarcane growers, in Gujarati: Immunity Sugarcane Program, dose schedule and farmer results."),
-         ("https://en.gujaratbio.com/", "en.gujaratbio.com", "Our previous website, kept for reference for a limited time.")]
+         ("https://ganna.in/", "ganna.in", "Sugarcane growers, in Gujarati: Immunity Sugarcane Program, dose schedule and farmer results.")]
 GANNA = "https://ganna.in"
 def ganna_box():
     u = "?utm_source=gujaratbio_farmer_site&amp;utm_medium=referral&amp;utm_campaign=sugarcane"
@@ -211,6 +212,10 @@ def render(path, title, desc, body, schemas=None, crumbs=None, prio="0.6", lang=
 <link rel="preload" href="/assets/fonts/mukta-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/baloo-2-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
 <style>{CSS}</style>{ldh}</head><body{' data-nf="1"' if path == "/404" else ""}><noscript><iframe src="https://www.googletagmanager.com/ns.html?id={GTM_ID}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 {header(path)}<main id="main">{body}</main>{footer()}<script>{JS}</script></body></html>'''
+    if not SHOW_SLOTS:
+        for _ in range(3):
+            out = re.sub(r'<div class="(?:grid|media-row|gallery)[^"]*"(?: style="[^"]*")?>\s*</div>', "", out)
+            out = re.sub(r'<section class="sec[^"]*"(?: id="[^"]*")?><div class="wrap">(?:<h2>[^<]*</h2>)?(?:<p class="sub">[^<]*</p>)?\s*</div></section>', "", out)
     d = ROOT if path == "/" else os.path.join(ROOT, path.strip("/"))
     os.makedirs(d, exist_ok=True)
     open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(out)
@@ -265,6 +270,18 @@ def picker():
     tiles = []
     for c in CRP:
         p = PBY[c["product"]]
+        hero_f = os.path.join(ROOT, "assets", "media", f"crop-{c['slug']}-hero.webp")
+        if os.path.exists(hero_f):   # a real crop photo replaces the bottle on the crop card
+            card_f = os.path.join(ROOT, "assets", "media", "cards", f"crop-{c['slug']}.webp")
+            if not os.path.exists(card_f) or os.path.getmtime(card_f) < os.path.getmtime(hero_f):
+                from PIL import Image as _I
+                os.makedirs(os.path.dirname(card_f), exist_ok=True)
+                im = _I.open(hero_f).convert("RGB"); w, h = im.size; t = 3 / 4
+                if h / w > t: d = int((h - w * t) / 2); im = im.crop((0, d, w, d + int(w * t)))
+                else: d = int((w - h / t) / 2); im = im.crop((d, 0, d + int(h / t), h))
+                im.resize((480, 360)).save(card_f, "WEBP", quality=78)
+            tiles.append(f'<a class="ph" href="/crops/{c["slug"]}"><img src="/assets/media/cards/crop-{c["slug"]}.webp" alt="{esc(c["name"])} crop in the field" loading="lazy" decoding="async" width="480" height="360"><span class="tx"><b>{c["name"]}</b><span>{esc(c["hook"])}</span></span></a>')
+            continue
         tiles.append(f'<a href="/crops/{c["slug"]}"><span class="tx"><b>{c["name"]}</b><span>{esc(c["hook"])}</span></span>{pimg(p, "thumb")}</a>')
     return '<div class="picker">' + "".join(tiles) + "</div>"
 

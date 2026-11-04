@@ -145,3 +145,5 @@ p{margin:0 0 1em}ul{margin:0 0 1em;padding-left:1.2em}li{margin:.25em 0}
 .packs td a{font-weight:600}
 .langsw{display:flex;gap:4px}.langsw a{color:#fff;text-decoration:none;padding:1px 8px;border-radius:999px;font-size:.85rem}.langsw a[aria-current]{background:#fff;color:var(--ink)}
 html[lang=gu] body{font-family:"Mukta","Noto Sans Gujarati","Shruti",sans-serif}html[lang=hi] body{font-family:"Mukta","Noto Sans Devanagari",sans-serif}
+
+.picker a.ph{display:flex;flex-direction:column;padding:0;overflow:hidden}.picker a.ph img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}.picker a.ph .tx{padding:12px 14px 14px}
