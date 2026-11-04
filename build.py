@@ -574,11 +574,21 @@ st += enquiry_box(title="Talk to us")
 render("/our-story", "Our Story Since 2006 | Gujarat Bio Organics", "Gujarat Bio Organics' journey since 2006: from field work with sugarcane, apple, potato, mango and banana growers to the Immunity range for 20 crops.",
        st, None, [("About", "/about"), ("Our story", None)], "0.7")
 
+REACH_TBL = T(["Region", "Crops we serve"], [
+    ["Gujarat and Madhya Pradesh", "Cotton, groundnut, castor, cumin, coriander, mustard, wheat, paddy, sugarcane, potato, onion, garlic, chilli, vegetables, elephant foot yam (suran), mango, sapota (chikoo), guava, lemon and coconut"],
+    ["Maharashtra and Karnataka", "Pomegranate, banana, chilli and grapes"],
+    ["Andhra Pradesh and Telangana", "Cotton, chilli and banana"],
+    ["Punjab and Haryana", "Potato, paddy, wheat, sugarcane and peas"],
+    ["Rajasthan and Haryana", "Citrus and cotton"],
+    ["Himachal Pradesh", "Apple, peas and tomato"],
+    ["Jammu and Kashmir", "Apple"],
+    ["Assam and Darjeeling", "Tea"],
+    ["Tamil Nadu, Karnataka and Kerala", "Banana, coconut and cardamom"]])
 start("/our-impact")
 im = hero("Our impact", "Healthier soil, lower dependence on hazardous chemicals, and more food from the same land.", [("About", "/about"), ("Our impact", None)],
           side=media("impact-hero-healthy-field.webp", "Wide photo of a thriving field with the farmer family, showing healthy crop and soil"))
 im += sec('<div class="stats">' + "".join(f'<div class="stat"><b>{a}</b>{esc(b)}</div>' for a, b in [("2006", "Working with farmers since"), ("20", "Crops served by the Immunity range"), ("Lakhs", "Farmers served across India"), ("Kashmir to Kanyakumari", "From apple orchards to coconut and cardamom farms")]) + "</div>")
-im += sec(f'<p class="prose">{esc("Since 2006, lakhs of farmers from Kashmir to Kanyakumari have used Immunity products on almost every crop: from the mango farms around Somnath to the apple orchards of Himachal Pradesh and Kashmir, the tea estates of Assam and Darjeeling, and the banana, coconut and cardamom farms of Tamil Nadu, Karnataka and Kerala.")}</p>', "Farmers we serve")
+im += sec(f'<p class="prose">{esc("Since 2006, lakhs of farmers from Kashmir to Kanyakumari have used Immunity products on almost every crop: from the mango farms around Somnath to the apple orchards of Himachal Pradesh and Kashmir, the tea estates of Assam and Darjeeling, and the banana, coconut and cardamom farms of Tamil Nadu, Karnataka and Kerala.")}</p>' + body_of([REACH_TBL]), "Farmers we serve", id="reach")
 im += sec('''<div class="grid two"><div class="prose"><h3>Eliminate hunger</h3><p>Food security starts with soil. Tired soil grows less food for more money. By rebuilding soil life and helping crops use nutrients well, farmers can keep producing food from the same land, season after season.</p></div>
 <div class="prose"><h3>Healthier soil</h3><p>Every Immunity formula is made to work with living soil. Our biofertilizers add helpful microbes and our granules improve soil structure.</p></div>
 <div class="prose"><h3>Fewer hazardous chemicals</h3><p>Our mission is to make farming free of hazardous chemicals. Healthier crops on healthier soil need less rescue spraying.</p></div>
