@@ -148,3 +148,4 @@ html[lang=gu] body{font-family:"Mukta","Noto Sans Gujarati","Shruti",sans-serif}
 
 .picker a.ph{display:flex;flex-direction:column;padding:0;overflow:hidden}.picker a.ph img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}.picker a.ph .tx{padding:12px 14px 14px}
 .hero .media img{width:100%;max-height:460px;object-fit:cover;border-radius:16px}@media(max-width:820px){.hero .media img{max-height:320px}}
+@media(max-width:900px){.nav{top:100%;max-height:calc(100vh - 190px);max-height:calc(100dvh - 190px);overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;box-shadow:0 10px 24px rgba(35,24,15,.15)}}
