@@ -16,6 +16,7 @@ def _cr(t, n=48):
     return t if len(t) <= n else t[:n].rsplit(" ", 1)[0].rstrip(",;:-") + "..."
 B2B = "https://b2b.gujaratbio.com"
 GTM_ID = "GTM-5JDXGL2S"
+META_PIXEL = "262993145477487"  # Gujarat Bio's Pixel Current Working (loaded here; the GTM base tag skips when fbq exists)
 CLARITY_ID = "ny9u8r542a"  # Microsoft Clarity project "Gujarat Bio Main Site"
 WA = "919978791167"; PHONE = "+91 99787 91167"; TEL = "+919978791167"; MAIL = "sales@gujaratbio.com"
 NAME = "Gujarat Bio Organics Pvt. Ltd."; SHORT = "Gujarat Bio Organics"
@@ -150,7 +151,13 @@ def tracking():
           "gtag('consent','default',{ad_storage:v,ad_user_data:v,ad_personalization:v,analytics_storage:v});"
           "var it='';try{var q=location.search;if(/[?&]internal=1/.test(q))localStorage.setItem('gbo_internal','1');if(/[?&]internal=0/.test(q))localStorage.removeItem('gbo_internal');it=localStorage.getItem('gbo_internal')?'internal':''}catch(e){}"
           "var pt=location.pathname.split('/')[1]||'home';var p={site_section:'farmer_site',page_type:pt};if(it)p.traffic_type=it;dataLayer.push(p);"
-          "function g(){if(window.__gtm)return;window.__gtm=1;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});"
+          # stable visitor id: sent as Meta external_id from the browser and, via the lead, from the server
+          "var vid='',hph='';try{vid=localStorage.getItem('gbo_vid')||'';if(!vid){vid='v.'+Date.now().toString(36)+'.'+Math.random().toString(36).slice(2,10);localStorage.setItem('gbo_vid',vid)}hph=localStorage.getItem('gbo_ph')||''}catch(e){}"
+          "function px(){if(window.fbq)return;if(it||v!=='granted'){window.fbq=function(){};return}"
+          "!function(f,b,e,u,n,t,s){n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=u;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');"
+          f"var ud={{country:'in'}};if(vid)ud.external_id=vid;if(hph)ud.ph=hph;fbq('init','{META_PIXEL}',ud);var r=Date.now().toString(36)+Math.random().toString(36).slice(2,7);fbq('track','PageView',{{}},{{eventID:'pv.'+r}});"
+          "var m=location.pathname.match(/^\\/(?:gu\\/|hi\\/)?(crops|products)\\/([a-z0-9-]+)/);if(m){var h=document.querySelector('h1');fbq('track','ViewContent',{content_type:'product',content_category:m[1]==='crops'?'crop':'product',content_ids:[m[2]],content_name:((h&&h.textContent)||m[2]).trim().slice(0,100)},{eventID:'vc.'+r})}}"
+          "function g(){if(window.__gtm)return;window.__gtm=1;px();(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});"
           "var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f)})"
           f"(window,document,'script','dataLayer','{GTM_ID}');"
           # Microsoft Clarity (heatmaps + session recordings), same delayed loading; skipped for the team and where consent is needed
@@ -164,7 +171,7 @@ FONT = "https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family
 CSS = re.sub(r"\s*([{};:,>])\s*", r"\1", re.sub(r"/\*.*?\*/", "", open(os.path.join(ROOT, "assets", "site.css"), encoding="utf-8").read(), flags=re.S)).replace(";}", "}")
 JS = ("document.querySelector('.menu-btn')?.addEventListener('click',function(){var n=document.getElementById('nav');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)});"
       "document.addEventListener('click',function(e){var a=e.target.closest('[data-ev]');if(a){var s=a.closest('section,header,footer,nav');window.dataLayer=window.dataLayer||[];"
-      "dataLayer.push({event:a.dataset.ev,link_url:a.href||'',link_text:(a.textContent||'').trim().slice(0,80),link_location:s?(s.querySelector('h2')||{}).textContent||s.tagName.toLowerCase():'',page_path:location.pathname})}});"
+      "dataLayer.push({event:a.dataset.ev,event_id:'ct.'+Date.now().toString(36)+Math.random().toString(36).slice(2,7),link_url:a.href||'',link_text:(a.textContent||'').trim().slice(0,80),link_location:s?(s.querySelector('h2')||{}).textContent||s.tagName.toLowerCase():'',page_path:location.pathname})}});"
       "document.querySelectorAll('video').forEach(function(v){v.addEventListener('play',function(){window.dataLayer=window.dataLayer||[];dataLayer.push({event:'video_start',video_provider:'self-hosted',video_title:v.getAttribute('aria-label')||'',video_id:(v.currentSrc||'').split('/').pop()})},{once:true})});"
       "if(document.body.dataset.nf)(window.dataLayer=window.dataLayer||[]).push({event:'page_not_found',page_path:location.pathname});"
       "var SB='https://filbmvtclfcrrvxckema.supabase.co',SK='sb_publishable_qbndsVEhemxGLYZa6P3PyQ_iDNmsmmT';"
@@ -179,7 +186,7 @@ JS = ("document.querySelector('.menu-btn')?.addEventListener('click',function(){
       "return post(r).then(function(x){if(x&&!x.ok&&x.status<500)return post({name:r.name,phone:r.phone,country:r.country,interest:r.interest,form:r.form,channel:r.channel,message:r.message,page:r.page,site:r.site})})}"
       "var F=document.getElementById('enqform');if(F){F.addEventListener('input',function(){(window.dataLayer=window.dataLayer||[]).push({event:'form_start',form_name:'farmer_site_'+((F.type&&F.type.value)||'enquiry').toLowerCase().replace(/[^a-z]+/g,'_')})},{once:true});var q=new URLSearchParams(location.search);['crop','product','type'].forEach(function(k){var v=q.get(k);if(v&&F[k])F[k].value=v});"
       "F.addEventListener('submit',function(e){e.preventDefault();var d={},fd=new FormData(F),m='Hello Gujarat Bio Organics, I am sending an enquiry from your website.';"
-      "fd.forEach(function(v,k){if(v){d[k]=v;m+='\\n'+k.charAt(0).toUpperCase()+k.slice(1)+': '+v}});window.dataLayer=window.dataLayer||[];var eid='gbo-'+Date.now()+'-'+Math.random().toString(36).slice(2,8);d.event_id=eid;dataLayer.push({event:'generate_lead',form_name:'farmer_site_'+(d.type||'enquiry').toLowerCase().replace(/[^a-z]+/g,'_'),lead_channel:'whatsapp',enquiry_type:d.type||'',event_id:eid});"
+      "fd.forEach(function(v,k){if(v){d[k]=v;m+='\\n'+k.charAt(0).toUpperCase()+k.slice(1)+': '+v}});window.dataLayer=window.dataLayer||[];var eid='gbo-'+Date.now()+'-'+Math.random().toString(36).slice(2,8);d.event_id=eid;d.vid=ld('gbo_vid');try{var pd=String(d.phone||'').replace(/\\D/g,'');if(pd.length===10)pd='91'+pd;if(pd.length>=11&&window.crypto&&crypto.subtle)crypto.subtle.digest('SHA-256',new TextEncoder().encode(pd)).then(function(b){st('gbo_ph',Array.from(new Uint8Array(b)).map(function(x){return x.toString(16).padStart(2,'0')}).join(''))})}catch(e){}dataLayer.push({event:'generate_lead',form_name:'farmer_site_'+(d.type||'enquiry').toLowerCase().replace(/[^a-z]+/g,'_'),lead_channel:'whatsapp',enquiry_type:d.type||'',event_id:eid});"
       "var go=function(){location.href='https://wa.me/919978791167?text='+encodeURIComponent(m)};var t=setTimeout(go,1500);save(d).then(function(){clearTimeout(t);go()},function(){clearTimeout(t);go()})})}"
       "var C=document.getElementById('calc');if(C){C.addEventListener('input',calc);calc()}"
       "function calc(){var g=function(i){return Math.max(0,parseFloat(document.getElementById(i).value)||0)},N=g('cn'),P=g('cp'),K=g('ck'),A=g('ca')||1,src=document.getElementById('cs').value,o=[];"

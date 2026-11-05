@@ -3,6 +3,10 @@ const http = require('http'), fs = require('fs'), path = require('path'), zlib =
 const GZ = new Map();  // in-memory gzip cache
 const ROOT = __dirname, PORT = process.env.PORT || 3000;
 const MIME = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'application/javascript; charset=utf-8','.svg':'image/svg+xml','.webp':'image/webp','.png':'image/png','.jpg':'image/jpeg','.xml':'application/xml','.txt':'text/plain; charset=utf-8','.json':'application/json','.ico':'image/x-icon','.woff2':'font/woff2','.mp4':'video/mp4'};
+// Meta pixel upgrade for pages built before it (visitor id, ViewContent, click event ids). Rebuilt pages already
+// contain it, so these edits then find nothing to change. Safe to delete px-patch.json after the next full rebuild.
+let PXP = []; try { PXP = JSON.parse(fs.readFileSync(path.join(__dirname, 'px-patch.json'), 'utf8')); } catch (e) {}
+function patchHtml(buf) { if (!PXP.length) return buf; let s = buf.toString('utf8'), ch = false; for (const [a, b] of PXP) if (s.includes(a)) { s = s.split(a).join(b); ch = true; } return ch ? Buffer.from(s, 'utf8') : buf; }
 let REDIRECTS = {};  // old www.gujaratbio.com URLs -> new pages; filled from redirects.json at launch
 try { REDIRECTS = JSON.parse(fs.readFileSync(path.join(__dirname, 'redirects.json'), 'utf8')); } catch (e) {}
 function redirectFor(p) {
@@ -33,6 +37,7 @@ function send(res, code, file, extra, req) {
     if (e && !(req && req._retried)) { if (req) req._retried = true; return setTimeout(() => send(res, code, file, extra, req), 150); }  // one quick retry (files can be mid-deploy)
     if (e) { res.writeHead(503, {'Retry-After': '120', 'Cache-Control': 'no-store'}); return res.end('Temporarily unavailable'); }  // 503 = "try later" to Google, not a permanent error
     const ext = path.extname(file);
+    if (ext === '.html') buf = patchHtml(buf);
     const h = Object.assign({'Content-Type': MIME[ext] || 'application/octet-stream', 'X-Content-Type-Options': 'nosniff', 'Vary': 'Accept-Encoding'}, extra || {});
     h['Cache-Control'] = ext === '.html' ? 'public, max-age=300' : (ext === '.css' || ext === '.js') ? 'public, max-age=31536000, immutable' : 'public, max-age=31536000, immutable';
     const textual = /^(\.html|\.css|\.js|\.svg|\.xml|\.txt|\.json)$/.test(ext);
@@ -55,7 +60,7 @@ http.createServer((req, res) => {
   if (p.length > 1 && p.endsWith('/')) p = p.slice(0, -1);
   const to = redirectFor(p); if (to && to !== p) { const q = req.url.indexOf('?'); res.writeHead(301, {Location: to + (q > -1 && !to.includes('?') ? req.url.slice(q) : '')}); return res.end(); }
   const full = path.normalize(path.join(ROOT, p));
-  if (!full.startsWith(ROOT) || /(^|\/)\.|server\.js$|package\.json$|\.py$|\.md$|\.gs$|^\/(redirects|host|redirects-at-launch|content_articles)\.json$|\.csv$/.test(p)) return send(res, 404, path.join(ROOT, '404.html'), null, req);
+  if (!full.startsWith(ROOT) || /(^|\/)\.|server\.js$|package\.json$|\.py$|\.md$|\.gs$|^\/(redirects|host|redirects-at-launch|content_articles|px-patch)\.json$|\.csv$/.test(p)) return send(res, 404, path.join(ROOT, '404.html'), null, req);
   fs.stat(full, (e, st) => {
     if (!e && st.isFile()) return send(res, 200, full, null, req);
     const idx = path.join(full, 'index.html');
