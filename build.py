@@ -321,6 +321,22 @@ render("/", "Gujarat Bio Organics | Bio & Organic Fertilizer Manufacturer",
        "Bio and organic fertilizer manufacturer in Bhavnagar, Gujarat since 2006. Immunity crop formulas for 20 crops, biostimulants and biofertilizers. Send an enquiry.",
        home, [faq_ld(home_faq), {"@context": "https://schema.org", "@type": "WebSite", "url": SITE + "/", "name": SHORT, "publisher": {"@id": SITE + "/#org"}, "copyrightHolder": {"@id": SITE + "/#org"}, "copyrightYear": 2026, "inLanguage": "en-IN"}], None, "1.0")
 
+# Field report from a tea estate in Assam, shown on the tea guide, the product page and farmer stories.
+TEA_QUOTE = ("I have just been informed from Bholaguri that the results of the organic fertiliser provided by us is very positive, increasing yield & quality of the leaf as well as rejuvenating the tea bushes.",
+             "Sham Bhai", "Tea estate owner, Hukajan, Assam. Owner reported")
+GAL_TEA = [("tea-01", "Workers spraying tea bushes with backpack sprayers at Bholaguri Tea Estate, Assam"),
+           ("tea-02", "Ground application in section 1 at Bholaguri Tea Estate, with a bucket of granules between the tea bushes"),
+           ("tea-03", "Ground application between rows of tea bushes at Bholaguri Tea Estate"),
+           ("tea-04", "Immunity Tea Special bottle at the garden, with the sprayer behind it"),
+           ("tea-05", "New flush on tea bushes at the estate"),
+           ("tea-06", "Ground application under the tea bushes, with new flush in front")]
+def quote_card(t, n, r): return f'<blockquote class="quote"><p>{esc(t)}</p><cite>{esc(n)}</cite><span class="tag">{esc(r)}</span></blockquote>'
+def tea_story(gal=True):
+    return sec(f'<div class="prose"><p>Section 1 of Bholaguri Tea Estate in Assam received a ground application and a foliar spray. The photos below are from the garden, September 2024. This is what the estate owner told us:</p></div>'
+               + quote_card(*TEA_QUOTE)
+               + '<p class="note" style="margin-top:12px">This is the owner\'s own report. It did not include measured yield or leaf-quality figures.</p>'
+               + (gallery(GAL_TEA) if gal else "") + f'<p class="note" style="margin-top:14px">{RESULTS}</p>', "What a tea estate in Assam told us", tint=True, id="bholaguri")
+
 # ---------------------------------------------------------------- crops
 start("/crops")
 render("/crops", "Crop Guides for 20 Crops | Gujarat Bio Organics",
@@ -345,6 +361,7 @@ for c in CROPS:
     _mels = [e for e in ELEMENTS if c["slug"] in e["crop_links"]]
     if _mels:
         body += sec('<div class="prose"><p>Many weak-crop problems in ' + esc(c["name"].lower()) + ' trace back to a hidden nutrient shortage. These are the ones to check first:</p></div><div class="chips">' + "".join(f'<a href="/micronutrients/{e["slug"]}">{esc(e["name"].split(" (")[0])}</a>' for e in _mels) + '</div><p class="note" style="margin-top:12px"><a href="/micronutrients/deficiency-symptoms">How to read deficiency symptoms</a> &middot; <a href="/micronutrients">All micronutrients</a></p>', f"Micronutrients to watch in {c['name'].lower()}")
+    if c["slug"] == "tea": body += tea_story()
     body += sec(f'<div class="pbox"><div class="pshot">{pimg(p)}</div><div class="prose"><h3>{esc(p["name"])}</h3><p>{esc(p["line"])}</p>'
                 + (f'<p>{esc(p["story"])}</p>' if p["story"] else "") + f'<p><b>Packs:</b> {esc(", ".join(p["packs"]))}</p>'
                 f'<div class="btns"><a class="btn btn-leaf" href="/products/{p["slug"]}">See {esc(p["name"])}</a>{btn_enq("Send enquiry", "?crop=" + quote(c["name"]) + "&product=" + quote(p["name"]))}</div><p class="note">{RESULTS}</p></div></div>',
@@ -393,6 +410,7 @@ for p in PRODUCTS:
     story = f'<div class="prose"><h3>How it was developed</h3><p>{esc(p["story"])}</p></div>' if p["story"] else f'<div class="prose"><h3>Ask us</h3><p>Send your crop, its stage and your location, and our team will tell you how {esc(p["name"])} fits your programme.</p></div>'
     body += sec(f'<div class="grid two">{left}{story}</div>', "Who it is for", tint=True)
     body += sec(f'<div class="prose"><p>The right amount and timing depend on your crop, its stage and your soil. Every pack carries the label dose. Send us your crop, stage and location and our team will send a schedule for your field.</p></div><div class="btns">{btn_wa(f"Hello Gujarat Bio Organics, please send the schedule for {p['name']}. Crop: / Stage: / Location:", "Get a schedule on WhatsApp")}</div>', "How to use it")
+    if p["slug"] == "immunity-tea-special": body += tea_story(gal=False)
     body += sec('<div class="grid">' + media(f"{p['slug']}-farmer-story.mp4", f"Farmer who used {p['name']} talking in his field about his crop", "video")
                 + media(f"{p['slug']}-how-to-apply.mp4", f"Short video showing how {p['name']} is mixed and applied in the field", "video")
                 + media(f"{p['slug']}-label.webp", f"Clear photo of the back label of {p['name']} showing composition and directions") + f'</div><p class="note" style="margin-top:14px">{RESULTS}</p>', "Farmer videos and label", tint=True)
@@ -417,14 +435,16 @@ for p in PRODUCTS:
 # ---------------------------------------------------------------- farmer stories
 start("/farmer-stories")
 stories = [("Last year I did 3 times re-transplanting of my sugarcane crop.", "Jagdish Bhai", "Sugarcane grower, on the problem he faced before working with us"),
-           ("Reported a single sugarcane of 4.5 kg from his field, shown in his Facebook video.", "Dharmesh Patel", "Sugarcane grower, South Gujarat. Farmer reported")]
+           ("Reported a single sugarcane of 4.5 kg from his field, shown in his Facebook video.", "Dharmesh Patel", "Sugarcane grower, South Gujarat. Farmer reported"),
+           TEA_QUOTE]
 sq = '<div class="grid two">' + "".join(f'<blockquote class="quote"><p>{esc(t)}</p><cite>{esc(n)}</cite><span class="tag">{esc(r)}</span></blockquote>' for t, n, r in stories) + "</div>"
 fs = hero("Farmer stories", "Growers tell, in their own words, what they faced and what changed on their farm.", [("Farmer stories", None)])
-fs += sec('<div class="chips">' + "".join(f'<a href="#{c["slug"]}">{c["name"]}</a>' for c in CROPS[:10]) + "</div>" + sq + f'<p class="note" style="margin-top:16px">{RESULTS}</p>', "What farmers told us")
+fs += sec('<div class="chips">' + "".join(f'<a href="#{c["slug"]}">{c["name"]}</a>' for c in CROPS[:10]) + '<a href="#tea">Tea</a></div>' + sq + f'<p class="note" style="margin-top:16px">{RESULTS}</p>', "What farmers told us")
 for i, c in enumerate(CROPS[:10]):
     fs += sec('<div class="grid">' + media(f"story-{c['slug']}-1.mp4", f"{c['name']} farmer story 1: farmer in his field, name and village on screen", "video")
               + media(f"story-{c['slug']}-2.mp4", f"{c['name']} farmer story 2", "video") + media(f"story-{c['slug']}-photo.webp", f"Photo of a {c['name'].lower()} farmer with his crop or harvest") + "</div>",
               f"{c['name']} growers", tint=(i % 2 == 0), id=c["slug"])
+fs += sec(gallery(GAL_TEA), "Tea growers", "Bholaguri Tea Estate, Assam: ground application and foliar spray in section 1.", id="tea")
 fs += sec(gallery(GAL_F) , "Field visits", "Our team with growers in their fields.") + sec(gallery(GAL_E), "At farmer fairs", "Farmers at the Immunity stall.", tint=True) + ganna_box()
 fs += sec(f'<p class="prose">Have you used Immunity on your farm? Send us your story and photos on WhatsApp. With your permission, we will share it to help other farmers.</p><div class="btns">{btn_wa("Hello Gujarat Bio Organics, I want to share my farm story.", "Share your story")}</div>', "Share your story")
 render("/farmer-stories", "Farmer Stories and Videos | Gujarat Bio Organics", "Sugarcane, potato, mango, apple, banana and other growers tell what they faced on their farms and what changed. Videos and farmer reports.",
