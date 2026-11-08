@@ -44,11 +44,12 @@ ARTICLES = json.load(open(os.path.join(ROOT, "content_articles.json"), encoding=
 CROP_KW = {"apple": ["apple", "root rot"], "potato": ["potato"], "banana": ["banana"], "sugarcane": ["sugarcane", "गन्न"], "cotton": ["cotton", "कपास"],
            "mango": ["mango"], "citrus": ["citrus", "lemon"], "onion": ["onion"], "coconut": ["coconut"], "paddy": ["paddy", "rice "]}
 def art_crop(a):
-    t = (a["h1"] + " " + a["old"]).lower()
+    t = (a["h1"] + " " + a.get("old", "")).lower()
     return next((c for c, ks in CROP_KW.items() if any(k in t for k in ks)), "")
-for _a in ARTICLES: _a["crop"] = art_crop(_a)
+for _a in ARTICLES: _a["crop"] = _a.get("crop") or art_crop(_a)
 CAT_PAGE = {"soil": ("/knowledge/soil-health", "Soil health"), "compost": ("/guides/compost-and-humic-acid", "Compost and humic acid"),
-            "organic": ("/knowledge/sustainability", "Sustainable farming and the 5 Rs"), "crops": ("/crops", "Crop guides")}
+            "organic": ("/knowledge/sustainability", "Sustainable farming and the 5 Rs"), "crops": ("/crops", "Crop guides"),
+            "biostimulants": ("/plant-science-series", "Plant Science Series"), "horticulture": ("/crops", "Crop guides"), "problems": ("/crop-problems", "Crop problems")}
 
 def esc(s): return H.escape(str(s), quote=True)
 def wa(msg): return f"https://wa.me/{WA}?text={quote(msg)}"
@@ -554,26 +555,46 @@ render("/tools/fertilizer-dose-calculator", "Fertilizer Dose Calculator: Urea, D
        [("Knowledge", "/knowledge"), ("Fertilizer dose calculator", None)], "0.6")
 
 # ---------------------------------------------------------------- articles (moved from the old website)
-ACAT = [("soil", "Soil health"), ("compost", "Compost"), ("crops", "Crop guides"), ("organic", "Organic and sustainable farming")]
+ACAT = [("biostimulants", "Seaweed, humic, amino and other biostimulants"), ("horticulture", "Fruit, vegetable and plantation crops"), ("problems", "Crop problems and symptoms"),
+        ("soil", "Soil health"), ("compost", "Compost"), ("crops", "Crop guides"), ("organic", "Organic and sustainable farming")]
+ARTICLES.sort(key=lambda a: a.get("date", "2000-01-01"), reverse=True)   # newest first
+def _inline(x):  # escape, then allow [text](url) links and **bold**
+    x = esc(x)
+    x = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", x)
+    return re.sub(r"\[([^\]]+)\]\(((?:https?://|/)[^)\s]+)\)", lambda m: f'<a href="{m.group(2)}"' + ("" if m.group(2).startswith("/") else ' rel="noopener" target="_blank"') + f">{m.group(1)}</a>", x)
+def _table(b):
+    rows = [[c.strip() for c in r.strip().strip("|").split("|")] for r in b.strip().split("\n") if not re.fullmatch(r"\|?[\s:|-]+\|?", r.strip())]
+    return '<div class="tablewrap"><table><thead><tr>' + "".join(f"<th>{_inline(c)}</th>" for c in rows[0]) + "</tr></thead><tbody>" + "".join("<tr>" + "".join(f"<td>{_inline(c)}</td>" for c in r) + "</tr>" for r in rows[1:]) + "</tbody></table></div>"
 def md_html(t):
     out, ul_open = [], False
     for b in t.split("\n\n"):
         b = b.strip()
         if b.startswith("- "):
             if not ul_open: out.append("<ul>"); ul_open = True
-            out.append(f"<li>{esc(b[2:])}</li>"); continue
+            for li in b.split("\n- "): out.append(f"<li>{_inline(li.lstrip('- '))}</li>")
+            continue
         if ul_open: out.append("</ul>"); ul_open = False
         m = re.match(r"^(#{2,4}) (.*)", b)
         if m: lvl = min(len(m.group(1)), 3); out.append(f"<h{lvl}>{esc(m.group(2))}</h{lvl}>")
-        else: out.append(f"<p>{esc(b)}</p>")
+        elif b.startswith("|"): out.append(_table(b))
+        else: out.append(f"<p>{_inline(b)}</p>")
     if ul_open: out.append("</ul>")
     return "".join(out)
 start("/articles")
 ah = hero("Articles", f"{len(ARTICLES)} articles on soil, compost, crops and sustainable farming by Gafar Laiya and the Gujarat Bio Organics team, in English and Hindi.", [("Knowledge", "/knowledge"), ("Articles", None)])
 ah += sec('<div class="chips">' + "".join(f'<a href="#{c}">{esc(t)}</a>' for c, t in ACAT) + '</div>')
+def _acard(a): return card(f"/articles/{a['slug']}", a["h1"], (a["desc"] or a["body"][:150])[:160], "Hindi" if a["lang"] == "hi" else "English")
 for i, (c, t) in enumerate(ACAT):
     items = [a for a in ARTICLES if a["cat"] == c]
-    ah += sec('<div class="grid">' + "".join(card(f"/articles/{a['slug']}", a["h1"], (a["desc"] or a["body"][:150])[:160], "Hindi" if a["lang"] == "hi" else "English") for a in items) + "</div>", t, tint=(i % 2 == 0), id=c)
+    if not items: continue
+    more = f'<div class="btns"><a class="btn btn-line" href="/articles/topic/{c}">All {len(items)} articles: {esc(t.lower())}</a></div>' if len(items) > 12 else ""
+    ah += sec('<div class="grid">' + "".join(_acard(a) for a in items[:12]) + "</div>" + more, t, tint=(i % 2 == 0), id=c)
+    if len(items) > 12:
+        start(f"/articles/topic/{c}")
+        render(f"/articles/topic/{c}", f"{t} | Articles | GBO"[:66], f"All Gujarat Bio Organics articles on {t.lower()}, newest first.",
+               hero(t, f"{len(items)} articles, newest first.", [("Articles", "/articles"), (t, None)]) + sec('<div class="grid">' + "".join(_acard(a) for a in items) + "</div>"),
+               None, [("Articles", "/articles"), (t, None)], "0.5")
+        start("/articles")
 render("/articles", "Farming Articles: Soil, Compost, Crops, Organic | GBO", "Articles on soil health, composting, crop problems and sustainable farming from Gujarat Bio Organics, in English and Hindi.",
        ah, None, [("Knowledge", "/knowledge"), ("Articles", None)], "0.7")
 for a in ARTICLES:
@@ -585,10 +606,15 @@ for a in ARTICLES:
     else:
         _u, _t = CAT_PAGE[a["cat"]]; see = f'<p class="answer">See also: <a href="{_u}">{_t}</a> and <a href="/products">the Immunity range</a>.</p>'
     body = hero(a["h1"], a["desc"] or "", [("Articles", "/articles"), (_cr(a["h1"]), None)], light=True)
-    body += sec(f'<div class="prose">{see}{md_html(a["body"])}<p class="note">By Gafar Laiya, founder of {SHORT}, working with farmers since 2006. {RESULTS}</p></div>')
+    _ans = f'<p class="answer">{esc(a["answer"])}</p>' if a.get("answer") else ""
+    _dt = f'<p class="note">Updated {esc(a["date"])}</p>' if a.get("date") else ""
+    _src = ('<h2>Sources</h2><ul>' + "".join(f'<li><a href="{esc(u)}" rel="noopener" target="_blank">{esc(n)}</a></li>' for n, u in a["sources"]) + "</ul>") if a.get("sources") else ""
+    body += sec(f'<div class="prose">{_ans}{_dt}{see}{md_html(a["body"])}{_src}<p class="note">By Gafar Laiya, founder of {SHORT}, working with farmers since 2006. {RESULTS}</p></div>')
+    if a.get("faq"): body += sec(faq_html(a["faq"]), "Questions farmers ask")
     body += sec('<div class="grid">' + "".join(card(f"/articles/{x['slug']}", x["h1"], (x["desc"] or "")[:140], "Read next") for x in rel) + "</div>", "Read next", tint=True) + enquiry_box()
     t = a["title"] if len(a["title"]) <= 66 else a["title"][:63].rsplit(" ", 1)[0] + "..."
-    render(path, t, (a["desc"] or a["h1"])[:160], body, [article_ld(path, a["h1"], a["desc"] or a["h1"])], [("Articles", "/articles"), (_cr(a["h1"]), None)], "0.6", a["lang"])
+    _ld = [article_ld(path, a["h1"], a["desc"] or a["h1"], a.get("date"))] + ([faq_ld(a["faq"])] if a.get("faq") else [])
+    render(path, t, (a["desc"] or a["h1"])[:160], body, _ld, [("Articles", "/articles"), (_cr(a["h1"]), None)], "0.6", a["lang"])
 
 # ---------------------------------------------------------------- about / story / impact / quality / factory
 start("/about")

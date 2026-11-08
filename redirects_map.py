@@ -53,7 +53,8 @@ OLD.update({
  "/organic-fertilizer-for-vegetable": "/crops/vegetables",
  "/certificate-of-incorporation": "/quality", "/events": "/",
 })
-for _a in ARTICLES: OLD[_a["old"]] = "/articles/" + _a["slug"]   # moved articles keep their own page
+for _a in ARTICLES:
+    if _a.get("old"): OLD[_a["old"]] = "/articles/" + _a["slug"]   # moved articles keep their own page
 _valid = {p for p, _ in PAGES}
 _bad = {k: v for k, v in OLD.items() if not v.startswith("https://") and v.split("#")[0] not in _valid}
 assert not _bad, _bad
