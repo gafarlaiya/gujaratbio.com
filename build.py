@@ -2,7 +2,7 @@
 """Builds agriculture.gujaratbio.com (later www.gujaratbio.com): plain HTML, no dependencies.
 Edit the content_*.py files, then run: python3 build.py
 Photos/videos: put files with the exact names listed in MEDIA_LIST.csv into assets/media/ and rebuild."""
-import os, json, html as H, re, csv
+import os, json, html as H, re, csv, subprocess
 from urllib.parse import quote
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -201,6 +201,23 @@ ORG = {"@context": "https://schema.org", "@type": "Organization", "@id": SITE + 
        "brand": {"@type": "Brand", "name": "Immunity", "logo": SITE + "/assets/img/brand/immunity-logo.webp"}}
 
 PAGES = []
+_VDATE = {}
+def video_ld(body):
+    """VideoObject markup for every self-hosted MP4 on the page (helps video results in Google)."""
+    out = []
+    for tag in re.findall(r"<video[^>]*>", body):
+        g = lambda k: (re.search(k + r'="([^"]*)"', tag) or [None, None])[1]
+        poster, src, desc = g("poster"), g("src"), H.unescape(g("aria-label") or "")
+        if not (src and src.endswith(".mp4") and desc): continue
+        if src in [o["contentUrl"].replace(SITE, "") for o in out] or not poster: continue
+        if src not in _VDATE:
+            d = subprocess.run(["git", "log", "--diff-filter=A", "--format=%cI", "--", src.lstrip("/")], cwd=ROOT, capture_output=True, text=True).stdout.strip().split("\n")[-1]
+            _VDATE[src] = d or "2026-11-01T00:00:00+05:30"
+        out.append({"@context": "https://schema.org", "@type": "VideoObject", "name": desc[:100], "description": desc,
+                    "thumbnailUrl": SITE + poster, "contentUrl": SITE + src, "uploadDate": _VDATE[src],
+                    "publisher": {"@id": SITE + "/#org"}})
+    return out
+
 def render(path, title, desc, body, schemas=None, crumbs=None, prio="0.6", lang="en", og=None):
     url = SITE + path
     ld = [ORG] if path == "/" else []
@@ -209,6 +226,7 @@ def render(path, title, desc, body, schemas=None, crumbs=None, prio="0.6", lang=
         ld.append({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": i + 1, "name": n, "item": SITE + (u or path)} for i, (n, u) in enumerate(items)]})
     ld += schemas or []
+    ld += video_ld(body)
     ldh = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in ld)
     if len(desc) > 160: desc = desc[:157].rsplit(" ", 1)[0].rstrip(",;:") + "..."
     robots = "noindex,follow" if TRIAL else "index,follow,max-image-preview:large"
@@ -431,7 +449,9 @@ for p in PRODUCTS:
     if len(t) > 65: t = f"{p['name']} | Gujarat Bio Organics"
     if len(t) > 65: t = f"{p['name']} | GBO"
     _og = f"/assets/img/products/{p['slug']}.webp" if os.path.exists(os.path.join(ROOT, "assets", "img", "products", p["slug"] + ".webp")) else None
-    render(path, t, f"{p['line']} Pack sizes, who it is for, how farmers use it, and how to send an enquiry on WhatsApp.", body, [prod_ld, faq_ld(pfaq)], [("Products", "/products"), (p["name"], None)], "0.8", og=_og)
+    # No Product markup: prices are on enquiry and there are no public reviews, so Google would flag an invalid Product item
+    # (missing offers / review / aggregateRating). FAQ and breadcrumb markup stay.
+    render(path, t, f"{p['line']} Pack sizes, who it is for, how farmers use it, and how to send an enquiry on WhatsApp.", body, [faq_ld(pfaq)], [("Products", "/products"), (p["name"], None)], "0.8", og=_og)
 
 # ---------------------------------------------------------------- farmer stories
 start("/farmer-stories")
