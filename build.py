@@ -623,12 +623,13 @@ for a in ARTICLES:
     _ans = f'<p class="answer">{esc(a["answer"])}</p>' if a.get("answer") else ""
     _dt = f'<p class="note">Updated {esc(a["date"])}</p>' if a.get("date") else ""
     _src = ('<h2>Sources</h2><ul>' + "".join(f'<li><a href="{esc(u)}" rel="noopener" target="_blank">{esc(n)}</a></li>' for n, u in a["sources"]) + "</ul>") if a.get("sources") else ""
-    body += sec(f'<div class="prose">{_ans}{_dt}{see}{_art_body(a)}{_src}<p class="note">By Gafar Laiya, founder of {SHORT}, working with farmers since 2006. {RESULTS}</p></div>')
+    _fig = (f'<figure class="art-fig"><img src="{esc(a["image"])}" alt="{esc(a.get("image_alt") or a["h1"])}" width="1200" height="675" loading="eager"><figcaption>Illustration</figcaption></figure>') if a.get("image") else ""
+    body += sec(f'<div class="prose">{_fig}{_ans}{_dt}{see}{_art_body(a)}{_src}<p class="note">By Gafar Laiya, founder of {SHORT}, working with farmers since 2006. {RESULTS}</p></div>')
     if a.get("faq"): body += sec(faq_html(a["faq"]), "Questions farmers ask")
     body += sec('<div class="grid">' + "".join(card(f"/articles/{x['slug']}", x["h1"], (x["desc"] or "")[:140], "Read next") for x in rel) + "</div>", "Read next", tint=True) + enquiry_box()
     t = a["title"] if len(a["title"]) <= 66 else a["title"][:63].rsplit(" ", 1)[0] + "..."
     _ld = [article_ld(path, a["h1"], a["desc"] or a["h1"], a.get("date"))] + ([faq_ld(a["faq"])] if a.get("faq") else [])
-    render(path, t, (a["desc"] or a["h1"])[:160], body, _ld, [("Articles", "/articles"), (_cr(a["h1"]), None)], "0.6", a["lang"])
+    render(path, t, (a["desc"] or a["h1"])[:160], body, _ld, [("Articles", "/articles"), (_cr(a["h1"]), None)], "0.6", a["lang"], og=a.get("image"))
 
 # ---------------------------------------------------------------- about / story / impact / quality / factory
 start("/about")
