@@ -3,6 +3,7 @@
 Edit the content_*.py files, then run: python3 build.py
 Photos/videos: put files with the exact names listed in MEDIA_LIST.csv into assets/media/ and rebuild."""
 import os, json, html as H, re, csv, subprocess
+from seo_overrides import SEO
 from urllib.parse import quote
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -219,6 +220,7 @@ def video_ld(body):
     return out
 
 def render(path, title, desc, body, schemas=None, crumbs=None, prio="0.6", lang="en", og=None):
+    if path in SEO: title, desc = SEO[path]
     url = SITE + path
     ld = [ORG] if path == "/" else []
     if crumbs:

@@ -1,0 +1,36 @@
+### /
+0	Gujarat Bio Organics: Organic Fertilizer Manufacturer, Gujarat
+1	Gujarat Bio Organics, Bhavnagar: organic fertilizer, biofertilizer and biostimulant manufacturer since 2006. Immunity formulas for 20 crops. Call 99787 91167.
+### /crops/apple
+2	Apple Root Rot, Tree Decline & Small Fruit: Orchard Guide
+3	Apple trees dying, root and collar rot, small poorly coloured fruit: what to check first, stage-by-stage care from dormancy to harvest, and what growers use.
+### /crops/chilli
+4	Chilli Flower Drop, Leaf Curl & Small Fruit: Crop Guide
+5	Mirchi flower and fruit drop, leaf curl and plants that stop bearing early: what to check, stage-by-stage care, and feeding after each picking.
+### /crops/coconut
+6	Coconut Button Shedding, Low Nut Yield & Yellow Fronds
+7	Why coconut palms shed buttons, give small or few nuts and yellow fronds: what to check, micronutrients to watch, and care for young and bearing palms.
+### /crops/cumin
+8	Cumin (Jeera) Wilt, Blight & Weak Plants: Crop Guide
+9	Why jeera plants wilt or fail to set seed, how to avoid blight in cloudy weather, and stage-by-stage care from sowing to maturity.
+### /crops/mango
+10	Mango Flower Drop, Alternate Bearing & Tree Decline Guide
+11	Heavy flower and fruit drop, alternate bearing, weak or dying mango trees: what to check, and stage-by-stage care from harvest to the next crop.
+### /crops/pomegranate
+12	Pomegranate Fruit Cracking, Flower Drop & Small Fruit Guide
+13	Why anar fruit cracks or drops and stays small and pale: steady watering, bahar care, micronutrients to watch, and what to check in weak plants.
+### /products/immunity-gold
+14	Immunity Gold: Organic Fertilizer for All Crops | GBO
+15	Immunity Gold is our general organic formula for field crops, vegetables, fruit and plantation crops. Pack sizes, how farmers use it and how to order.
+### /products/immunity-mango-special
+16	Immunity Mango Special: Organic Mango Fertilizer | GBO
+17	Organic mango fertilizer made for tree decline, alternate bearing, fruit drop and small fruit. When to apply, pack sizes and how to order.
+### /products/immunity-onion-special
+18	Immunity Onion Special: Onion Fertilizer for Bulb Size | GBO
+19	Organic onion fertilizer made for small, uneven bulbs and poor storage. When to apply, pack sizes and how to order on WhatsApp.
+### /about
+20	About Us: Organic Fertilizer Company in Bhavnagar, Gujarat
+21	Since 2006 we make organic fertilizers, biofertilizers and biostimulants at our own factory in Shihor, Bhavnagar, and work with farmers across India.
+### /contact
+22	Contact Gujarat Bio Organics, Bhavnagar | 99787 91167
+23	Call or WhatsApp +91 99787 91167, email sales@gujaratbio.com, or visit our factory at GIDC Shihor, Bhavnagar, Gujarat. We reply within one working day.
