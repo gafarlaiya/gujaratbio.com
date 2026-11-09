@@ -1,0 +1,19 @@
+### /articles/apple-leaf-fall-before-dormancy
+0	Where Immunity fits
+1	<strong><a href="/products/immunity-apple-special">Immunity Apple Special</a></strong>
+2	The right amount and timing depend on your crop, its stage and your soil. Every pack carries the label dose.
+3	It is not a fungicide and does not replace these checks.
+4	Made at our own plant at GIDC Shihor, Bhavnagar. We have worked with farmers since 2006.
+### /articles/cumin-sowing-seed-rate-spacing-first-irrigation
+5	<strong><a href="/products/immunity-cumin-special">Immunity Cumin Special</a></strong>
+6	It does not replace rotation, clean seed or careful watering.
+### /articles/grapes-after-october-pruning-first-45-days
+7	More crop basics are on our <a href="/crops/fruits">fruit orchards page</a>.
+8	<strong><a href="/products/immunity-fruit-special">Immunity Fruit Special</a></strong>
+9	It does not replace your mildew protection.
+### /articles/mango-before-flowering-next-30-days
+10	<strong><a href="/products/immunity-mango-special">Immunity Mango Special</a></strong>
+11	It does not replace the timing above, and it will not mature a late flush.
+### /articles/potato-bulking-stage-water-and-care
+12	<strong><a href="/products/immunity-potato-special">Immunity Potato Special</a></strong>
+13	No input replaces even water and healthy leaves in this month.

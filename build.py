@@ -597,6 +597,20 @@ for i, (c, t) in enumerate(ACAT):
         start("/articles")
 render("/articles", "Farming Articles: Soil, Compost, Crops, Organic | GBO", "Articles on soil health, composting, crop problems and sustainable farming from Gujarat Bio Organics, in English and Hindi.",
        ah, None, [("Knowledge", "/knowledge"), ("Articles", None)], "0.7")
+# Farmer stories come only from the owner's sheet (GBO Farmer Stories), and only with his "Ready to publish" and the farmer's agreement.
+STORIES = [x for x in json.load(open(os.path.join(ROOT, "content_farmer_stories.json"), encoding="utf-8")) if x.get("status") == "Ready to publish" and x.get("consent") == "Yes"]
+def _stories_html(crop):
+    items = [x for x in STORIES if crop and x["crop"] == crop][:2]
+    if not items: return ""
+    return "<h2>What farmers told us</h2>" + "".join(f'<blockquote class="quote"><p>{esc(x["quote"])}</p><cite>{esc(x["name"])}</cite><span class="tag">{esc(x["place"])}</span></blockquote>' for x in items) + "<p class=\"note\">One farmer's experience, not a promise; results vary with soil, water, weather and management.</p>"
+def _product_box(a):
+    b = a["product_box"]; p = PBY[b["product"]]
+    return (f'<h2>Where Immunity fits</h2><div class="quote"><p><strong><a href="/products/{p["slug"]}">{esc(p["name"])}</a></strong></p><p>Made for:</p><ul class="ticks">' + "".join(f"<li>{esc(m)}</li>" for m in p["made_for"])
+            + f'</ul><p>The right amount and timing depend on your crop, its stage and your soil. Every pack carries the label dose.</p><p>{esc(b["note"])}</p><p class="note">Made at our own plant at GIDC Shihor, Bhavnagar. We have worked with farmers since 2006.</p></div>')
+def _art_body(a):
+    if not a.get("product_box"): return md_html(a["body"]) + _stories_html(a["crop"] if a.get("answer") else "")
+    main, _, last = a["body"].rstrip().rpartition("\n\n")   # the last block is the piece's one call to action, so the box goes just above it
+    return md_html(main) + _product_box(a) + _stories_html(a["product_box"].get("story_crop") or a["crop"]) + md_html(last)
 for a in ARTICLES:
     path = f"/articles/{a['slug']}"; start(path)
     rel = [x for x in ARTICLES if x["cat"] == a["cat"] and x["slug"] != a["slug"]][:3]
@@ -609,7 +623,7 @@ for a in ARTICLES:
     _ans = f'<p class="answer">{esc(a["answer"])}</p>' if a.get("answer") else ""
     _dt = f'<p class="note">Updated {esc(a["date"])}</p>' if a.get("date") else ""
     _src = ('<h2>Sources</h2><ul>' + "".join(f'<li><a href="{esc(u)}" rel="noopener" target="_blank">{esc(n)}</a></li>' for n, u in a["sources"]) + "</ul>") if a.get("sources") else ""
-    body += sec(f'<div class="prose">{_ans}{_dt}{see}{md_html(a["body"])}{_src}<p class="note">By Gafar Laiya, founder of {SHORT}, working with farmers since 2006. {RESULTS}</p></div>')
+    body += sec(f'<div class="prose">{_ans}{_dt}{see}{_art_body(a)}{_src}<p class="note">By Gafar Laiya, founder of {SHORT}, working with farmers since 2006. {RESULTS}</p></div>')
     if a.get("faq"): body += sec(faq_html(a["faq"]), "Questions farmers ask")
     body += sec('<div class="grid">' + "".join(card(f"/articles/{x['slug']}", x["h1"], (x["desc"] or "")[:140], "Read next") for x in rel) + "</div>", "Read next", tint=True) + enquiry_box()
     t = a["title"] if len(a["title"]) <= 66 else a["title"][:63].rsplit(" ", 1)[0] + "..."
