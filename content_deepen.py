@@ -513,3 +513,63 @@ DEEP.update({
          "Tell us your crop, village and what you changed.",
          "With your permission, we share it here and on our other pages, with your name and place."])])
 })
+
+# ---------------- Batch 4: biofertiliser product pages
+NUE = ("GST Times / PIB, Nutrient use efficiency in India remains low (Rajya Sabha reply, March 2026)", "https://www.gstimes.in/nutrient-use-efficiency-in-india-remains-low-government-data")
+NUE_STATS = [("30-45%", "of applied nitrogen used by crops"), ("15-25%", "of applied phosphorus used"), ("50-60%", "of applied potash used")]
+BIO_RULES = ("Handling rules: biofertilizers are alive", [
+    "Store in a cool, shaded place; never leave packs in the sun or a hot vehicle.",
+    "Use before the expiry date on the pack; old packs carry fewer live microbes.",
+    "Do not mix directly with chemical fungicides, bactericides or strong fertilizer solutions; keep a gap of a few days, or ask us.",
+    "Apply to moist soil, seed or roots, ideally in the evening; dry, hot soil kills microbes fast.",
+    "Add organic matter such as compost or FYM; microbes need food to multiply.",
+    "Follow the dose and method on the label."])
+BIO_FAQ = ("Can I mix a biofertilizer with chemical fertilizers?", "Do not mix them in the same tank or solution, and keep chemical fungicides away from treated seed. They can be used in the same season; apply them separately, as the label advises.")
+def _bio(hook, how, faq, stats=None):
+    return dict(hook=hook, stats=stats, add=[("How it works", [("html", how)]), BIO_RULES], faq=[faq, BIO_FAQ], sources=[NUE])
+DEEP.update({
+"/products/immunity-psb": _bio(
+  "Government figures show that crops use only about 15 to 25% of the phosphorus farmers apply. Most of the rest gets locked in the soil, bound to calcium, iron or aluminium, where roots cannot reach it. That locked phosphorus is already paid for.",
+  "<p>Phosphate solubilising bacteria (PSB) live around the roots and release organic acids that dissolve some of this locked phosphorus, turning it back into a form the roots can take up. Phosphorus drives root growth, flowering and seed formation, so freeing more of it matters most in the early weeks of a crop. PSB works best alongside your normal phosphorus fertilizer, not as a full replacement.</p>",
+  ("Can PSB replace DAP?", "No. PSB helps the crop use more of the phosphorus already in the soil and from fertilizer. It works best with balanced fertilizer, guided by a soil test."), NUE_STATS),
+"/products/immunity-psf": _bio(
+  "Most farmers have heard of phosphate solubilising bacteria. Fewer know that some soil fungi do the same job, and in acidic or dry conditions they can keep working where bacteria slow down. Phosphorus locked in the soil is already paid for; these fungi help unlock it.",
+  "<p>Phosphate solubilising fungi (PSF), such as certain Aspergillus and Penicillium species, release organic acids that dissolve phosphorus bound to calcium, iron and aluminium. Their fine threads spread through the soil, reaching phosphorus around the root zone. Using PSF with compost and balanced fertilizer helps the crop make better use of the phosphorus it already has.</p>",
+  ("What is the difference between PSB and PSF?", "Both free locked phosphorus. PSB are bacteria; PSF are fungi. Fungi spread through soil with fine threads and tolerate some conditions differently, so both are used depending on soil and crop."), NUE_STATS),
+"/products/immunity-kmb": _bio(
+  "Indian soils often contain plenty of potash, but much of it is locked inside soil minerals, out of reach of roots. Meanwhile, the potash farmers buy is almost entirely imported. Freeing even part of the potash already in the soil is money saved.",
+  "<p>Potash mobilising bacteria (KMB) release organic acids and other compounds that slowly free potassium from soil minerals such as mica and feldspar. Potash strengthens stems, helps the plant handle drought and disease, and is essential for filling fruit, tubers and grain. KMB supports the crop's potash supply; it works best with a balanced fertilizer programme.</p>",
+  ("Does KMB replace MOP (potash fertilizer)?", "No. KMB helps the crop use more of the potash in the soil. On soils that are low in potash, fertilizer is still needed; a soil test tells you how much.")),
+"/products/immunity-zsb": _bio(
+  "Zinc shortage is one of the most common hidden hungers in Indian fields, behind khaira in paddy, stunted wheat and small leaves in fruit trees. Often the zinc is in the soil, but locked in forms roots cannot use, especially in alkaline soils.",
+  "<p>Zinc solubilising bacteria (ZSB) produce organic acids that dissolve zinc compounds in the soil, making zinc available around the roots. Zinc is needed for plant hormones, leaf growth and grain filling. ZSB helps crops make better use of soil zinc and applied zinc fertilizer, which matters most on alkaline, calcareous and intensively cropped soils.</p>",
+  ("Which crops benefit most from ZSB?", "Crops that suffer most from zinc shortage, such as paddy, wheat and maize, and fruit trees on alkaline soils.")),
+"/products/immunity-azotobacter": _bio(
+  "Government figures show crops use only about 30 to 45% of the nitrogen farmers apply; the rest is lost to air and water. Azotobacter is a free-living soil bacterium that does something urea cannot: it takes nitrogen from the air and feeds it to the crop.",
+  "<p>Azotobacter lives freely in the soil around the roots of non-legume crops. It fixes nitrogen from the air and also produces growth-promoting substances that help roots. It does not form nodules, so it suits cereals, vegetables, cotton, sugarcane and most non-legume crops. It works best in soil with good organic matter and is a supplement to, not a replacement for, balanced fertilizer.</p>",
+  ("Can Azotobacter replace urea?", "No. It adds some nitrogen and supports root growth, which can help reduce dependence on urea over time, but balanced fertilizer is still needed."), NUE_STATS),
+"/products/immunity-azospirillum": _bio(
+  "Paddy, maize, wheat, millets and sugarcane are grasses, and grasses have a special partner: Azospirillum, a bacterium that lives on and inside their roots and fixes nitrogen from the air. Government figures show crops use only 30 to 45% of applied nitrogen; this partner helps close the gap.",
+  "<p>Azospirillum colonises the root surface and the inside of roots of cereals and grasses. Besides fixing nitrogen, it produces plant hormones that increase root hairs and branching, so the crop explores more soil for water and nutrients. It is used for seed, seedling root dip or soil application, as the label advises.</p>",
+  ("Which crops is Azospirillum for?", "Cereals and grasses: paddy, maize, wheat, millets and sugarcane."), NUE_STATS),
+"/products/immunity-rhizobium": _bio(
+  "A pulse or groundnut crop can make most of its own nitrogen, free, through pink nodules on its roots. But nodules form only when the right Rhizobium bacteria are present. In tired soils, or fields new to a legume, they often are not.",
+  "<p>Rhizobium bacteria enter the roots of legumes and form nodules, where they turn nitrogen from the air into a form the plant uses. Each legume has its own matching Rhizobium group, so seed is treated with the right strain just before sowing. Dig a plant at 4 to 5 weeks: nodules that are pink inside are working.</p>",
+  ("How do I know Rhizobium is working?", "Dig (do not pull) a plant at 4 to 5 weeks and cut a nodule open. Pink or red inside means it is fixing nitrogen; white or green means it is not.")),
+"/products/immunity-acetobacter": _bio(
+  "Sugarcane is one of the hungriest crops for nitrogen, and one of the biggest users of urea. Yet researchers in Brazil found bacteria living inside the cane plant itself that fix nitrogen from the air. Acetobacter is one of them.",
+  "<p>Acetobacter (Gluconacetobacter diazotrophicus) lives inside the stems, roots and leaves of sugarcane, tolerates the high sugar content there, and fixes nitrogen from the air. It also produces growth-promoting substances. It is applied to setts or the soil at planting, as the label advises, and supports, but does not replace, a balanced fertilizer programme.</p>",
+  ("Why is Acetobacter used in sugarcane?", "Because it can live inside the cane plant, where sugar is high, and fix nitrogen there. It supports the crop's nitrogen supply alongside fertilizer.")),
+"/products/immunity-mycorrhiza": _bio(
+  "Most crop plants on earth live in partnership with a soil fungus. Its threads reach far beyond the roots, like an extra root system, bringing back water and phosphorus. Heavy tillage, long fallows and chemical-heavy farming can leave fields with few of these partners.",
+  "<p>Mycorrhizal fungi colonise the roots and send fine threads (hyphae) out into the soil, reaching water and nutrients, especially phosphorus and zinc, that roots alone cannot. In return the plant feeds the fungus with sugars. Mycorrhiza is most useful at planting or transplanting, so the partnership starts early, and in orchards, nurseries and dry areas.</p>",
+  ("When should mycorrhiza be applied?", "As early as possible: at sowing, in the nursery, or at transplanting, close to the roots, so the fungus colonises young roots.")),
+"/products/immunity-npk-consortia": _bio(
+  "Government figures show crops use only 30 to 45% of applied nitrogen, 15 to 25% of phosphorus and 50 to 60% of potash. The rest is lost or locked away. A consortium puts nitrogen-fixing, phosphate-solubilising and potash-mobilising microbes to work together in one pack.",
+  "<p>An NPK consortium combines microbes that fix nitrogen from the air, free locked phosphorus, and mobilise potash from soil minerals. Together they improve the supply of all three major nutrients around the roots. The liquid form is easy to apply through drip, soil drench or seed treatment, as the label advises.</p>",
+  ("Is a consortium better than single biofertilizers?", "It is more convenient, covering N, P and K microbes in one pack. Single products are used when one nutrient is the main problem, for example Rhizobium for legumes."), NUE_STATS),
+"/products/immunity-consortia": _bio(
+  "A spoonful of healthy soil holds billions of microbes. In tired, chemical-heavy soils, the useful ones become scarce, and the crop loses partners that help feed it. A carrier-based consortium is a simple way to put several of them back at once.",
+  "<p>This carrier-based mix combines beneficial microbes that support nitrogen, phosphorus and potash supply around the roots. The carrier (a fine powder base) protects the microbes and makes mixing with compost, FYM or seed easy. Mixing it with well-decomposed compost before application gives the microbes food and a home.</p>",
+  ("How do I use a carrier-based consortium?", "It is usually mixed with compost or FYM and applied to moist soil, or used for seed treatment. Follow the label for the method and dose.")),
+})

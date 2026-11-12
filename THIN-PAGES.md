@@ -31,7 +31,7 @@ How (engine already built, commit 4cf7bb7):
 - [x] /factory-and-rd (100), /quality (139), /our-story (238), /where-to-buy (100), /bulk-buyers (175), /oem-private-label (102), /dealers (378), /farmer-stories (257)
 
 ## Batch 4: biofertiliser product pages (educational: what the organism does, how to store, mix and apply safely, mistakes)
-- [ ] immunity-consortia, -acetobacter, -npk-consortia, -mycorrhiza, -rhizobium, -azospirillum, -azotobacter, -kmb, -psb, -psf, -zsb
+- [x] immunity-consortia, -acetobacter, -npk-consortia, -mycorrhiza, -rhizobium, -azospirillum, -azotobacter, -kmb, -psb, -psf, -zsb
 
 ## Batch 5: Immunity crop product pages (~300-440 words): add crop-stage problems the product supports, mistakes, FAQs
 - [ ] finisher, eleven, pulses, spices-mix, paddy, vegetable, cotton, maize, onion, banana, pomegranate, coconut, cumin, fruit, potato, mungfali, apple, chilli, dhanya, citrus, mango, granules, gold, sugarcane, tea
