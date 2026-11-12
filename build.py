@@ -222,6 +222,8 @@ def video_ld(body):
 
 def render(path, title, desc, body, schemas=None, crumbs=None, prio="0.6", lang="en", og=None):
     if path in SEO: title, desc = SEO[path]
+    if path in DEEP and 'class="hook"' not in body:  # deeper content for pages that were thin (content_deepen.py)
+        body, schemas = deep_inject(path, body, list(schemas or []))
     url = SITE + path
     ld = [ORG] if path == "/" else []
     if crumbs:
@@ -253,6 +255,24 @@ def render(path, title, desc, body, schemas=None, crumbs=None, prio="0.6", lang=
 def start(path): _CUR["page"] = path
 
 # ---------------------------------------------------------------- building blocks
+def deep_inject(path, body, schemas):
+    dp = DEEP[path]
+    h = (f'<div class="hook"><p class="hook-k">Reality check</p><p>{dp["hook"]}</p></div>' if dp.get("hook") else "")
+    if dp.get("stats"): h += '<div class="stats">' + "".join(f'<div class="stat"><b>{esc(n)}</b><span>{esc(l)}</span></div>' for n, l in dp["stats"]) + "</div>"
+    top = sec(f'<div class="prose">{h}</div>') if h else ""
+    h = "".join(f"<h2>{esc(t)}</h2>" + body_of(items) for t, items in dp.get("add", []))
+    if dp.get("faq"):
+        h += "<h2>More questions</h2>" + faq_html(dp["faq"])
+        fl = [x for x in schemas if isinstance(x, dict) and x.get("@type") == "FAQPage"]
+        if fl: fl[0]["mainEntity"] = fl[0]["mainEntity"] + faq_ld(dp["faq"])["mainEntity"]
+        else: schemas.append(faq_ld(dp["faq"]))
+    if dp.get("sources"): h += "<h2>Sources</h2><ul>" + "".join(f'<li><a href="{esc(u)}" rel="noopener" target="_blank">{esc(n)}</a></li>' for n, u in dp["sources"]) + "</ul>"
+    block = sec(f'<div class="prose">{h}</div>')
+    j = body.rfind("<section")
+    body = body[:j] + block + body[j:] if j > 0 else body + block
+    i = body.find("</section>")
+    body = body[:i + 10] + top + body[i + 10:] if i >= 0 else top + body
+    return body, schemas
 def hero(title, lead, crumbs=None, light=False, side=""):
     cr = ""
     if crumbs:

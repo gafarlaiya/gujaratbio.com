@@ -1,0 +1,194 @@
+### /crops
+0	Most crop losses are not caused by one big disaster. They come from small problems noticed late: a dry week at flowering, a hungry tree after harvest, a hidden zinc shortage. Each guide below is built to help you notice early.
+1	How to use these crop guides
+2	Start with your crop's stage-by-stage section and find where your crop is today.
+3	Check the 'What to check first' list before buying any product.
+4	Read the linked crop-problem pages if you see a specific symptom.
+5	Get a soil and water test once every two to three years; most of our advice depends on it.
+6	Send us a photo on WhatsApp if you are unsure; our team will tell you what to check.
+### /crops/cereals
+7	A global study found that every 1°C rise in temperature cuts world wheat yield by about 6%. In much of India, a hot spell in March during grain filling, called terminal heat, quietly shrinks the grain just weeks before harvest.
+8	wheat yield lost per 1°C of warming (global estimate)
+9	CRI
+10	crown root irrigation, about 3 weeks after sowing
+11	March
+12	the month terminal heat usually hits
+13	Three moments you cannot miss in wheat
+14	<strong>Crown root initiation (about 20 to 25 days):</strong> the first irrigation now builds the root system and tillers. Missing it costs the most.
+15	<strong>Flowering:</strong> stress now means fewer grains per ear.
+16	<strong>Grain filling:</strong> hot, dry winds shrivel the grain. Timely sowing is the best protection, because late-sown wheat fills in the hottest weeks.
+17	Hidden hunger in cereal fields
+18	Zinc shortage is common in Indian soils, especially alkaline and sandy ones; it shows as stunted plants with pale stripes or brown spots.
+19	Sulphur shortage looks like nitrogen shortage but starts on young leaves.
+20	Fields that grew wheat after rice or bajra for many years often need a soil test for micronutrients, not just more urea.
+21	More questions
+22	Why is my wheat grain shrivelled?
+23	Usually heat or water stress during grain filling, late sowing, rust disease or lodging. Sowing on time is the strongest protection.
+24	When should wheat get its first irrigation?
+25	At crown root initiation, about three weeks after sowing, unless your local agriculture office advises otherwise for your area and variety.
+26	<a href="https://www.nature.com/articles/nclimate2470" rel="noopener" target="_blank">Asseng et al., Rising temperatures reduce global wheat production, Nature Climate Change (2015)</a>
+27	<a href="https://iiwbr.icar.gov.in/" rel="noopener" target="_blank">ICAR-Indian Institute of Wheat and Barley Research</a>
+### /crops/chilli
+28	India grows more chilli than any other country, yet one tiny insect can wipe out a field: thrips and whiteflies carry leaf curl, and once a plant is curled it rarely bears well again. In chilli, the battle is won in the nursery, weeks before the first flower.
+29	Where chilli growers lose money
+30	<strong>Leaf curl:</strong> spread by thrips, whitefly and mites. Infected plants stay stunted and drop flowers. Prevention is the only cure.
+31	<strong>Flower drop in heat:</strong> above about 35°C, or when watering is irregular, chilli drops flowers in large numbers.
+32	<strong>Plants that stop early:</strong> chilli is picked for months. A plant not fed after each picking runs out of strength and the late pickings, often the best paid, are lost.
+33	<strong>Fruit rot and die-back:</strong> follow rain and humid weather; dead twig tips and spotted fruit are the warning.
+34	A simple weekly routine in the field
+35	Turn over a few leaves each week and look underneath for thrips and whitefly; act early, before numbers explode.
+36	Remove and destroy the first curled plants you see; they spread the virus.
+37	Keep yellow and blue sticky traps around the field to see what is flying in.
+38	Water lightly and regularly; avoid long dry gaps followed by flooding.
+39	Feed after every picking so the next flush of flowers has food.
+40	Can a chilli plant with leaf curl recover?
+41	Mild curl from mites can recover after control, but virus leaf curl does not. Remove infected plants early and control the insects that spread it.
+42	Why do chilli plants stop fruiting after a few pickings?
+43	Usually the plant runs short of food and roots after heavy cropping, often with heat or water stress. Feeding after each picking and steady water keep it bearing longer.
+44	<a href="https://www.indianspices.com/" rel="noopener" target="_blank">Spices Board India, chilli</a>
+### /crops/coconut
+45	The coconut you harvest today was decided more than three years ago. A coconut flower bunch starts forming inside the palm long before it opens, and the nut then takes about a year to mature. That is why feeding a palm only when yield falls never seems to work.
+46	~1 a month
+47	new leaf and flower bunch on a healthy palm
+48	~12 months
+49	from flower opening to mature nut
+50	3+ years
+51	from bunch formation to harvest
+52	Feeding for the long cycle
+53	Feed every year, split over the monsoon and post-monsoon, not just once.
+54	Apply in a circular basin around the palm, where feeder roots are, not against the trunk.
+55	Potash matters a lot in coconut: low potash shows as yellowing older fronds and small nuts.
+56	Mulch the basin with husks or fronds to hold moisture in summer.
+57	Coconut is long-term: expect improvements in yield over seasons, not weeks.
+58	Pests to check every few months
+59	Rhinoceros beetle: V-shaped cuts in fronds and holes at the crown.
+60	Red palm weevil: oozing brown liquid and holes on the trunk, a wilting crown. Act fast; it kills palms.
+61	Eriophyid mite: brown, cracked, scarred nuts.
+62	Keep the crown clean and remove dead palms and rotting material where beetles breed.
+63	How long until coconut yield improves after better care?
+64	Because a nut takes more than three years from bunch formation to harvest, steady care usually shows over two to three years, though nut drop can reduce sooner.
+65	Where should fertilizer go for a coconut palm?
+66	In a basin about 1.5 to 2 metres from the trunk, where feeder roots are, mixed into the soil and followed by water.
+67	<a href="https://cpcri.icar.gov.in/" rel="noopener" target="_blank">ICAR-Central Plantation Crops Research Institute, Kasaragod</a>
+### /crops/cumin
+68	Gujarat and Rajasthan grow almost all of India's cumin, and India grows most of the world's. It is also one of the riskiest crops a farmer can sow: two or three cloudy, humid days at flowering can bring blight that turns a green field brown within a week.
+69	The two diseases that decide your cumin crop
+70	<strong>Wilt:</strong> plants yellow, droop and dry, often in patches, usually in fields where cumin was grown recently. The fungus lives in the soil for years, so rotation matters.
+71	<strong>Blight:</strong> brown spots on leaves and stems after cloudy or foggy weather, spreading fast. Watch the forecast at flowering and act on your agriculture office's advice before it spreads.
+72	Low-cost habits that protect cumin
+73	Rotate: avoid cumin in the same field more often than once in three years.
+74	Sow on time; late-sown cumin flowers in riskier weather.
+75	Irrigate lightly; cumin hates wet soil and standing water.
+76	Do not sow too thick; crowded plants stay humid and blight spreads faster.
+77	Use clean, treated seed from a healthy crop.
+78	Why does my cumin field dry in patches?
+79	Patchy drying is usually wilt from soil-borne fungus, made worse by heavy irrigation and repeated cumin in the same field.
+80	How often should cumin be irrigated?
+81	Lightly and only as needed; heavy or frequent irrigation raises the risk of wilt and blight. Follow your local agriculture office for your soil.
+82	<a href="https://www.indianspices.com/" rel="noopener" target="_blank">Spices Board India, cumin</a>
+### /crops/fruits
+83	An orchard is a ten to forty year investment, and almost every fruit tree decides next year's crop in the months after this year's harvest. Growers who stop caring for the tree once the fruit is sold usually see it in the next season.
+84	Four habits shared by productive orchards
+85	Feed and prune after harvest, when the tree builds the shoots that will flower next.
+86	Keep basins and drainage right: wet roots and collar rot kill more fruit trees than any pest.
+87	Water lightly and steadily at fruit set and growth; sudden swings cause drop and cracking.
+88	Keep records per tree or per block, so you can see alternate bearing and weak patches.
+### /crops/groundnut
+89	Gujarat grows more groundnut than any other state. Yet many Saurashtra farmers break open pods at harvest and find them empty. The reason is surprising: groundnut pods take calcium straight from the soil around them, not through the roots, so a plant can look healthy above ground while its pods starve.
+90	Why pods stay empty
+91	After flowering, the groundnut plant pushes a peg into the soil, and the pod forms at its tip. The developing pod absorbs calcium directly from the soil water around it. If the top few inches of soil are low in calcium, dry, or hard, pods form but do not fill: you get pops (empty pods) and shrivelled kernels. That is why gypsum is applied to the pegging zone in many areas, and why moisture at pod filling matters so much.
+92	Season checklist
+93	Sow Rhizobium-treated seed for better nodules.
+94	Keep the soil loose at flowering so pegs can enter easily; avoid deep hoeing that damages pegs after pegging starts.
+95	Apply gypsum in the pegging zone where your agriculture office advises.
+96	Avoid water stress at pegging and pod filling.
+97	Pale yellow young leaves on alkaline soil often mean iron shortage; get it checked.
+98	Harvest when most pods show dark veins inside the shell.
+99	Why are groundnut pods empty at harvest?
+100	Usually calcium shortage in the pod zone, water stress at pod filling, or hard soil at pegging. Gypsum and steady moisture help in many fields.
+101	Why are young groundnut leaves pale yellow?
+102	On alkaline, calcareous soils this is often iron deficiency. Older leaves turning yellow points more to nitrogen or weak nodules.
+103	<a href="https://dgr.icar.gov.in/" rel="noopener" target="_blank">ICAR-Directorate of Groundnut Research, Junagadh</a>
+### /crops/maize
+104	In 2018 a new pest arrived in Karnataka and spread across India in about a year: the fall armyworm. It feeds deep inside the maize whorl, where sprays struggle to reach. Fields that are not checked in the first 30 days can lose the crop before the farmer notices.
+105	fall armyworm first reported in India
+106	first 30 days
+107	when whorl damage is easiest to catch
+108	1 week
+109	the silking window that decides grain set
+110	The two weeks that decide your cob
+111	Maize tassels shed pollen and the silks catch it over only a few days. Each silk leads to one grain. If the plant is short of water, heat-stressed or the silks come late, many grains never form, and you see cobs with gaps and bare tips. Missing silking water costs more than missing water at almost any other stage.
+112	How to scout for fall armyworm
+113	Walk the field in a W pattern twice a week for the first month.
+114	Look into the whorl for ragged holes in leaves and wet, sawdust-like droppings.
+115	Young larvae have a pale inverted Y on the head; older ones hide deep in the whorl.
+116	Act on the advice of your agriculture office when you find damage on a fair share of plants; early action is cheaper.
+117	Sow neighbouring fields at about the same time so the pest does not move from older to younger crops.
+118	Why does my maize cob have an empty tip?
+119	Usually stress at silking or poor pollination: water shortage, heat, or silks emerging after pollen shed. Steady water around tasselling and silking helps most.
+120	Is fall armyworm only a maize pest?
+121	It prefers maize but also attacks sorghum, other cereals and some vegetables.
+122	<a href="https://www.nbair.res.in/" rel="noopener" target="_blank">ICAR-National Bureau of Agricultural Insect Resources (fall armyworm in India)</a>
+### /crops/paddy
+123	In parts of India, transplanted paddy turns rusty brown and stops growing a few weeks after transplanting. Farmers call it khaira. It is not a disease at all: it is zinc hunger, and the standing water of a paddy field is part of the cause.
+124	Why paddy soils run short of zinc
+125	When a field is flooded, the soil loses oxygen and its chemistry changes. Zinc becomes harder for roots to take up, especially in alkaline, calcareous or high-phosphorus soils. The result is khaira: rusty spots on older leaves, stunted hills and poor tillering two to four weeks after transplanting.
+126	Checks that save a paddy crop
+127	Count tillers per hill at mid-tillering; few tillers early means fewer panicles later.
+128	Look for rusty brown spots on older leaves after transplanting; get a zinc check if they appear.
+129	Do not keep fields flooded deeper than the stage needs; brief drying in the tillering stage, where advised, helps roots.
+130	Watch for stem borer dead hearts and leaf folder in the vegetative stage.
+131	At flowering, keep water steady; stress now gives chaffy, empty grain.
+132	What is khaira disease in paddy?
+133	It is zinc deficiency, not an infection. It shows as rusty brown leaves and stunted plants a few weeks after transplanting, mostly on alkaline or calcareous soils.
+134	Why is my paddy grain chaffy?
+135	Chaffy grain usually follows stress at flowering: heat, cold, drought, pests or disease at that stage.
+136	<a href="https://icar-nrri.in/" rel="noopener" target="_blank">ICAR-National Rice Research Institute</a>
+### /crops/pomegranate
+137	In the 2000s, bacterial blight, which farmers call telya, swept through pomegranate orchards in Maharashtra and Karnataka and forced many growers to uproot. The lesson for every grower: in pomegranate, clean orchard habits matter as much as fertilizer.
+138	Why fruit cracks
+139	The skin of a growing pomegranate hardens as it matures. If the soil stays dry for a while and then gets heavy water, or heavy rain, the inside swells faster than the skin can stretch, and it cracks. Steady, light watering through fruit growth, mulching, and enough calcium and boron in the plant all lower the risk.
+140	Orchard hygiene against telya
+141	Collect and destroy fallen infected leaves, fruit and pruned twigs; do not leave them in the orchard.
+142	Disinfect pruning tools between plants.
+143	Avoid taking a bahar in the rainy season in blight-prone areas; choose the bahar your local research station advises.
+144	Plant only healthy, disease-free nursery plants.
+145	Watch for oily, water-soaked spots on leaves and fruit, and act early on expert advice.
+146	What is telya in pomegranate?
+147	Telya is bacterial blight. It shows as oily, dark spots on leaves, stems and fruit, and spreads fast in warm, humid weather.
+148	Which bahar is best for pomegranate?
+149	It depends on your area's rainfall and disease pressure. Many growers in blight-prone areas avoid the monsoon bahar; ask your local research station.
+150	<a href="https://nrcpomegranate.icar.gov.in/" rel="noopener" target="_blank">ICAR-National Research Centre on Pomegranate, Solapur</a>
+### /crops/pulses
+151	India is the world's biggest grower of pulses and still imports them every year. A pulse plant can make its own nitrogen fertilizer for free, through root nodules, but in tired or salty soil those nodules often never form, and the farmer pays for urea the plant could have made itself.
+152	Read your roots: the nodule test
+153	At 4 to 5 weeks, dig (do not pull) three plants with a spade and wash the roots gently.
+154	Count the nodules: a healthy plant has many, mostly on the main root.
+155	Cut a few open. Pink or red inside means they are fixing nitrogen. White, green or brown inside means they are not working.
+156	Few or dead nodules point to no Rhizobium on the seed, waterlogging, salty or very acidic soil, or heavy nitrogen fertilizer at sowing.
+157	Why flowers drop in pulses
+158	Pulses make far more flowers than they can carry; some drop is normal.
+159	Heavy drop follows dry soil, hot winds, cloudy wet weather or pod borer attack.
+160	Too much nitrogen makes leafy plants that set fewer pods.
+161	Light irrigation at flowering, where water is available, and early borer control help most.
+162	Do pulses need urea?
+163	Only a small starter amount, if any. A crop with healthy nodules makes most of its own nitrogen; heavy urea can actually reduce nodulation.
+164	Why are my nodules white inside?
+165	They are not fixing nitrogen. Common reasons are wrong or no Rhizobium, waterlogging, drought or salty soil.
+166	<a href="https://iipr.icar.gov.in/" rel="noopener" target="_blank">ICAR-Indian Institute of Pulses Research</a>
+### /crops/vegetables
+167	Vegetables are the fastest money on a farm, and the fastest way to lose it. A short crop leaves no time to recover: one missed week of pest control or water in a 90-day crop can decide the season.
+168	What separates good vegetable growers
+169	Healthy nursery seedlings raised under insect-proof net.
+170	Weekly field walks, turning leaves to look for pests early.
+171	Small, regular feeding instead of one big dose.
+172	Steady drip or light irrigation, especially at flowering and fruiting.
+173	Rotation between vegetable families so soil diseases do not build up.
+### /crop-problems
+174	When a crop looks sick, the first instinct is to spray. But many problems farmers bring us, such as fruit drop, small tubers, dieback and poor germination, start in the soil, the roots or the weather, where no spray reaches. Finding the real cause first saves money.
+175	Before you spray, check these five things
+176	Is the soil too dry, too wet or hard? Dig a hand-deep hole and look.
+177	Are the roots white and firm, or brown and soft?
+178	Are insects present? Turn leaves and shake flowers over a white cloth.
+179	What was the weather in the last week: heat, cold, fog, heavy rain?
+180	Is it the whole field or patches? Patches point to soil, drainage or disease spots.
