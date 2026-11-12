@@ -28,7 +28,7 @@ How (engine already built, commit 4cf7bb7):
 - [x] hubs: /crops (253), /crops/fruits (281), /crops/vegetables (293), /crop-problems (307)
 
 ## Batch 3: trust pages (facts only from the company: since 2006, plant at GIDC Shihor, 100 KL liquid and 2,500 t solid per month, 36 FCO Schedule VI biostimulant grades + 11 biofertilisers under Gujarat NOCs)
-- [ ] /factory-and-rd (100), /quality (139), /our-story (238), /where-to-buy (100), /bulk-buyers (175), /oem-private-label (102), /dealers (378), /farmer-stories (257)
+- [x] /factory-and-rd (100), /quality (139), /our-story (238), /where-to-buy (100), /bulk-buyers (175), /oem-private-label (102), /dealers (378), /farmer-stories (257)
 
 ## Batch 4: biofertiliser product pages (educational: what the organism does, how to store, mix and apply safely, mistakes)
 - [ ] immunity-consortia, -acetobacter, -npk-consortia, -mycorrhiza, -rhizobium, -azospirillum, -azotobacter, -kmb, -psb, -psf, -zsb
