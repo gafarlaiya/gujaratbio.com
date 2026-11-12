@@ -1,0 +1,67 @@
+### /products/immunity-apple-special
+0	An apple tree lost to root rot is not a one-season loss. A replacement tree needs several years before it bears a full crop, so every tree saved in the orchard is years of income saved.
+1	Where it fits in the season
+2	<a href="/crops/apple">Read the full apple guide</a>
+3	Getting the best results
+4	Start with a soil and water test, so you know what the crop is really short of.
+5	Use it at the crop stages shown on the label or in the schedule we send you, not only when a problem appears.
+6	Keep water steady at flowering and fruit or grain filling; no product works well on a thirsty crop.
+7	Do not mix with other products in the same tank unless the label or our team says it is safe.
+8	Keep a simple record: date, stage, weather and what you saw. It helps you and us plan the next season.
+9	Send us a photo
+10	Take a clear photo of the whole plant, the problem close up, and the roots if you can dig one out.
+11	Send it on WhatsApp with your crop, its age, your village and district.
+12	Our team replies with what to check first and how the product fits your field.
+### /products/immunity-banana-special
+13	A banana plant gives one bunch and is then cut. Every plant lost to wilt, or weakened before shooting, is a whole bunch gone, with no second chance that season. In banana, the first months decide the bunch.
+14	<a href="/crops/banana">Read the full banana guide</a>
+### /products/immunity-chilli-special
+15	<a href="/crops/chilli">Read the full chilli (mirchi) guide</a>
+### /products/immunity-citrus-special
+16	<a href="/crops/citrus">Read the full citrus guide</a>
+### /products/immunity-coconut-special
+17	<a href="/crops/coconut">Read the full coconut guide</a>
+### /products/immunity-cotton-special
+18	Cotton sheds a large share of its squares, flowers and young bolls, and in a stressed crop the losses climb. Every shed square is a boll that will never be picked. Most of that shedding follows stress the grower can see coming: dry spells, heat, cloudy weather and pests.
+19	<a href="/crops/cotton">Read the full cotton guide</a>
+### /products/immunity-cumin-special
+20	<a href="/crops/cumin">Read the full cumin (jeera) guide</a>
+### /products/immunity-dhanya-special
+21	<a href="/crops/cereals">Read the full wheat and cereals guide</a>
+### /products/immunity-eleven
+22	Not every field needs a crop-special formula. For many crops and mixed farms, one well-chosen formula used at the right stages is simpler and cheaper. Ask us which crops and stages it suits on your farm.
+### /products/immunity-finisher
+23	The last weeks of a crop decide how well grain, fruit or tubers fill, and how they look and store. Yet this is when many growers stop paying attention. Ask us when and how to use it on your crop.
+### /products/immunity-fruit-special
+24	<a href="/crops/fruits">Read the full fruit orchards guide</a>
+### /products/immunity-gold
+25	Most crops, whatever they are, hit the same few stress points: establishment, the switch to flowering, fruit or grain filling, and spells of heat, cold or dry weather. A general formula is built for these moments, for growers who do not have a crop-specific one.
+### /products/immunity-granules
+26	Soil Health Card tests of about 1.3 crore samples found almost half of India's farm soils low in organic carbon. Soil-applied granules work where most problems start: in the soil, around the roots.
+27	<a href="https://www.cseindia.org/indian-soils-severely-deficient-in-essential-nutrients-12908" rel="noopener" target="_blank">Centre for Science and Environment, Indian soils severely deficient in essential nutrients (Soil Health Card data, 2023-25)</a>
+### /products/immunity-maize-special
+28	<a href="/crops/maize">Read the full maize guide</a>
+### /products/immunity-mango-special
+29	<a href="/crops/mango">Read the full mango guide</a>
+### /products/immunity-mungfali-special
+30	<a href="/crops/groundnut">Read the full groundnut (mungfali) guide</a>
+### /products/immunity-onion-special
+31	An onion bulb is built from its leaves: roughly each green leaf becomes a ring of the bulb. A plant that has not made enough healthy leaves when bulbing starts will give a small onion, whatever you do later.
+32	<a href="/crops/onion">Read the full onion guide</a>
+### /products/immunity-paddy-special
+33	<a href="/crops/paddy">Read the full paddy guide</a>
+### /products/immunity-pomegranate-special
+34	<a href="/crops/pomegranate">Read the full pomegranate guide</a>
+### /products/immunity-potato-special
+35	<a href="/crops/potato">Read the full potato guide</a>
+### /products/immunity-pulses-special
+36	<a href="/crops/pulses">Read the full pulses guide</a>
+### /products/immunity-spices-mix
+37	Spice crops such as cumin, coriander, fennel and fenugreek are short, delicate and easily set back by stress at flowering. Ask us which spice crops and stages this formula suits on your farm.
+### /products/immunity-sugarcane-special
+38	<a href="/crops/sugarcane">Read the full sugarcane guide</a>
+### /products/immunity-tea-special
+39	Every plucking round takes nutrients out of a tea garden, week after week, year after year. Gardens that are plucked hard but fed lightly slowly wear out, and tired bushes give a slow, thin flush.
+40	<a href="/crops/tea">Read the full tea guide</a>
+### /products/immunity-vegetable-special
+41	<a href="/crops/vegetables">Read the full vegetables guide</a>

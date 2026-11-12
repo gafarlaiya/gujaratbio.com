@@ -34,7 +34,7 @@ How (engine already built, commit 4cf7bb7):
 - [x] immunity-consortia, -acetobacter, -npk-consortia, -mycorrhiza, -rhizobium, -azospirillum, -azotobacter, -kmb, -psb, -psf, -zsb
 
 ## Batch 5: Immunity crop product pages (~300-440 words): add crop-stage problems the product supports, mistakes, FAQs
-- [ ] finisher, eleven, pulses, spices-mix, paddy, vegetable, cotton, maize, onion, banana, pomegranate, coconut, cumin, fruit, potato, mungfali, apple, chilli, dhanya, citrus, mango, granules, gold, sugarcane, tea
+- [x] finisher, eleven, pulses, spices-mix, paddy, vegetable, cotton, maize, onion, banana, pomegranate, coconut, cumin, fruit, potato, mungfali, apple, chilli, dhanya, citrus, mango, granules, gold, sugarcane, tea
 
 ## Not padded on purpose
 /contact, /enquiry, /privacy-policy, /terms, /shipping-and-returns, /our-websites, /sugarcane-meeting, /tools/fertilizer-dose-calculator (utility pages; short is right).

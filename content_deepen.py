@@ -573,3 +573,55 @@ DEEP.update({
   "<p>This carrier-based mix combines beneficial microbes that support nitrogen, phosphorus and potash supply around the roots. The carrier (a fine powder base) protects the microbes and makes mixing with compost, FYM or seed easy. Mixing it with well-decomposed compost before application gives the microbes food and a home.</p>",
   ("How do I use a carrier-based consortium?", "It is usually mixed with compost or FYM and applied to moist soil, or used for seed treatment. Follow the label for the method and dose.")),
 })
+
+# ---------------- Batch 5: Immunity product pages, built mostly from crop-guide content already written and translated
+def _esc(s): return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+_g = {}
+exec(open(__file__.replace("content_deepen.py", "content_crops.py"), encoding="utf-8").read(), _g)
+exec(open(__file__.replace("content_deepen.py", "content_crops2.py"), encoding="utf-8").read(), _g)
+exec(open(__file__.replace("content_deepen.py", "content_products.py"), encoding="utf-8").read(), _g)
+_CBY = {c["slug"]: c for c in _g["CROPS"]}
+BEST = ("Getting the best results", [
+    "Start with a soil and water test, so you know what the crop is really short of.",
+    "Use it at the crop stages shown on the label or in the schedule we send you, not only when a problem appears.",
+    "Keep water steady at flowering and fruit or grain filling; no product works well on a thirsty crop.",
+    "Do not mix with other products in the same tank unless the label or our team says it is safe.",
+    "Keep a simple record: date, stage, weather and what you saw. It helps you and us plan the next season."])
+ASK = ("Send us a photo", [
+    "Take a clear photo of the whole plant, the problem close up, and the roots if you can dig one out.",
+    "Send it on WhatsApp with your crop, its age, your village and district.",
+    "Our team replies with what to check first and how the product fits your field."])
+HOOK_NEW = {
+ "apple": "An apple tree lost to root rot is not a one-season loss. A replacement tree needs several years before it bears a full crop, so every tree saved in the orchard is years of income saved.",
+ "banana": "A banana plant gives one bunch and is then cut. Every plant lost to wilt, or weakened before shooting, is a whole bunch gone, with no second chance that season. In banana, the first months decide the bunch.",
+ "cotton": "Cotton sheds a large share of its squares, flowers and young bolls, and in a stressed crop the losses climb. Every shed square is a boll that will never be picked. Most of that shedding follows stress the grower can see coming: dry spells, heat, cloudy weather and pests.",
+ "onion": "An onion bulb is built from its leaves: roughly each green leaf becomes a ring of the bulb. A plant that has not made enough healthy leaves when bulbing starts will give a small onion, whatever you do later.",
+ "tea": "Every plucking round takes nutrients out of a tea garden, week after week, year after year. Gardens that are plucked hard but fed lightly slowly wear out, and tired bushes give a slow, thin flush.",
+}
+_HOOK_FROM = {"sugarcane": "/crop-problems/sugarcane-poor-germination", "potato": "/crop-problems/potato-small-tubers", "mango": "/crop-problems/mango-fruit-drop",
+              "citrus": "/crop-problems/citrus-dieback", "groundnut": "/crops/groundnut"}
+for _p in _g["PRODUCTS"]:
+    _c = _CBY.get(_p["crop"])
+    if not _c: continue
+    _hk = HOOK_NEW.get(_c["slug"]) or DEEP.get(_HOOK_FROM.get(_c["slug"], f"/crops/{_c['slug']}"), {}).get("hook")
+    _st = '<ol class="stages">' + "".join(f'<li><h3>{_esc(n)}</h3><div class="when">{_esc(w)}</div><p>{_esc(t)}</p></li>' for n, w, t in _c["stages"]) + "</ol>"
+    _cd = DEEP.get(f"/crops/{_c['slug']}", {})
+    DEEP[f"/products/{_p['slug']}"] = dict(hook=_hk,
+        add=[("Where it fits in the season", [("html", _st + f'<p><a href="/crops/{_c["slug"]}">Read the full {_esc(_c["name"].lower())} guide</a></p>')]),
+             ("What to check first", _c["checks"]), BEST, ASK],
+        faq=(_cd.get("faq") or [])[:2] + [q for q in _c["faq"] if "Which Immunity" not in q[0]][:2])
+
+GEN = {
+ "immunity-gold": "Most crops, whatever they are, hit the same few stress points: establishment, the switch to flowering, fruit or grain filling, and spells of heat, cold or dry weather. A general formula is built for these moments, for growers who do not have a crop-specific one.",
+ "immunity-eleven": "Not every field needs a crop-special formula. For many crops and mixed farms, one well-chosen formula used at the right stages is simpler and cheaper. Ask us which crops and stages it suits on your farm.",
+ "immunity-spices-mix": "Spice crops such as cumin, coriander, fennel and fenugreek are short, delicate and easily set back by stress at flowering. Ask us which spice crops and stages this formula suits on your farm.",
+ "immunity-finisher": "The last weeks of a crop decide how well grain, fruit or tubers fill, and how they look and store. Yet this is when many growers stop paying attention. Ask us when and how to use it on your crop.",
+ "immunity-granules": "Soil Health Card tests of about 1.3 crore samples found almost half of India's farm soils low in organic carbon. Soil-applied granules work where most problems start: in the soil, around the roots.",
+}
+for _s, _h in GEN.items():
+    DEEP[f"/products/{_s}"] = dict(hook=_h, add=[BEST, ASK], sources=[CSE] if _s == "immunity-granules" else None)
+
+# Small top-ups for pages just under the bar, reusing text already written and translated
+for _path, _hk in {"/crops/citrus": DEEP["/crop-problems/citrus-dieback"]["hook"], "/crops/onion": HOOK_NEW["onion"],
+                   "/crops/cotton": HOOK_NEW["cotton"], "/crop-problems/apple-root-rot": HOOK_NEW["apple"]}.items():
+    DEEP.setdefault(_path, dict(hook=_hk, add=[ASK]))

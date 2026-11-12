@@ -271,6 +271,7 @@ def deep_inject(path, body, schemas):
     j = body.rfind("<section")
     body = body[:j] + block + body[j:] if j > 0 else body + block
     i = body.find("</section>")
+    if path.startswith("/products/") and body.find("</section>", i + 10) > 0: i = body.find("</section>", i + 10)  # after the product box
     body = body[:i + 10] + top + body[i + 10:] if i >= 0 else top + body
     return body, schemas
 def hero(title, lead, crumbs=None, light=False, side=""):
