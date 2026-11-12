@@ -4,6 +4,7 @@ Edit the content_*.py files, then run: python3 build.py
 Photos/videos: put files with the exact names listed in MEDIA_LIST.csv into assets/media/ and rebuild."""
 import os, json, html as H, re, csv, subprocess
 from seo_overrides import SEO
+from content_deepen import DEEP
 from urllib.parse import quote
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -266,7 +267,8 @@ def sec(inner, title=None, sub=None, tint=False, id=None):
     return f'<section class="sec{" tint" if tint else ""}"{i}><div class="wrap">{t}{s}{inner}</div></section>'
 def ul(items, cls="ticks"): return f'<ul class="{cls}">' + "".join(f"<li>{esc(i)}</li>" for i in items) + "</ul>"
 def _li(i):  # escape text, but keep simple <a href> links
-    return re.sub(r"&lt;a href=&quot;([^&\"]+)&quot;&gt;(.*?)&lt;/a&gt;", r'<a href="\1">\2</a>', esc(i))
+    t = re.sub(r"&lt;a href=&quot;([^&\"]+)&quot;&gt;(.*?)&lt;/a&gt;", r'<a href="\1">\2</a>', esc(i))
+    return t.replace("&lt;strong&gt;", "<strong>").replace("&lt;/strong&gt;", "</strong>")
 def body_of(x):
     if isinstance(x, tuple): return x[1]
     if isinstance(x, list):  # strings become a bullet list; ("html", raw) tuples are inserted as they are
@@ -487,20 +489,24 @@ render("/knowledge", "Agriculture Knowledge: Soil, Crops, Sustainability | GBO",
 def article_page(path, basename, baseurl, x, crop=None, hero_media=None):
     start(path)
     body = hero(cap(x["h1"]), x["desc"], [(basename, baseurl), (_cr(x["h1"].split(":")[0]), None)], light=True)
-    inner = answer(x["answer"])
+    dp = DEEP.get(path, {})
+    inner = (f'<div class="hook"><p class="hook-k">Reality check</p><p>{dp["hook"]}</p></div>' if dp.get("hook") else "") + answer(x["answer"])
+    if dp.get("stats"): inner += '<div class="stats">' + "".join(f'<div class="stat"><b>{esc(n)}</b><span>{esc(l)}</span></div>' for n, l in dp["stats"]) + "</div>"
     if x["slug"] in SERIES and path.startswith("/guides/"):
         _n = SERIES.index(x["slug"]) + 1
         inner += f'<p class="note"><strong>Part {_n} of {len(SERIES)}</strong> in the <a href="/plant-science-series">{SERIES_NAME}</a> by Gafar Laiya: plant physiology and biostimulant science, in plain language. Published 30 October 2026.</p>'
     for fn, ds in (hero_media or []): inner += media(fn, ds)
-    inner += "".join(f"<h2>{esc(h)}</h2>" + body_of(items) for h, items in x["sections"])
+    inner += "".join(f"<h2>{esc(h)}</h2>" + body_of(items) for h, items in x["sections"] + dp.get("add", []))
+    if dp.get("sources"): inner += "<h2>Sources</h2><ul>" + "".join(f'<li><a href="{esc(u)}" rel="noopener" target="_blank">{esc(n)}</a></li>' for n, u in dp["sources"]) + "</ul>"
     if "__IMG__" in inner:
         inner = inner.replace("__IMG__", media("gravitropism-root-stages.webp", "Illustration of a germinating seed, a seedling and a vegetative plant, showing the root growing down and the shoot growing up at each stage", cls="diagram") + '<p class="note">Illustration of the first three crop stages: the root grows down (positive gravitropism) and the shoot grows up (negative gravitropism).</p>')
     if crop:
         c = CBY[crop]; p = PBY[c["product"]]
         inner += f'<p>See the full <a href="/crops/{crop}">{c["name"].lower()} guide</a> and <a href="/products/{p["slug"]}">{p["name"]}</a>.</p>'
     inner += f'<p class="note">Written by Gafar Laiya, founder of {SHORT}, working with farmers since 2006. {RESULTS}</p>'
-    body += sec(f'<div class="prose">{inner}</div>') + sec(faq_html(x["faq"]), "Questions", tint=True) + x.get("extra", "") + (ganna_box() if crop == "sugarcane" else "") + enquiry_box(CBY[crop]["name"] if crop else "")
-    render(path, x["title"] if len(x["title"]) <= 66 else x["title"][:66], x["desc"], body, [faq_ld(x["faq"]), article_ld(path, x["h1"], x["desc"], x.get("date"))],
+    _fq = x["faq"] + dp.get("faq", [])
+    body += sec(f'<div class="prose">{inner}</div>') + sec(faq_html(_fq), "Questions", tint=True) + x.get("extra", "") + (ganna_box() if crop == "sugarcane" else "") + enquiry_box(CBY[crop]["name"] if crop else "")
+    render(path, x["title"] if len(x["title"]) <= 66 else x["title"][:66], x["desc"], body, [faq_ld(_fq), article_ld(path, x["h1"], x["desc"], x.get("date"))],
            [(basename, baseurl), (_cr(x["h1"].split(":")[0]), None)], "0.7")
 
 _BL = {"gravitropism-and-root-growth": ["what-is-a-biostimulant", "fco-schedule-vi-biostimulants"],

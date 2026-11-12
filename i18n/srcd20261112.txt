@@ -1,0 +1,126 @@
+### /crop-problems/citrus-dieback
+0	Reality check
+1	In the 2000s the orange belt around Nagpur lost half its orange area in under ten years, and trees that once lived 65 to 70 years started dying at 30. Root rot, pests, heat and tired soil did it together. Dieback at the branch tip is the first warning that the roots are in trouble.
+2	of Nagpur division's orange area lost, 1995 to 2004
+3	30-35 yrs
+4	orchard life, down from 65-70 years
+5	the 2010 heat that killed lakhs of trees
+6	Read the tree from the bottom up
+7	<strong>Collar and trunk:</strong> gum oozing from cracked bark near soil level means gummosis (Phytophthora). Scrape the bark gently: brown, wet tissue below is a bad sign.
+8	<strong>Feeder roots:</strong> scratch the soil under the canopy edge. Healthy feeder roots are white or cream and firm. Brown roots that slip their skin are rotting.
+9	<strong>Leaves:</strong> yellow patches between veins on new leaves point to zinc or iron shortage; blotchy, uneven yellowing on one side of the tree needs an expert check for greening disease.
+10	<strong>Twigs:</strong> small holes and sawdust on branches mean bark borer. Dieback from the tip with no other signs often follows a root problem.
+11	Why alkaline and salty soils make it worse
+12	Much of western and central India has alkaline, calcareous soil. In such soil, zinc and iron are present but locked in forms the roots cannot take up. A citrus tree on weak roots in alkaline soil runs short of exactly the nutrients it needs to make new leaves, so branches thin out and die back. Salty irrigation water adds to the damage by burning the fine roots.
+13	A practical rescue plan
+14	Stop water touching the trunk: use a double-ring basin so the area around the trunk stays dry.
+15	Open drainage before the monsoon; standing water for even a few days damages roots.
+16	Get an expert to confirm gummosis or greening before you spend on sprays. Greening has no cure, and infected trees spread it.
+17	Test soil and irrigation water. Fix pH and salinity issues you can fix, and feed micronutrients the tree is short of.
+18	Prune dead wood back to healthy tissue after the cause is known, and seal large cuts.
+19	Rebuild organic matter in the basin every season.
+20	<a href="https://www.downtoearth.org.in/environment/orange-tumbles-37976" rel="noopener" target="_blank">Down To Earth, Orange tumbles (2012)</a>
+21	<a href="https://ccri.icar.gov.in/" rel="noopener" target="_blank">ICAR-Central Citrus Research Institute, Nagpur</a>
+22	Is citrus dieback contagious?
+23	Dieback itself is a symptom. Some causes, such as Phytophthora and greening disease, do spread, so find the cause early.
+24	Can an old declining lemon tree be saved?
+25	If the collar and a good part of the roots are healthy, yes, often. If the trunk is girdled by rot or the tree has greening, replanting with healthy nursery stock is usually wiser.
+### /crop-problems/mango-alternate-bearing
+26	A mango tree that gives you a bumper crop this year is quietly spending next year's crop. That is why so many orchards swing between a rich year and a poor one. The cycle can be softened, but only by acting in the months after harvest, when most growers have stopped looking at the tree.
+27	Why the 'on' year steals from the 'off' year
+28	Mango flowers form on shoots that grew and matured in the previous season. Those shoots need food: sugars and starch made by the leaves and stored in the branches and roots. In an 'on' year, the fruit pulls almost all of that food. The tree makes few new shoots, those shoots do not mature in time, and next season there is little to flower on.
+29	Varieties differ. Many traditional varieties, including Alphonso, Kesar, Langra and Dashehari, are known for strong alternate bearing. Some newer hybrids, such as Amrapali, were bred partly to bear more regularly.
+30	The after-harvest calendar that decides next year
+31	<strong>Within a month of harvest:</strong> remove dead, crossing and inward-growing branches so light reaches the canopy, and clear the basin.
+32	<strong>Early monsoon:</strong> this is when the tree builds new shoots. Balanced feeding and healthy soil now matter more than any spray at flowering.
+33	<strong>Through the monsoon:</strong> keep drainage open. Waterlogged roots cannot feed the new flush.
+34	<strong>Before flowering:</strong> the new shoots must mature, turning from soft and bronze to hard and dark green. Avoid heavy nitrogen late in the season, which pushes fresh soft growth instead.
+35	<strong>At flowering and fruit set:</strong> protect the panicles from hoppers and keep soil moisture steady.
+36	Signs your tree is heading into an 'off' year
+37	Very few new shoots after harvest, or shoots that stay short.
+38	Leaves that are pale, small or fall early.
+39	A crop last season that bent the branches.
+40	Trees on the same farm flowering well while one block stays green.
+41	What about chemical flower inducers?
+42	Growth-retarding chemicals are used in some regions to force flowering. They are not a substitute for a well-fed tree, and wrong use can harm trees and leave residues. Use them only on the advice of your state horticulture department or a mango research station, and never on weak or young trees.
+43	Rarely in strongly alternate varieties, but good after-harvest care and thinning of very heavy crops can make the swings much smaller.
+44	Which mango variety bears every year?
+45	Some hybrids, such as Amrapali, bear more regularly than many traditional varieties. Ask your local mango research station which suits your area.
+### /crop-problems/mango-fruit-drop
+46	In one study of Indian mango varieties, about half of the young fruit fell in the first 15 days after set, and Alphonso lost close to 90% of its set fruit before harvest. Most growers think they have a disease problem. Usually they have a stress and reserves problem.
+47	of young fruit can drop in the first 15 days
+48	of set fruit lost in Alphonso in one study
+49	45 days
+50	the main drop period after fruit set
+51	The three waves of drop, and what each one tells you
+52	<strong>Wave 1, flowers and pinhead fruit (first 1 to 2 weeks):</strong> mostly unfertilised flowers. This is normal and you cannot stop it. Poor pollination in cloudy, wet or very cold weather makes it heavier.
+53	<strong>Wave 2, pea to marble size (2 to 6 weeks):</strong> the tree drops fruit it cannot feed. This is where water stress, hot winds, hoppers and a hungry tree show up. This is the drop you can reduce.
+54	<strong>Wave 3, near-mature fruit (April to May):</strong> heat waves, sudden heavy irrigation after a dry spell, fruit fly and stem-end problems. Losses here hurt most, because the fruit is almost ready.
+55	A 10-minute field check before you spray anything
+56	Shake a few panicles over a white cloth. Many small jumping insects means hoppers, not a nutrient problem.
+57	Look at the dropped fruit: a black, shrivelled stalk end points to disease; a clean break at the stalk points to stress.
+58	Dig a hand-deep hole in the basin. Dry, cracked soil during fruit set is the most common cause we see in Saurashtra and Kutch orchards.
+59	Compare trees: if only the trees that carried a heavy crop last year are dropping, the cause is low reserves, not weather.
+60	Note the date and weather. Drop that follows two or three days of hot, dry wind is weather stress.
+61	Mistakes that make drop worse
+62	Flooding the basin after a long dry gap. The sudden swing shocks the tree and fruit falls within days.
+63	Spraying mixtures of several chemicals during full bloom, which can harm flowers and pollinating insects.
+64	Feeding the tree only when fruit is already falling. Reserves are built after harvest, months earlier.
+65	Ignoring the basin: bare, hot soil loses water fast. A mulch of dry leaves or straw keeps roots cooler.
+66	What some growers tell us
+67	Mango growers who switched from irregular to light, regular watering at fruit set, and who fed their trees soon after harvest, have told us they saw less drop the following season. That is their experience, in their orchards; soil, variety, weather and care decide the result in yours.
+68	<a href="https://jtropag.kau.in/index.php/ojs2/article/view/93" rel="noopener" target="_blank">Studies on fruit drop in mango varieties, Journal of Tropical Agriculture (Kerala Agricultural University)</a>
+69	Is 90% fruit drop normal in mango?
+70	Losing most of the flowers and pinhead fruit is normal. Losing most fruit at marble size or later is not, and usually points to water stress, heat, pests or a weak tree.
+71	Do hormone sprays stop mango fruit drop?
+72	Some plant growth regulators are used under expert advice, but they cannot make up for a dry, hungry or pest-hit tree. Fix water, pests and nutrition first, and follow your local horticulture office on any spray.
+### /crop-problems/potato-small-tubers
+73	India harvests roughly half as many tonnes of potato per hectare as the Netherlands or the USA, on average. A big part of that gap is decided in two short windows of the crop that many growers miss: tuber initiation and bulking.
+74	28-30 t/ha
+75	average Indian potato yield
+76	about 2x
+77	yield in the Netherlands and the USA
+78	share of Indian growers using quality seed
+79	Two windows that decide your harvest
+80	<strong>Tuber initiation (about 5 to 8 weeks after planting, depending on variety):</strong> stolons swell and the plant decides how many tubers to carry. Dry soil, heat, or a big push of nitrogen at this time means fewer tubers.
+81	<strong>Bulking (the next 6 to 8 weeks):</strong> the leaves send sugars down and tubers grow fast. Every day of water stress or leaf loss now means smaller potatoes. Healthy leaves are your factory.
+82	Seed is half the story
+83	Only about a quarter to a third of Indian potato growers use quality-assured seed; the rest plant tubers saved from the last crop. Saved seed carries viruses that build up year after year, giving weak plants that set few, small tubers. Buying certified or well-tested seed every two or three seasons is one of the cheapest yield fixes available.
+84	A quick dig test
+85	Around 45 days after planting, carefully dig two plants from a good patch and two from a weak patch.
+86	Count the swelling stolon tips. Few tips on the weak plants points to stress at initiation.
+87	Check the roots: brown, short roots point to hard or salty soil, or waterlogging.
+88	Look at the lower leaves: early yellowing or blight spots mean the leaf factory is closing early.
+89	Common mistakes
+90	Heavy urea late in the crop. The plant grows leaves, not potatoes.
+91	Long gaps between irrigations during bulking, then heavy watering. This can cause cracks and hollow heart.
+92	Ignoring potash. Potato needs plenty of it for tuber filling and quality.
+93	Waiting for blight before protecting leaves in cold, foggy weather.
+94	<a href="https://www.freshplaza.com/asia/article/9863197/india-s-potato-yield-gap-linked-to-seed-system-weaknesses/" rel="noopener" target="_blank">FreshPlaza, India's potato yield gap linked to seed system weaknesses (Aug 2026)</a>
+95	<a href="https://cpri.icar.gov.in/" rel="noopener" target="_blank">ICAR-Central Potato Research Institute</a>
+96	At what stage do potatoes grow fastest?
+97	During bulking, after tuber initiation. Steady water and healthy leaves at this stage decide tuber size.
+98	Why are my potatoes many but small?
+99	A plant that sets many tubers but cannot feed them gives small potatoes. Weak leaves, water stress or low potash during bulking are the usual causes.
+### /crop-problems/sugarcane-poor-germination
+100	Every gap in a sugarcane row is a clump that never pays you back, for the plant crop and every ratoon after it. Gaps are cheapest to prevent on planting day and most expensive to ignore.
+101	Why a gap costs more than it looks
+102	Sugarcane is a long crop, and a ratoon grows back from the same stubble. A gap in the plant crop stays a gap in the first and second ratoon unless it is filled early. Neighbouring clumps do send out more tillers into the space, but rarely enough to make up the loss, and late tillers often die before harvest.
+103	Planting-day checklist
+104	Take setts from a healthy nursery crop that is about 8 to 10 months old. Old, mature cane germinates more slowly.
+105	Plant within a day of cutting; setts that dry in the sun lose buds.
+106	Check buds before planting: plump, firm buds with no damage. Discard setts with dried, split or red-rotted tissue.
+107	Plant into soil that is moist but not muddy; irrigate lightly soon after if the soil is dry.
+108	Do not plant too deep; a light soil cover is enough.
+109	Treat setts as recommended by your sugar factory or agriculture office against sett rot and termites.
+110	Newer planting methods worth asking about
+111	Single-bud setts and nursery-raised seedlings (settlings) are used more widely now. They need less seed cane, and transplanting healthy seedlings gives a more even stand. Ask your sugar factory's cane department whether they supply seedlings in your area.
+112	Gap filling: the 30-day rule
+113	Walk the field three to four weeks after planting and mark gaps longer than about a foot.
+114	Fill gaps with pre-sprouted setts or seedlings raised at the same time as the main planting.
+115	Gaps filled after about 45 days rarely catch up with the crop around them.
+116	<a href="https://sugarcane.icar.gov.in/" rel="noopener" target="_blank">ICAR-Sugarcane Breeding Institute, Coimbatore</a>
+117	Why do sugarcane setts rot instead of sprouting?
+118	Usually waterlogged or very wet soil, damaged setts, or setts taken from a diseased crop. Sett treatment and good drainage lower the risk.
+119	Does soaking setts help germination?
+120	Soaking setts in water for some hours before planting is a common practice, especially when the cane is a little old or dry. Follow your sugar factory's advice on any treatment added to the water.

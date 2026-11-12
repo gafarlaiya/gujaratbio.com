@@ -150,3 +150,10 @@ html[lang=gu] body{font-family:"Mukta","Noto Sans Gujarati","Shruti",sans-serif}
 .hero .media img{width:100%;max-height:460px;object-fit:cover;border-radius:16px}@media(max-width:820px){.hero .media img{max-height:320px}}
 @media(max-width:900px){.nav{top:100%;max-height:calc(100vh - 190px);max-height:calc(100dvh - 190px);overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;box-shadow:0 10px 24px rgba(35,24,15,.15)}}
 .art-fig{margin:0 0 1.2rem}.art-fig img{width:100%;height:auto;border-radius:10px;display:block}.art-fig figcaption{font-size:.75rem;color:#7a6f66;margin-top:.3rem}
+
+.hook{background:var(--leafd);color:#fff;border-radius:var(--r);padding:18px 20px;margin:0 0 20px}
+.hook p{margin:0;font-size:1.08rem;line-height:1.55}
+.hook .hook-k{font-family:"Baloo 2",sans-serif;font-weight:700;color:var(--tur);font-size:1rem;margin-bottom:4px}
+.prose .stats{grid-template-columns:repeat(3,1fr);margin:0 0 24px}
+.prose .stat span{font-size:.92rem;color:var(--ink2)}
+@media(max-width:640px){.prose .stats{grid-template-columns:1fr;gap:8px}.prose .stat{padding:10px 14px}.prose .stat b{font-size:1.4rem}}
