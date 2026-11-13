@@ -7,7 +7,8 @@ Optional env: TEXT_MODEL, IMAGE_MODEL (otherwise the newest Flash text and Flash
 
 For each piece: plan a topic -> research with Google Search grounding and write -> check against the owner's rules
 -> make one illustration -> save in the site's format -> translate -> build. Anything that fails a check is skipped.
-The workflow commits and pushes only if the build is complete. Rules live in AUTOPUBLISH.md (read every run).
+The workflow commits only if the build is complete, and only to a drafts/ branch: nothing is live until the owner merges it.
+Rules live in AUTOPUBLISH.md (read every run).
 """
 import base64, csv, datetime as dt, difflib, glob, io, json, os, re, subprocess, sys, time, html as H
 import requests
@@ -320,7 +321,8 @@ def main():
         for title, path, t in done:
             w.writerow([TODAY, SITE, path.strip("/").split("/")[-1], title, t.get("pillar", ""), t.get("crop", ""), t.get("headline_style", "") + " (gemini)"])
     host = {"www": "https://www.gujaratbio.com", "b2b": "https://b2b.gujaratbio.com", "ganna": "https://ganna.in"}[SITE]
-    rep = [f"{SITE}: {len(done)} published, {len(held)} held back"] + [f"- {ti}: {host}{p}" for ti, p, _ in done] + [f"- HELD {ti}: {w}" for ti, w in held]
+    rep = ([f"{SITE}: {len(done)} drafted (not live until the owner merges the drafts branch), {len(held)} held back"]
+           + [f"- DRAFT {ti}: will be at {host}{p} after merge" for ti, p, _ in done] + [f"- HELD {ti}: {w}" for ti, w in held])
     open(os.environ.get("GITHUB_STEP_SUMMARY", "/dev/null"), "a").write("\n".join(rep) + "\n")
     print("\n".join(rep))
 
