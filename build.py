@@ -2,7 +2,7 @@
 """Builds agriculture.gujaratbio.com (later www.gujaratbio.com): plain HTML, no dependencies.
 Edit the content_*.py files, then run: python3 build.py
 Photos/videos: put files with the exact names listed in MEDIA_LIST.csv into assets/media/ and rebuild."""
-import os, json, html as H, re, csv, subprocess
+import os, json, html as H, re, csv, subprocess, hashlib
 from seo_overrides import SEO
 from content_deepen import DEEP
 from urllib.parse import quote
@@ -203,6 +203,28 @@ ORG = {"@context": "https://schema.org", "@type": "Organization", "@id": SITE + 
        "brand": {"@type": "Brand", "name": "Immunity", "logo": SITE + "/assets/img/brand/immunity-logo.webp"}}
 
 PAGES = []
+# Page dates for Article schema (and later a visible "Last updated" line). Stored in a small ledger so a date only moves
+# when the page content really changes; first seen dates come from git history. See seo-system/CLAUDE.md.
+DATES_FILE = os.path.join(ROOT, "seo-system", "page-dates.json")
+try: DATES = json.load(open(DATES_FILE, encoding="utf-8"))
+except Exception: DATES = {}
+def page_date(path, content):
+    h = hashlib.sha1(content.encode("utf-8")).hexdigest()[:12]
+    d = DATES.get(path)
+    if d is None:
+        f = "index.html" if path == "/" else path.strip("/") + "/index.html"
+        log = subprocess.run(["git", "log", "--format=%cs", "--", f], cwd=ROOT, capture_output=True, text=True).stdout.split()
+        d = DATES[path] = [log[-1] if log else TODAY, log[0] if log else TODAY, h]
+    elif d[2] != h:
+        d[1], d[2] = TODAY, h
+    return d[0], d[1]
+# Pages held out of Google until their claims pass QA (SEO_AUDIT.md H2). Remove a path once its text is fixed.
+HOLD = {"/articles/unlocking-profitability-the-power-of-compost-and-humic-acid",
+        "/articles/sugarcane-production-in-india-current-scenario-and-way-ahead",
+        "/articles/india-s-organic-market-is-growing-20-per-year",
+        "/articles/inside-the-lab-breakthroughs-in-biofertilizers-and-bio-pesticides",
+        "/articles/eye-opening-statistics-on-organic-farming-in-india-you",
+        "/articles/maximizing-potato-tuber-production-understanding-causes-and-solutions"}
 _VDATE = {}
 def video_ld(body):
     """VideoObject markup for every self-hosted MP4 on the page (helps video results in Google)."""
@@ -225,16 +247,20 @@ def render(path, title, desc, body, schemas=None, crumbs=None, prio="0.6", lang=
     if path in DEEP and 'class="hook"' not in body:  # deeper content for pages that were thin (content_deepen.py)
         body, schemas = deep_inject(path, body, list(schemas or []))
     url = SITE + path
-    ld = [ORG] if path == "/" else []
+    ld = [ORG]  # company facts on every page, so AI answer engines see them wherever they land (SEO_AUDIT.md H4)
     if crumbs:
         items = [("Home", "/")] + crumbs
         ld.append({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": i + 1, "name": n, "item": SITE + (u or path)} for i, (n, u) in enumerate(items)]})
     ld += schemas or []
+    _pub, _mod = page_date(path, title + desc + body)
+    for x in ld:
+        if x.get("@type") == "Article" and "datePublished" not in x:
+            x["datePublished"], x["dateModified"] = _pub, _mod  # SEO_AUDIT.md H3
     ld += video_ld(body)
     ldh = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in ld)
     if len(desc) > 160: desc = desc[:157].rsplit(" ", 1)[0].rstrip(",;:") + "..."
-    robots = "noindex,follow" if TRIAL else "index,follow,max-image-preview:large"
+    robots = "noindex,follow" if TRIAL or path in HOLD else "index,follow,max-image-preview:large"
     assert len(title) <= 66, (path, len(title), title)
     out = f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8">{tracking()}<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><meta name="robots" content="{robots}"><link rel="canonical" href="{url}">
@@ -250,7 +276,7 @@ def render(path, title, desc, body, schemas=None, crumbs=None, prio="0.6", lang=
     d = ROOT if path == "/" else os.path.join(ROOT, path.strip("/"))
     os.makedirs(d, exist_ok=True)
     open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(out)
-    if path != "/404": PAGES.append((path, prio))
+    if path != "/404" and path not in HOLD: PAGES.append((path, prio))
 
 def start(path): _CUR["page"] = path
 
@@ -970,6 +996,8 @@ for old in ("how-to-buy",):  # remove pages from the first build
 
 open(os.path.join(ROOT, "sitemap.xml"), "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     "".join(f"<url><loc>{SITE}{p}</loc><lastmod>{TODAY}</lastmod><priority>{pr}</priority></url>\n" for p, pr in PAGES) + "</urlset>\n")
+os.makedirs(os.path.dirname(DATES_FILE), exist_ok=True)
+json.dump(DATES, open(DATES_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=0, sort_keys=True)
 BOTS = ["Googlebot", "Bingbot", "Google-Extended", "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-User", "Claude-SearchBot", "PerplexityBot", "Perplexity-User", "Applebot-Extended", "CCBot"]
 open(os.path.join(ROOT, "robots.txt"), "w").write("".join(f"User-agent: {b}\nAllow: /\n\n" for b in BOTS) + f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n")
 open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8").write(f"""# {NAME}
@@ -979,7 +1007,10 @@ open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8").write(f"""# {NAME}
 - Phone / WhatsApp: {PHONE}; email: {MAIL}
 - Approvals: NOCs from the Directorate of Agriculture, Government of Gujarat for 36 Schedule VI biostimulant grades and 11 biofertilizer types.
 - Prices are shared on enquiry.
+- Founder and main author of the guides: Gafar Laiya (https://www.gujaratbio.com/about).
+- Farmer results quoted on this site are individual farmers' own experiences, not promises; results vary with soil, water, weather and management.
 - {OWNER_LINE}
+- This file was last generated on {TODAY}.
 - Related websites of the same company: https://b2b.gujaratbio.com (bulk, OEM, export), https://ganna.in (sugarcane, Gujarati).
 
 ## Immunity products
