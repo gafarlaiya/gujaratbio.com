@@ -55,7 +55,7 @@ OLD.update({
 })
 for _a in ARTICLES:
     if _a.get("old"): OLD[_a["old"]] = "/articles/" + _a["slug"]   # moved articles keep their own page
-_valid = {p for p, _ in PAGES}
+_valid = {p for p, _ in PAGES} | HOLD  # held pages still exist (noindex), so old URLs may redirect to them
 _bad = {k: v for k, v in OLD.items() if not v.startswith("https://") and v.split("#")[0] not in _valid}
 assert not _bad, _bad
 # Remaining numbered blog posts go to the knowledge hub until each article is moved.
