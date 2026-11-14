@@ -159,4 +159,118 @@ GUIDES = [
                 ("When to sample", ["Before sowing or planting, or after harvest.", "Every two to three years for the same field.", "Separately for parts of the field that look different."])],
       faq=[("Where can I get my soil tested?", "Government soil testing labs, Krishi Vigyan Kendras and private labs test soil. The Soil Health Card scheme also offers testing."),
            ("Should I sample each field separately?", "Yes. Fields with different soil, crop history or yield should be sampled separately.")]),
+ dict(slug="how-to-start-composting", title="How to Start Composting: Pit, Heap or Bin, Step by Step",
+      h1="How to start composting on a farm or at home: pit, heap or bin, step by step",
+      desc="A simple guide to start composting: what to put in, the right mix, water and turning, how to know it is ready, and common mistakes.",
+      answer="To start composting, mix dry brown material (straw, dry leaves, crop residue) with green material (kitchen waste, fresh plant waste, cow dung) in roughly two to three parts brown to one part green. Keep it as damp as a squeezed sponge, turn it every one to two weeks, and expect dark, crumbly compost in about two to three months.",
+      sections=[
+       ("Choose a place and a method", [
+         "Heap: the easiest for a farm. Make a pile at least one metre wide and one metre high on level ground, in shade if possible.",
+         "Pit: good in dry areas because it loses less water. Keep it shallow so air can still reach the material, and protect it from waterlogging in the rains.",
+         "Bin or drum: suits a home or terrace. Use a container with holes for air and a lid to keep rain out.",
+         "Keep any compost site away from your drinking water source and out of the path of rain runoff."]),
+       ("What to put in, and what to leave out", [
+         "Brown (dry, carbon-rich): straw, dry leaves, sugarcane trash, cotton stalks, sawdust in small amounts, paper and cardboard torn up.",
+         "Green (fresh, nitrogen-rich): vegetable and fruit waste, fresh weeds without seeds, grass clippings, cow dung, goat or poultry manure.",
+         "Leave out: meat, fish, oily food and dairy (smell and pests), diseased plants, weeds that have gone to seed, plastic, and treated wood.",
+         "Chop or break big stalks into short pieces. Small pieces break down faster."]),
+       ("Build the heap in layers", [
+         "Start with a loose layer of coarse brown material at the bottom so air and extra water can pass.",
+         "Add a layer of green material, then a layer of brown. Repeat. A rough guide is two to three parts brown to one part green by volume.",
+         "Sprinkle water on each layer as you build. The material should feel as damp as a wrung-out sponge: not dripping, not dry.",
+         "A few handfuls of finished compost or garden soil between layers help start the process.",
+         "Cover the top with straw, a sack or a sheet so it does not dry out or get soaked by rain."]),
+       ("Water and turning", [
+         "Check the moisture every week. If it feels dry, sprinkle water. If it is soggy and smells sour, mix in dry brown material and turn it.",
+         "Turn the heap every one to two weeks, moving the outside to the middle. This brings in air, and air is what keeps compost from turning smelly.",
+         "A working heap warms up in the first week or two. If it stays cold, it usually needs more green material, more water, or a bigger pile."]),
+       ("How to know it is ready", [
+         "Ready compost is dark brown, crumbly and smells like fresh soil.",
+         "You can no longer recognise most of what you put in, apart from a few woody bits that can go back into the next heap.",
+         "The heap has stopped heating up after turning.",
+         "Timing depends on the weather, the mix and how often you turn it. Two to three months is common; cold weather or a dry, unturned heap takes longer."]),
+       ("Common mistakes", [
+         "Too much green material: the heap turns wet and smelly. Add dry brown material.",
+         "Too dry: nothing breaks down. Add water and turn.",
+         "Never turning it: it rots without air and takes much longer.",
+         "Adding diseased plant material or seeding weeds, which can carry problems into the field.",
+         "Using half-finished compost on young seedlings. Let it mature first."]),
+       ("Using finished compost", [
+         "Mix it into the soil before planting, or spread it around trees and plants and cover with mulch.",
+         "Use it as part of your soil plan, not instead of a soil test. See <a href=\"/guides/how-to-take-a-soil-sample\">how to take a soil sample</a>.",
+         "To understand how compost and humic acid work together, read <a href=\"/guides/compost-and-humic-acid\">compost and humic acid</a>.",
+         "For a farm-scale, no-nonsense walkthrough, see <a href=\"/articles/the-black-gold-masterclass-a-farmer-s-no-nonsense\">how to make good compost on the farm</a>."])],
+      faq=[
+       ("How long does composting take?", "Often two to three months with a good mix and regular turning. It can take longer in cold weather or if the heap is dry or never turned."),
+       ("Why does my compost smell bad?", "Usually it is too wet or has too much green material and not enough air. Mix in dry brown material and turn the heap."),
+       ("Can I compost kitchen waste at home?", "Yes. Use vegetable and fruit waste with dry leaves or paper, keep out meat, fish, oil and dairy, and use a bin with a lid and air holes."),
+       ("Is cow dung necessary?", "No. It helps as a green, nitrogen-rich ingredient, but fresh plant waste or kitchen waste can do the same job."),
+       ("Can compost replace fertilizer?", "Compost adds organic matter and some nutrients slowly. How much of your crop's needs it covers depends on your soil and crop, so check with a soil test.")]),
+ dict(slug="mango-not-flowering-causes-and-timing", title="Mango Not Flowering? Causes, Timing and What to Check",
+      h1="Mango not flowering: causes, timing and what to check before flowering",
+      desc="Why a mango tree may not flower, when flowering happens in India, what to do with water and fertilizer before flowering, and how to protect the panicles.",
+      answer="A mango tree flowers on mature shoots after a spell of cooler weather. If it does not flower, the usual causes are late soft new growth, too much nitrogen or water late in the season, a warm winter, a heavy crop last year, or shade and crowding. Check these before spending on any input.",
+      sections=[
+       ("Why a mango tree may not flower", [
+         "Immature growth: mango flowers on fully matured shoots. Late, soft flushes often do not flower that year.",
+         "Too much nitrogen or water late in the season keeps the tree making leaves instead of preparing to flower.",
+         "A warm winter: cool nights help trigger flowering.",
+         "A heavy crop last year: many varieties bear alternately and rest after a big crop.",
+         "A young tree, or heavy shade and crowding."]),
+       ("When mango flowers in India", [
+         "Flowering usually runs from late winter into early spring. It starts earlier in warmer areas and later in cooler ones, and it varies by variety.",
+         "The main trigger is cooler weather after the tree has put out mature shoots. Some trees flower in more than one flush.",
+         "If your trees flower far outside the usual window for your area, ask your local horticulture officer, since it can point to a stress."]),
+       ("Water and fertilizer before flowering", [
+         "Many mango regions avoid heavy irrigation and heavy nitrogen in the weeks before flowering, because they can push leaves instead of flower buds.",
+         "Normal irrigation resumes once fruit has set.",
+         "Timing varies with soil, rainfall and variety. Use a soil test to decide what to apply, and see <a href=\"/guides/how-to-take-a-soil-sample\">how to take a soil sample</a>."]),
+       ("Protect the flowers", [
+         "Open up the canopy so air moves through, and keep the orchard clean.",
+         "Watch new panicles closely in the first weeks. Hoppers and powdery mildew show up early.",
+         "If you need to spray, check the current recommendation for product, dose and timing from your state horticulture department or KVK.",
+         "Where you can, avoid insecticide on fully open flowers, since bees and flies pollinate them."]),
+       ("Next steps", [
+         "For a month-by-month checklist, read <a href=\"/articles/mango-before-flowering-next-30-days\">mango before flowering: the next 30 days</a>.",
+         "For mango crop information, see the <a href=\"/crops/mango\">mango crop page</a>.",
+         "Once flowers open, see <a href=\"/guides/mango-fruit-set-and-fruit-drop\">mango fruit set and fruit drop</a>."])],
+      faq=[
+       ("Why is my mango tree not flowering?", "Common causes are late soft growth that did not mature, too much nitrogen or water late in the season, a warm winter, a heavy crop last year, or a young or shaded tree. Check which fits your tree. Your local KVK can tell you the usual flowering window for your variety and area."),
+       ("When do mango trees flower in India, and what triggers it?", "It depends on region and variety, but flowering usually runs from late winter into early spring, earlier in warmer areas. The main trigger is cooler weather after the tree has put out mature shoots. A warm winter can delay or reduce flowering."),
+       ("Should I irrigate and fertilize mango trees just before flowering?", "In many mango regions the advice is to avoid heavy irrigation and heavy nitrogen in the weeks before flowering, because they can push leafy growth instead of flower buds. Irrigation resumes after fruit set. This varies by soil, rainfall and variety, so confirm the schedule for your district."),
+       ("How do I protect mango flowers from hoppers and powdery mildew?", "Start with prevention: an open canopy and a clean orchard. Watch panicles closely in the first weeks. If you must spray, follow the current recommendation from your state horticulture department or KVK for product, dose and timing, and avoid spraying fully open flowers where you can.")]),
+ dict(slug="mango-fruit-set-and-fruit-drop", title="Mango Fruit Set and Fruit Drop: Why Flowers and Young Fruit Fall",
+      h1="Mango fruit set and fruit drop: why flowers and young fruit fall, and what helps",
+      desc="Why mango flowers fall without setting fruit, why young fruit drops at the pea and marble stage, and what can help fruit set, from irrigation to nutrition.",
+      answer="Most mango flowers never become fruit, so some flower and young-fruit drop is normal. Drop gets worse with rain or fog at flowering, hot dry wind, hoppers or mildew on the panicle, and water or nutrient stress. Protect the panicle early, keep moisture steady after fruit set, and correct gaps a soil or leaf test shows.",
+      sections=[
+       ("Why flowers fall without setting fruit", [
+         "A panicle carries hundreds or thousands of flowers, and only a small fraction ever set fruit. Some drop is normal.",
+         "Rain, fog or cold at flowering reduces pollination.",
+         "Hot dry winds dry the flowers.",
+         "Few pollinators, because of weather or sprays.",
+         "Hoppers or powdery mildew damaging the panicle.",
+         "A tree short of water or nutrients."]),
+       ("Why young fruit drops (pea and marble stage)", [
+         "The tree keeps only as many fruit as it can feed, so heavy drop in the weeks after setting is common.",
+         "Water stress, or a sudden swing from dry to wet, makes it worse.",
+         "Nutrient shortage, pests and hot dry wind add to it.",
+         "Growth regulators are used in some regions to reduce drop, but only on local recommendation. Ask your KVK first."]),
+       ("What can help fruit set", [
+         "Protect panicles from hoppers and mildew early.",
+         "Avoid insecticide on fully open flowers where you can, and keep the canopy open so bees and flies can reach the flowers.",
+         "After fruit has set, give steady irrigation and a balanced nutrition plan based on a soil or leaf test.",
+         "Where a test shows low boron or zinc, correcting it can help. See <a href=\"/micronutrients/boron\">boron</a> and <a href=\"/micronutrients/zinc\">zinc</a>."]),
+       ("Water during flowering and fruit set", [
+         "Many orchards avoid heavy irrigation during full flowering, because it can encourage leafy growth or disturb pollination.",
+         "Irrigation begins once fruit has set, often around the pea stage, and is then kept steady.",
+         "Very dry or sandy soils may need light irrigation earlier, so watch your trees rather than follow a fixed calendar."]),
+       ("Related", [
+         "Before flowering: <a href=\"/guides/mango-not-flowering-causes-and-timing\">mango not flowering: causes and timing</a>.",
+         "Mango crop information: <a href=\"/crops/mango\">mango crop page</a>."])],
+      faq=[
+       ("Why do mango flowers fall without setting fruit?", "Some drop is normal because only a small fraction of flowers set fruit. Beyond that, rain, fog or cold at flowering, hot dry winds, few pollinators, and hoppers or mildew on the panicle are common causes. If the panicle is damaged, treat the pest or disease. If it looks healthy, weather is the likely cause."),
+       ("Why do mango fruits drop after they set?", "The tree keeps only as many young fruit as it can feed, so heavy drop in the weeks after setting is common. Water stress, nutrient shortage, pests and hot dry wind make it worse. Steady moisture and good nutrition help the fruit that remains."),
+       ("How can I improve fruit set in mango?", "No method guarantees it, but protecting panicles from hoppers and mildew, keeping the canopy open for pollinators, avoiding insecticide on fully open flowers, and giving steady water and balanced nutrition after fruit set all help. Test for boron and zinc before applying them."),
+       ("Should I irrigate mango during flowering and fruit set?", "Practices vary by region. Many orchards avoid heavy irrigation during full flowering and begin irrigation once fruit has set, around the pea stage, then keep it steady. Your soil, variety and rainfall decide the schedule, so ask your KVK or horticulture department for your district.")]),
 ]
