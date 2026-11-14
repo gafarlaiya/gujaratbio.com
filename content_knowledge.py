@@ -159,4 +159,51 @@ GUIDES = [
                 ("When to sample", ["Before sowing or planting, or after harvest.", "Every two to three years for the same field.", "Separately for parts of the field that look different."])],
       faq=[("Where can I get my soil tested?", "Government soil testing labs, Krishi Vigyan Kendras and private labs test soil. The Soil Health Card scheme also offers testing."),
            ("Should I sample each field separately?", "Yes. Fields with different soil, crop history or yield should be sampled separately.")]),
+ dict(slug="how-to-start-composting", title="How to Start Composting: Pit, Heap or Bin, Step by Step",
+      h1="How to start composting on a farm or at home: pit, heap or bin, step by step",
+      desc="A simple guide to start composting: what to put in, the right mix, water and turning, how to know it is ready, and common mistakes.",
+      answer="To start composting, mix dry brown material (straw, dry leaves, crop residue) with green material (kitchen waste, fresh plant waste, cow dung) in roughly two to three parts brown to one part green. Keep it as damp as a squeezed sponge, turn it every one to two weeks, and expect dark, crumbly compost in about two to three months.",
+      sections=[
+       ("Choose a place and a method", [
+         "Heap: the easiest for a farm. Make a pile at least one metre wide and one metre high on level ground, in shade if possible.",
+         "Pit: good in dry areas because it loses less water. Keep it shallow so air can still reach the material, and protect it from waterlogging in the rains.",
+         "Bin or drum: suits a home or terrace. Use a container with holes for air and a lid to keep rain out.",
+         "Keep any compost site away from your drinking water source and out of the path of rain runoff."]),
+       ("What to put in, and what to leave out", [
+         "Brown (dry, carbon-rich): straw, dry leaves, sugarcane trash, cotton stalks, sawdust in small amounts, paper and cardboard torn up.",
+         "Green (fresh, nitrogen-rich): vegetable and fruit waste, fresh weeds without seeds, grass clippings, cow dung, goat or poultry manure.",
+         "Leave out: meat, fish, oily food and dairy (smell and pests), diseased plants, weeds that have gone to seed, plastic, and treated wood.",
+         "Chop or break big stalks into short pieces. Small pieces break down faster."]),
+       ("Build the heap in layers", [
+         "Start with a loose layer of coarse brown material at the bottom so air and extra water can pass.",
+         "Add a layer of green material, then a layer of brown. Repeat. A rough guide is two to three parts brown to one part green by volume.",
+         "Sprinkle water on each layer as you build. The material should feel as damp as a wrung-out sponge: not dripping, not dry.",
+         "A few handfuls of finished compost or garden soil between layers help start the process.",
+         "Cover the top with straw, a sack or a sheet so it does not dry out or get soaked by rain."]),
+       ("Water and turning", [
+         "Check the moisture every week. If it feels dry, sprinkle water. If it is soggy and smells sour, mix in dry brown material and turn it.",
+         "Turn the heap every one to two weeks, moving the outside to the middle. This brings in air, and air is what keeps compost from turning smelly.",
+         "A working heap warms up in the first week or two. If it stays cold, it usually needs more green material, more water, or a bigger pile."]),
+       ("How to know it is ready", [
+         "Ready compost is dark brown, crumbly and smells like fresh soil.",
+         "You can no longer recognise most of what you put in, apart from a few woody bits that can go back into the next heap.",
+         "The heap has stopped heating up after turning.",
+         "Timing depends on the weather, the mix and how often you turn it. Two to three months is common; cold weather or a dry, unturned heap takes longer."]),
+       ("Common mistakes", [
+         "Too much green material: the heap turns wet and smelly. Add dry brown material.",
+         "Too dry: nothing breaks down. Add water and turn.",
+         "Never turning it: it rots without air and takes much longer.",
+         "Adding diseased plant material or seeding weeds, which can carry problems into the field.",
+         "Using half-finished compost on young seedlings. Let it mature first."]),
+       ("Using finished compost", [
+         "Mix it into the soil before planting, or spread it around trees and plants and cover with mulch.",
+         "Use it as part of your soil plan, not instead of a soil test. See <a href=\"/guides/how-to-take-a-soil-sample\">how to take a soil sample</a>.",
+         "To understand how compost and humic acid work together, read <a href=\"/guides/compost-and-humic-acid\">compost and humic acid</a>.",
+         "For a farm-scale, no-nonsense walkthrough, see <a href=\"/articles/the-black-gold-masterclass-a-farmer-s-no-nonsense\">how to make good compost on the farm</a>."])],
+      faq=[
+       ("How long does composting take?", "Often two to three months with a good mix and regular turning. It can take longer in cold weather or if the heap is dry or never turned."),
+       ("Why does my compost smell bad?", "Usually it is too wet or has too much green material and not enough air. Mix in dry brown material and turn the heap."),
+       ("Can I compost kitchen waste at home?", "Yes. Use vegetable and fruit waste with dry leaves or paper, keep out meat, fish, oil and dairy, and use a bin with a lid and air holes."),
+       ("Is cow dung necessary?", "No. It helps as a green, nitrogen-rich ingredient, but fresh plant waste or kitchen waste can do the same job."),
+       ("Can compost replace fertilizer?", "Compost adds organic matter and some nutrients slowly. How much of your crop's needs it covers depends on your soil and crop, so check with a soil test.")]),
 ]
