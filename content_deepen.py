@@ -606,10 +606,10 @@ for _p in _g["PRODUCTS"]:
     _hk = HOOK_NEW.get(_c["slug"]) or DEEP.get(_HOOK_FROM.get(_c["slug"], f"/crops/{_c['slug']}"), {}).get("hook")
     _st = '<ol class="stages">' + "".join(f'<li><h3>{_esc(n)}</h3><div class="when">{_esc(w)}</div><p>{_esc(t)}</p></li>' for n, w, t in _c["stages"]) + "</ol>"
     _cd = DEEP.get(f"/crops/{_c['slug']}", {})
-    DEEP[f"/products/{_p['slug']}"] = dict(hook=_hk,
-        add=[("Where it fits in the season", [("html", _st + f'<p><a href="/crops/{_c["slug"]}">Read the full {_esc(_c["name"].lower())} guide</a></p>')]),
-             ("What to check first", _c["checks"]), BEST, ASK],
-        faq=(_cd.get("faq") or [])[:2] + [q for q in _c["faq"] if "Which Immunity" not in q[0]][:2])
+    # Nov 2026 (scaled-content review): product pages keep only text that is unique to them, plus one link to the crop guide.
+    # Stage lists, checks, FAQs and checklists already live on the crop pages, so repeating them here made 25 near-identical pages.
+    DEEP[f"/products/{_p['slug']}"] = dict(hook=HOOK_NEW.get(_c["slug"]),
+        add=[("Where it fits in the season", [("html", f'<p><a href="/crops/{_c["slug"]}">Read the full {_esc(_c["name"].lower())} guide</a></p>')])])
 
 GEN = {
  "immunity-gold": "Most crops, whatever they are, hit the same few stress points: establishment, the switch to flowering, fruit or grain filling, and spells of heat, cold or dry weather. A general formula is built for these moments, for growers who do not have a crop-specific one.",
@@ -619,7 +619,7 @@ GEN = {
  "immunity-granules": "Soil Health Card tests of about 1.3 crore samples found almost half of India's farm soils low in organic carbon. Soil-applied granules work where most problems start: in the soil, around the roots.",
 }
 for _s, _h in GEN.items():
-    DEEP[f"/products/{_s}"] = dict(hook=_h, add=[BEST, ASK], sources=[CSE] if _s == "immunity-granules" else None)
+    DEEP[f"/products/{_s}"] = dict(hook=_h, sources=[CSE] if _s == "immunity-granules" else None)
 
 # Small top-ups for pages just under the bar, reusing text already written and translated
 for _path, _hk in {"/crops/citrus": DEEP["/crop-problems/citrus-dieback"]["hook"], "/crops/onion": HOOK_NEW["onion"],
