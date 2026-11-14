@@ -994,8 +994,18 @@ for old in ("how-to-buy",):  # remove pages from the first build
     d = os.path.join(ROOT, old)
     if os.path.isdir(d): import shutil; shutil.rmtree(d)
 
+def _lastmod(p):
+    # Real last-change date from the page-dates ledger (translated pages use their English page's date).
+    # Falls back to today only for pages the ledger has not seen yet.
+    base = p
+    for pre in ("/gu", "/hi"):
+        if p == pre or p.startswith(pre + "/"):
+            base = p[len(pre):] or "/"
+    e = DATES.get(p) or DATES.get(base)
+    return e[1] if e else TODAY
+
 open(os.path.join(ROOT, "sitemap.xml"), "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-    "".join(f"<url><loc>{SITE}{p}</loc><lastmod>{TODAY}</lastmod><priority>{pr}</priority></url>\n" for p, pr in PAGES) + "</urlset>\n")
+    "".join(f"<url><loc>{SITE}{p}</loc><lastmod>{_lastmod(p)}</lastmod><priority>{pr}</priority></url>\n" for p, pr in PAGES) + "</urlset>\n")
 os.makedirs(os.path.dirname(DATES_FILE), exist_ok=True)
 json.dump(DATES, open(DATES_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=0, sort_keys=True)
 BOTS = ["Googlebot", "Bingbot", "Google-Extended", "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-User", "Claude-SearchBot", "PerplexityBot", "Perplexity-User", "Applebot-Extended", "CCBot"]
