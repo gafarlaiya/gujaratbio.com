@@ -29,7 +29,7 @@ SOCIAL = ["https://www.facebook.com/gujaratbio", "https://www.youtube.com/@Gujar
 OWNER_LINE = f"This website is owned and maintained by {NAME.replace('Pvt. Ltd.', 'Private Limited')} (CIN {CIN}), Bhavnagar, Gujarat, India."
 RESULTS = "Results differ from farm to farm with soil, weather, crop and management. Farmer experiences on this site are their own reports, not a promise of results."
 
-for _f in ("content_products.py", "content_crops.py", "content_crops2.py", "content_knowledge.py", "content_series.py", "content_pages.py", "content_micro_a.py", "content_micro_b.py", "content_micro_general.py"):
+for _f in ("content_products.py", "content_crops.py", "content_crops2.py", "content_knowledge.py", "content_series.py", "content_pages.py", "content_micro_a.py", "content_micro_b.py", "content_micro_general.py", "content_season.py"):
     exec(open(os.path.join(ROOT, _f), encoding="utf-8").read())
 SERIES = ["gravitropism-and-root-growth", "auxin-master-regulator-of-growth", "seaweed-extracts-and-plant-physiology", "humic-acid-and-root-zone-development",
           "protein-hydrolysates-and-nutrient-use-efficiency", "biostimulants-for-salinity-and-drought-stress"]
@@ -38,7 +38,7 @@ _GB = {g["slug"]: g for g in GUIDES}
 _GB["gravitropism-and-root-growth"]["refs"] = ["Morita MT (2010). Directional gravity sensing in gravitropism. Annual Review of Plant Biology 61:705-720.",
     "Vanneste S, Friml J (2009). Auxin: a trigger for change in plant development. Cell 136:1005-1016.",
     "du Jardin P (2015). Plant biostimulants: definition, concept, main categories and regulation. Scientia Horticulturae 196:3-14."]
-GUIDES = [_GB[x] for x in SERIES] + [g for g in GUIDES if g["slug"] not in SERIES]
+GUIDES = [_GB[x] for x in SERIES] + SEASON_GUIDES + [g for g in GUIDES if g["slug"] not in SERIES]
 SERIES_NAME = "Plant Science Series"
 for _x in SERIES: _GB[_x]["date"] = "2026-10-30"
 

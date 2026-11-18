@@ -1,0 +1,286 @@
+### /knowledge
+0	Why potato plants set few or small tubers, and how to increase potato tuber size naturally at the two stages that decide it.
+1	<a href="/guides/dap-shortage-what-to-use-instead">DAP shortage: what to use instead of DAP for wheat, potato and other rabi crops</a>
+2	No DAP at the shop? How many bags of SSP, 12:32:16 or 10:26:26 equal one DAP bag, how to adjust urea and potash, and how to need less DAP every year.
+3	<a href="/guides/potato-early-blight-vs-late-blight">Potato early blight vs late blight: how to tell them apart and what to do</a>
+4	How to tell early blight from late blight on potato leaves, the weather that brings each one, and why late blight needs action before you see it.
+5	<a href="/guides/mango-flowering-care">Mango flowering care: how to get more flowers and protect them, from November to fruit set</a>
+6	How Kesar mango trees decide to flower, what to do and avoid from November to fruit set, hopper and powdery mildew timing, and an honest look at paclobutrazol.
+7	<a href="/guides/high-density-kesar-mango">High density Kesar mango: spacing, pruning and what to plan before you plant</a>
+8	Common spacings for high density Kesar mango in Gujarat, why close planting fails without yearly pruning, and the July pruning window.
+### /crop-problems/potato-small-tubers
+9	Small Potato Tubers: Causes and How to Increase Tuber Size
+10	How to increase potato tuber size naturally
+11	Plant healthy, certified seed of a suitable size, so every plant starts strong.
+12	Earth up on time, so stolons stay in loose, dark soil and tubers have room to swell.
+13	Keep soil moisture steady through bulking: light, regular irrigation, never long dry gaps.
+14	Give enough potash at planting; potato uses it to fill tubers.
+15	Stop heavy nitrogen after tuber initiation, so the plant fills tubers instead of growing leaves.
+16	Protect the leaves from blight in foggy weather; see <a href="/guides/potato-early-blight-vs-late-blight">early vs late blight</a>.
+17	Build the soil with compost and keep roots healthy; a bigger root system feeds bigger tubers.
+18	How can I increase potato tuber size naturally?
+19	Use healthy seed, earth up on time, keep soil moisture steady during bulking, give enough potash, avoid late nitrogen and protect leaves from blight. Compost and healthy roots help the plant fill its tubers.
+### /guides/dap-shortage-what-to-use-instead
+20	DAP Shortage: What to Use Instead of DAP for Wheat and Potato
+21	<a href="/">Home</a> / <a href="/guides">Guides</a> / DAP shortage
+22	DAP shortage: what to use instead of DAP for wheat, potato and other rabi crops
+23	India imports most of what goes into a bag of DAP. When ships are late, the queue starts at your dealer before sunrise. But your wheat does not need DAP. It needs 23 kg of phosphorus at sowing, and other bags can give it.
+24	If DAP is not available, the crop needs the same phosphorus from another bag. About 3 bags of SSP, 1.5 bags of NPK 12:32:16 or 1.8 bags of NPK 10:26:26 give the phosphorus of one 50 kg DAP bag. With SSP or TSP, add about 20 kg of urea for the nitrogen DAP would have given. Put the phosphorus in at sowing, near the seed.
+25	23 kg
+26	phosphorus (P2O5) in one 50 kg DAP bag
+27	3 bags
+28	of SSP give the same phosphorus
+29	printed price of a DAP bag; do not pay more
+30	What one bag of DAP actually gives your crop
+31	DAP is 18% nitrogen and 46% phosphorus (as P<sub>2</sub>O<sub>5</sub>). So one 50 kg bag gives about 9 kg of nitrogen and 23 kg of phosphorus. The crop does not need DAP; it needs those 23 kg of phosphorus at sowing and the nitrogen over the season. Any bag that supplies them does the same job.
+32	How many bags equal one DAP bag
+33	Instead of 1 bag DAP
+34	How much
+35	What to change
+36	SSP (single super phosphate, 16% P)
+37	About 3 bags (around 145 kg)
+38	Add about 20 kg urea for the missing nitrogen. SSP also gives sulphur and calcium, which oilseeds, pulses and potato use well.
+39	NPK 12:32:16
+40	About 1.5 bags (around 72 kg)
+41	Nitrogen is almost the same as DAP. It also gives about 11 kg potash, so reduce MOP by about 20 kg.
+42	NPK 10:26:26
+43	About 1.8 bags (around 88 kg)
+44	Nitrogen is almost the same. It also gives about 23 kg potash, so reduce MOP by about 38 kg.
+45	TSP (triple super phosphate, 46% P)
+46	1 bag
+47	No nitrogen. Add about 20 kg urea. Often hard to find.
+48	20:20:0:13 (ammonium phosphate sulphate)
+49	About 2.3 bags (around 115 kg)
+50	Gives much more nitrogen than DAP (about 23 kg). Cut your later urea by about 30 kg. Also gives sulphur.
+51	Phosphorus figures and bag counts as published by Punjab Agricultural University; urea and potash adjustments are simple arithmetic from the grade on the bag (urea 46% N, MOP 60% K<sub>2</sub>O). Your crop's total need still comes from a soil test or your crop recommendation.
+52	Rules that matter more than the bag
+53	Apply phosphorus at sowing or planting, in the furrow or near the seed. Phosphorus barely moves in soil; spread on top later, most of it never reaches the roots.
+54	Do not cut phosphorus to zero on soil that tested low. Wheat roots and young potato plants need it in the first weeks.
+55	If you switch to NPK grades, count the potash and nitrogen in them so you do not pay twice for the same nutrient.
+56	SSP is bulky. Three bags per DAP bag means more carrying cost, but SSP is often available when DAP is not.
+57	Mixing SSP with urea just before application is fine; do not store the mixture for days, it becomes sticky.
+58	How to need less DAP every year
+59	Get a soil test. Many fields in Gujarat already have medium to high phosphorus from years of DAP; such fields often need far less. See <a href="/guides/how-to-take-a-soil-sample">how to take a soil sample</a>.
+60	Place, do not broadcast. Phosphorus placed near the seed is used better than the same amount spread over the field.
+61	Feed the soil. Compost and well-rotted farmyard manure release phosphorus slowly and keep it in a form roots can use. See <a href="/guides/compost-and-humic-acid">compost and humic acid</a>.
+62	Use phosphate solubilising bacteria (PSB). They free phosphorus that is already locked in your soil. They work alongside fertilizer, not as a full replacement. See <a href="/products/immunity-psb">Immunity PSB</a>.
+63	Keep the roots strong. A crop with a large, healthy root system reaches more of the phosphorus in the soil. See <a href="/guides/humic-acid-and-root-zone-development">humic acid and the root zone</a>.
+64	Crop notes for this rabi
+65	<strong>Wheat:</strong> SSP or 12:32:16 at sowing works well; keep the first urea dose at crown root stage as usual. See the <a href="/crops/cereals">wheat and cereals guide</a>.
+66	<strong>Potato:</strong> potato needs a lot of phosphorus and potash at planting, so 12:32:16 or 10:26:26 often suits it better than SSP alone. See the <a href="/knowledge/potato-fertilizer-schedule">potato fertilizer schedule</a>.
+67	<strong>Gram, mustard and other oilseeds and pulses:</strong> SSP is a good choice because of its sulphur. Rhizobium on gram seed adds nitrogen from the air. See <a href="/crops/pulses">pulses</a>.
+68	<strong>Cumin:</strong> keep the basal dose moderate and balanced; heavy nitrogen makes cumin soft and wilt-prone. See <a href="/crops/cumin">cumin</a>.
+69	Do not pay more than the printed price
+70	The maximum retail price is printed on every subsidised bag. For DAP it is ₹1,350 per 50 kg bag.
+71	Always take a bill. Without a bill you cannot complain, and you cannot be sure the bag is genuine.
+72	If a dealer refuses to sell without a bill, asks above the printed price, or forces you to buy another product with DAP, report it to your taluka or district agriculture officer.
+73	Buy only what you need for this season. Panic buying is what empties the shops for your neighbours.
+74	<a href="https://www.tribuneindia.com/news/punjab/pau-urges-growers-to-use-dap-alternatives/amp" rel="noopener" target="_blank">The Tribune: PAU urges growers to use DAP alternatives</a>
+75	<a href="https://tribuneindia.com/news/use-tsp-ssp-npk-as-an-alternative-to-dap-official" rel="noopener" target="_blank">The Tribune: Use TSP, SSP, NPK as an alternative to DAP</a>
+76	<a href="https://www.fertilizerdaily.com/20261022-india-dap-shortage-haryana-ipl-suspension/" rel="noopener" target="_blank">Fertilizer Daily: India DAP shortage, rabi 2026 (October 2026)</a>
+77	What can I use instead of DAP for wheat?
+78	About 3 bags of SSP plus about 20 kg of urea, or about 1.5 bags of NPK 12:32:16, give the phosphorus and nitrogen of one bag of DAP. Apply it at sowing.
+79	How many bags of SSP equal one bag of DAP?
+80	About 3 bags of SSP give the phosphorus of one bag of DAP. SSP has no nitrogen, so add about 20 kg of urea.
+81	Is SSP better than DAP?
+82	For phosphorus alone, DAP is more concentrated. SSP also gives sulphur and calcium, which helps oilseeds, pulses and potato. For the crop, the right amount of phosphorus matters more than which bag it came from.
+83	Can I use NPK 12:32:16 instead of DAP?
+84	Yes. About 1.5 bags of 12:32:16 give the phosphorus of one DAP bag and nearly the same nitrogen. It also gives potash, so reduce your MOP.
+85	Can I skip phosphorus this year?
+86	Only if a soil test shows your field is high in phosphorus. On low or medium soils, skipping it usually costs yield.
+87	Can PSB replace DAP completely?
+88	No. PSB frees phosphorus that is already in the soil and helps the crop use fertilizer better, so many growers can use less. It does not add new phosphorus.
+89	What is the price of DAP in 2026?
+90	The printed maximum retail price for a 50 kg bag of DAP is ₹1,350. Do not pay more, and always take a bill.
+### /guides/potato-early-blight-vs-late-blight
+91	Potato Early Blight vs Late Blight: How to Tell Them Apart
+92	<a href="/">Home</a> / <a href="/guides">Guides</a> / Potato early blight vs late blight
+93	Potato early blight vs late blight: how to tell them apart and what to do
+94	Late blight is the disease that caused the Irish famine. It still moves the same way: a few foggy nights, and a green field turns black within a week. By the time you see it everywhere, it is too late to save those leaves.
+95	Early blight makes dry brown spots with rings like a target, first on old lower leaves, and spreads slowly in warm weather. Late blight makes dark, wet-looking patches with white mould underneath, can start anywhere on the plant, and can kill a field within a week in cool, foggy, humid weather. Late blight must be prevented before it appears.
+96	7-10 days
+97	for late blight to collapse an unprotected field in foggy weather
+98	Dec-Jan
+99	the high-risk window in Gujarat's potato belt
+100	The difference at a glance
+101	Early blight
+102	Late blight
+103	Cause
+104	A fungus (Alternaria solani)
+105	A water mould (Phytophthora infestans)
+106	Old, lower leaves first
+107	Any leaf, often the top and middle
+108	What the spot looks like
+109	Dry, brown to black, with rings like a target, often with a yellow edge
+110	Pale green to dark brown, wet-looking, spreads without a clear border
+111	Under the leaf
+112	No white growth
+113	White, cottony mould at the edge of the spot on humid mornings
+114	Weather
+115	Warm days, dew, and plants under stress
+116	Cool, cloudy, foggy, humid weather, light rain
+117	Speed
+118	Slow, over weeks
+119	Fast: a field can collapse in 7 to 10 days
+120	Stems and tubers
+121	Stems rarely; tubers get small dark sunken spots
+122	Dark stem lesions; tubers get reddish-brown rot under the skin
+123	Smell
+124	None
+125	A rotten smell in a badly hit field
+126	Why late blight is the one to fear in Gujarat
+127	In north Gujarat and other potato belts, late blight comes with the cold, foggy spells of December and January, when nights are cool and leaves stay wet for long hours. It is the disease behind the Irish famine of the 1840s, and it is still the most damaging potato disease in the world. Once you see the spots on many plants, the field has already been infected for days.
+128	What to do about late blight
+129	Plant healthy, certified seed. Infected seed tubers carry the disease into the field.
+130	Watch the weather. When cool, foggy or drizzly days are forecast, protect the crop before the spell, not after. Ask your agriculture department or KVK for blight forecasts in your district.
+131	Protective sprays must cover the leaves before infection. Use only products recommended for potato late blight by your state university, at the label dose, and rotate groups as advised.
+132	Avoid evening irrigation in foggy weather, so leaves do not stay wet all night.
+133	Earth up well so tubers stay covered and spores washing down do not reach them.
+134	Remove and bury the first infected plants you find; do not leave them in the field or on the bund.
+135	If the haulm is badly hit late in the season, cut it and wait about two weeks before digging, so tubers are not infected at harvest.
+136	What to do about early blight
+137	Early blight attacks weak plants. Balanced nutrition, enough potash and steady irrigation keep it in check.
+138	Remove the lowest infected leaves where practical, and keep the field free of potato and tomato volunteers.
+139	Spray only when spots climb from the lower leaves to the middle of the plant, with a product recommended for potato by your state university, at the label dose.
+140	Rotate potato with wheat or other non-host crops; do not follow potato with tomato or brinjal.
+141	Healthy leaves mean bigger potatoes
+142	Leaves are the factory that fills the tubers. Every leaf lost to blight during bulking means smaller potatoes. See <a href="/crop-problems/potato-small-tubers">why potatoes are small, or too few</a> and the <a href="/crops/potato">potato crop guide</a>.
+143	<a href="https://niphm.gov.in/" rel="noopener" target="_blank">NIPHM: Integrated pest management packages</a>
+144	How can I tell early blight from late blight?
+145	Early blight makes dry brown spots with target-like rings on older leaves. Late blight makes dark, wet-looking patches with white mould under the leaf in humid weather, and spreads very fast.
+146	Which is more dangerous, early or late blight?
+147	Late blight. In cool, foggy weather it can destroy a field in about a week. Early blight spreads slowly and mostly hits stressed plants.
+148	When does late blight attack potato in Gujarat?
+149	Mostly during cold, foggy, humid spells in December and January, when leaves stay wet for long hours.
+150	Can late blight be cured after it appears?
+151	Infected leaves cannot be cured. Sprays protect the healthy leaves, which is why they must go on before or at the very start of an outbreak.
+152	Does blight affect the tubers?
+153	Late blight causes a reddish-brown rot in tubers, and infected tubers rot in storage. Early blight causes small dark sunken spots.
+### /guides/mango-flowering-care
+154	Mango Flowering Care: Kesar Pre-Flowering to Fruit Set
+155	<a href="/">Home</a> / <a href="/guides">Guides</a> / Mango flowering care
+156	Mango flowering care: how to get more flowers and protect them, from November to fruit set
+157	One glass of water too many in December can cost you a whole season of mangoes. A Kesar tree that gets water and nitrogen in winter often grows new leaves instead of flowers, and that choice cannot be undone until next year.
+158	A mango tree flowers on shoots that matured after the last harvest, after a dry, cool spell. From November, hold back irrigation and nitrogen, keep the canopy open, and watch for hoppers. When panicles appear, protect them from hoppers and powdery mildew before the flowers open. Do not spray at full bloom, so that bees and flies can pollinate.
+159	Nov-Feb
+160	the window that decides this year's crop
+161	sprays at full bloom; bees and flies need the flowers
+162	How a mango tree decides to flower
+163	Flowers come at the tips of shoots that grew after harvest and have had time to mature, usually several months. In winter, cool nights and dry soil stop new leafy growth and tell those mature tips to make flowers instead. If the tree gets water and nitrogen now, it often pushes new leaves instead of flowers, and the season is lost. This is why the work for flowering really starts at harvest, with pruning and feeding in June and July, and why a heavy crop one year often means few flowers the next. See <a href="/crop-problems/mango-alternate-bearing">alternate bearing in mango</a>.
+164	Month by month, November to fruit set
+165	When
+166	What the tree is doing
+167	What growers do
+168	November
+169	Mature shoots, no new flush
+170	Stop or reduce irrigation. No nitrogen. Clear weeds. Check bark and leaves for hoppers.
+171	December
+172	Buds swell; in south Gujarat panicles may begin
+173	Prune dense, crossing branches lightly to open the canopy. Keep the soil dry. Watch for hoppers on new panicles.
+174	Panicle emergence (Dec to Feb)
+175	Panicles push out and lengthen
+176	First protection against hoppers and powdery mildew, before flowers open.
+177	About 2 to 3 weeks later
+178	Panicles fully grown, flowers about to open
+179	Second protection, if hoppers or mildew are present.
+180	Full bloom
+181	Flowers open
+182	No sprays. Let bees and flies work.
+183	Fruit set (pea size)
+184	Small fruits hold
+185	Restart light, regular irrigation. Watch for hoppers again. See fruit drop.
+186	Timing shifts with location and weather: south Gujarat often flowers earlier than Saurashtra and Kutch, and a warm winter delays flowering.
+187	Mango hoppers: the biggest threat at flowering
+188	Hoppers are small, wedge-shaped insects that jump with a clicking sound when you tap a branch. They suck sap from panicles, so flowers dry and drop.
+189	Their sticky honeydew grows black sooty mould on leaves and panicles.
+190	Before panicles appear, they hide in bark cracks and the dense canopy. An open canopy and clean orchard floor reduce them.
+191	Protect at panicle emergence and again before the flowers open, with a product recommended for mango by your state university, at the label dose. Mixing many chemicals in one tank does not work better.
+192	Biological options include Beauveria bassiana or Metarhizium anisopliae, as listed in the government IPM package for mango.
+193	To check panicles quickly, see the shake test in <a href="/crop-problems/mango-fruit-drop">mango fruit drop</a>.
+194	Powdery mildew on mango flowers
+195	A white, powdery coating on panicles, flowers and young fruit. Affected flowers dry and fall.
+196	It spreads in cool nights with mist, fog or light rain during flowering, exactly the weather of many Gujarat winters.
+197	Protect at panicle emergence, before the coating appears, with a sulphur-based or other product recommended for mango powdery mildew, at the label dose.
+198	Remove malformed and badly infected panicles; the fungus survives in dormant buds and old infected tissue.
+199	Paclobutrazol: an honest look
+200	Paclobutrazol is a growth regulator applied to the soil to slow leafy growth and bring flowering in a year the tree would otherwise rest. Many orchards use it, and it can work. But it is not a tonic, and it does not replace a healthy tree.
+201	It stays in the soil for a long time. Repeated, heavy yearly use can build up residues.
+202	Growers and studies report over-compact panicles, very short shoots and small leaves where it is overused, and trees that weaken over years.
+203	It only redirects the tree's reserves. A tree that is underfed or carrying a disease load will flower, then struggle to hold fruit.
+204	If you use it, follow your state university's recommendation for dose and timing, base the dose on canopy size, and do not use it every year on young or weak trees.
+205	Mistakes that cost flowers
+206	Irrigating in November and December. The tree flushes leaves instead of flowers.
+207	Urea or other nitrogen before flowering. Same result.
+208	Spraying at full bloom. It drives away pollinators and can burn flowers.
+209	Waiting for hoppers to be everywhere before acting.
+210	Heavy pruning in winter. Heavy pruning belongs right after harvest; winter pruning should be light.
+211	Where biostimulants fit
+212	Seaweed and amino acid based products are used at panicle emergence and fruit set to help trees cope with cold, fog and heat stress. They work alongside good water, nutrition and protection, not instead of them. <a href="/products/immunity-mango-special">Immunity Mango Special</a> is made for mango; ask us which stage suits your orchard. See also the full <a href="/crops/mango">mango crop guide</a>.
+213	<a href="https://niphm.gov.in/IPMPackages/Mango.pdf" rel="noopener" target="_blank">NIPHM: IPM package for mango</a>
+214	<a href="https://www.jau.in/storage/document/dynamic_document//recommendationshorticulture_20260204_1136.pdf" rel="noopener" target="_blank">Junagadh Agricultural University: horticulture recommendations (February 2026)</a>
+215	How can I increase flowering in Kesar mango?
+216	Prune and feed the tree right after harvest so new shoots mature, then keep it dry and without nitrogen from November until panicles appear. A healthy, unstressed tree with mature shoots flowers best.
+217	Should I irrigate mango trees before flowering?
+218	No. Hold back irrigation from about November until panicles have emerged. Water now pushes new leaves instead of flowers. Restart light irrigation from fruit set.
+219	When should I spray mango before flowering?
+220	At panicle emergence, against hoppers and powdery mildew, and if needed again about 2 to 3 weeks later before the flowers open. Never at full bloom.
+221	How do I control mango hoppers during flowering?
+222	Keep the canopy open and the orchard clean, protect panicles at emergence and before flowers open with a recommended product, and do not spray at full bloom.
+223	What causes white powder on mango flowers?
+224	Powdery mildew, a fungus that spreads in cool nights with fog or mist. Protect panicles at emergence, before the powder appears.
+225	Is paclobutrazol harmful to mango trees?
+226	Used at the recommended dose it can help an off-year tree flower. Heavy, repeated yearly use can leave soil residues and weaken trees. It does not replace good feeding and care.
+227	Why is my mango tree giving new leaves instead of flowers?
+228	Usually water, nitrogen or warm weather during winter. It can also mean the shoots were too young to flower.
+### /guides/high-density-kesar-mango
+229	High Density Kesar Mango: Spacing, Pruning and Planning
+230	<a href="/">Home</a> / <a href="/guides">Guides</a> / High density Kesar mango
+231	High density Kesar mango: spacing, pruning and what to plan before you plant
+232	Planting twice the trees does not give twice the mangoes. Without yearly pruning, close-planted Kesar crowds itself out, and researchers in Gujarat have seen exactly that happen.
+233	Most new Kesar orchards in Gujarat are planted at 5 x 5 m, and some at 5 x 2.5 m. Closer spacing gives more fruit per acre in the early years, but only if you prune every year to keep each tree small. Without that commitment, close-planted Kesar becomes crowded and yields fall.
+234	Kesar trees per acre at 5 x 5 m
+235	First half of July
+236	best pruning window in an NAU study
+237	Common spacings
+238	Spacing
+239	Trees per acre
+240	What it means
+241	10 x 10 m (traditional)
+242	About 40
+243	Large trees, slow to full yield, little pruning
+244	5 x 5 m (high density)
+245	About 160
+246	The common choice for new Kesar orchards
+247	5 x 2.5 m (closer)
+248	About 320
+249	Needs yearly pruning without fail
+250	3 x 2 m (ultra high density)
+251	About 670
+252	Under research for Kesar; no university recommendation yet
+253	Trees per acre are rounded arithmetic (1 acre = about 4,047 m<sup>2</sup>). Navsari Agricultural University began a trial of very close spacing with Kesar in 2025; results are not yet out.
+254	Why close planting fails for many growers
+255	Kesar is a vigorous tree. Left alone, neighbouring canopies touch within a few years.
+256	Crowded trees shade each other, flower less inside the canopy, and hold hoppers and mildew.
+257	Heavy pruning to recover a crowded orchard then cuts yield for a season or more.
+258	Researchers at Navsari Agricultural University note that earlier attempts at closer Kesar planting failed from overcrowding and excess pruning; growers who succeed commit to pruning every year.
+259	The yearly pruning window
+260	Prune right after harvest, so new shoots have time to mature before winter. A Navsari Agricultural University study on high density Kesar found that pruning in the first fortnight of July, cutting back about 25 cm of the shoots, gave better fruit set and yield than later pruning or no pruning. Pruning in winter, close to flowering, removes the shoots that would have flowered.
+261	What to plan before planting
+262	Water: drip irrigation is close to essential for high density, to control water before flowering and feed through the season.
+263	Labour: yearly pruning of every tree, plus closer spraying and harvesting work.
+264	Soil: deep, well-drained land. Kesar does poorly where water stands after rain.
+265	Plants: grafts from a known, healthy mother orchard.
+266	Training: shape each young tree with a short trunk and open centre from the first year.
+267	Patience: high density brings fruit per acre earlier, but no spacing makes an unfed tree productive.
+268	Related guides
+269	<a href="/guides/mango-flowering-care">Mango flowering care</a>, <a href="/crop-problems/mango-alternate-bearing">alternate bearing</a>, <a href="/crop-problems/mango-fruit-drop">fruit drop</a> and the <a href="/crops/mango">mango crop guide</a>.
+270	<a href="https://aems.nau.in/Main/view_experiment/2192" rel="noopener" target="_blank">Navsari Agricultural University: experiment on close spacing in mango (2025-2030)</a>
+271	<a href="https://krishi.icar.gov.in/ohs-2.3.1/index.php/record/view/228496" rel="noopener" target="_blank">Solanki and Shah, NAU: time and intensity of pruning in high density Kesar</a>
+272	What is the best spacing for high density Kesar mango?
+273	5 x 5 m is the most common for new Kesar orchards in Gujarat. 5 x 2.5 m is used by growers who prune every year. Closer spacings are still being researched.
+274	How many Kesar mango plants per acre in high density?
+275	About 160 at 5 x 5 m and about 320 at 5 x 2.5 m.
+276	When should I prune high density mango?
+277	Right after harvest. A Navsari Agricultural University study found the first fortnight of July best for high density Kesar.
+278	Is high density mango profitable?
+279	It can bring fruit per acre earlier, but only with drip irrigation and yearly pruning. Without them, crowded trees yield less.

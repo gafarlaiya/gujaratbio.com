@@ -331,8 +331,8 @@
 ],
 "/crop-problems/potato-small-tubers": [
 "2026-10-21",
-"2026-11-12",
-"73e06e3d5a3d"
+"2026-11-18",
+"76da504bcdc0"
 ],
 "/crop-problems/sugarcane-poor-germination": [
 "2026-10-21",
@@ -466,8 +466,8 @@
 ],
 "/guides": [
 "2026-10-21",
-"2026-11-14",
-"cbf342fc7af9"
+"2026-11-18",
+"a02818728763"
 ],
 "/guides/auxin-master-regulator-of-growth": [
 "2026-10-30",
@@ -484,10 +484,20 @@
 "2026-11-12",
 "3ac0692ae7f8"
 ],
+"/guides/dap-shortage-what-to-use-instead": [
+"2026-11-18",
+"2026-11-18",
+"2658739be552"
+],
 "/guides/gravitropism-and-root-growth": [
 "2026-10-30",
 "2026-11-12",
 "bedde79afd82"
+],
+"/guides/high-density-kesar-mango": [
+"2026-11-18",
+"2026-11-18",
+"e1cb01ef8b70"
 ],
 "/guides/how-to-start-composting": [
 "2026-11-14",
@@ -504,6 +514,11 @@
 "2026-11-12",
 "ae2609e6c716"
 ],
+"/guides/mango-flowering-care": [
+"2026-11-18",
+"2026-11-18",
+"b6e7ef600a93"
+],
 "/guides/mango-fruit-set-and-fruit-drop": [
 "2026-11-14",
 "2026-11-14",
@@ -513,6 +528,11 @@
 "2026-11-14",
 "2026-11-14",
 "5142712e5b2f"
+],
+"/guides/potato-early-blight-vs-late-blight": [
+"2026-11-18",
+"2026-11-18",
+"a64ceb364312"
 ],
 "/guides/protein-hydrolysates-and-nutrient-use-efficiency": [
 "2026-10-30",
@@ -536,8 +556,8 @@
 ],
 "/knowledge": [
 "2026-10-21",
-"2026-11-14",
-"8fd091e82884"
+"2026-11-18",
+"403bf40dcdfd"
 ],
 "/knowledge/potato-fertilizer-schedule": [
 "2026-10-21",

@@ -625,3 +625,37 @@ for _s, _h in GEN.items():
 for _path, _hk in {"/crops/citrus": DEEP["/crop-problems/citrus-dieback"]["hook"], "/crops/onion": HOOK_NEW["onion"],
                    "/crops/cotton": HOOK_NEW["cotton"], "/crop-problems/apple-root-rot": HOOK_NEW["apple"]}.items():
     DEEP.setdefault(_path, dict(hook=_hk, add=[ASK]))
+
+# November 2026 season guides (DAP shortage, potato blight, mango flowering, high density Kesar) and potato tuber size top-up
+DEEP.update({
+"/guides/dap-shortage-what-to-use-instead": dict(
+  hook="India imports most of what goes into a bag of DAP. When ships are late, the queue starts at your dealer before sunrise. But your wheat does not need DAP. It needs 23 kg of phosphorus at sowing, and other bags can give it.",
+  stats=[("23 kg", "phosphorus (P2O5) in one 50 kg DAP bag"), ("3 bags", "of SSP give the same phosphorus"), ("₹1,350", "printed price of a DAP bag; do not pay more")],
+  sources=[("The Tribune: PAU urges growers to use DAP alternatives", "https://www.tribuneindia.com/news/punjab/pau-urges-growers-to-use-dap-alternatives/amp"),
+           ("The Tribune: Use TSP, SSP, NPK as an alternative to DAP", "https://tribuneindia.com/news/use-tsp-ssp-npk-as-an-alternative-to-dap-official"),
+           ("Fertilizer Daily: India DAP shortage, rabi 2026 (October 2026)", "https://www.fertilizerdaily.com/20261022-india-dap-shortage-haryana-ipl-suspension/")]),
+"/guides/potato-early-blight-vs-late-blight": dict(
+  hook="Late blight is the disease that caused the Irish famine. It still moves the same way: a few foggy nights, and a green field turns black within a week. By the time you see it everywhere, it is too late to save those leaves.",
+  stats=[("7-10 days", "for late blight to collapse an unprotected field in foggy weather"), ("Dec-Jan", "the high-risk window in Gujarat's potato belt")],
+  sources=[("ICAR-Central Potato Research Institute", "https://cpri.icar.gov.in/"),
+           ("NIPHM: Integrated pest management packages", "https://niphm.gov.in/")]),
+"/guides/mango-flowering-care": dict(
+  hook="One glass of water too many in December can cost you a whole season of mangoes. A Kesar tree that gets water and nitrogen in winter often grows new leaves instead of flowers, and that choice cannot be undone until next year.",
+  stats=[("Nov-Feb", "the window that decides this year's crop"), ("0", "sprays at full bloom; bees and flies need the flowers")],
+  sources=[("NIPHM: IPM package for mango", "https://niphm.gov.in/IPMPackages/Mango.pdf"),
+           ("Junagadh Agricultural University: horticulture recommendations (February 2026)", "https://www.jau.in/storage/document/dynamic_document//recommendationshorticulture_20260204_1136.pdf")]),
+"/guides/high-density-kesar-mango": dict(
+  hook="Planting twice the trees does not give twice the mangoes. Without yearly pruning, close-planted Kesar crowds itself out, and researchers in Gujarat have seen exactly that happen.",
+  stats=[("160", "Kesar trees per acre at 5 x 5 m"), ("First half of July", "best pruning window in an NAU study")],
+  sources=[("Navsari Agricultural University: experiment on close spacing in mango (2025-2030)", "https://aems.nau.in/Main/view_experiment/2192"),
+           ("Solanki and Shah, NAU: time and intensity of pruning in high density Kesar", "https://krishi.icar.gov.in/ohs-2.3.1/index.php/record/view/228496")]),
+})
+DEEP["/crop-problems/potato-small-tubers"]["add"].insert(1, ("How to increase potato tuber size naturally", [
+  "Plant healthy, certified seed of a suitable size, so every plant starts strong.",
+  "Earth up on time, so stolons stay in loose, dark soil and tubers have room to swell.",
+  "Keep soil moisture steady through bulking: light, regular irrigation, never long dry gaps.",
+  "Give enough potash at planting; potato uses it to fill tubers.",
+  "Stop heavy nitrogen after tuber initiation, so the plant fills tubers instead of growing leaves.",
+  "Protect the leaves from blight in foggy weather; see <a href=\"/guides/potato-early-blight-vs-late-blight\">early vs late blight</a>.",
+  "Build the soil with compost and keep roots healthy; a bigger root system feeds bigger tubers."]))
+DEEP["/crop-problems/potato-small-tubers"]["faq"].append(("How can I increase potato tuber size naturally?", "Use healthy seed, earth up on time, keep soil moisture steady during bulking, give enough potash, avoid late nitrogen and protect leaves from blight. Compost and healthy roots help the plant fill its tubers."))

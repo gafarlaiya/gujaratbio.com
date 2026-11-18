@@ -8,7 +8,7 @@
 - Founder and main author of the guides: Gafar Laiya (https://www.gujaratbio.com/about).
 - Farmer results quoted on this site are individual farmers' own experiences, not promises; results vary with soil, water, weather and management.
 - This website is owned and maintained by Gujarat Bio Organics Private Limited (CIN U24123GJ2009PTC058701), Bhavnagar, Gujarat, India.
-- This file was last generated on 2026-11-14.
+- This file was last generated on 2026-11-18.
 - Related websites of the same company: https://b2b.gujaratbio.com (bulk, OEM, export), https://ganna.in (sugarcane, Gujarati).
 
 ## Immunity products
@@ -80,7 +80,7 @@
 - [Mango Fruit Drop: Why It Happens and How to Reduce It](https://www.gujaratbio.com/crop-problems/mango-fruit-drop)
 - [Mango Alternate Bearing: Why Trees Fruit Every Other Year](https://www.gujaratbio.com/crop-problems/mango-alternate-bearing)
 - [Sugarcane Poor Germination and Gaps: Causes and Fixes](https://www.gujaratbio.com/crop-problems/sugarcane-poor-germination)
-- [Small Potato Tubers and Fewer Tubers: Causes](https://www.gujaratbio.com/crop-problems/potato-small-tubers)
+- [Small Potato Tubers: Causes and How to Increase Tuber Size](https://www.gujaratbio.com/crop-problems/potato-small-tubers)
 - [Citrus Dieback: Causes and Care for Lemon and Orange Trees](https://www.gujaratbio.com/crop-problems/citrus-dieback)
 - [Gravitropism and Roots: How Biostimulants Support Root Growth](https://www.gujaratbio.com/guides/gravitropism-and-root-growth)
 - [Auxin: The Master Regulator of Root and Shoot Growth | GBO](https://www.gujaratbio.com/guides/auxin-master-regulator-of-growth)
@@ -88,6 +88,10 @@
 - [Humic Acid and Root-Zone Development | Gujarat Bio Organics](https://www.gujaratbio.com/guides/humic-acid-and-root-zone-development)
 - [Protein Hydrolysates and Nutrient-Use Efficiency | GBO](https://www.gujaratbio.com/guides/protein-hydrolysates-and-nutrient-use-efficiency)
 - [Biostimulants for Salinity and Drought Stress | GBO](https://www.gujaratbio.com/guides/biostimulants-for-salinity-and-drought-stress)
+- [DAP Shortage: What to Use Instead of DAP for Wheat and Potato](https://www.gujaratbio.com/guides/dap-shortage-what-to-use-instead)
+- [Potato Early Blight vs Late Blight: How to Tell Them Apart](https://www.gujaratbio.com/guides/potato-early-blight-vs-late-blight)
+- [Mango Flowering Care: Kesar Pre-Flowering to Fruit Set](https://www.gujaratbio.com/guides/mango-flowering-care)
+- [High Density Kesar Mango: Spacing, Pruning and Planning](https://www.gujaratbio.com/guides/high-density-kesar-mango)
 - [What Are Biostimulants? A Plain Guide for Farmers](https://www.gujaratbio.com/guides/what-are-biostimulants)
 - [Why Yields Fall on Old Farm Land, and How to Rebuild Soil](https://www.gujaratbio.com/guides/why-yields-fall-on-old-land)
 - [Compost and Humic Acid: Why They Work Better Together](https://www.gujaratbio.com/guides/compost-and-humic-acid)
