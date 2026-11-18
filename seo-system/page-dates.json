@@ -467,12 +467,17 @@
 "/guides": [
 "2026-10-21",
 "2026-11-18",
-"0bd59430260e"
+"7df484af12d1"
 ],
 "/guides/auxin-master-regulator-of-growth": [
 "2026-10-30",
 "2026-11-12",
 "a3526716ac22"
+],
+"/guides/biological-pest-and-disease-control": [
+"2026-11-18",
+"2026-11-18",
+"3c2e10ec3280"
 ],
 "/guides/biostimulants-for-salinity-and-drought-stress": [
 "2026-10-30",
@@ -489,10 +494,20 @@
 "2026-11-18",
 "2658739be552"
 ],
+"/guides/flower-drop-before-fruit-set": [
+"2026-11-18",
+"2026-11-18",
+"5da067d5e7a7"
+],
 "/guides/gravitropism-and-root-growth": [
 "2026-10-30",
 "2026-11-12",
 "bedde79afd82"
+],
+"/guides/hard-compact-soil": [
+"2026-11-18",
+"2026-11-18",
+"9237bc39a98b"
 ],
 "/guides/high-density-kesar-mango": [
 "2026-11-18",
@@ -534,6 +549,11 @@
 "2026-11-14",
 "5142712e5b2f"
 ],
+"/guides/organic-vs-natural-farming": [
+"2026-11-18",
+"2026-11-18",
+"4399e0b2e7f9"
+],
 "/guides/potato-early-blight-vs-late-blight": [
 "2026-11-18",
 "2026-11-18",
@@ -543,6 +563,11 @@
 "2026-10-30",
 "2026-11-12",
 "3cd628333a64"
+],
+"/guides/reduce-chemical-fertilizer-without-yield-loss": [
+"2026-11-18",
+"2026-11-18",
+"a0f9edbbcf87"
 ],
 "/guides/salty-borewell-water-for-crops": [
 "2026-11-18",
@@ -554,6 +579,11 @@
 "2026-11-18",
 "3c86dab8ed6a"
 ],
+"/guides/soil-microbial-activity": [
+"2026-11-18",
+"2026-11-18",
+"ec6c95981a14"
+],
 "/guides/sugarcane-ratoon-management": [
 "2026-11-18",
 "2026-11-18",
@@ -564,15 +594,25 @@
 "2026-11-18",
 "7ec2fe4d348e"
 ],
+"/guides/which-biofertilizers-to-use": [
+"2026-11-18",
+"2026-11-18",
+"a5899bca9abe"
+],
 "/guides/why-yields-fall-on-old-land": [
 "2026-10-21",
 "2026-11-18",
 "9e8e5dc23148"
 ],
+"/guides/yellow-leaves-despite-fertilizer": [
+"2026-11-18",
+"2026-11-18",
+"9ae5d4eb1352"
+],
 "/knowledge": [
 "2026-10-21",
 "2026-11-18",
-"1ba5726aed70"
+"8a4088f72c5c"
 ],
 "/knowledge/potato-fertilizer-schedule": [
 "2026-10-21",

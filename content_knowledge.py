@@ -206,38 +206,4 @@ GUIDES = [
        ("Can I compost kitchen waste at home?", "Yes. Use vegetable and fruit waste with dry leaves or paper, keep out meat, fish, oil and dairy, and use a bin with a lid and air holes."),
        ("Is cow dung necessary?", "No. It helps as a green, nitrogen-rich ingredient, but fresh plant waste or kitchen waste can do the same job."),
        ("Can compost replace fertilizer?", "Compost adds organic matter and some nutrients slowly. How much of your crop's needs it covers depends on your soil and crop, so check with a soil test.")]),
- dict(slug="mango-fruit-set-and-fruit-drop", title="Mango Fruit Set and Fruit Drop: Why Flowers and Young Fruit Fall",
-      h1="Mango fruit set and fruit drop: why flowers and young fruit fall, and what helps",
-      desc="Why mango flowers fall without setting fruit, why young fruit drops at the pea and marble stage, and what can help fruit set, from irrigation to nutrition.",
-      answer="Most mango flowers never become fruit, so some flower and young-fruit drop is normal. Drop gets worse with rain or fog at flowering, hot dry wind, hoppers or mildew on the panicle, and water or nutrient stress. Protect the panicle early, keep moisture steady after fruit set, and correct gaps a soil or leaf test shows.",
-      sections=[
-       ("Why flowers fall without setting fruit", [
-         "A panicle carries hundreds or thousands of flowers, and only a small fraction ever set fruit. Some drop is normal.",
-         "Rain, fog or cold at flowering reduces pollination.",
-         "Hot dry winds dry the flowers.",
-         "Few pollinators, because of weather or sprays.",
-         "Hoppers or powdery mildew damaging the panicle.",
-         "A tree short of water or nutrients."]),
-       ("Why young fruit drops (pea and marble stage)", [
-         "The tree keeps only as many fruit as it can feed, so heavy drop in the weeks after setting is common.",
-         "Water stress, or a sudden swing from dry to wet, makes it worse.",
-         "Nutrient shortage, pests and hot dry wind add to it.",
-         "Growth regulators are used in some regions to reduce drop, but only on local recommendation. Ask your KVK first."]),
-       ("What can help fruit set", [
-         "Protect panicles from hoppers and mildew early.",
-         "Avoid insecticide on fully open flowers where you can, and keep the canopy open so bees and flies can reach the flowers.",
-         "After fruit has set, give steady irrigation and a balanced nutrition plan based on a soil or leaf test.",
-         "Where a test shows low boron or zinc, correcting it can help. See <a href=\"/micronutrients/boron\">boron</a> and <a href=\"/micronutrients/zinc\">zinc</a>."]),
-       ("Water during flowering and fruit set", [
-         "Many orchards avoid heavy irrigation during full flowering, because it can encourage leafy growth or disturb pollination.",
-         "Irrigation begins once fruit has set, often around the pea stage, and is then kept steady.",
-         "Very dry or sandy soils may need light irrigation earlier, so watch your trees rather than follow a fixed calendar."]),
-       ("Related", [
-         "Before flowering: <a href=\"/guides/mango-flowering-care\">mango flowering care</a>.",
-         "Mango crop information: <a href=\"/crops/mango\">mango crop page</a>."])],
-      faq=[
-       ("Why do mango flowers fall without setting fruit?", "Some drop is normal because only a small fraction of flowers set fruit. Beyond that, rain, fog or cold at flowering, hot dry winds, few pollinators, and hoppers or mildew on the panicle are common causes. If the panicle is damaged, treat the pest or disease. If it looks healthy, weather is the likely cause."),
-       ("Why do mango fruits drop after they set?", "The tree keeps only as many young fruit as it can feed, so heavy drop in the weeks after setting is common. Water stress, nutrient shortage, pests and hot dry wind make it worse. Steady moisture and good nutrition help the fruit that remains."),
-       ("How can I improve fruit set in mango?", "No method guarantees it, but protecting panicles from hoppers and mildew, keeping the canopy open for pollinators, avoiding insecticide on fully open flowers, and giving steady water and balanced nutrition after fruit set all help. Test for boron and zinc before applying them."),
-       ("Should I irrigate mango during flowering and fruit set?", "Practices vary by region. Many orchards avoid heavy irrigation during full flowering and begin irrigation once fruit has set, around the pea stage, then keep it steady. Your soil, variety and rainfall decide the schedule, so ask your KVK or horticulture department for your district.")]),
 ]

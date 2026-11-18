@@ -62,4 +62,5 @@ assert not _bad, _bad
 for _n in range(1, 40):
     OLD.setdefault(f"/blog-post{_n}", "/knowledge")
 OLD["/guides/mango-not-flowering-causes-and-timing"] = "/guides/mango-flowering-care"  # merged duplicate guide, Nov 2026
+OLD["/guides/mango-fruit-set-and-fruit-drop"] = "/crop-problems/mango-fruit-drop"  # merged duplicate, Nov 2026
 json.dump(OLD, open(os.path.join(ROOT, "redirects-at-launch.json"), "w"), indent=0)

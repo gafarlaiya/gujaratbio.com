@@ -737,3 +737,35 @@ _addsec("/guides/why-yields-fall-on-old-land", ("Why is yield decreasing every y
     "The same crop every year, which builds up its pests, diseases and nematodes.",
     "Saved seed that has lost vigour over the years."]),
   [("Why is my yield decreasing every year in the same field?", "Usually falling organic carbon, a hidden micronutrient shortage, salt from irrigation water, a hard layer below the plough, the same crop every year, or tired seed. A soil and water test shows which.")])
+
+# Farmer questions batch (19 Nov 2026)
+DEEP.update({
+"/guides/yellow-leaves-despite-fertilizer": dict(
+  hook="Another bag of urea is the most common answer to yellow leaves, and often the wrong one. If the roots are drowning, or the soil is locking iron, the crop stays yellow while you pay for fertilizer it cannot use.",
+  sources=[("ICAR-Indian Institute of Soil Science", "https://iiss.icar.gov.in/")]),
+"/guides/flower-drop-before-fruit-set": dict(
+  hook="A field full of flowers is not a field full of fruit. Heat, thirst, too much urea or a few thrips inside the flowers can empty the plant in a week, and the spray most farmers reach for fixes none of them.",
+  sources=[("ICAR-National Centre for Integrated Pest Management", "https://ncipm.icar.gov.in/")]),
+"/guides/hard-compact-soil": dict(
+  hook="Your crop's roots may be stopping at the same depth your plough stops. Below that line sits a hard layer that no fertilizer can soften, and every season of ploughing at the same depth makes it harder.",
+  sources=[("ICAR-Indian Institute of Soil Science", "https://iiss.icar.gov.in/"),
+           ("ICAR-Central Soil Salinity Research Institute (sodic soils)", "https://cssri.res.in/")]),
+"/guides/soil-microbial-activity": dict(
+  hook="A handful of healthy soil holds more living organisms than there are people in India. They feed your crop every day, and they go hungry the moment the field is burnt, left bare or starved of organic matter.",
+  sources=[("ICAR-Indian Institute of Soil Science", "https://iiss.icar.gov.in/")]),
+"/guides/which-biofertilizers-to-use": dict(
+  hook="A biofertilizer is alive. Leave it in a hot shop or mix it with fungicide-treated seed, and you are paying for a packet of dead microbes.",
+  sources=[("National Centre for Organic and Natural Farming", "https://ncof.dacnet.nic.in/")]),
+"/guides/reduce-chemical-fertilizer-without-yield-loss": dict(
+  hook="Many farms in Gujarat apply phosphorus every year to soil already rich in it. Cutting chemical fertilizer starts with cutting what the crop never uses, not what it needs.",
+  sources=[("Soil Health Card, Government of India", "https://soilhealth.dac.gov.in/")]),
+"/guides/organic-vs-natural-farming": dict(
+  hook="Organic and natural farming both say no to chemicals, but they are not the same. One can earn a certified price premium; the other aims to cut what you buy. Choosing the wrong one for your market costs years.",
+  sources=[("National Mission on Natural Farming", "https://naturalfarming.dac.gov.in/"),
+           ("PGS-India", "https://pgsindia-ncof.gov.in/"),
+           ("APEDA: National Programme for Organic Production", "https://apeda.gov.in/")]),
+"/guides/biological-pest-and-disease-control": dict(
+  hook="A single Trichogramma card holds thousands of tiny wasps that hunt borer eggs before they hatch. Biological control is not weaker than chemicals; it is earlier.",
+  sources=[("ICAR-National Centre for Integrated Pest Management", "https://ncipm.icar.gov.in/"),
+           ("Central Insecticides Board and Registration Committee", "https://ppqs.gov.in/")]),
+})

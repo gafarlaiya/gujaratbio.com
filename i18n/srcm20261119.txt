@@ -1,0 +1,390 @@
+### /knowledge
+0	<a href="/guides/yellow-leaves-despite-fertilizer">Why leaves turn yellow even after you apply fertilizer, and how to find the real cause</a>
+1	Leaves still yellow after urea or NPK? Read which leaves turn yellow first, and check roots, water, pH and micronutrients before buying another bag.
+2	<a href="/guides/flower-drop-before-fruit-set">Why flowers drop before fruit set in vegetables, cotton and fruit crops, and what helps</a>
+3	Why tomato, chilli, brinjal, cotton, pomegranate and mango shed flowers before fruit set: heat, water, nitrogen, pests, pollination and boron, and what helps.
+4	<a href="/guides/hard-compact-soil">Why soil becomes hard, compact and less productive, and how to bring it back</a>
+5	Why farm soil turns hard and compact, how to check for a plough pan or sodic soil, and practical steps to loosen it and keep it loose.
+6	<a href="/guides/soil-microbial-activity">How to improve soil microbial activity: feeding the life that feeds your crop</a>
+7	What soil microbes do for crops, what feeds and what harms them, simple field signs of a living soil, and where biofertilizers fit.
+8	<a href="/guides/which-biofertilizers-to-use">Which biofertilizers to use for your crop, and how to make them work</a>
+9	Rhizobium, Azotobacter, Azospirillum, Acetobacter, PSB, KMB, ZSB and mycorrhiza explained: what each does, which crops it suits and how to apply it well.
+10	<a href="/guides/reduce-chemical-fertilizer-without-yield-loss">How to reduce chemical fertilizer without losing yield: a step-by-step path</a>
+11	A practical, step-by-step way to cut chemical fertilizer use without a yield drop: soil testing, better placement, organic matter and biofertilizers.
+12	<a href="/guides/organic-vs-natural-farming">Organic farming vs natural farming: the difference, the rules and which suits you</a>
+13	The difference between organic and natural farming in India: inputs allowed, certification, the conversion period, markets, and how to choose.
+14	<a href="/guides/biological-pest-and-disease-control">Biological pest and disease control: what works, and how to use it well</a>
+15	Trichoderma, Pseudomonas, Beauveria, Metarhizium, NPV, Trichogramma, traps and neem: what each controls, how to use them, and why timing matters.
+### /guides/yellow-leaves-despite-fertilizer
+16	Leaves Turning Yellow Even After Fertilizer: Causes and Fixes
+17	<a href="/">Home</a> / <a href="/guides">Guides</a> / Why leaves turn yellow even after you apply...
+18	Why leaves turn yellow even after you apply fertilizer, and how to find the real cause
+19	Another bag of urea is the most common answer to yellow leaves, and often the wrong one. If the roots are drowning, or the soil is locking iron, the crop stays yellow while you pay for fertilizer it cannot use.
+20	If leaves stay yellow after fertilizer, the crop is usually not short of that fertilizer. Either the roots cannot take it up (waterlogging, dry soil, root disease, salt, high pH), or the shortage is a different nutrient such as magnesium, sulphur, iron or zinc. Which leaves turn yellow first tells you where to look.
+21	Step 1: which leaves are yellow?
+22	Likely shortage
+23	Old, lower leaves, whole leaf pale
+24	Common after heavy rain or waterlogging, which washes away or locks nitrogen
+25	Old leaves, yellow between green veins
+26	Often on sandy soils, or where much potash is used
+27	Old leaves, yellow or burnt edges
+28	Potash
+29	Edges dry first, then the whole leaf
+30	Young, top leaves, whole leaf pale
+31	Looks like nitrogen shortage but on new leaves
+32	Young leaves, yellow between green veins
+33	Iron or manganese
+34	Very common on high pH, calcareous soils of Gujarat
+35	Young leaves small, crowded, mottled
+36	Short internodes, small narrow leaves
+37	Patches in the field, plants wilt at midday
+38	Root rot, nematodes, termites or waterlogging; dig a plant
+39	These patterns are a guide. Several shortages can show together, and a leaf or soil test confirms them. See <a href="/micronutrients/deficiency-symptoms">deficiency symptoms with photos</a>.
+40	Step 2: check the roots before the bag
+41	Pull out one yellow plant and one green plant. Compare the roots: white and many is healthy; brown, few, rotten or knotted is a root problem.
+42	Waterlogged soil for even two or three days suffocates roots. Fertilizer cannot help until the soil drains.
+43	Very dry soil also stops uptake. Fertilizer on dry soil sits unused.
+44	Salty water or soil makes leaves yellow and burnt at the edges; see <a href="/guides/salty-borewell-water-for-crops">salty borewell water</a>.
+45	Cold nights in winter can make leaves pale for a while; they recover as days warm.
+46	Step 3: is the soil locking nutrients?
+47	On soils with pH above about 8, iron, zinc and manganese are present but locked. Adding more to the soil often fails; foliar sprays or chelated forms work better.
+48	Too much phosphorus can lock zinc. Too much potash can lock magnesium.
+49	Low organic matter means nutrients wash away or get locked quickly. See <a href="/guides/compost-and-humic-acid">compost and humic acid</a>.
+50	Fix drainage or irrigation first, if roots are the problem.
+51	Get a soil test, and a leaf test if you can, before adding more NPK.
+52	Correct the specific shortage the pattern and test show, at the label dose.
+53	Keep roots strong with organic matter; a healthy root system takes up more of what is already there.
+54	Ask us with a photo of the whole plant, a close-up of the leaf, and the roots.
+55	<a href="https://iiss.icar.gov.in/" rel="noopener" target="_blank">ICAR-Indian Institute of Soil Science</a>
+56	Why are leaves yellow even after applying urea?
+57	The crop may not be short of nitrogen. Waterlogging, dry soil, root damage, salt, high pH or a shortage of magnesium, sulphur, iron or zinc can all cause yellowing that urea does not fix.
+58	Which deficiency causes yellow leaves between green veins?
+59	On old leaves, usually magnesium. On young leaves, usually iron or manganese, common on high pH soils.
+60	Can too much water make leaves yellow?
+61	Yes. Waterlogged roots cannot breathe or take up nutrients, so leaves turn yellow even with plenty of fertilizer.
+62	Should I spray or add more fertilizer to the soil?
+63	Find the cause first. Locked micronutrients on high pH soil respond better to foliar sprays; root and water problems need fixing before any fertilizer works.
+### /guides/flower-drop-before-fruit-set
+64	Why Flowers Drop Before Fruit Set, and What Helps
+65	<a href="/">Home</a> / <a href="/guides">Guides</a> / Why flowers drop before fruit set in...
+66	Why flowers drop before fruit set in vegetables, cotton and fruit crops, and what helps
+67	A field full of flowers is not a field full of fruit. Heat, thirst, too much urea or a few thrips inside the flowers can empty the plant in a week, and the spray most farmers reach for fixes none of them.
+68	Every crop sheds some flowers; that is normal. Heavy flower drop is usually caused by heat or cold, a dry or waterlogged root zone, too much nitrogen, sucking pests such as thrips and mites, poor pollination, or a shortage of boron. Find which one applies before you spray anything.
+69	Normal drop and problem drop
+70	A plant makes more flowers than it can carry. Cotton sheds many of its squares and young bolls, and a mango panicle keeps only a few fruits out of hundreds of flowers. It becomes a problem when the drop is sudden, most flowers fall, or the plant keeps flowering and setting nothing.
+71	The common causes
+72	What happens
+73	What helps
+74	Very hot days and hot winds dry pollen; tomato and chilli drop flowers in heat waves
+75	Irrigate in the evening, mulch, use shade nets in nurseries
+76	Cold and fog
+77	Pollen does not work well on cold nights; mango and vegetables set poorly in long foggy spells
+78	Wait for warmer days; protect flowers from mildew
+79	Water stress
+80	Dry spells, or a sudden flood after a dry spell
+81	Light, regular irrigation; drip where possible
+82	Too much nitrogen
+83	The plant grows leaves instead of holding flowers
+84	Cut nitrogen at flowering; balance with potash
+85	Thrips, mites, hoppers
+86	They feed on flower parts and buds
+87	Check the inside of flowers with a white paper; act early
+88	Poor pollination
+89	Few bees and insects, often after sprays at bloom
+90	Do not spray open flowers; spray morning or evening
+91	Boron shortage
+92	Pollen tubes do not grow; flowers fall or fruit is misshapen
+93	Correct only if a soil or leaf test, or clear symptoms, show it
+94	Crop notes
+95	<strong>Tomato, chilli, brinjal:</strong> heat, thrips and mites, and too much nitrogen are the usual causes. See <a href="/crops/chilli">chilli</a> and <a href="/crops/vegetables">vegetables</a>.
+96	<strong>Cotton:</strong> squares and young bolls fall with water stress, cloudy wet spells, excess nitrogen and sucking pests. See <a href="/crops/cotton">cotton</a>.
+97	<strong>Pomegranate:</strong> male flowers always fall; that is normal. Watch for heat and irregular water. See <a href="/crops/pomegranate">pomegranate</a>.
+98	<strong>Mango:</strong> see <a href="/crop-problems/mango-fruit-drop">mango flower and fruit drop</a> and <a href="/guides/mango-flowering-care">mango flowering care</a>.
+99	Before you spray
+100	Look at the dropped flowers: a clean break with no damage points to stress; brown, chewed or scarred flowers point to pests or disease.
+101	Check soil moisture with your hand at root depth.
+102	Think back over the last week: heat wave, cold spell, heavy rain, a big urea dose or a spray at bloom?
+103	Growth regulators are sold for flower drop. Use them only on your state university's or KVK's advice, at the label dose.
+104	Seaweed and amino acid based products are used before and during flowering to help plants cope with heat and cold stress. They support a crop that is watered and fed well; they do not fix a pest or water problem. See <a href="/guides/what-are-biostimulants">what biostimulants are</a> and <a href="/micronutrients/boron">boron</a>.
+105	<a href="https://ncipm.icar.gov.in/" rel="noopener" target="_blank">ICAR-National Centre for Integrated Pest Management</a>
+106	Why are my flowers dropping before fruit set?
+107	Usually heat or cold, water stress, too much nitrogen, sucking pests like thrips and mites, poor pollination or boron shortage. Some flower drop is normal in every crop.
+108	Why do tomato and chilli flowers fall?
+109	Most often heat waves and hot winds, thrips and mites, irregular water or too much nitrogen.
+110	Does boron stop flower drop?
+111	Only where boron is short. Boron helps pollen grow and fruit set. Adding it where it is not short does not help, and too much is harmful.
+112	Should I spray a hormone to stop flower drop?
+113	Only on your state university's or KVK's advice, at the label dose, after you have ruled out water, heat and pests.
+### /guides/hard-compact-soil
+114	Hard, Compact Soil: Why It Happens and How to Fix It
+115	<a href="/">Home</a> / <a href="/guides">Guides</a> / Why soil becomes hard, compact and less...
+116	Why soil becomes hard, compact and less productive, and how to bring it back
+117	Your crop's roots may be stopping at the same depth your plough stops. Below that line sits a hard layer that no fertilizer can soften, and every season of ploughing at the same depth makes it harder.
+118	Soil turns hard when organic matter falls, when it is ploughed or driven on while wet, when the same depth is tilled every year (a plough pan), or when sodium builds up from irrigation water. Roots then stay shallow, water runs off or stands, and yields fall. Organic matter, the right tillage at the right moisture, and gypsum where sodium is the cause bring it back.
+119	Why soil becomes hard
+120	Organic matter has fallen. Organic matter is the glue that keeps soil crumbly.
+121	Ploughing or running a tractor on wet soil smears and packs it.
+122	Tilling to the same depth every year forms a hard layer, a plough pan, just below.
+123	Bare soil under heavy rain or flood irrigation forms a crust on top.
+124	Sodium from irrigation water makes clay soils sticky when wet and hard as stone when dry.
+125	Check your soil in 10 minutes
+126	Push a steel rod into moist soil. If it stops suddenly at 15 to 25 cm, there is a plough pan.
+127	Dig a pit 45 cm deep. Roots turning sideways at one level show the hard layer.
+128	Drop a dry clod in a glass of water. A healthy clod holds together; a clod that melts into mud has poor structure; cloudy water that does not settle can point to sodium.
+129	Watch after irrigation: water standing for a day, or running off, shows poor infiltration.
+130	A soil test with pH, EC and, where needed, exchangeable sodium confirms a sodic soil. See <a href="/guides/how-to-take-a-soil-sample">how to take a soil sample</a>.
+131	How to loosen it
+132	Break a plough pan once with a chisel plough or subsoiler, when the soil is dry enough to crack, not wet.
+133	Then keep it open: grow deep-rooted crops, green manure such as dhaincha or sunhemp, and return crop residues.
+134	Add compost or farmyard manure every season. See <a href="/guides/compost-and-humic-acid">compost and humic acid</a>.
+135	Do not plough or drive on wet soil.
+136	Mulch or keep the soil covered, so rain does not crust it.
+137	Use gypsum only where a soil or water test shows sodium is the problem, on a lab's advice.
+138	<a href="/guides/why-yields-fall-on-old-land">Why yields fall on old land</a>, <a href="/guides/soil-microbial-activity">soil microbial activity</a> and <a href="/knowledge/soil-health">soil health</a>.
+139	<a href="https://cssri.res.in/" rel="noopener" target="_blank">ICAR-Central Soil Salinity Research Institute (sodic soils)</a>
+140	Why is my soil becoming hard?
+141	Usually falling organic matter, ploughing or driving on wet soil, a plough pan from tilling the same depth every year, crusting from heavy rain, or sodium from irrigation water.
+142	How do I know if I have a plough pan?
+143	Push a steel rod into moist soil. If it stops suddenly at about 15 to 25 cm, or roots turn sideways at one level in a pit, there is a hard layer.
+144	Does gypsum soften hard soil?
+145	Only where sodium causes the hardness. On ordinary compact soil, organic matter and correct tillage help; gypsum does not.
+146	How long does it take to improve compact soil?
+147	Breaking a plough pan works at once, but the soil packs again unless organic matter and good practice keep it open. Real improvement takes a few seasons.
+### /guides/soil-microbial-activity
+148	How to Improve Soil Microbial Activity and Beneficial Bacteria
+149	<a href="/">Home</a> / <a href="/guides">Guides</a> / How to improve soil microbial activity
+150	How to improve soil microbial activity: feeding the life that feeds your crop
+151	A handful of healthy soil holds more living organisms than there are people in India. They feed your crop every day, and they go hungry the moment the field is burnt, left bare or starved of organic matter.
+152	Soil microbes need food (organic matter and living roots), water, air and cover. Feed them with compost, crop residues, green manure and living roots in the soil for as much of the year as possible. Avoid burning, bare soil, waterlogging and heavy tillage. Biofertilizers add useful microbes, but they survive only in a soil that feeds them.
+153	What microbes do for your crop
+154	Break down crop residues and manure into nutrients plants can use.
+155	Free phosphorus, potash and zinc locked in the soil.
+156	Fix nitrogen from the air, in legume roots and around other crops.
+157	Make the glue that holds soil in crumbs, so water and roots move freely.
+158	Compete with, and keep down, some disease-causing fungi.
+159	What feeds them
+160	Organic matter: compost, farmyard manure, crop residues. See <a href="/guides/how-to-start-composting">how to start composting</a>.
+161	Living roots: roots release sugars that feed microbes. Avoid long bare fallows.
+162	Variety: rotations and intercrops feed a wider range of microbes than one crop every year.
+163	Moisture and air together: moist, crumbly soil, not dry dust and not waterlogged mud.
+164	What harms them
+165	Burning residues, which removes their food and heats the surface.
+166	Bare soil in summer sun.
+167	Waterlogging, which drives out air.
+168	Frequent deep tillage, which breaks fungal networks and burns organic matter.
+169	Seed or soil treated with chemicals at the same time as live biofertilizers; apply them separately, as the label says.
+170	Signs of a living soil
+171	Earthworms and their casts after rain.
+172	A sweet, earthy smell when you dig.
+173	Crumbly soil that holds together in a ball but breaks easily.
+174	Crop residues that disappear within a season instead of lying for a year.
+175	Water that soaks in quickly after irrigation.
+176	Where biofertilizers fit
+177	Biofertilizers add specific useful microbes, such as nitrogen fixers or phosphate solubilisers. They work best in soil with organic matter and moisture. See <a href="/guides/which-biofertilizers-to-use">which biofertilizers to use</a> and <a href="/products/immunity-consortia">Immunity Consortia</a>.
+178	How can I increase beneficial bacteria in my soil?
+179	Add compost and crop residues, keep living roots in the soil, rotate crops, avoid burning and waterlogging, and use biofertilizers in soil that has organic matter.
+180	Do chemical fertilizers kill soil microbes?
+181	Balanced fertilizer at normal doses does not kill soil life. Long-term use with no organic matter starves it. Some chemical seed treatments and fungicides can harm live biofertilizers applied at the same time.
+182	How do I know my soil is biologically active?
+183	Earthworms, an earthy smell, crumbly structure, residues that break down within a season, and water that soaks in quickly.
+### /guides/which-biofertilizers-to-use
+184	Which Biofertilizers to Use: A Crop-by-Crop Guide
+185	<a href="/">Home</a> / <a href="/guides">Guides</a> / Which biofertilizers to use for your crop, and...
+186	Which biofertilizers to use for your crop, and how to make them work
+187	A biofertilizer is alive. Leave it in a hot shop or mix it with fungicide-treated seed, and you are paying for a packet of dead microbes.
+188	Choose biofertilizers by the job: Rhizobium for pulses and groundnut, Azotobacter or Azospirillum for cereals, vegetables and cotton, Acetobacter for sugarcane, PSB for phosphorus, KMB for potash, ZSB for zinc, and mycorrhiza for roots. They are living products, so freshness, storage and soil organic matter decide whether they work.
+189	What each one does
+190	Biofertilizer
+191	What it does
+192	<a href="/products/immunity-rhizobium">Rhizobium</a>
+193	Fixes nitrogen in root nodules
+194	Gram, tur, moong, urad, soybean, groundnut
+195	<a href="/products/immunity-azotobacter">Azotobacter</a>
+196	Fixes nitrogen around roots
+197	Wheat, cotton, vegetables, many non-legumes
+198	<a href="/products/immunity-azospirillum">Azospirillum</a>
+199	Fixes nitrogen, supports root growth
+200	Maize, sorghum, millets, paddy
+201	<a href="/products/immunity-acetobacter">Acetobacter</a>
+202	Fixes nitrogen inside the plant
+203	<a href="/products/immunity-psb">PSB</a> and <a href="/products/immunity-psf">PSF</a>
+204	Free locked phosphorus
+205	<a href="/products/immunity-kmb">KMB</a>
+206	Free potash from soil minerals
+207	<a href="/products/immunity-zsb">ZSB</a>
+208	Free locked zinc
+209	All crops, especially on high pH soils
+210	<a href="/products/immunity-mycorrhiza">Mycorrhiza</a>
+211	Extends roots to reach water and phosphorus
+212	Fruit trees, vegetables, many field crops
+213	<a href="/products/immunity-consortia">Consortia</a>
+214	Several of the above together
+215	Where one product is easier than many
+216	How to apply them
+217	Seed treatment: coat seed just before sowing and sow within a few hours.
+218	Seedling dip: dip roots of transplants before planting.
+219	Soil: mix with well-rotted compost or farmyard manure and apply in the root zone.
+220	Drip: some liquid products can go through drip; follow the label.
+221	Always at the dose and method on the label.
+222	Why biofertilizers sometimes fail
+223	Old or badly stored product. Keep packs in a cool, shaded place, never in the sun or a hot vehicle, and use before expiry.
+224	Mixed with chemical seed treatment or fungicide at the same time. Apply them separately.
+225	Dry soil. Microbes need moisture to settle in.
+226	Soil with almost no organic matter, where they have nothing to live on.
+227	Wrong match: Rhizobium on a non-legume does nothing.
+228	What to expect
+229	Biofertilizers support nutrient supply and root health over a season, and can let many growers reduce chemical fertilizer. They do not replace all fertilizer at once, and results build over seasons with organic matter. Use products approved under the Fertiliser Control Order. See <a href="/guides/soil-microbial-activity">soil microbial activity</a> and <a href="/guides/reduce-chemical-fertilizer-without-yield-loss">reduce chemical fertilizer without losing yield</a>.
+230	<a href="https://ncof.dacnet.nic.in/" rel="noopener" target="_blank">National Centre for Organic and Natural Farming</a>
+231	Which biofertilizer is best?
+232	There is no single best. Choose by crop and job: Rhizobium for pulses, Azotobacter or Azospirillum for cereals and vegetables, Acetobacter for sugarcane, PSB for phosphorus, KMB for potash, ZSB for zinc.
+233	Can biofertilizers replace chemical fertilizers?
+234	Not fully at once. They help the crop get more from soil and fertilizer, so many growers can reduce chemical use step by step.
+235	Can I mix biofertilizer with fungicide seed treatment?
+236	Not at the same time. Apply them separately, as the label says, because fungicides can kill the microbes.
+237	How should biofertilizers be stored?
+238	In a cool, shaded place, away from sun and heat, and used before the expiry date.
+### /guides/reduce-chemical-fertilizer-without-yield-loss
+239	How to Reduce Chemical Fertilizer Without Reducing Yield
+240	<a href="/">Home</a> / <a href="/guides">Guides</a> / How to reduce chemical fertilizer without...
+241	How to reduce chemical fertilizer without losing yield: a step-by-step path
+242	Many farms in Gujarat apply phosphorus every year to soil already rich in it. Cutting chemical fertilizer starts with cutting what the crop never uses, not what it needs.
+243	Cut waste first, not the crop's food. Test the soil to stop applying what is already there, place and split fertilizer so more reaches the roots, build organic matter, and add biofertilizers. Reduce in steps over seasons, comparing a strip of the field each time, rather than stopping all fertilizer at once.
+244	Why cutting all at once fails
+245	A field used to high chemical doses, with low organic matter, cannot feed a crop on its own in one season. Growers who stop suddenly often lose yield and go back. Growers who reduce step by step, while building the soil, usually keep their yield and lower their cost.
+246	The path, step by step
+247	Season 1
+248	Soil test; stop applying nutrients the test shows are high; place fertilizer near roots; split nitrogen
+249	Season 1 onward
+250	Add compost or farmyard manure; return crop residues; add biofertilizers suited to the crop
+251	Season 2
+252	Reduce chemical NPK by a modest share on one test strip; compare yield with the rest of the field
+253	Season 3 onward
+254	If the test strip held its yield, extend the reduction; test the soil again
+255	Where most fertilizer is wasted
+256	Applying phosphorus every year on soils already high in it.
+257	Broadcasting on the surface instead of placing near roots.
+258	Giving all the nitrogen at once, much of it lost before the crop can use it.
+259	Fertilizer on dry soil, or just before heavy rain.
+260	Ignoring zinc, sulphur or boron, so the NPK cannot do its job.
+261	Tools that help
+262	Soil and leaf tests. See <a href="/guides/how-to-take-a-soil-sample">how to take a soil sample</a>.
+263	Compost and humic substances. See <a href="/guides/compost-and-humic-acid">compost and humic acid</a>.
+264	Biofertilizers. See <a href="/guides/which-biofertilizers-to-use">which biofertilizers to use</a>.
+265	Legumes and green manure in the rotation.
+266	Drip fertigation, which puts small amounts where the roots are.
+267	When DAP is short: <a href="/guides/dap-shortage-what-to-use-instead">what to use instead of DAP</a>.
+268	<a href="https://soilhealth.dac.gov.in/" rel="noopener" target="_blank">Soil Health Card, Government of India</a>
+269	How can I reduce chemical fertilizer without losing yield?
+270	Test the soil, stop applying what is already high, place and split fertilizer, build organic matter, add biofertilizers, and reduce in steps on a test strip before the whole field.
+271	Can I stop chemical fertilizer completely?
+272	Stopping suddenly usually lowers yield. Reducing step by step over seasons, while building organic matter, is safer.
+273	How much fertilizer can I save?
+274	It depends on your soil and how much was being wasted. A soil test and a test strip in your own field are the honest way to find out.
+### /guides/organic-vs-natural-farming
+275	Organic Farming vs Natural Farming: What Is the Difference?
+276	<a href="/">Home</a> / <a href="/guides">Guides</a> / Organic farming vs natural farming
+277	Organic farming vs natural farming: the difference, the rules and which suits you
+278	Organic and natural farming both say no to chemicals, but they are not the same. One can earn a certified price premium; the other aims to cut what you buy. Choosing the wrong one for your market costs years.
+279	Both avoid synthetic chemicals. Organic farming allows bought organic inputs such as compost, manures, biofertilizers and approved products, and can be certified (NPOP for export, PGS-India for the domestic market) after a conversion period. Natural farming relies mainly on on-farm inputs such as cow dung and urine preparations, mulching and mixed cropping, with minimal bought inputs, and is promoted by the government's National Mission on Natural Farming.
+280	Organic farming
+281	Natural farming
+282	Synthetic fertilizers and pesticides
+283	Not allowed
+284	Not allowed
+285	Bought inputs
+286	Allowed if approved for organic use: compost, manures, biofertilizers, bio-pesticides
+287	Kept to a minimum; mostly made on the farm
+288	Typical inputs
+289	Compost, vermicompost, FYM, biofertilizers, green manure
+290	Jeevamrut, beejamrut, mulch, mixed crops, desi cow based preparations
+291	Certification
+292	NPOP (third party, for export) or PGS-India (group based, domestic)
+293	Not required; some states support group recognition
+294	Conversion period
+295	Usually 2 years for seasonal crops and 3 years for perennial crops before certified sale
+296	No formal period
+297	Market
+298	Certified organic price premium where buyers exist
+299	Mostly local and direct sales
+300	What both share
+301	Building soil organic matter and soil life.
+302	Mulching and keeping soil covered.
+303	Crop rotation, intercropping and legumes.
+304	Biological pest management.
+305	Patience: yields often dip in the first seasons and recover as the soil improves.
+306	If you want to sell certified produce, especially for export, choose organic and plan certification from the start.
+307	If you want to cut input cost and sell locally, natural farming practices can fit.
+308	Many growers start with one plot, not the whole farm, and expand what works.
+309	Either way, keep records of what you apply and what you harvest.
+310	<a href="/guides/reduce-chemical-fertilizer-without-yield-loss">Reduce chemical fertilizer without losing yield</a>, <a href="/guides/which-biofertilizers-to-use">which biofertilizers to use</a> and <a href="/guides/biological-pest-and-disease-control">biological pest and disease control</a>.
+311	<a href="https://naturalfarming.dac.gov.in/" rel="noopener" target="_blank">National Mission on Natural Farming</a>
+312	<a href="https://pgsindia-ncof.gov.in/" rel="noopener" target="_blank">PGS-India</a>
+313	<a href="https://apeda.gov.in/" rel="noopener" target="_blank">APEDA: National Programme for Organic Production</a>
+314	What is the difference between organic and natural farming?
+315	Organic farming allows bought organic inputs and can be certified. Natural farming relies mainly on on-farm preparations and mulching with minimal bought inputs, and usually is not certified.
+316	Is natural farming the same as zero budget natural farming?
+317	Natural farming in India grew out of what was called zero budget natural farming. The government now promotes it under the National Mission on Natural Farming.
+318	How long does organic certification take?
+319	Usually a 2 year conversion period for seasonal crops and 3 years for perennial crops before produce can be sold as certified organic.
+320	Can I use biofertilizers in natural farming?
+321	Natural farming keeps bought inputs to a minimum, but many growers use biofertilizers during the change. In certified organic farming, approved biofertilizers are allowed.
+### /guides/biological-pest-and-disease-control
+322	Biological Pest and Disease Control: A Farmer's Guide
+323	<a href="/">Home</a> / <a href="/guides">Guides</a> / Biological pest and disease control
+324	Biological pest and disease control: what works, and how to use it well
+325	A single Trichogramma card holds thousands of tiny wasps that hunt borer eggs before they hatch. Biological control is not weaker than chemicals; it is earlier.
+326	Biological control uses living organisms and natural products to keep pests and diseases below damaging levels: beneficial fungi and bacteria such as Trichoderma, Pseudomonas, Beauveria and Metarhizium, viruses such as NPV, parasitoids such as Trichogramma, and traps and neem. They work best early and preventively, as part of integrated pest management, not as a last rescue.
+327	The main tools
+328	What it is
+329	Used against
+330	Trichoderma
+331	Soil fungus
+332	Root rot, wilt, damping off; seed and soil treatment
+333	Pseudomonas fluorescens
+334	Bacterium
+335	Several leaf and root diseases; seed, soil and spray
+336	Beauveria bassiana
+337	Insect-killing fungus
+338	Hoppers, whitefly, borers, beetles
+339	Metarhizium anisopliae
+340	Insect-killing fungus
+341	White grub, termites, hoppers
+342	NPV (nuclear polyhedrosis virus)
+343	Virus specific to one pest
+344	Helicoverpa and Spodoptera caterpillars
+345	Trichogramma cards
+346	Tiny wasp that kills pest eggs
+347	Borers in sugarcane, cotton bollworms
+348	Pheromone traps
+349	Lure male moths
+350	Monitoring and mass trapping of bollworms, fruit fly, borers
+351	Yellow and blue sticky traps
+352	Catch flying insects
+353	Whitefly, aphids, thrips
+354	Neem products
+355	Plant extract
+356	Feeding deterrent and growth disruptor for many sucking and chewing pests
+357	Rules that make them work
+358	Start early. Biologicals prevent and slow pests; they rarely rescue a crop that is already badly hit.
+359	Fungal products need humidity; spray in the evening.
+360	Do not mix live fungal or bacterial products with chemical fungicides in the same tank.
+361	Use fresh product from a registered source, stored cool, before expiry. Bio-pesticides must be registered with the Central Insecticides Board.
+362	Count pests with traps and field checks, so you act at the right time.
+363	Protect natural enemies: ladybirds, spiders and lacewings are free pest control. Avoid broad-spectrum sprays where you can.
+364	Prevention first
+365	Healthy seed and seed treatment.
+366	Crop rotation, and removing infected plants and residues.
+367	Balanced nutrition: too much nitrogen invites sucking pests.
+368	Good drainage and spacing so leaves dry quickly.
+369	Strong roots and healthy soil; see <a href="/guides/soil-microbial-activity">soil microbial activity</a>.
+370	When to use chemicals
+371	When pests cross the level that causes economic loss and biological options cannot hold them, a registered chemical at the label dose may be needed. Choose the most specific product, and leave a gap before returning to biologicals. See <a href="/guides/mango-flowering-care">mango flowering care</a> and <a href="/guides/potato-early-blight-vs-late-blight">potato blight</a> for crop examples.
+372	<a href="https://ppqs.gov.in/" rel="noopener" target="_blank">Central Insecticides Board and Registration Committee</a>
+373	What is biological pest control?
+374	Using living organisms and natural products, such as beneficial fungi, bacteria, viruses, parasitic wasps, traps and neem, to keep pests and diseases below damaging levels.
+375	Does Trichoderma control root rot?
+376	Trichoderma is widely used as a seed and soil treatment to protect roots against root rot, wilt and damping off. It works best as prevention.
+377	Can I mix bio-pesticides with chemical fungicides?
+378	Do not mix live fungal or bacterial products with chemical fungicides in the same tank; the fungicide can kill them.
+379	Do biological controls work as fast as chemicals?
+380	Usually slower. They work best early and as prevention, combined with traps, monitoring and good crop care.
