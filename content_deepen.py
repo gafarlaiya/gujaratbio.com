@@ -659,3 +659,81 @@ DEEP["/crop-problems/potato-small-tubers"]["add"].insert(1, ("How to increase po
   "Protect the leaves from blight in foggy weather; see <a href=\"/guides/potato-early-blight-vs-late-blight\">early vs late blight</a>.",
   "Build the soil with compost and keep roots healthy; a bigger root system feeds bigger tubers."]))
 DEEP["/crop-problems/potato-small-tubers"]["faq"].append(("How can I increase potato tuber size naturally?", "Use healthy seed, earth up on time, keep soil moisture steady during bulking, give enough potash, avoid late nitrogen and protect leaves from blight. Compost and healthy roots help the plant fill its tubers."))
+
+# November 2026, batch 2: sugarcane ratoon and tillers, salty borewell water; keyword sections on existing guides (#44-50)
+DEEP.update({
+"/guides/sugarcane-ratoon-management": dict(
+  hook="A ratoon is the cheapest sugarcane you will ever grow: no setts, no planting. But the stubble does not care about your savings. Leave it high, burn the trash and wait a month to irrigate, and the cheap crop becomes the poor one.",
+  stats=[("45 days", "the window after harvest that sets the ratoon"), ("0", "fires: trash belongs between the rows")],
+  sources=[("TNAU Agritech: sugarcane ratoon management", "https://agritech.tnau.ac.in/expert_system/sugar/ratoon.html"),
+           ("ICAR-Sugarcane Breeding Institute", "https://sugarcane.icar.gov.in/")]),
+"/guides/how-to-increase-sugarcane-tillers": dict(
+  hook="A sugarcane clump can push out far more tillers than will ever reach the mill. Many die quietly in the shade. The yield is decided not by how many tillers you see in month three, but by how many strong ones are still standing at harvest.",
+  stats=[("3-4 months", "when tillering peaks"), ("1", "earthing up, after tillering, not before")],
+  sources=[("TNAU Agritech: sugarcane expert system", "https://agritech.tnau.ac.in/expert_system/sugar/"),
+           ("ICAR-Indian Institute of Sugarcane Research", "https://iisr.icar.gov.in/")]),
+"/guides/salty-borewell-water-for-crops": dict(
+  hook="Your field can be wet and your crop still thirsty. When borewell water is salty, the salt holds the water back from the roots, and every irrigation leaves a little more salt behind.",
+  stats=[("0.7 dS/m", "below this, water is safe for most crops"), ("3 dS/m", "above this, severe restriction")],
+  sources=[("FAO: Water quality for agriculture (Irrigation and Drainage Paper 29)", "https://www.fao.org/4/t0234e/t0234e00.htm"),
+           ("ICAR-Central Soil Salinity Research Institute", "https://cssri.res.in/")]),
+})
+
+_T = lambda rows, head: ('<div class="tablewrap"><table class="packs"><thead><tr>' + "".join(f"<th>{h}</th>" for h in head) + "</tr></thead><tbody>"
+                         + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table></div>")
+def _addsec(path, sec, faq):
+    d = DEEP.setdefault(path, {})
+    d.setdefault("add", []).append(sec)
+    d.setdefault("faq", []).extend(faq)
+
+_addsec("/guides/compost-and-humic-acid", ("How to increase organic carbon in soil", [
+    "Return crop residues to the field instead of burning them; chop and mix, or mulch.",
+    "Add compost or well-rotted farmyard manure every season, even in small amounts.",
+    "Grow a green manure crop such as dhaincha or sunhemp and turn it in before flowering.",
+    "Include a legume in the rotation, and keep the soil covered between crops where you can.",
+    "Till less. Every deep ploughing burns off some of the organic matter.",
+    "Test again after two or three seasons. Organic carbon rises slowly; a small rise is real progress."]),
+  [("How can I increase organic carbon in my soil?", "Return crop residues, add compost or farmyard manure every season, grow green manure, rotate with legumes, keep the soil covered and till less. It rises slowly, over seasons.")])
+_addsec("/guides/how-to-take-a-soil-sample", ("How to read a soil health card", [
+    ("html", "<p>The card lists each test with a rating, usually low, medium or high, and a fertilizer suggestion for your crop. Read it in this order:</p>" + _T([
+      ["pH", "Below 6 is acidic; 6 to 8.5 suits most crops; above 8.5 points to alkaline or sodic soil"],
+      ["EC (salt)", "Below 1 is normal; 1 to 2 can hurt germination; above 4 harms most crops"],
+      ["Organic carbon", "Below 0.5% is low; 0.5 to 0.75% medium; above 0.75% high"],
+      ["N, P, K", "Look at the rating printed next to each. A high rating means you can cut that fertilizer"],
+      ["S, Zn, Fe, Mn, Cu, B", "Deficient or sufficient. A deficient zinc or boron is often the hidden reason for poor yield"]],
+      ["Test", "How to read it"]) +
+     '<p class="note">Rating bands differ slightly between labs and states; go by the rating printed on your card. Keep every card, and compare the same field over the years.</p>')]),
+  [("How do I read my soil health card?", "Check pH and EC first, then organic carbon, then the low, medium or high rating for N, P and K, then micronutrients. Use the card's own ratings and fertilizer suggestion for your crop.")])
+_addsec("/guides/humic-acid-and-root-zone-development", ("Humic acid vs fulvic acid: which is better?", [
+    ("html", _T([
+      ["Size", "Large molecules", "Small molecules"],
+      ["Where it works", "Mainly in the soil", "Soil, drip and leaf"],
+      ["Best for", "Soil structure, holding water and nutrients, root zone", "Quick uptake, carrying nutrients into the plant, foliar and drip"],
+      ["Typical use", "Soil application, with basal fertilizer or through drip", "Drip and foliar, mixed with nutrients"]],
+      ["", "Humic acid", "Fulvic acid"]) +
+     "<p>Neither is better in general. For tired, sandy or low-organic soil, humic acid does more. For quick foliar or drip feeding, fulvic acid fits better. Many good products contain both. Check the FCO grade and the actual content on the label.</p>")]),
+  [("Which is better, humic acid or fulvic acid?", "Neither in general. Humic acid works mainly in the soil and suits soil building; fulvic acid is smaller and suits drip and foliar use. Many products contain both.")])
+_addsec("/guides/seaweed-extracts-and-plant-physiology", ("Seaweed extract benefits for crops, in plain words", [
+    "Stronger early roots, which studies report most consistently.",
+    "Better tolerance of stress such as heat, cold, salt and dry spells.",
+    "Support at flowering and fruit set, where many growers use it.",
+    "More even crop growth, when used on a crop that is fed and watered well.",
+    "Benefits depend on the seaweed source, how it is extracted, the dose and the crop. It is not a fertilizer and does not replace one."]),
+  [("What are the benefits of seaweed extract for crops?", "Studies most often report stronger roots and better tolerance of heat, cold, salt and drought stress, with support at flowering and fruit set. Results depend on the product, dose and crop.")])
+_addsec("/guides/what-are-biostimulants", ("Biostimulant vs fertilizer: the difference in one table", [
+    ("html", _T([
+      ["What it does", "Supplies nutrients the crop is short of", "Helps the plant use nutrients and handle stress"],
+      ["Amount used", "Kilograms per acre", "Small amounts, often grams or millilitres"],
+      ["If skipped", "The crop goes hungry", "The crop can grow, but copes less well with stress"],
+      ["Rules in India", "Fertiliser Control Order", "Schedule VI of the Fertiliser Control Order"],
+      ["Examples", "Urea, DAP, SSP, MOP, NPK grades", "Seaweed extract, humic acid, amino acids"]],
+      ["", "Fertilizer", "Biostimulant"]))]),
+  [("What is the difference between a biostimulant and a fertilizer?", "A fertilizer supplies nutrients. A biostimulant helps the plant use nutrients better and cope with stress. A crop needs fertilizer; a biostimulant works alongside it.")])
+_addsec("/guides/why-yields-fall-on-old-land", ("Why is yield decreasing every year in the same field?", [
+    "Organic carbon has fallen, so the soil holds less water and fewer nutrients.",
+    "A hidden shortage, often zinc, sulphur or boron, that NPK alone never fixes.",
+    "Salt building up from borewell water; see <a href=\"/guides/salty-borewell-water-for-crops\">salty borewell water</a>.",
+    "A hard layer under the plough depth that stops roots.",
+    "The same crop every year, which builds up its pests, diseases and nematodes.",
+    "Saved seed that has lost vigour over the years."]),
+  [("Why is my yield decreasing every year in the same field?", "Usually falling organic carbon, a hidden micronutrient shortage, salt from irrigation water, a hard layer below the plough, the same crop every year, or tired seed. A soil and water test shows which.")])

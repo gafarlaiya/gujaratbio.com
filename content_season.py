@@ -93,9 +93,9 @@ SEASON_GUIDES = [
            ("Does blight affect the tubers?", "Late blight causes a reddish-brown rot in tubers, and infected tubers rot in storage. Early blight causes small dark sunken spots.")]),
 
  dict(slug="mango-flowering-care", date="2026-11-18",
-      title="Mango Flowering Care: Kesar Pre-Flowering to Fruit Set",
-      h1="Mango flowering care: how to get more flowers and protect them, from November to fruit set",
-      desc="How Kesar mango trees decide to flower, what to do and avoid from November to fruit set, hopper and powdery mildew timing, and an honest look at paclobutrazol.",
+      title="Mango Flowering Spray Schedule and Care: Kesar, Nov to Fruit Set",
+      h1="Mango flowering care and spray schedule: more flowers, protected, from November to fruit set",
+      desc="A stage-by-stage mango flowering spray schedule for Kesar: what to do from November to fruit set, hopper and mildew timing, and paclobutrazol facts.",
       answer="A mango tree flowers on shoots that matured after the last harvest, after a dry, cool spell. From November, hold back irrigation and nitrogen, keep the canopy open, and watch for hoppers. When panicles appear, protect them from hoppers and powdery mildew before the flowers open. Do not spray at full bloom, so that bees and flies can pollinate.",
       sections=[
        ("How a mango tree decides to flower", [
@@ -110,6 +110,22 @@ SEASON_GUIDES = [
            ["Fruit set (pea size)", "Small fruits hold", "Restart light, regular irrigation. Watch for hoppers again. See fruit drop."]],
            ["When", "What the tree is doing", "What growers do"]) +
           '<p class="note">Timing shifts with location and weather: south Gujarat often flowers earlier than Saurashtra and Kutch, and a warm winter delays flowering.</p>')]),
+       ("Mango flowering spray schedule, stage by stage", [
+         ("html", "<p>There is no single magic flowering spray. Each stage has one job, and most orchards need only two or three well-timed rounds. The options below are those listed in the Government of India's integrated pest management package for mango.</p>" + _T([
+           ["November to December, before panicles", "Mature the shoots, stop leafy flush", "Usually no spray is needed. Correct zinc or boron only if a leaf or soil test shows a shortage (zinc sulphate, borax)."],
+           ["Panicle emergence", "Protect from hoppers and powdery mildew", "Hoppers: imidacloprid, buprofezin, lambda-cyhalothrin or deltamethrin; biological: Beauveria bassiana or Metarhizium anisopliae. Powdery mildew: wettable sulphur, hexaconazole, penconazole or azoxystrobin."],
+           ["Cloudy, humid or drizzly spell", "Protect panicles from blossom blight (anthracnose)", "Copper oxychloride or azoxystrobin."],
+           ["2 to 3 weeks later, before flowers open", "Second round, only if hoppers or mildew are present", "Use a different chemical group from the first round."],
+           ["Full bloom", "Pollination", "No sprays."],
+           ["Pea stage", "Hold fruit, prevent black tip", "Borax at pea stage, as in the IPM package; water at regular intervals. Ask your KVK before any fruit-drop growth regulator."]],
+           ["Stage", "Job", "Options listed for mango"]) +
+          '<p class="note">We do not print doses on this page. The right dose depends on the product\'s strength, its formulation and the size of the tree, and doses copied from the internet are often wrong. Use the dose on the label of the product you buy, registered for mango, or your state agricultural university\'s recommendation.</p>'),
+         "Spray in the early morning or evening, never in the midday heat.",
+         "Mix at most one insecticide and one fungicide in a tank, and only if the labels say they mix.",
+         "Rotate chemical groups between rounds so hoppers and mildew do not become resistant.",
+         "Cover the whole panicle and the inner canopy; hoppers hide inside."]),
+       ("Does potassium nitrate increase mango flowering?", [
+         ("html", "<p>Potassium nitrate sprays are best known from warm tropical mango areas, where winters are not cold enough to trigger flowering. In Gujarat, where cool winter nights already do that job, results are mixed, and it is not part of the national IPM package for mango. It cannot make immature shoots flower. If you want to try it, follow your state university's recommendation, spray a few trees, and keep a few unsprayed to compare.</p>")]),
        ("Mango hoppers: the biggest threat at flowering", [
          "Hoppers are small, wedge-shaped insects that jump with a clicking sound when you tap a branch. They suck sap from panicles, so flowers dry and drop.",
          "Their sticky honeydew grows black sooty mould on leaves and panicles.",
@@ -137,7 +153,10 @@ SEASON_GUIDES = [
          "Expecting a young, shaded or crowded tree to flower like a mature, open one."]),
        ("Where biostimulants fit", [
          ("html", '<p>Seaweed and amino acid based products are used at panicle emergence and fruit set to help trees cope with cold, fog and heat stress. They work alongside good water, nutrition and protection, not instead of them. <a href="/products/immunity-mango-special">Immunity Mango Special</a> is made for mango; ask us which stage suits your orchard. See also the full <a href="/crops/mango">mango crop guide</a>.</p>')])],
-      faq=[("Why is my mango tree not flowering?", "Common causes are shoots that came too late to mature, water or nitrogen in winter, a warm winter, a heavy crop last year, or a young, shaded or crowded tree."),
+      faq=[("What is the best spray for mango flowering?", "There is no single best spray. At panicle emergence, protect against hoppers and powdery mildew, repeat only if needed before flowers open, and do not spray at full bloom. Use products registered for mango at the label dose."),
+           ("Does potassium nitrate spray increase mango flowering?", "It is best known from warm tropical areas. In Gujarat's cooler winters results are mixed. It cannot make immature shoots flower. Test it on a few trees first."),
+           ("Can I spray mango trees during flowering?", "Not at full bloom. Spray at panicle emergence and before flowers open. Spraying open flowers harms bees and flies and can burn the flowers."),
+           ("Why is my mango tree not flowering?", "Common causes are shoots that came too late to mature, water or nitrogen in winter, a warm winter, a heavy crop last year, or a young, shaded or crowded tree."),
            ("How can I increase flowering in Kesar mango?", "Prune and feed the tree right after harvest so new shoots mature, then keep it dry and without nitrogen from November until panicles appear. A healthy, unstressed tree with mature shoots flowers best."),
            ("Should I irrigate mango trees before flowering?", "No. Hold back irrigation from about November until panicles have emerged. Water now pushes new leaves instead of flowers. Restart light irrigation from fruit set."),
            ("When should I spray mango before flowering?", "At panicle emergence, against hoppers and powdery mildew, and if needed again about 2 to 3 weeks later before the flowers open. Never at full bloom."),
@@ -180,4 +199,123 @@ SEASON_GUIDES = [
            ("How many Kesar mango plants per acre in high density?", "About 160 at 5 x 5 m and about 320 at 5 x 2.5 m."),
            ("When should I prune high density mango?", "Right after harvest. A Navsari Agricultural University study found the first fortnight of July best for high density Kesar."),
            ("Is high density mango profitable?", "It can bring fruit per acre earlier, but only with drip irrigation and yearly pruning. Without them, crowded trees yield less.")]),
+]
+
+SEASON_GUIDES += [
+ dict(slug="sugarcane-ratoon-management", date="2026-11-18",
+      title="Sugarcane Ratoon Management After Harvest: Step by Step",
+      h1="Sugarcane ratoon management after harvest: the first 45 days decide the crop",
+      desc="What to do in the weeks after cutting sugarcane so the ratoon sprouts evenly: stubble shaving, trash, gap filling, loosening the soil, water and feeding.",
+      answer="A good ratoon is made in the first four to six weeks after harvest. Cut stubble at ground level, spread the trash between rows instead of burning it, loosen the soil beside the rows, irrigate, fill gaps early with pre-sprouted settlings, and feed the ratoon a little more nitrogen than the plant crop got.",
+      sections=[
+       ("Why ratoons fall behind", [
+         "Stubble left high sprouts from upper buds, which give weak, shallow-rooted shoots that lodge later.",
+         "Gaps from the plant crop stay gaps, and grow with every ratoon.",
+         "The soil between rows is hard and packed after a year of traffic and harvest.",
+         "Burnt trash leaves the soil bare, dry and short of organic matter.",
+         "Cane cut in the coldest weeks sprouts slowly; buds wait for warmth."]),
+       ("Step by step after the last cane is cut", [
+         ("html", _T([
+           ["Day 0 to 3", "Stubble shaving", "Cut any stubble left above ground with a sharp tool, at or just below soil level, so new shoots come from the lower buds."],
+           ["Day 0 to 7", "Trash, not fire", "Spread the dry leaves between the rows as mulch. Pull it off the row itself so shoots are not smothered."],
+           ["Week 1", "Loosen the sides (off-barring)", "Loosen the soil on both sides of the row with a plough or cultivator. This cuts old roots and lets new roots and water in."],
+           ["Week 1", "First irrigation", "Irrigate soon after shaving and loosening. Dry soil after harvest is a common reason for poor sprouting."],
+           ["Week 1 to 2", "Basal feeding", "Apply the basal dose for the ratoon near the row. Ratoons need more nitrogen than the plant crop."],
+           ["Week 3 to 5", "Gap filling", "Walk the rows. Fill gaps longer than about 60 cm with pre-sprouted settlings from a nursery or polybags, and water them in."],
+           ["Day 45 onward", "Second feeding and weeding", "Second nitrogen dose and weeding; then follow your normal tillering-stage care."]],
+           ["When", "Job", "How"]) +
+          '<p class="note">Timings are a general guide; follow your state university or sugar factory recommendation for doses.</p>')]),
+       ("Why trash is worth more than the fire", [
+         ("html", "<p>A hectare of sugarcane leaves several tonnes of dry trash. Burnt, it is gone in an hour. Spread between rows, it keeps moisture in, keeps weeds down, protects soil life, and slowly returns organic matter. Many growers speed it up with a trash decomposer culture and a little water. If you must remove some trash, do not burn the rest on the field.</p>")]),
+       ("Feeding the ratoon", [
+         "A ratoon grows from an old root system in packed soil, so it needs more nitrogen than the plant crop. Follow the ratoon dose in your state or factory recommendation.",
+         "Put fertilizer close to the row after loosening the soil, not on top of the trash.",
+         "Acetobacter and other nitrogen-fixing bacteria can support the ratoon's nitrogen supply alongside fertilizer. See <a href=\"/products/immunity-acetobacter\">Immunity Acetobacter</a>.",
+         "Organic matter and a living soil help the old stubble root again. See <a href=\"/products/immunity-sugarcane-special\">Immunity Sugarcane Special</a> and the <a href=\"/crops/sugarcane\">sugarcane crop guide</a>."]),
+       ("How many ratoons to keep", [
+         "Keep a ratoon only when the plant crop was healthy and gaps are few.",
+         "If more than about a fifth of the row is gaps, or red rot, wilt or smut was serious, replant instead.",
+         "Most growers in Gujarat keep one or two ratoons. Each ratoon is cheaper to grow but usually yields less, unless managed well."]),
+       ("Related", [
+         ("html", '<p><a href="/guides/how-to-increase-sugarcane-tillers">How to increase sugarcane tillers</a> and <a href="/crop-problems/sugarcane-poor-germination">sugarcane poor germination and gaps</a>.</p>')])],
+      faq=[("What should I do after harvesting sugarcane for a ratoon?", "Shave stubble to ground level, spread the trash between rows, loosen the soil beside the rows, irrigate, apply the ratoon basal dose, and fill gaps within about a month."),
+           ("Should I burn sugarcane trash?", "No. Spread it between rows as mulch. It keeps moisture, controls weeds and returns organic matter. Burning wastes it and leaves the soil bare."),
+           ("When should gaps be filled in a ratoon?", "Within about three to five weeks of harvest, with pre-sprouted settlings, so they keep pace with the ratoon."),
+           ("Does a ratoon need more fertilizer?", "It needs more nitrogen than the plant crop, because it grows from an old root system in packed soil. Follow your state or factory recommendation."),
+           ("Why is my ratoon sprouting poorly?", "Common reasons are high stubble, dry soil after harvest, hard packed soil, burnt trash, cold weather at harvest, or gaps left from the plant crop.")]),
+
+ dict(slug="how-to-increase-sugarcane-tillers", date="2026-11-18",
+      title="How to Increase Sugarcane Tillers, and Keep Them Alive",
+      h1="Sugarcane tillers: how to increase them, and why only some become cane",
+      desc="When sugarcane tillers form, what makes a clump tiller well, why many tillers die before harvest, and what growers can do to end up with more millable cane.",
+      answer="Sugarcane tillers form mostly in the first three to four months after planting or ratooning. Light reaching the base of the plant, steady moisture, enough nitrogen and loose, airy soil make more tillers. Many tillers die later; the aim is not the most tillers but the most strong tillers that survive to harvest.",
+      sections=[
+       ("How tillering works", [
+         ("html", "<p>Each bud that sprouts gives a mother shoot. From its underground nodes come the tillers, then tillers of tillers. Tillering peaks around three to four months after planting. After that the canopy closes, the clump competes for light, and the weakest, latest tillers die. Only the earlier, thicker tillers usually grow into millable cane.</p>")]),
+       ("What makes a clump tiller well", [
+         "Light at the base. Wide rows and early weed control let light reach the soil, which wakes up tiller buds.",
+         "Steady moisture. Long dry gaps in the tillering months cut tiller numbers.",
+         "Nitrogen on time. Split nitrogen so enough is there during the tillering months, not all at once.",
+         "Loose, airy soil around the clump. Hard or waterlogged soil gives few, weak tillers.",
+         "Healthy setts and an even start. Gaps and late shoots never catch up."]),
+       ("What to avoid", [
+         "Earthing up too early. Full earthing up stops new tillers, so it is done after tillering, not during it.",
+         "Weeds in the first three months, which steal light and nitrogen exactly when tillers form.",
+         "Heavy late nitrogen after tillering, which pushes late tillers that die anyway.",
+         "Very close planting, which shades the base and raises tiller death."]),
+       ("Count your tillers", [
+         "Around 90 to 100 days, count shoots per clump on a few metres of row in good and weak patches.",
+         "A low count in one patch usually points to gaps, dry or hard soil, or weeds there.",
+         "Record it in your farm diary, so you can compare this crop with the next. The Hariyo app has a tiller count for each field.",
+         "If counts are low across the field, ask us with photos and your planting date."]),
+       ("Where biological inputs fit", [
+         ("html", '<p>Nitrogen-fixing bacteria such as Acetobacter and a living, organic soil support steady growth in the tillering months, alongside fertilizer. See <a href="/products/immunity-sugarcane-special">Immunity Sugarcane Special</a>, <a href="/guides/sugarcane-ratoon-management">sugarcane ratoon management</a> and the <a href="/crops/sugarcane">sugarcane crop guide</a>.</p>')])],
+      faq=[("When does sugarcane tillering happen?", "Mostly in the first three to four months after planting or ratooning, peaking around three to four months."),
+           ("How can I increase tillers in sugarcane?", "Control weeds early, keep moisture steady, give nitrogen on time during the tillering months, keep the soil loose and let light reach the base. Do not earth up fully until tillering is over."),
+           ("Why do sugarcane tillers die?", "After the canopy closes, late and weak tillers lose the competition for light, water and nutrients. Some tiller death is normal."),
+           ("Does earthing up stop tillering?", "Yes. Full earthing up covers the tiller buds, so it is done after the tillering phase.")]),
+
+ dict(slug="salty-borewell-water-for-crops", date="2026-11-18",
+      title="Salty Borewell Water: Effect on Crops and What to Do",
+      h1="Salty borewell water: how it hurts crops, how to test it, and how to farm with it",
+      desc="How salty borewell water affects crops, what EC and TDS numbers mean, which crops tolerate it, and practical ways to keep farming with salty water.",
+      answer="Salty borewell water leaves salt in the root zone, so roots struggle to take up water even in wet soil. Leaf edges burn, germination is poor and yields fall. Test the water's EC once. Below about 0.7 dS/m it is generally safe; above about 3 dS/m it needs careful management, salt-tolerant crops and good drainage.",
+      sections=[
+       ("What salt does to a crop", [
+         "Salt in the soil water holds water back from the roots, so the crop shows thirst even after irrigation.",
+         "Leaf tips and edges dry and burn, starting on older leaves.",
+         "Germination falls and seedlings die, because salt collects near the surface where the seed is.",
+         "Some waters also carry a lot of sodium or bicarbonate. Over years this makes the soil hard, sticky and slow to drain."]),
+       ("Test the water, once a year", [
+         ("html", "<p>Take a clean bottle of water after the pump has run for a few minutes and ask a soil and water testing lab for EC, pH, and RSC (residual sodium carbonate). Many labs also report TDS; as a rough guide, TDS in mg/L is about EC in dS/m multiplied by 640.</p>" + _T([
+           ["Below 0.7", "Below about 450", "No restriction for most crops"],
+           ["0.7 to 3.0", "About 450 to 2,000", "Slight to moderate restriction: choose crops and manage carefully"],
+           ["Above 3.0", "Above about 2,000", "Severe restriction: tolerant crops, good drainage and blending only"]],
+           ["EC (dS/m)", "TDS (mg/L)", "What it means"]) +
+          '<p class="note">Bands from the FAO guidelines on water quality for agriculture. Soil type, rainfall and drainage change how much a given water hurts; light soils with good rain cope better than heavy, poorly drained soils.</p>')]),
+       ("Which crops cope better", [
+         ("html", _T([
+           ["More tolerant", "Barley, cotton, sugar beet, date palm"],
+           ["Moderately tolerant", "Wheat, mustard, sorghum"],
+           ["Moderately sensitive", "Sugarcane, groundnut, maize, tomato, chilli, potato"],
+           ["Sensitive", "Onion, beans and most pulses, mango, citrus, carrot"]],
+           ["Group", "Examples"]) +
+          '<p class="note">Varieties differ; ask your KVK for salt-tolerant varieties of your crop. Seedlings are more sensitive than established plants.</p>')]),
+       ("How to keep farming with salty water", [
+         "Blend or alternate: use canal or rain-harvested water for germination and early growth, and the borewell later.",
+         "Irrigate lightly and more often. Letting the soil dry out concentrates salt around the roots.",
+         "Use drip where you can. It keeps the root zone moist and pushes salt to the edge of the wetted area.",
+         "On ridges and beds, sow on the side of the ridge, not the top, where salt collects.",
+         "Let the monsoon flush salt down: keep fields level and bunded so rain soaks in, and keep drains open.",
+         "Add organic matter: compost and crop residues improve structure so salt can be washed below the roots.",
+         "Gypsum helps where the problem is sodium or high RSC, not plain salt. Use it on a lab's advice.",
+         "Mulch the soil surface to cut evaporation, which pulls salt up."]),
+       ("Where biostimulants fit", [
+         ("html", '<p>Some seaweed, amino acid and humic products are used to help crops cope with salt stress. They do not remove salt, and they work only alongside the water and soil steps above. See <a href="/guides/biostimulants-for-salinity-and-drought-stress">biostimulants for salinity and drought stress</a> and <a href="/guides/why-yields-fall-on-old-land">why yields fall on old land</a>.</p>')])],
+      faq=[("How do I know if my borewell water is salty?", "Test it for EC in a soil and water testing lab. Burnt leaf edges, white crust on the soil and poor germination are signs, but only a test tells you how salty."),
+           ("What EC of water is good for irrigation?", "Below about 0.7 dS/m is safe for most crops. From 0.7 to 3 dS/m needs care; above 3 dS/m is severe."),
+           ("What is a safe TDS for irrigation water?", "Below about 450 mg/L is generally safe. Above about 2,000 mg/L severely limits most crops."),
+           ("Can salty water be used for drip irrigation?", "Yes, often more safely than flood irrigation, because drip keeps the root zone moist. Flush the lines and let the monsoon wash salt down."),
+           ("Does gypsum remove salt from water?", "No. Gypsum helps where the water or soil has too much sodium or bicarbonate. It does not remove ordinary salt."),
+           ("Which crops grow well with salty water?", "Barley, cotton and sugar beet are among the more tolerant; wheat and mustard moderately. Onion, pulses, mango and citrus are sensitive.")]),
 ]

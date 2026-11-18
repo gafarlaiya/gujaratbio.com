@@ -467,7 +467,7 @@
 "/guides": [
 "2026-10-21",
 "2026-11-18",
-"7c6a20ff6ab7"
+"0bd59430260e"
 ],
 "/guides/auxin-master-regulator-of-growth": [
 "2026-10-30",
@@ -481,8 +481,8 @@
 ],
 "/guides/compost-and-humic-acid": [
 "2026-10-21",
-"2026-11-12",
-"3ac0692ae7f8"
+"2026-11-18",
+"120ab4deb4d5"
 ],
 "/guides/dap-shortage-what-to-use-instead": [
 "2026-11-18",
@@ -499,6 +499,11 @@
 "2026-11-18",
 "e1cb01ef8b70"
 ],
+"/guides/how-to-increase-sugarcane-tillers": [
+"2026-11-18",
+"2026-11-18",
+"27dd1d4bc6b8"
+],
 "/guides/how-to-start-composting": [
 "2026-11-14",
 "2026-11-14",
@@ -506,18 +511,18 @@
 ],
 "/guides/how-to-take-a-soil-sample": [
 "2026-10-21",
-"2026-11-12",
-"805a8c211e48"
+"2026-11-18",
+"51525e58b720"
 ],
 "/guides/humic-acid-and-root-zone-development": [
 "2026-10-30",
-"2026-11-12",
-"ae2609e6c716"
+"2026-11-18",
+"3b83b2641526"
 ],
 "/guides/mango-flowering-care": [
 "2026-11-18",
 "2026-11-18",
-"ab0f88030e18"
+"b0fbe4c888f0"
 ],
 "/guides/mango-fruit-set-and-fruit-drop": [
 "2026-11-14",
@@ -539,25 +544,35 @@
 "2026-11-12",
 "3cd628333a64"
 ],
+"/guides/salty-borewell-water-for-crops": [
+"2026-11-18",
+"2026-11-18",
+"1ee0e1372f40"
+],
 "/guides/seaweed-extracts-and-plant-physiology": [
 "2026-10-30",
-"2026-11-12",
-"1a6d7d9f821e"
+"2026-11-18",
+"3c86dab8ed6a"
+],
+"/guides/sugarcane-ratoon-management": [
+"2026-11-18",
+"2026-11-18",
+"6a3362bf45a8"
 ],
 "/guides/what-are-biostimulants": [
 "2026-10-21",
-"2026-11-12",
-"b5666d7252d5"
+"2026-11-18",
+"7ec2fe4d348e"
 ],
 "/guides/why-yields-fall-on-old-land": [
 "2026-10-21",
-"2026-11-12",
-"1a8df81d39a3"
+"2026-11-18",
+"9e8e5dc23148"
 ],
 "/knowledge": [
 "2026-10-21",
 "2026-11-18",
-"ace60d310719"
+"1ba5726aed70"
 ],
 "/knowledge/potato-fertilizer-schedule": [
 "2026-10-21",
