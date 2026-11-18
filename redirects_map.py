@@ -61,4 +61,5 @@ assert not _bad, _bad
 # Remaining numbered blog posts go to the knowledge hub until each article is moved.
 for _n in range(1, 40):
     OLD.setdefault(f"/blog-post{_n}", "/knowledge")
+OLD["/guides/mango-not-flowering-causes-and-timing"] = "/guides/mango-flowering-care"  # merged duplicate guide, Nov 2026
 json.dump(OLD, open(os.path.join(ROOT, "redirects-at-launch.json"), "w"), indent=0)
