@@ -1,0 +1,277 @@
+### /crops/apple
+0	Watch: from the field
+1	Kashmir apple farmer: branches heavy with crop
+2	From our YouTube channel. Farmers describe their own fields; results differ with soil, weather and care.
+### /crops/chilli
+3	Chilli with Immunity Chilli Special
+### /crops/citrus
+4	Citrus with Immunity Citrus Special: Sanjay Arora, Sri Ganganagar
+### /crops/cotton
+5	Cotton (કપાસ, कपास) with 0% DAP
+6	Immunity organic fertilizer in cotton
+### /crops/cumin
+7	जीरे की खेती: भरत भाई का 0% DAP अनुभव
+8	Cumin (જીરું, जीरा) with Immunity Cumin Special
+### /crops/paddy
+9	धान की नर्सरी 45 दिन: Immunity Paddy Special
+10	Paddy: Karan Raj Singh, Karnal, on Dhanya Special
+### /crops/potato
+11	26 days potato with Immunity Potato Special
+### /crops/sugarcane
+12	86032 sugarcane germination with Immunity Sugarcane Special
+### /products/immunity-mango-special
+13	Mango production and fruit drop: Immunity Mango Special
+### /about
+14	Gujarat Bio Organics Private Limited
+### /micronutrients/deficiency-symptoms
+15	Field visit with farmers by the Gujarat Bio Organics team
+16	Problem in your field?
+17	Send a photo of the crop on WhatsApp. Our team replies with what to check.
+### /micronutrients/zinc
+18	Zn
+### /micronutrients/iron
+19	Fe
+### /micronutrients/manganese
+20	Mn
+### /micronutrients/copper
+21	Cu
+### /micronutrients/molybdenum
+22	Mo
+### /micronutrients/chlorine
+23	Cl
+### /micronutrients/nickel
+24	Ni
+### /micronutrients/calcium
+25	Ca
+### /micronutrients/magnesium
+26	Mg
+### /micronutrients/silicon
+27	Si
+### /micronutrients/cobalt
+28	Co
+### /crop-problems/apple-root-rot
+29	<a href="#what-you-see">What you see</a>
+30	<a href="#why-it-happens">Why it happens</a>
+31	<a href="#what-growers-can-do">What growers can do</a>
+32	<a href="#send-us-a-photo">Send us a photo</a>
+### /crop-problems/citrus-dieback
+33	<a href="#common-causes">Common causes</a>
+34	<a href="#read-the-tree-from-the-bottom-up">Read the tree from the bottom up</a>
+35	<a href="#why-alkaline-and-salty-soils-make-it-worse">Why alkaline and salty soils make it worse</a>
+36	<a href="#a-practical-rescue-plan">A practical rescue plan</a>
+37	<a href="#sources">Sources</a>
+### /crop-problems/mango-alternate-bearing
+38	<a href="#how-the-cycle-works">How the cycle works</a>
+39	<a href="#why-the-on-year-steals-from-the-off-year">Why the 'on' year steals from the 'off' year</a>
+40	<a href="#the-after-harvest-calendar-that-decides-next-yea">The after-harvest calendar that decides next year</a>
+41	<a href="#signs-your-tree-is-heading-into-an-off-year">Signs your tree is heading into an 'off' year</a>
+42	<a href="#what-about-chemical-flower-inducers">What about chemical flower inducers?</a>
+### /crop-problems/mango-fruit-drop
+43	<a href="#natural-drop-and-problem-drop">Natural drop and problem drop</a>
+44	<a href="#the-three-waves-of-drop-and-what-each-one-tells-">The three waves of drop, and what each one tells you</a>
+45	<a href="#a-10-minute-field-check-before-you-spray-anythin">A 10-minute field check before you spray anything</a>
+46	<a href="#mistakes-that-make-drop-worse">Mistakes that make drop worse</a>
+47	<a href="#what-some-growers-tell-us">What some growers tell us</a>
+### /crop-problems/potato-small-tubers
+48	<a href="#fewer-tubers">Fewer tubers</a>
+49	<a href="#small-tubers">Small tubers</a>
+50	<a href="#two-windows-that-decide-your-harvest">Two windows that decide your harvest</a>
+51	<a href="#how-to-increase-potato-tuber-size-naturally">How to increase potato tuber size naturally</a>
+52	<a href="#seed-is-half-the-story">Seed is half the story</a>
+53	<a href="#a-quick-dig-test">A quick dig test</a>
+54	<a href="#common-mistakes">Common mistakes</a>
+### /crop-problems/sugarcane-poor-germination
+55	<a href="#why-a-gap-costs-more-than-it-looks">Why a gap costs more than it looks</a>
+56	<a href="#planting-day-checklist">Planting-day checklist</a>
+57	<a href="#newer-planting-methods-worth-asking-about">Newer planting methods worth asking about</a>
+58	<a href="#gap-filling-the-30-day-rule">Gap filling: the 30-day rule</a>
+59	Sugarcane Farming: गन्ने में 99% जर्मिनेशन का सीक्रेट
+### /knowledge/potato-fertilizer-schedule
+60	<a href="#before-planting">Before planting</a>
+61	<a href="#earthing-up-about-25-to-30-days-after-planting">Earthing up (about 25 to 30 days after planting)</a>
+62	<a href="#tuber-initiation-about-35-to-50-days">Tuber initiation (about 35 to 50 days)</a>
+63	<a href="#bulking-about-50-to-80-days">Bulking (about 50 to 80 days)</a>
+64	<a href="#maturity-and-harvest">Maturity and harvest</a>
+### /knowledge/soil-fertility
+65	<a href="#nutrients-crops-need">Nutrients crops need</a>
+66	<a href="#why-organic-carbon-matters">Why organic carbon matters</a>
+67	<a href="#why-ph-matters">Why pH matters</a>
+68	<a href="#locked-nutrients">Locked nutrients</a>
+### /knowledge/soil-health
+69	<a href="#signs-of-healthy-soil">Signs of healthy soil</a>
+70	<a href="#signs-of-tired-soil">Signs of tired soil</a>
+71	<a href="#how-to-bring-soil-back-to-life">How to bring soil back to life</a>
+72	<a href="#where-gujarat-bio-organics-fits">Where Gujarat Bio Organics fits</a>
+### /knowledge/sustainability
+73	<a href="#reduce">Reduce</a>
+74	<a href="#reuse">Reuse</a>
+75	<a href="#recycle">Recycle</a>
+76	<a href="#restore">Restore</a>
+77	<a href="#restrict">Restrict</a>
+78	<a href="#our-part">Our part</a>
+### /articles/apple-leaf-fall-before-dormancy
+79	<a href="#count-the-leaves-then-choose-the-job">Count the leaves, then choose the job</a>
+80	<a href="#while-the-leaves-are-on-one-nutrition-decision">While the leaves are on: one nutrition decision</a>
+81	<a href="#after-the-leaves-drop-the-scab-job">After the leaves drop: the scab job</a>
+82	<a href="#trunk-and-basin">Trunk and basin</a>
+83	<a href="#mark-weak-trees-before-the-leaves-go">Mark weak trees before the leaves go</a>
+84	<a href="#what-not-to-do-before-dormancy">What not to do before dormancy</a>
+85	<a href="#when-pruning-should-wait">When pruning should wait</a>
+86	<a href="#where-immunity-fits">Where Immunity fits</a>
+### /articles/ascophyllum-sargassum-kappaphycus-difference
+87	<a href="#brown-seaweed-or-red-seaweed">Brown seaweed or red seaweed</a>
+88	<a href="#the-three-side-by-side">The three side by side</a>
+89	<a href="#what-studies-report-for-each">What studies report for each</a>
+90	<a href="#why-no-species-wins-on-paper">Why no species wins on paper</a>
+91	<a href="#extraction-can-change-what-you-are-buying">Extraction can change what you are buying</a>
+92	<a href="#how-to-choose">How to choose</a>
+93	<a href="#test-two-products-side-by-side">Test two products side by side</a>
+94	<a href="#what-not-to-do">What not to do</a>
+### /articles/cumin-sowing-seed-rate-spacing-first-irrigation
+95	<a href="#seed-rate-spacing-and-sowing-date">Seed rate, spacing and sowing date</a>
+96	<a href="#seed-treatment-before-sowing">Seed treatment before sowing</a>
+97	<a href="#first-irrigation-light-and-straight-after-sowing">First irrigation: light, and straight after sowing</a>
+98	<a href="#second-irrigation-8-to-10-days-after-sowing">Second irrigation: 8 to 10 days after sowing</a>
+99	<a href="#if-a-crust-forms">If a crust forms</a>
+100	<a href="#sowing-mistakes-that-can-show-up-later-as-wilt">Sowing mistakes that can show up later as wilt</a>
+### /articles/frost-potato-cumin-what-to-do
+101	<a href="#why-one-cold-night-can-matter">Why one cold night can matter</a>
+102	<a href="#how-to-tell-a-frost-night-is-coming">How to tell a frost night is coming</a>
+103	<a href="#before-dark-give-water-but-lightly">Before dark: give water, but lightly</a>
+104	<a href="#young-orchards-covers-and-moist-roots">Young orchards: covers and moist roots</a>
+105	<a href="#smoke-and-sprays-read-this-first">Smoke and sprays: read this first</a>
+106	<a href="#the-morning-after">The morning after</a>
+### /articles/grapes-after-october-pruning-first-45-days
+107	<a href="#day-8-to-17-check-bud-break-and-count-shoots">Day 8 to 17: check bud break and count shoots</a>
+108	<a href="#day-14-to-20-thin-shoots-early">Day 14 to 20: thin shoots early</a>
+109	<a href="#day-25-to-30-how-many-bunches-to-keep">Day 25 to 30: how many bunches to keep</a>
+110	<a href="#what-the-bunch-should-look-like">What the bunch should look like</a>
+111	<a href="#downy-mildew-dew-counts-as-much-as-rain">Downy mildew: dew counts as much as rain</a>
+112	<a href="#water-by-stage">Water by stage</a>
+113	<a href="#feeding-by-stage">Feeding by stage</a>
+### /articles/mango-before-flowering-next-30-days
+114	<a href="#first-find-your-own-flowering-date">First, find your own flowering date</a>
+115	<a href="#water-reduce-it-and-know-why">Water: reduce it, and know why</a>
+116	<a href="#nitrogen-close-this-door">Nitrogen: close this door</a>
+117	<a href="#shoot-maturity-count-the-days">Shoot maturity: count the days</a>
+118	<a href="#if-a-late-flush-has-started">If a late flush has started</a>
+119	<a href="#what-to-watch-when-panicles-emerge">What to watch when panicles emerge</a>
+120	<a href="#what-not-to-spray-in-bloom">What not to spray in bloom</a>
+### /articles/mild-vs-harsh-seaweed-extraction
+121	<a href="#what-extraction-has-to-do">What extraction has to do</a>
+122	<a href="#the-main-routes-in-plain-words">The main routes in plain words</a>
+123	<a href="#which-compounds-are-reported-to-be-sensitive">Which compounds are reported to be sensitive</a>
+124	<a href="#harsher-does-not-always-mean-weaker">Harsher does not always mean weaker</a>
+125	<a href="#what-you-can-and-cannot-tell-from-the-bottle">What you can and cannot tell from the bottle</a>
+126	<a href="#what-to-ask-the-seller">What to ask the seller</a>
+### /articles/potato-bulking-stage-water-and-care
+127	<a href="#day-1-walk-the-field-and-fix-your-dates">Day 1: walk the field and fix your dates</a>
+128	<a href="#days-1-to-20-keep-the-water-even">Days 1 to 20: keep the water even</a>
+129	<a href="#earthing-repair-do-not-rebuild">Earthing: repair, do not rebuild</a>
+130	<a href="#all-30-days-blight-and-frost-watch">All 30 days: blight and frost watch</a>
+131	<a href="#last-stretch-stop-water-then-cut-haulms">Last stretch: stop water, then cut haulms</a>
+132	<a href="#what-to-avoid">What to avoid</a>
+### /articles/read-irrigation-water-test-before-rabi
+133	<a href="#first-check-the-units">First check the units</a>
+134	<a href="#what-each-number-tells-you">What each number tells you</a>
+135	<a href="#safe-and-risky-ranges">Safe and risky ranges</a>
+136	<a href="#read-sar-and-ec-together">Read SAR and EC together</a>
+137	<a href="#how-your-soil-and-rain-change-the-limit">How your soil and rain change the limit</a>
+138	<a href="#how-sensitive-are-rabi-crops">How sensitive are rabi crops?</a>
+139	<a href="#what-you-can-do-this-season">What you can do this season</a>
+140	<a href="#taking-the-sample">Taking the sample</a>
+### /articles/when-to-spray-seaweed-extract
+141	<a href="#what-the-studies-tested-stage-by-stage">What the studies tested, stage by stage</a>
+142	<a href="#seedling-and-early-growth">Seedling and early growth</a>
+143	<a href="#vegetative-growth">Vegetative growth</a>
+144	<a href="#before-flowering-and-at-fruit-set">Before flowering and at fruit set</a>
+145	<a href="#before-heat-or-a-dry-spell">Before heat or a dry spell</a>
+146	<a href="#how-often-and-at-what-time-of-day">How often, and at what time of day</a>
+147	<a href="#why-a-stronger-spray-can-do-worse">Why a stronger spray can do worse</a>
+148	<a href="#what-to-do-on-your-farm">What to do on your farm</a>
+### /guides/dap-shortage-what-to-use-instead
+149	<a href="#what-one-bag-of-dap-actually-gives-your-crop">What one bag of DAP actually gives your crop</a>
+150	<a href="#how-many-bags-equal-one-dap-bag">How many bags equal one DAP bag</a>
+151	<a href="#rules-that-matter-more-than-the-bag">Rules that matter more than the bag</a>
+152	<a href="#how-to-need-less-dap-every-year">How to need less DAP every year</a>
+153	<a href="#crop-notes-for-this-rabi">Crop notes for this rabi</a>
+154	<a href="#do-not-pay-more-than-the-printed-price">Do not pay more than the printed price</a>
+155	DAP વગર શેરડીનો વિકાસ
+### /guides/potato-early-blight-vs-late-blight
+156	<a href="#the-difference-at-a-glance">The difference at a glance</a>
+157	<a href="#why-late-blight-is-the-one-to-fear-in-gujarat">Why late blight is the one to fear in Gujarat</a>
+158	<a href="#what-to-do-about-late-blight">What to do about late blight</a>
+159	<a href="#what-to-do-about-early-blight">What to do about early blight</a>
+160	<a href="#healthy-leaves-mean-bigger-potatoes">Healthy leaves mean bigger potatoes</a>
+### /guides/mango-flowering-care
+161	<a href="#how-a-mango-tree-decides-to-flower">How a mango tree decides to flower</a>
+162	<a href="#month-by-month-november-to-fruit-set">Month by month, November to fruit set</a>
+163	<a href="#mango-flowering-spray-schedule-stage-by-stage">Mango flowering spray schedule, stage by stage</a>
+164	<a href="#does-potassium-nitrate-increase-mango-flowering">Does potassium nitrate increase mango flowering?</a>
+165	<a href="#mango-hoppers-the-biggest-threat-at-flowering">Mango hoppers: the biggest threat at flowering</a>
+166	<a href="#powdery-mildew-on-mango-flowers">Powdery mildew on mango flowers</a>
+167	<a href="#paclobutrazol-an-honest-look">Paclobutrazol: an honest look</a>
+168	<a href="#mistakes-that-cost-flowers">Mistakes that cost flowers</a>
+169	<a href="#where-biostimulants-fit">Where biostimulants fit</a>
+170	શું તમારા આંબાના છોડ Stressમાં છે? આંબાના ખેડૂતો માટે સંદેશ
+### /guides/high-density-kesar-mango
+171	<a href="#common-spacings">Common spacings</a>
+172	<a href="#why-close-planting-fails-for-many-growers">Why close planting fails for many growers</a>
+173	<a href="#the-yearly-pruning-window">The yearly pruning window</a>
+174	<a href="#what-to-plan-before-planting">What to plan before planting</a>
+175	<a href="#related-guides">Related guides</a>
+### /guides/sugarcane-ratoon-management
+176	<a href="#why-ratoons-fall-behind">Why ratoons fall behind</a>
+177	<a href="#step-by-step-after-the-last-cane-is-cut">Step by step after the last cane is cut</a>
+178	<a href="#why-trash-is-worth-more-than-the-fire">Why trash is worth more than the fire</a>
+179	<a href="#feeding-the-ratoon">Feeding the ratoon</a>
+180	<a href="#how-many-ratoons-to-keep">How many ratoons to keep</a>
+181	<a href="#related">Related</a>
+### /guides/how-to-increase-sugarcane-tillers
+182	<a href="#how-tillering-works">How tillering works</a>
+183	<a href="#what-makes-a-clump-tiller-well">What makes a clump tiller well</a>
+184	<a href="#count-your-tillers">Count your tillers</a>
+185	<a href="#where-biological-inputs-fit">Where biological inputs fit</a>
+### /guides/salty-borewell-water-for-crops
+186	<a href="#what-salt-does-to-a-crop">What salt does to a crop</a>
+187	<a href="#test-the-water-once-a-year">Test the water, once a year</a>
+188	<a href="#which-crops-cope-better">Which crops cope better</a>
+189	<a href="#how-to-keep-farming-with-salty-water">How to keep farming with salty water</a>
+### /guides/yellow-leaves-despite-fertilizer
+190	<a href="#step-1-which-leaves-are-yellow">Step 1: which leaves are yellow?</a>
+191	<a href="#step-2-check-the-roots-before-the-bag">Step 2: check the roots before the bag</a>
+192	<a href="#step-3-is-the-soil-locking-nutrients">Step 3: is the soil locking nutrients?</a>
+193	<a href="#what-to-do">What to do</a>
+### /guides/flower-drop-before-fruit-set
+194	<a href="#normal-drop-and-problem-drop">Normal drop and problem drop</a>
+195	<a href="#the-common-causes">The common causes</a>
+196	<a href="#crop-notes">Crop notes</a>
+197	<a href="#before-you-spray">Before you spray</a>
+### /guides/hard-compact-soil
+198	<a href="#why-soil-becomes-hard">Why soil becomes hard</a>
+199	<a href="#check-your-soil-in-10-minutes">Check your soil in 10 minutes</a>
+200	<a href="#how-to-loosen-it">How to loosen it</a>
+### /guides/soil-microbial-activity
+201	<a href="#what-microbes-do-for-your-crop">What microbes do for your crop</a>
+202	<a href="#what-feeds-them">What feeds them</a>
+203	<a href="#what-harms-them">What harms them</a>
+204	<a href="#signs-of-a-living-soil">Signs of a living soil</a>
+205	<a href="#where-biofertilizers-fit">Where biofertilizers fit</a>
+### /guides/which-biofertilizers-to-use
+206	<a href="#what-each-one-does">What each one does</a>
+207	<a href="#how-to-apply-them">How to apply them</a>
+208	<a href="#why-biofertilizers-sometimes-fail">Why biofertilizers sometimes fail</a>
+209	<a href="#what-to-expect">What to expect</a>
+### /guides/reduce-chemical-fertilizer-without-yield-loss
+210	<a href="#why-cutting-all-at-once-fails">Why cutting all at once fails</a>
+211	<a href="#the-path-step-by-step">The path, step by step</a>
+212	<a href="#where-most-fertilizer-is-wasted">Where most fertilizer is wasted</a>
+213	<a href="#tools-that-help">Tools that help</a>
+### /guides/organic-vs-natural-farming
+214	<a href="#side-by-side">Side by side</a>
+215	<a href="#what-both-share">What both share</a>
+### /guides/biological-pest-and-disease-control
+216	<a href="#the-main-tools">The main tools</a>
+217	<a href="#rules-that-make-them-work">Rules that make them work</a>
+218	<a href="#prevention-first">Prevention first</a>
+219	<a href="#when-to-use-chemicals">When to use chemicals</a>

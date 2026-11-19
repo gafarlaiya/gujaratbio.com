@@ -157,3 +157,33 @@ html[lang=gu] body{font-family:"Mukta","Noto Sans Gujarati","Shruti",sans-serif}
 .prose .stats{grid-template-columns:repeat(3,1fr);margin:0 0 24px}
 .prose .stat span{font-size:.92rem;color:var(--ink2)}
 @media(max-width:640px){.prose .stats{grid-template-columns:1fr;gap:8px}.prose .stat{padding:10px 14px}.prose .stat b{font-size:1.4rem}}
+/* v3: picture in reading-page heroes, element tile, side column, videos */
+.hero-pic{padding:40px 0 48px}.hero-pic .hero-grid{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:40px}
+.hero-vis{display:flex;justify-content:center}
+.leaf{position:relative;margin:0;width:100%;max-width:440px}
+.leaf:before{content:"";position:absolute;inset:16px -16px -16px 16px;border-radius:150px 20px 150px 20px;background:var(--turl);border:2px solid var(--tur)}
+.leaf img{position:relative;display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:150px 20px 150px 20px}
+.el{position:relative;width:250px;aspect-ratio:1;background:var(--leafd);color:#fff;border-radius:22px;padding:18px 22px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:16px 16px 0 var(--turl)}
+.el-n{font:700 1.3rem/1 "Baloo 2",sans-serif;color:#cfe0c8}
+.el-s{font:800 7.5rem/.8 "Baloo 2",sans-serif;color:var(--tur);letter-spacing:-.03em}
+.el-name{font:700 1.4rem/1 "Baloo 2",sans-serif}
+@media(max-width:820px){.hero-pic .hero-grid{gap:22px}.leaf{max-width:none}.leaf:before{inset:10px -8px -10px 8px;border-radius:90px 14px 90px 14px}.leaf img{aspect-ratio:16/9;border-radius:90px 14px 90px 14px}.el{width:170px;padding:12px 16px;box-shadow:10px 10px 0 var(--turl)}.el-s{font-size:5rem}.el-name{font-size:1.1rem}.hero-vis{justify-content:flex-start}}
+.artgrid{display:block}
+.side .otp{display:none}
+.ask{background:var(--field);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;margin-top:28px}
+.ask-h{font:700 1.2rem/1.2 "Baloo 2",sans-serif;color:var(--leafd);margin-bottom:6px}.ask p{font-size:.98rem}.ask .btn{width:100%}
+@media(min-width:1100px){
+.artgrid{display:grid;grid-template-columns:minmax(0,46em) 270px;gap:56px;justify-content:space-between;align-items:start}
+.side{position:sticky;top:84px;max-height:calc(100vh - 100px);overflow:auto}
+.side .otp{display:block;border-left:3px solid var(--line);padding:2px 0 2px 16px}
+.otp-h{font:700 .95rem "Mukta",sans-serif;color:var(--ink2);margin-bottom:6px}
+.otp ol{list-style:none;margin:0;padding:0}.otp li{margin:0}
+.otp a{display:block;padding:5px 0;color:var(--ink2);text-decoration:none;font-size:.93rem;line-height:1.35}.otp a:hover{color:var(--leaf)}
+.ask{margin-top:24px}}
+.prose h2[id]{scroll-margin-top:84px}
+.vgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}@media(max-width:820px){.vgrid{grid-template-columns:1fr}}
+.yt{margin:0}.yt-f{position:relative;aspect-ratio:16/9;border-radius:var(--r);overflow:hidden;background:#0d1a0e}
+.yt-f iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.yt figcaption{font-weight:600;margin-top:8px;line-height:1.4}
+@media(max-width:820px){.hero-pic .hero-grid{grid-template-columns:1fr}.hero-pic{padding:28px 0 36px}}
+@media(min-width:1100px){.artgrid .prose .toc{display:none}}

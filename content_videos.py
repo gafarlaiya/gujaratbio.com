@@ -1,0 +1,42 @@
+# YouTube videos from the Gujarat Bio Organics channels, mapped to the pages they belong on.
+# (video id, upload date, ISO duration, caption shown on the page (the video's own title, cleaned), pages)
+# Farmer videos are their own accounts; captions keep the farmer's words and do not add claims.
+YT = [
+ ("6lyzRwnubrQ", "2026-10-24", "PT3M32S", "શેરડીનું મુહૂર્ત કટિંગ: ફાલ્ગુનીબેન પટેલ, નવસારી", ["/farmer-stories", "/crops/sugarcane"]),
+ ("FI413yXiuzw", "2026-10-16", "PT3M22S", "गन्ने की खेती में इम्यूनिटी शुगरकेन स्पेशल का महत्व", ["/products/immunity-sugarcane-special"]),
+ ("sAP7TRPSLUw", "2026-10-08", "PT4M16S", "Sugarcane Farming: गन्ने में 99% जर्मिनेशन का सीक्रेट", ["/crop-problems/sugarcane-poor-germination"]),
+ ("v6fzlCLp2q8", "2026-10-08", "PT1M20S", "86032 sugarcane germination with Immunity Sugarcane Special", ["/crops/sugarcane", "/products/immunity-sugarcane-special"]),
+ ("hztJ_tVMAHU", "2025-12-11", "PT1M", "13013 શેરડી: વાવાઝોડામાં રોપેલી શેરડીનું જર્મિનેશન", ["/crop-problems/sugarcane-poor-germination"]),
+ ("5emEYu06iwg", "2025-12-27", "PT5M49S", "707 શેરડી: એક જ છોડમાંથી 15 મજબૂત ફૂટ, ગણદેવીના નિમેશ પટેલ", ["/guides/how-to-increase-sugarcane-tillers", "/crops/sugarcane"]),
+ ("f6K-x71PFTQ", "2025-12-10", "PT56S", "શેરડીની ફૂટ કેવી રીતે વધે? મુનાફભાઈનો અનુભવ", ["/guides/how-to-increase-sugarcane-tillers"]),
+ ("4Yq3bmLdSlg", "2025-01-02", "PT59S", "गन्ना 86002: 7 महीने का रटून, विपुल भाई की कहानी", ["/guides/sugarcane-ratoon-management"]),
+ ("3pKQAbrBjKw", "2026-09-03", "PT41S", "DAP વગર શેરડીનો વિકાસ", ["/guides/dap-shortage-what-to-use-instead"]),
+ ("s3F7ubm6Hlo", "2025-01-04", "PT1M29S", "Cotton (કપાસ, कपास) with 0% DAP", ["/guides/dap-shortage-what-to-use-instead", "/crops/cotton"]),
+ ("ROnQwnEP_G4", "2014-09-11", "PT1M22S", "Immunity organic fertilizer in cotton", ["/crops/cotton", "/products/immunity-cotton-special"]),
+ ("O8MwXfORioU", "2024-11-15", "PT13M30S", "जीरे की खेती: भरत भाई का 0% DAP अनुभव", ["/crops/cumin", "/products/immunity-cumin-special"]),
+ ("Sq0sOc95q9A", "2024-11-15", "PT1M", "Cumin (જીરું, जीरा) with Immunity Cumin Special", ["/crops/cumin"]),
+ ("Dd1RSpsJb7M", "2026-05-31", "PT3M24S", "20 फीट दूर दो आम के बाग: एक में बंपर पैदावार, दूसरा फेल", ["/crops/mango"]),
+ ("xl4WAGOVFLk", "2025-12-19", "PT3M43S", "આંબા માંદા હતા: હિતેશભાઈ કાપડીનો અનુભવ", ["/crops/mango", "/farmer-stories"]),
+ ("NPztQRZo1M0", "2026-01-14", "PT4M46S", "આંબાની ખેતી: આંબામાં એટલો માલ કે ડાળીઓ બચાવવી મુશ્કેલ", ["/crop-problems/mango-alternate-bearing"]),
+ ("XiyV3izP9uA", "2025-01-11", "PT1M17S", "क्या आम के बौर की लंबाई से फल लगने में फर्क पड़ता है?", ["/guides/mango-flowering-care"]),
+ ("IgZYnCUjsnQ", "2026-04-13", "PT1M14S", "શું તમારા આંબાના છોડ Stressમાં છે? આંબાના ખેડૂતો માટે સંદેશ", ["/guides/mango-flowering-care"]),
+ ("2HzzOu9HTZg", "2025-01-23", "PT58S", "आम का फ्रूट सेटिंग", ["/crop-problems/mango-fruit-drop"]),
+ ("NosorBgI4T0", "2025-10-26", "PT1M1S", "Mango production and fruit drop: Immunity Mango Special", ["/products/immunity-mango-special", "/crop-problems/mango-fruit-drop"]),
+ ("Hb75Y8mEtWY", "2024-08-23", "PT1M", "सेब के पौधों को वापस लाया: सुशील चौहान, खड़ा पत्थर, शिमला", ["/crop-problems/apple-root-rot", "/crops/apple", "/products/immunity-apple-special"]),
+ ("a9wUyXqoqV4", "2026-04-19", "PT1M58S", "Kashmir apple farmer: branches heavy with crop", ["/crops/apple"]),
+ ("CHBsBjDEez0", "2026-04-23", "PT41S", "Citrus with Immunity Citrus Special: Sanjay Arora, Sri Ganganagar", ["/crops/citrus", "/products/immunity-citrus-special"]),
+ ("KJi-OMZw-j0", "2025-10-17", "PT31S", "दुल्ला सरपंच: पहली बार देखा इतना बड़ा आलू", ["/crop-problems/potato-small-tubers", "/crops/potato"]),
+ ("gwywPPiFF6Y", "2025-10-04", "PT4M45S", "26 days potato with Immunity Potato Special", ["/products/immunity-potato-special", "/crops/potato"]),
+ ("qPsPRZsuOA4", "2025-10-13", "PT30S", "पुखराज आलू: मिट्टी फिर से जिंदा कैसे हुई?", ["/guides/soil-microbial-activity"]),
+ ("sYhdy283Yds", "2025-02-06", "PT3M1S", "મૂળ તૂટતા નથી, જમીન પોચી થાય છે", ["/guides/hard-compact-soil"]),
+ ("bepJSpkepfg", "2024-08-24", "PT2M25S", "गन्ने की खेती: 12 बैग केमिकल खाद बनाम जैविक, बिरंज पटेल", ["/guides/reduce-chemical-fertilizer-without-yield-loss"]),
+ ("T246-ZSiEU4", "2025-02-07", "PT58S", "धान की नर्सरी 45 दिन: Immunity Paddy Special", ["/crops/paddy", "/products/immunity-paddy-special"]),
+ ("ZZpcjc1SFeY", "2024-06-08", "PT2M", "Paddy: Karan Raj Singh, Karnal, on Dhanya Special", ["/crops/paddy", "/products/immunity-dhanya-special"]),
+ ("0HQZteHZ_pg", "2025-01-01", "PT56S", "ખેડૂતની સમીક્ષા: ઇમ્યુનિટી ઓનિયન સ્પેશલ", ["/crops/onion", "/products/immunity-onion-special"]),
+ ("Xw55OpjHYU4", "2024-09-26", "PT6M57S", "Chilli with Immunity Chilli Special", ["/crops/chilli", "/products/immunity-chilli-special"]),
+ ("6Ja9TJNZq10", "2025-01-02", "PT1M16S", "बैंगन: सपनों की फसल", ["/crops/vegetables"]),
+ ("QeVm_KZ52JE", "2024-10-04", "PT1M18S", "Gujarat Bio Organics Private Limited", ["/our-story", "/about"]),
+]
+VIDEOS = {}
+for _v in YT:
+    for _p in _v[4]: VIDEOS.setdefault(_p, []).append(_v)

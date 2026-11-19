@@ -80,7 +80,9 @@ def media(fname, desc, kind="img", cls=""):
         if kind == "video":
             pst = f' poster="/assets/media/{POSTER[real]}"' if real in POSTER else ""
             return f'<div class="media {cls}"><video controls preload="none" playsinline{pst} src="/assets/media/{real}" aria-label="{esc(desc)}"></video></div>'
-        return f'<div class="media {cls}"><img src="/assets/media/{fname}" alt="{esc(desc)}" loading="lazy"></div>'
+        from PIL import Image as _I
+        _w, _h = _I.open(path).size
+        return f'<div class="media {cls}"><img src="/assets/media/{fname}" alt="{esc(desc)}" loading="lazy" decoding="async" width="{_w}" height="{_h}"></div>'
     if not SHOW_SLOTS: return ""   # no empty photo boxes on the live site; the missing list is written to media-needed.csv
     label = "Video coming soon" if kind == "video" else "Photo coming soon"
     return f'<div class="slot {"video " if kind == "video" else ""}{cls}" role="img" aria-label="{esc(label + ": " + desc)}"><span>{label}</span><span class="fn">{esc(fname)}</span><span class="ds">{esc(desc)}</span></div>'
@@ -244,6 +246,7 @@ def video_ld(body):
 
 def render(path, title, desc, body, schemas=None, crumbs=None, prio="0.6", lang="en", og=None):
     if path in SEO: title, desc = SEO[path]
+    body, _vld = enhance(path, body)
     if path in DEEP and 'class="hook"' not in body:  # deeper content for pages that were thin (content_deepen.py)
         body, schemas = deep_inject(path, body, list(schemas or []))
     url = SITE + path
@@ -257,7 +260,7 @@ def render(path, title, desc, body, schemas=None, crumbs=None, prio="0.6", lang=
     for x in ld:
         if x.get("@type") == "Article" and "datePublished" not in x:
             x["datePublished"], x["dateModified"] = _pub, _mod  # SEO_AUDIT.md H3
-    ld += video_ld(body)
+    ld += video_ld(body) + _vld
     ldh = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in ld)
     if len(desc) > 160: desc = desc[:157].rsplit(" ", 1)[0].rstrip(",;:") + "..."
     robots = "noindex,follow" if TRIAL or path in HOLD else "index,follow,max-image-preview:large"
@@ -312,6 +315,7 @@ def sec(inner, title=None, sub=None, tint=False, id=None):
     s = f'<p class="sub">{esc(sub)}</p>' if sub else ""
     i = f' id="{id}"' if id else ""
     return f'<section class="sec{" tint" if tint else ""}"{i}><div class="wrap">{t}{s}{inner}</div></section>'
+exec(open(os.path.join(ROOT, "design_v3.py"), encoding="utf-8").read())
 def ul(items, cls="ticks"): return f'<ul class="{cls}">' + "".join(f"<li>{esc(i)}</li>" for i in items) + "</ul>"
 def _li(i):  # escape text, but keep simple <a href> links
     t = re.sub(r"&lt;a href=&quot;([^&\"]+)&quot;&gt;(.*?)&lt;/a&gt;", r'<a href="\1">\2</a>', esc(i))
