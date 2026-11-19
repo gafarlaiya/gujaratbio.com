@@ -68,5 +68,7 @@ KNOW.append(dict(slug="potato-fertilizer-schedule", title="Potato Fertilizer Sch
                 ("Bulking (about 50 to 80 days)", ["Tubers grow in size and weight; potash and steady water matter most.", "Protect the leaves from late blight; healthy leaves fill the tubers.", "Avoid late nitrogen; it delays maturity and weakens skins."]),
                 ("Maturity and harvest", ["Stop irrigation about 10 to 15 days before harvest.", "Cut haulms when advised so the skin sets.", "Harvest when skins do not peel when rubbed."])],
       faq=[("When should urea be applied to potato?", "A common practice is half the nitrogen at planting and the rest at earthing up, about 25 to 30 days after planting. Follow your soil test advice for the amount."),
+           ("When should potash be given to potato?", "The full potash is usually given as the basal dose at planting. On light, sandy soils some growers split it and give part again at earthing up. Your soil test decides the amount."),
+           ("What should go in at potato planting?", "Well-rotted manure or compost, the full phosphorus and potash, about half of the nitrogen, and biofertilizers such as Azotobacter and PSB mixed with the manure."),
            ("When should I stop irrigating potato before harvest?", "About 10 to 15 days before harvest, so the skins set and the tubers store well."),
            ("Which Immunity product is for potato?", "Immunity Potato Special. Send us your crop stage and location for a schedule.")]))

@@ -635,6 +635,13 @@ cf = f"""<form class="form" id="calc" onsubmit="return false">
 ct = hero("Fertilizer dose calculator", "Turn your soil test recommendation (kg of N, P and K per acre) into kilos and bags of urea, DAP or SSP, and MOP.", [("Knowledge", "/knowledge"), ("Fertilizer dose calculator", None)], light=True)
 ct += sec(f'<div class="grid two"><div>{cf}</div><div class="prose"><h3>How to use it</h3><ol><li>Take the N, P2O5 and K2O recommendation from your soil test report or soil health card.</li><li>Enter the amounts per acre and your area.</li><li>Choose DAP or SSP for phosphorus. With DAP, the nitrogen it supplies is subtracted from the urea.</li></ol>'
           f'<p>This calculator only converts nutrients into fertilizer weights. It does not decide how much your crop needs; that comes from a soil test and your crop stage. <a href="/guides/how-to-take-a-soil-sample">How to take a soil sample</a>.</p></div></div>')
+ct += sec('<div class="prose"><p>Each row shows how much of the fertilizer supplies 10 kg of the nutrient on one acre. Multiply by your soil test figure: for 25 kg P2O5 per acre, that is about 54 kg DAP or about 156 kg SSP.</p></div>'
+          '<table class="packs" style="max-width:720px"><thead><tr><th>Fertilizer</th><th>Nutrient content</th><th>Fertilizer for 10 kg nutrient per acre</th><th>Also supplies</th></tr></thead><tbody>'
+          '<tr><td>Urea</td><td>46% N</td><td>about 22 kg</td><td>None</td></tr>'
+          '<tr><td>DAP</td><td>46% P2O5</td><td>about 22 kg</td><td>about 4 kg N</td></tr>'
+          '<tr><td>SSP</td><td>16% P2O5</td><td>about 62 kg</td><td>Sulphur and calcium</td></tr>'
+          '<tr><td>MOP</td><td>60% K2O</td><td>about 17 kg</td><td>None</td></tr></tbody></table>'
+          '<p class="note">How much nitrogen, phosphorus and potash a crop needs per acre comes from your soil test and crop stage, not from this table.</p>', "SSP, DAP, MOP and urea dose per acre: quick conversion")
 ct += enquiry_box(title="Want a programme for your crop?")
 render("/tools/fertilizer-dose-calculator", "Fertilizer Dose Calculator: Urea, DAP, SSP, MOP Bags | GBO",
        "Free fertilizer dose calculator: convert your soil test N, P and K per acre into kilos and bags of urea, DAP or SSP, and MOP for your area.",

@@ -1,9 +1,9 @@
 # Title and description rewrites for pages that show in Google but get few clicks (Search Console, Aug to Nov 2026).
 # Plain, specific, no promises. Titles <= 65 characters, descriptions <= 158.
 SEO = {
- "/": ("Gujarat Bio Organics: Organic Fertilizer Manufacturer, Gujarat",
+ "/": ("Organic & Bio Fertilizer Manufacturer in Gujarat | Gujarat Bio",
        "Gujarat Bio Organics, Bhavnagar: organic fertilizer, biofertilizer and biostimulant manufacturer since 2006. Immunity formulas for 20 crops. Call 99787 91167."),
- "/about": ("About Us: Organic Fertilizer Company in Bhavnagar, Gujarat",
+ "/about": ("About Us: Organic and Bio Fertilizer Company in Gujarat",
        "Since 2006 we make organic fertilizers, biofertilizers and biostimulants at our own factory in Shihor, Bhavnagar, and work with farmers across India."),
  "/contact": ("Contact Gujarat Bio Organics, Bhavnagar | 99787 91167",
        "Call or WhatsApp +91 99787 91167, email sales@gujaratbio.com, or visit our factory at GIDC Shihor, Bhavnagar, Gujarat. We reply within one working day."),
@@ -21,14 +21,17 @@ SEO = {
        "Why anar fruit cracks or drops and stays small and pale: steady watering, bahar care, micronutrients to watch, and what to check in weak plants."),
  "/products/immunity-gold": ("Immunity Gold: Organic Fertilizer for All Crops | GBO",
        "Immunity Gold is our general organic formula for field crops, vegetables, fruit and plantation crops. Pack sizes, how farmers use it and how to order."),
- "/products/immunity-onion-special": ("Immunity Onion Special: Onion Fertilizer for Bulb Size | GBO",
-       "Organic onion fertilizer made for small, uneven bulbs and poor storage. When to apply, pack sizes and how to order on WhatsApp."),
- "/products/immunity-mango-special": ("Immunity Mango Special: Organic Mango Fertilizer | GBO",
-       "Organic mango fertilizer made for tree decline, alternate bearing, fruit drop and small fruit. When to apply, pack sizes and how to order."),
- "/articles/unmasking-the-culprits-what-really-causes-apple-root-rot": ("Apple Root Rot: Causes, Signs and What to Check in Your Orchard",
+ "/products/immunity-onion-special": ("Onion Special Fertilizer: Immunity Onion Special | GBO",
+       "Immunity Onion Special is our organic onion special fertilizer for small, uneven bulbs and poor storage. When to apply, pack sizes, how to order."),
+ "/products/immunity-mango-special": ("Mango Special Fertilizer: Immunity Mango Special | GBO",
+       "Immunity Mango Special is our organic mango special fertilizer for tree decline, alternate bearing, fruit drop and small fruit. When to apply, pack sizes."),
+ "/articles/unmasking-the-culprits-what-really-causes-apple-root-rot": ("Root Rot in Apple Trees: Causes, Signs and What to Check",
        "What causes root rot in apple trees: the soil fungi involved, waterlogging and poor drainage, early signs on roots and collar, and what growers can check."),
  "/articles/mastering-neem-optimal-dosage-timing-and-application-techniques-for": ("Neem Spray for Crops: Dose, Timing and How to Apply",
        "How much neem to use, the best time of day and crop stage to spray or drench, and simple mixing tips farmers use for natural pest control."),
+
+"/crop-problems/citrus-dieback": ("Citrus Dieback in Lemon and Orange: Causes, Signs, Care",
+       "What causes dieback in citrus and lemon trees: Colletotrichum twig blight, Phytophthora root rot, greening, zinc and iron shortage. Signs and a rescue plan."),
 
 # Legacy imported articles whose titles were cut off with '...' (SEO_AUDIT.md H5). Plain, question-led, no promises.
  "/articles/traditional-wisdom-meets-modern-science-rediscovering-ancient-organic-practices": ("Old Indian Farming Practices: What Modern Science Says",
