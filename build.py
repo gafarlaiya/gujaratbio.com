@@ -137,15 +137,15 @@ def header(path):
             s = f'<div class="sub{" wide" if len(sub) > 8 else ""}">' + "\n".join(f'<a href="{u}">{esc(n)}</a>' for u, n in sub) + "</div>"
         items.append(f'<div class="ni"><a href="{h}"{cur}>{t}</a>{s}</div>')
     trial = '<span class="t">Trial version of the new website.</span>' if TRIAL else "<span></span>"
-    return f'''<a class="skip" href="#main">Skip to content</a><div class="strip"><div class="wrap">{trial}<span><a href="tel:{TEL}">{PHONE}</a></span></div></div>
-<header class="top"><div class="wrap"><a class="brand" href="/"><img src="/assets/img/brand/gbo-logo-96.webp" alt="Gujarat Bio Organics logo" width="46" height="46" fetchpriority="high"><span class="bt"><b>Gujarat Bio Organics</b><span>Working with farmers since 2006</span></span></a>
+    return f'''<a class="skip" href="#main">Skip to content</a><div class="strip"><div class="wrap" data-nosnippet>{trial}<span><a href="tel:{TEL}">{PHONE}</a></span></div></div>
+<header class="top"><div class="wrap" data-nosnippet><a class="brand" href="/"><img src="/assets/img/brand/gbo-logo-96.webp" alt="Gujarat Bio Organics logo" width="46" height="46" fetchpriority="high"><span class="bt"><b>Gujarat Bio Organics</b><span>Working with farmers since 2006</span></span></a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button><nav class="nav" id="nav" aria-label="Main">{"".join(items)}<a class="enq" href="/enquiry" data-ev="begin_quote">Send enquiry</a></nav></div></header>'''
 
 def footer():
     crops = "".join(f'<li><a href="/crops/{c["slug"]}">{c["name"]}</a></li>' for c in CRP[:10])
     return f'''<div class="biz"><div class="wrap"><h2>Bulk buyer, manufacturer or brand?</h2><p>Need bulk supply, OEM or private label? Our business site has grades, specifications and export terms.</p>
 <div class="btns"><a class="btn" href="/bulk-buyers">Bulk buyers</a><a class="btn" href="/dealers">Become a dealer</a><a class="btn" href="{B2B}/private-label-oem?utm_source=agriculture.gujaratbio.com&amp;utm_medium=referral&amp;utm_campaign=farmer_site">OEM and private label</a></div></div></div>
-<footer class="foot"><div class="wrap"><div class="cols">
+<footer class="foot"><div class="wrap" data-nosnippet><div class="cols">
 <div><img src="/assets/img/brand/gbo-logo-96.webp" alt="" width="70" height="70" loading="lazy" style="background:#fff;border-radius:12px;padding:4px"><h2>{NAME}</h2><p>Biostimulants, biofertilizers and organic fertilizers, made in Bhavnagar, Gujarat. Working with farmers since 2006.</p>
 <p>Factory: {FACTORY}<br>Office: {REGOFF}<br>CIN {CIN}</p><p><a href="tel:{TEL}">{PHONE}</a> &middot; <a href="mailto:{MAIL}">{MAIL}</a></p>
 <p><a href="{SOCIAL[0]}" rel="noopener">Facebook</a> &middot; <a href="{SOCIAL[1]}" rel="noopener">YouTube</a></p></div>
