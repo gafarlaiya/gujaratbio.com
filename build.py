@@ -87,7 +87,7 @@ def media(fname, desc, kind="img", cls=""):
     label = "Video coming soon" if kind == "video" else "Photo coming soon"
     return f'<div class="slot {"video " if kind == "video" else ""}{cls}" role="img" aria-label="{esc(label + ": " + desc)}"><span>{label}</span><span class="fn">{esc(fname)}</span><span class="ds">{esc(desc)}</span></div>'
 
-SITES = [("https://www.gujaratbio.com/", "www.gujaratbio.com", "Main company website: Immunity products, crop guides and farmer knowledge (this site, after the trial)."),
+SITES = [("https://www.gujaratbio.com/", "www.gujaratbio.com", "Main company website: Immunity products, crop guides and farmer knowledge."),
          ("https://b2b.gujaratbio.com/", "b2b.gujaratbio.com", "Business buyers: bulk supply, private label, OEM and export of biostimulants and biofertilizers."),
          ("https://ganna.in/", "ganna.in", "Sugarcane growers, in Gujarati: Immunity Sugarcane Program, dose schedule and farmer results."),
          ("https://mangomastery.com/", "mangomastery.com", "Mango growers, in Gujarati, Hindi and English: free orchard check, month-by-month mango calendar and farmer stories.")]
@@ -134,7 +134,7 @@ def header(path):
         cur = ' aria-current="page"' if (path == h or (h != "/" and path.startswith(h))) else ""
         s = ""
         if sub:
-            s = f'<div class="sub{" wide" if len(sub) > 8 else ""}">' + "".join(f'<a href="{u}">{esc(n)}</a>' for u, n in sub) + "</div>"
+            s = f'<div class="sub{" wide" if len(sub) > 8 else ""}">' + "\n".join(f'<a href="{u}">{esc(n)}</a>' for u, n in sub) + "</div>"
         items.append(f'<div class="ni"><a href="{h}"{cur}>{t}</a>{s}</div>')
     trial = '<span class="t">Trial version of the new website.</span>' if TRIAL else "<span></span>"
     return f'''<a class="skip" href="#main">Skip to content</a><div class="strip"><div class="wrap">{trial}<span><a href="tel:{TEL}">{PHONE}</a></span></div></div>
@@ -845,8 +845,7 @@ wb = hero("Where to buy Immunity", "Ask us for the nearest dealer, or order dire
 wb += sec(f'''<ol class="stages"><li><h3>Tell us your location and crop</h3><p>Send an enquiry, WhatsApp or call with your village, district, crop and the product you want.</p></li>
 <li><h3>We point you to a dealer near you</h3><p>If there is an Immunity dealer near you, we share their details.</p></li>
 <li><h3>Or order direct</h3><p>Where there is no dealer, we supply direct and deliver by courier or transport.</p></li></ol>
-<div class="btns">{btn_enq("Find where to buy", "?type=Where+to+buy")}{btn_wa("Hello Gujarat Bio Organics, where can I buy Immunity near me? Village/District: / Crop: / Product:", "Ask on WhatsApp")}{btn_call()}</div>
-<p class="note">Dealer list by district coming soon.</p>''')
+<div class="btns">{btn_enq("Find where to buy", "?type=Where+to+buy")}{btn_wa("Hello Gujarat Bio Organics, where can I buy Immunity near me? Village/District: / Crop: / Product:", "Ask on WhatsApp")}{btn_call()}</div>''')
 render("/where-to-buy", "Where to Buy Immunity Near You | Gujarat Bio Organics", "Find the nearest Immunity dealer or order direct from Gujarat Bio Organics on WhatsApp or phone. Delivery across India from Bhavnagar, Gujarat.",
        wb, None, [("Dealers & Bulk", "/dealers"), ("Where to buy", None)], "0.7")
 
