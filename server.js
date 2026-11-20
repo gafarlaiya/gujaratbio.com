@@ -13,7 +13,7 @@ function redirectFor(p) {
   if (REDIRECTS[p]) return REDIRECTS[p];
   const lang = p.match(/^\/(gu|hi)(\/.*)?$/);           // old Gujarati/Hindi copies
   if (lang && fs.existsSync(path.join(__dirname, p, 'index.html'))) return null;   // translated page exists
-  if (lang && Object.keys(REDIRECTS).length) { const rest = lang[2] || '/'; return REDIRECTS[rest] || rest; }
+  if (lang && Object.keys(REDIRECTS).length) { const rest = lang[2] || '/'; const to = REDIRECTS[rest] || rest; const lt = '/' + lang[1] + (to === '/' ? '' : to); return (to.startsWith('/') && fs.existsSync(path.join(__dirname, lt, 'index.html'))) ? lt : to; }   // keep the visitor's language when that page is translated
   return null;
 }
 function send(res, code, file, extra, req) {
