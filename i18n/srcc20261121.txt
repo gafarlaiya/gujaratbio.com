@@ -1,0 +1,83 @@
+### /
+0	Castor (Erandi)
+1	Castor (Erandi)
+2	Weak roots on hard soil, wilt and gaps in the spikes.
+3	Slow early growth, small leaves and leaf quality.
+4	<a href="/crops/castor">Castor (Erandi)</a>
+### /crops/castor
+5	Castor (Erandi) Farming Guide: Stages, Problems & Care | GBO
+6	Castor (Erandi) guide for growers: stage-by-stage care, common problems, what to check, and how farmers use Immunity Granules through the season.
+7	<a href="/">Home</a> / <a href="/crops">Crops</a> / Castor (Erandi)
+8	Castor (Erandi) guide
+9	Castor (Erandi) stage by stage
+10	Castor is a deep-rooted oilseed crop that stays in the field for many months, so root depth and soil health matter more than in a short crop. Growers bring us stunted plants on hard soil, wilting plants and spikes that do not fill well.
+11	Main growing areas: Gujarat, Rajasthan, Andhra Pradesh and Telangana.
+12	Sowing and establishment
+13	First 3 to 4 weeks
+14	Loose soil and moisture let the taproot go deep and give an even stand.
+15	Vegetative growth and branching
+16	About 1 to 3 months
+17	Strong roots and steady nutrition build the branches that carry the spikes.
+18	Spike development
+19	About 3 to 5 months
+20	The main spike and later spikes set and fill. Water or nutrient stress now leaves gaps in the spike.
+21	From about 4 to 5 months, in rounds
+22	Capsules ripen spike by spike and are picked in several rounds.
+23	Common castor (erandi) problems
+24	Stunted plants on hard, compact soil
+25	Wilting plants (wilt and root rot)
+26	Pale or yellow leaves
+27	Gaps and poor filling in spikes
+28	Grey mould on spikes after wet weather
+29	Loosen compacted soil before sowing so roots can go down.
+30	Avoid waterlogging; castor roots rot in standing water.
+31	Rotate with another crop where wilt has appeared.
+32	Dig up a wilting plant and look at the root and collar; send us a photo.
+33	The Immunity formula for castor (erandi)
+34	<b>Packs:</b> 8 kg bag
+35	See Immunity Granules
+36	Castor (Erandi) questions
+37	Why is my castor wilting?
+38	Wilt and root rot are common causes. Look at the root and the cut stem for browning, and check for waterlogging or a field where castor was grown before.
+39	Can castor grow well on hard soil?
+40	Castor roots are strong, but hard, compact soil still limits them. Loosening the soil and adding organic matter help the roots go deeper.
+41	Which Immunity product is for castor?
+42	There is no castor-only Special. The farmer in our video used Immunity Granules in his castor. Send us your soil and crop stage on WhatsApp and we will advise.
+### /crops/tobacco
+43	Tobacco Farming Guide: Stages, Problems & Care | GBO
+44	Tobacco guide for growers: stage-by-stage care, common problems, what to check, and how farmers use Immunity Granules through the season.
+45	<a href="/">Home</a> / <a href="/crops">Crops</a> / Tobacco
+46	Tobacco guide
+47	Tobacco stage by stage
+48	Tobacco is grown for its leaf, so leaf size, weight and quality decide the crop. It is also sensitive to chloride, salty water and wet roots. Growers bring us slow early growth, small leaves and wilting plants.
+49	Main growing areas: Gujarat, Andhra Pradesh and Karnataka.
+50	Nursery
+51	About 5 to 6 weeks
+52	Healthy, even seedlings give an even field.
+53	Transplanting and establishment
+54	First 2 to 3 weeks
+55	Moist soil at transplanting and quick root growth decide the start.
+56	Rapid leaf growth
+57	Leaf size and weight are built now. Steady moisture and balanced nutrition matter most.
+58	Topping and ripening
+59	From about 2 to 3 months
+60	Topping, sucker control and leaf ripening decide quality before harvest and curing.
+61	Common tobacco problems
+62	Slow early growth after transplanting
+63	Small, thin leaves
+64	Wilting and root rot
+65	Leaf spots
+66	Leaf edge burn (chloride or salt)
+67	Raise healthy seedlings and transplant into moist soil.
+68	Use chloride-free potash and avoid salty irrigation water.
+69	Avoid waterlogging and keep irrigation regular.
+70	Rotate fields where wilt or nematodes have built up.
+71	Test the soil and irrigation water.
+72	The Immunity formula for tobacco
+73	Tobacco questions
+74	Why are my tobacco leaves small?
+75	Small leaves usually follow a slow start: weak roots, salty water, dry spells or low nutrition in the first 1 to 2 months.
+76	Why do the leaf edges burn?
+77	Chloride or salt in the soil or water burns leaf edges and harms leaf quality. Tobacco is a chloride-sensitive crop.
+78	Which Immunity product is for tobacco?
+79	There is no tobacco-only Special. The farmer in our video used Immunity Granules as the base feed and Immunity Gold as a spray. Send us your crop stage on WhatsApp and we will advise.

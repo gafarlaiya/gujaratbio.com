@@ -52,6 +52,7 @@
 ## Crop guides
 - [Apple](https://www.gujaratbio.com/crops/apple): Plant mortality, root rot, low production and poor quality.
 - [Banana](https://www.gujaratbio.com/crops/banana): Wilt, leaf spot, plant losses and low bunch weight.
+- [Castor (Erandi)](https://www.gujaratbio.com/crops/castor): Weak roots on hard soil, wilt and gaps in the spikes.
 - [Chilli (Mirchi)](https://www.gujaratbio.com/crops/chilli): Flower drop, leaf curl stress and small fruit.
 - [Citrus](https://www.gujaratbio.com/crops/citrus): Dieback, fruit drop and weak roots.
 - [Coconut](https://www.gujaratbio.com/crops/coconut): Low nut yield, button shedding and weak palms.
@@ -68,6 +69,7 @@
 - [Pulses](https://www.gujaratbio.com/crops/pulses): Flower drop, few pods and weak nodulation.
 - [Sugarcane](https://www.gujaratbio.com/crops/sugarcane): Poor germination, gaps, uneven growth and worn-out soil.
 - [Tea](https://www.gujaratbio.com/crops/tea): Slow flush and tired, ageing bushes.
+- [Tobacco](https://www.gujaratbio.com/crops/tobacco): Slow early growth, small leaves and leaf quality.
 - [Vegetables](https://www.gujaratbio.com/crops/vegetables): Flower drop, small fruit and short harvest.
 - [Wheat and cereals](https://www.gujaratbio.com/crops/cereals): Weak tillering, yellowing and poor grain filling.
 

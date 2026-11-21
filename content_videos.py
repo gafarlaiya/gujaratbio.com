@@ -41,6 +41,8 @@ YT = [
  ("FCoqmDMicSE", "2024-10-08", "PT55S", "Immunity Onion Special organic fertilizer for onion", ["/products/immunity-onion-special"]),
  ("e9BM9km7Rrk", "2025-11-04", "PT31S", "Onion size and quality", ["/crops/onion"]),
  ("WU6XBvazK5k", "2026-09-21", "PT3M18S", "धान की बेहतर फसल के लिए कौन सा उर्वरक?", ["/products/immunity-paddy-special"]),
+ ("8OFyCo49cAI", "2025-12-10", "PT3M48S", "એરંડા (અવની ૧૧) અને ઇમ્યુનિટી ગ્રેન્યુલ્સ: જીતેન્દ્રભાઈ પટેલ, વડનગર", ["/crops/castor"]),
+ ("HUSNRGNA3OE", "2025-12-09", "PT3M40S", "તમાકુ: શકીલભાઈ, દાંતા, બનાસકાંઠા", ["/crops/tobacco"]),
 ]
 VIDEOS = {}
 for _v in YT:
