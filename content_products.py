@@ -40,7 +40,7 @@ PRODUCTS = [
     ["Weak tillering", "Yellowing after transplanting", "Poor grain filling", "Chaffy grain"]),
  sp("immunity-maize-special", "maize", "Immunity Maize Special", "Made for maize: weak early growth, poor cob filling.",
     ["Weak early growth", "Poor cob size and filling", "Yellowing leaves", "Stress in dry spells"]),
- sp("immunity-tea-special", "tea", "Immunity Tea Special", "Made for tea gardens: slow flush and tired bushes.",
+ sp("immunity-tea-special", "tea", "Immunity Tea Special", "Made for tea gardens and other crops grown for their leaves or medicinal value: slow flush and tired bushes.",
     ["Slow new flush", "Tired, ageing bushes", "Poor leaf quality", "Acidic, worn-out soil"]),
  sp("immunity-cumin-special", "cumin", "Immunity Cumin Special", "Made for cumin: weak plants, wilt-prone fields and low seed set.",
     ["Weak, patchy plants", "Plants wilting and dying", "Low seed set", "Poor seed quality"]),

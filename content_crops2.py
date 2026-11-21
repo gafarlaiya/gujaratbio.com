@@ -145,7 +145,7 @@ CROPS += [
       [("Why is my castor wilting?", "Wilt and root rot are common causes. Look at the root and the cut stem for browning, and check for waterlogging or a field where castor was grown before."),
        ("Can castor grow well on hard soil?", "Castor roots are strong, but hard, compact soil still limits them. Loosening the soil and adding organic matter help the roots go deeper."),
        ("Which Immunity product is for castor?", "There is no castor-only Special. The farmer in our video used Immunity Granules in his castor. Send us your soil and crop stage on WhatsApp and we will advise.")]),
- crop("tobacco", "Tobacco", "immunity-granules", "Gujarat, Andhra Pradesh and Karnataka",
+ crop("tobacco", "Tobacco", "immunity-tea-special", "Gujarat, Andhra Pradesh and Karnataka",
       "Slow early growth, small leaves and leaf quality.",
       "Tobacco is grown for its leaf, so leaf size, weight and quality decide the crop. It is also sensitive to chloride, salty water and wet roots. Growers bring us slow early growth, small leaves and wilting plants.",
       [("Nursery", "About 5 to 6 weeks", "Healthy, even seedlings give an even field."),
@@ -156,6 +156,6 @@ CROPS += [
       ["Raise healthy seedlings and transplant into moist soil.", "Use chloride-free potash and avoid salty irrigation water.", "Avoid waterlogging and keep irrigation regular.", "Rotate fields where wilt or nematodes have built up.", "Test the soil and irrigation water."],
       [("Why are my tobacco leaves small?", "Small leaves usually follow a slow start: weak roots, salty water, dry spells or low nutrition in the first 1 to 2 months."),
        ("Why do the leaf edges burn?", "Chloride or salt in the soil or water burns leaf edges and harms leaf quality. Tobacco is a chloride-sensitive crop."),
-       ("Which Immunity product is for tobacco?", "There is no tobacco-only Special. The farmer in our video used Immunity Granules as the base feed and Immunity Gold as a spray. Send us your crop stage on WhatsApp and we will advise.")]),
+       ("Which Immunity product is for tobacco?", "Immunity Tea Special, made for crops grown for their leaves. The farmer in our video used Immunity Granules as the base feed, with Immunity Tea Special and Immunity Gold. Send us your crop stage on WhatsApp and we will advise.")]),
 ]
 CBY = {c["slug"]: c for c in CROPS}
