@@ -20,7 +20,7 @@ YT = [
  ("NPztQRZo1M0", "2026-01-14", "PT4M46S", "આંબાની ખેતી: આંબામાં એટલો માલ કે ડાળીઓ બચાવવી મુશ્કેલ", ["/crop-problems/mango-alternate-bearing"]),
  ("XiyV3izP9uA", "2025-01-11", "PT1M17S", "क्या आम के बौर की लंबाई से फल लगने में फर्क पड़ता है?", ["/guides/mango-flowering-care"]),
  ("IgZYnCUjsnQ", "2026-04-13", "PT1M14S", "શું તમારા આંબાના છોડ Stressમાં છે? આંબાના ખેડૂતો માટે સંદેશ", ["/guides/mango-flowering-care"]),
- ("2HzzOu9HTZg", "2025-01-23", "PT58S", "आम का फ्रूट सेटिंग", ["/crop-problems/mango-fruit-drop"]),
+ ("2HzzOu9HTZg", "2025-01-23", "PT58S", "आम का फ्रूट सेटिंग", ["/crop-problems/mango-fruit-drop", "/guides/flower-drop-before-fruit-set"]),
  ("NosorBgI4T0", "2025-10-26", "PT1M1S", "Mango production and fruit drop: Immunity Mango Special", ["/products/immunity-mango-special", "/crop-problems/mango-fruit-drop"]),
  ("Hb75Y8mEtWY", "2024-08-23", "PT1M", "सेब के पौधों को वापस लाया: सुशील चौहान, खड़ा पत्थर, शिमला", ["/crop-problems/apple-root-rot", "/crops/apple", "/products/immunity-apple-special"]),
  ("a9wUyXqoqV4", "2026-04-19", "PT1M58S", "Kashmir apple farmer: branches heavy with crop", ["/crops/apple"]),
@@ -34,8 +34,13 @@ YT = [
  ("ZZpcjc1SFeY", "2024-06-08", "PT2M", "Paddy: Karan Raj Singh, Karnal, on Dhanya Special", ["/crops/paddy", "/products/immunity-dhanya-special"]),
  ("0HQZteHZ_pg", "2025-01-01", "PT56S", "ખેડૂતની સમીક્ષા: ઇમ્યુનિટી ઓનિયન સ્પેશલ", ["/crops/onion", "/products/immunity-onion-special"]),
  ("Xw55OpjHYU4", "2024-09-26", "PT6M57S", "Chilli with Immunity Chilli Special", ["/crops/chilli", "/products/immunity-chilli-special"]),
- ("6Ja9TJNZq10", "2025-01-02", "PT1M16S", "बैंगन: सपनों की फसल", ["/crops/vegetables"]),
+ ("6Ja9TJNZq10", "2025-01-02", "PT1M16S", "बैंगन: सपनों की फसल", ["/crops/vegetables", "/products/immunity-vegetable-special"]),
  ("QeVm_KZ52JE", "2024-10-04", "PT1M18S", "Gujarat Bio Organics Private Limited", ["/our-story", "/about"]),
+ ("bfAzmID2OdA", "2025-01-16", "PT42S", "What is the best organic fertilizer for mango fruit setting?", ["/guides/flower-drop-before-fruit-set"]),
+ ("8qm2sP1EFxg", "2024-12-30", "PT30S", "आम स्पेशल ऑर्गेनिक फर्टिलाइज़र का उपयोग कैसे करें?", ["/products/immunity-mango-special"]),
+ ("FCoqmDMicSE", "2024-10-08", "PT55S", "Immunity Onion Special organic fertilizer for onion", ["/products/immunity-onion-special"]),
+ ("e9BM9km7Rrk", "2025-11-04", "PT31S", "Onion size and quality", ["/crops/onion"]),
+ ("WU6XBvazK5k", "2026-09-21", "PT3M18S", "धान की बेहतर फसल के लिए कौन सा उर्वरक?", ["/products/immunity-paddy-special"]),
 ]
 VIDEOS = {}
 for _v in YT:
