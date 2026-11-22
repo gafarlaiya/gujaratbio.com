@@ -144,7 +144,7 @@ CROPS += [
       ["Loosen compacted soil before sowing so roots can go down.", "Avoid waterlogging; castor roots rot in standing water.", "Rotate with another crop where wilt has appeared.", "Dig up a wilting plant and look at the root and collar; send us a photo.", "Test the soil every two to three years."],
       [("Why is my castor wilting?", "Wilt and root rot are common causes. Look at the root and the cut stem for browning, and check for waterlogging or a field where castor was grown before."),
        ("Can castor grow well on hard soil?", "Castor roots are strong, but hard, compact soil still limits them. Loosening the soil and adding organic matter help the roots go deeper."),
-       ("Which Immunity product is for castor?", "There is no castor-only Special. The farmer in our video used Immunity Granules in his castor. Send us your soil and crop stage on WhatsApp and we will advise.")]),
+       ("Which Immunity product is for castor?", "There is no castor-only Special. Jitendrabhai of Vadnagar used Immunity Granules; Nathubhai of Moti Dav used Immunity Granules, Immunity Cotton Special and Immunity Gold to bring his castor back after heavy rain. Send us your soil and crop stage on WhatsApp and we will advise.")]),
  crop("tobacco", "Tobacco", "immunity-tea-special", "Gujarat, Andhra Pradesh and Karnataka",
       "Slow early growth, small leaves and leaf quality.",
       "Tobacco is grown for its leaf, so leaf size, weight and quality decide the crop. It is also sensitive to chloride, salty water and wet roots. Growers bring us slow early growth, small leaves and wilting plants.",

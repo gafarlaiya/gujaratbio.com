@@ -280,3 +280,21 @@ DEEP["/guides/dap-shortage-what-to-use-instead"].setdefault("add", []).append(("
   "<a href=\"/guides/organic-alternative-to-dap\">Organic alternative to DAP: Immunity Granules, crop Specials and Gold</a>",
   "<a href=\"/guides/free-locked-phosphorus-in-soil\">Locked phosphorus: how to free the DAP you have already paid for</a>",
   "<a href=\"/guides/urea-and-potash-alternatives\">Urea and potash shortage: how to need fewer bags</a>"]))
+
+# Farmer stories with photos on the castor and tobacco pages (owner-supplied posts and photos, 22 Nov 2026)
+def _img(fn, alt, w, h):
+    return f'<div class="media"><img src="/assets/media/{fn}" alt="{alt}" loading="lazy" decoding="async" width="{w}" height="{h}"></div>'
+DEEP.setdefault("/crops/castor", {}).setdefault("add", []).append(("Nathubhai, Moti Dav (Mehsana): castor brought back after Cyclone Montha", [
+  ("html", "<p>The heavy rain of Cyclone Montha left Nathubhai's castor (variety Sai 33) weak and yellow. Growth had stopped, many plants were drying out, and the soil had turned hard. He says he had given a lot and spent a lot, but the crop would not stand up, and people in the village thought it could not be saved.</p>"
+           "<p>On 20 November 2025 our area sales manager Nitin Patel, who has 23 years of experience in castor, tobacco, mango and papaya, gave him a soil and plant health program: Immunity Granules in the soil (1 bag per vigha), Immunity Cotton Special as a drench in the root zone, and a spray of Immunity Cotton Special and Immunity Gold (40 ml each in a 15-litre pump).</p>"
+           "<p>By 11 December, 21 days later, the leaves had turned dark green, plants that were drying had picked up, new side branches were coming and the crop stood evenly across the plot. Nathubhai says: \"If I had not found Immunity products and Nitinbhai, I would have gone into heavy debt. Today I am happy to see my castor grow. My cost came down and the crop stood up.\"</p>"
+           + '<div class="media-row" style="display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start">' + _img("castor-nathubhai-before-2025-11-20.webp", "Nathubhai's Sai 33 castor on 20 November 2025, before the Immunity treatment: small, yellowing plants on hard, dry soil", 720, 1280)
+           + _img("castor-nathubhai-after-2025-12-11.webp", "The same castor on 11 December 2025, 21 days after the Immunity treatment: dark green, even crop", 720, 1280) + "</div>"
+           + "<p class=\"note\">Left: 20 November 2025, before. Right: 11 December 2025, after. Results are Nathubhai's own experience. Ask on <a href=\"https://wa.me/919978791167\">WhatsApp +91 99787 91167</a> for a schedule for your field.</p>")]))
+DEEP.setdefault("/crops/tobacco", {}).setdefault("add", []).append(("Shakilbhai, Danta (Banaskantha): broad, heavy leaves at 35 days", [
+  ("html", "<p>Shakilbhai grows tobacco on 2 vigha beside the Ratanpur to Satlasana road. He used Immunity Granules as the base feed (one 8 kg bag per vigha), Immunity Tea Special with the irrigation water, and sprays of Immunity Tea Special and Immunity Gold (50 ml each in a 15-litre pump).</p>"
+           "<p>At 35 days the leaves were wide, heavy and dark green across the field, and farmers driving past stopped to ask what he had done. He says: \"We could not believe it: such wide, heavy leaves in just 35 days. We were tired of giving chemicals. With Immunity products we saw a real change for the first time.\" He says he used very little chemical fertilizer.</p>"
+           + '<div class="media-row" style="display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start">' + _img("tobacco-shakilbhai-leaf-35-days.webp", "A single broad, heavy tobacco leaf at about 35 days in Shakilbhai's field", 720, 960)
+           + _img("tobacco-shakilbhai-field-35-days.webp", "Shakilbhai's tobacco field at about 35 days: dark green, broad leaves across the plot", 960, 720) + "</div>"
+           + '<div style="max-width:340px">' + _img("tobacco-shakilbhai-immunity-granules.webp", "A farmer in a tobacco field holding a bag of Immunity Granules and bottles of Immunity products", 720, 1280) + "</div>"
+           + "<p class=\"note\">Results are Shakilbhai's own experience. Ask on <a href=\"https://wa.me/919978791167\">WhatsApp +91 99787 91167</a> for a schedule for your field.</p>")]))
