@@ -1,0 +1,4 @@
+### /
+0	Latest farming guides
+1	Plain answers to what farmers are asking this season, including the DAP shortage.
+2	<a class="btn btn-leaf" href="/guides">All farming guides</a>

@@ -387,6 +387,9 @@ home += sec(f'<div class="hero-grid"><div class="prose"><p>{SHORT} started in 20
 home += sec('<div class="stats">' + "".join(f'<div class="stat"><b>{a}</b>{esc(b)}</div>' for a, b in [("2006", "Working with farmers since"), ("20", "Crops with their own Immunity Special"), ("36", "Biostimulant grades with Gujarat NOCs"), ("11", "Biofertilizer types")]) + "</div>", tint=True)
 home += sec('<div class="pgrid">' + "".join(pcard(p) for p in specials[:9]) + f'</div><div class="btns"><a class="btn btn-leaf" href="/products">See all 36 Immunity products</a></div>',
             "Immunity crop formulas", "One formula made for each crop, plus formulas for all crops, biofertilizers and soil granules.")
+_latest = sorted([g for g in GUIDES if g.get("date")], key=lambda g: (g["date"], g["slug"]), reverse=True)[:6]
+home += sec('<div class="grid">' + "".join(card(f"/guides/{g['slug']}", g["h1"], g["desc"], "Guide") for g in _latest) + '</div><div class="btns"><a class="btn btn-leaf" href="/guides">All farming guides</a></div>',
+            "Latest farming guides", "Plain answers to what farmers are asking this season, including the DAP shortage.", tint=True)
 home += sec('<div class="grid">'
             + f'<div>{media("castor-nathubhai-before-2025-11-20.webp", "Castor before the Immunity treatment, 20 November 2025: small, yellowing plants on hard, dry soil")}<p><strong>Castor, before:</strong> 20 November 2025, after Cyclone Montha rain. Nathubhai, Moti Dav (Mehsana).</p></div>'
             + f'<div>{media("castor-nathubhai-after-2025-12-11.webp", "The same castor field 21 days after the Immunity treatment, 11 December 2025: dark green, even crop")}<p><strong>Castor, 21 days later:</strong> 11 December 2025. <a href="/crops/castor">Read Nathubhai\'s story</a>.</p></div>'

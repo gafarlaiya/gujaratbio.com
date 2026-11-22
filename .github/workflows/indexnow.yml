@@ -1,0 +1,17 @@
+name: IndexNow ping
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Wait for the live site to update
+        run: sleep 150
+      - name: Tell Bing and other IndexNow engines about pages changed in the last day
+        run: python3 indexnow.py 1
