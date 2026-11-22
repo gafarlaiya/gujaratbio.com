@@ -1,0 +1,368 @@
+### /guides/dap-token-booking-online
+0	DAP Token and Booking App 2026: Book DAP and Urea Online
+1	How the new fertilizer token systems work: the FFS app, MP e-Token, Rajasthan's 48-hour token and Haryana's portal rule. Documents, steps, price rules, and...
+2	<a href="/">Home</a> / <a href="/guides">Guides</a> / DAP token and fertilizer booking app
+3	DAP token and fertilizer booking app: how to book DAP and urea online in 2026
+4	The bag costs ₹1,350 on paper. In a shortage, the real price is a 10-hour queue and a sowing date that slips. A token cannot make more DAP, but it can stop someone else from taking yours.
+5	Many states now sell subsidised DAP, urea and other fertilizers only against a token linked to your Farmer ID or Aadhaar and your land record. You book on the state's app or portal, or at a CSC or e-Mitra centre, choose a sale centre and date, and collect the bags within the token's time limit after OTP or thumb verification. The printed price still applies: ₹1,350 for a 50 kg bag of DAP.
+6	printed price of a 50 kg DAP bag
+7	48 hours
+8	how long a Rajasthan fertilizer token is valid
+9	fall in China's DAP exports, Jan-Jul 2026
+10	Why DAP now comes with a token
+11	India imports much of its DAP and the raw material to make it. In 2026 China, once a large supplier, has nearly stopped exporting DAP: its exports from January to July were down about 95% on the year before, and it shipped none at all in July. World prices have stayed high, so every bag is harder to bring in.
+12	When stock is short, the queue decides who sows on time. In November 2026 farmers in Hamirpur, Uttar Pradesh waited up to 10 hours at cooperative societies and received only two bags each; in Banda, Chandauli and Prayagraj the queues and protests made the news. To stop hoarding, black marketing and fights at the counter, states are moving to tokens: the fertilizer is reserved for you against your land and crop, and you collect it on a fixed day.
+13	Which state uses which system
+14	State
+15	System
+16	Where to book
+17	What to know
+18	Many states (rolling out)
+19	Framework for Fertilizer Sale (FFS), built on the Farmer Registry under AgriStack
+20	FFS mobile app, or the nearest CSC
+21	Log in with Farmer ID or Aadhaar and OTP. Your quota depends on your land and crop.
+22	Madhya Pradesh
+23	e-Token for fertilizer
+24	The state's e-Token portal, or a CSC
+25	Reported: Farmer ID must be linked. Carry the token, Aadhaar and Farmer ID.
+26	Rajasthan
+27	FFS pilot from 25 June 2026 in Sirohi and Rajsamand
+28	Mobile phone or e-Mitra centre
+29	The token is valid for 48 hours. Miss it and you must book again.
+30	Haryana
+31	Registration on the Meri Fasal Mera Byora portal
+32	Meri Fasal Mera Byora portal
+33	Reported in rabi 2025: registration needed before buying DAP.
+34	Bihar
+35	FFS app with an option for sharecroppers
+36	FFS app or the state DBT Agriculture portal
+37	Tenants and sharecroppers can apply with the owner's land details and a declaration.
+38	These systems change quickly and differ by district. Before you travel, confirm with your village agriculture worker, cooperative society or district agriculture office. Use only the official app or portal.
+39	How to book a fertilizer token, step by step
+40	Get your Farmer ID made under the Farmer Registry if you do not have one. A CSC or your agriculture office can do it.
+41	Install the official app named in your state, or visit a CSC or e-Mitra centre.
+42	Log in with your Farmer ID or Aadhaar. An OTP comes to your Aadhaar-linked mobile.
+43	Check that your land shows correctly: survey, khasra or khata number and area.
+44	Choose this season's crop and the area you will sow. The app shows how many bags you can book.
+45	Pick the sale centre and the date, and submit. Save the booking ID or token as a screenshot.
+46	Go on that date, within the token's time limit, with Aadhaar. Verify by OTP or thumb.
+47	Pay the printed price and take a bill.
+48	Documents to keep ready
+49	Aadhaar card, and the mobile number linked to it.
+50	Farmer ID, where your state has started the Farmer Registry.
+51	Land record: 7/12, khatauni or the state's record, with survey or khasra number and area.
+52	Tenants and sharecroppers: the lease paper or the self-declaration your state asks for.
+53	Money for the printed price, in cash or UPI as the centre accepts.
+54	Common problems and what to do
+55	<strong>Token booked but no stock at the centre:</strong> ask the society when the next rake is due and book again for that date.
+56	<strong>Token expired:</strong> in Rajasthan a token lasts 48 hours. Book again.
+57	<strong>Land not showing:</strong> your land record or Farmer ID needs updating. Go to the CSC or the patwari or talati.
+58	<strong>OTP not coming:</strong> your mobile is not linked to Aadhaar, or the number has changed. Update it at an Aadhaar centre.
+59	<strong>Dealer asks more than ₹1,350 for DAP, or forces you to buy another product with it:</strong> refuse, ask for a bill, and complain to your district agriculture office.
+60	Beware of fake apps and fake DAP
+61	Download only the official app, published by the government department. Do not install apps sent as links on WhatsApp.
+62	No real token system asks you to pay an advance to a person or a UPI ID.
+63	Check every bag: printed price, company name, batch number and date. Buy only with a bill.
+64	Very cheap DAP sold door to door is a warning sign.
+65	If your token comes too late for sowing
+66	Sowing dates do not wait for rakes. If your field is ready and the token is days away, you have three choices, and you can combine them:
+67	<strong>Another phosphate bag:</strong> SSP or an NPK grade can give the same phosphorus. See <a href="/guides/dap-shortage-what-to-use-instead">what to use instead of DAP</a>.
+68	<strong>Use the phosphorus already in your soil:</strong> years of DAP leave most of it locked in the field. See <a href="/guides/free-locked-phosphorus-in-soil">how to free locked phosphorus</a>.
+69	<strong>Feed the soil and roots:</strong> farmers in Gujarat have grown cumin, sugarcane and castor without DAP using Immunity Granules, their crop's Immunity Special and Immunity Gold. See <a href="/guides/farming-without-dap">farming without DAP</a> and <a href="/guides/organic-alternative-to-dap">the organic alternative to DAP</a>.
+70	Tell us your crop, area and sowing date on <a href="https://wa.me/919978791167">WhatsApp +91 99787 91167</a> and our team will suggest a plan for your field.
+71	<a href="https://agtoday.info/2026/08/27/dap-international-prices-remain-firm-amid-tight-supply-while-chinas-export-policy-stays-restrictive/" rel="noopener" target="_blank">AgToday: DAP international prices firm, China's export policy restrictive (August 2026)</a>
+72	<a href="https://www.amarujala.com/uttar-pradesh/hamirpur/shortage-of-dap-farmers-distressed-sowing-at-risk-hamirpur-news-c-223-1-sknp1030-147877-2026-11-19" rel="noopener" target="_blank">Amar Ujala: DAP shortage puts sowing at risk, Hamirpur (19 November 2026)</a>
+73	<a href="https://www.cmv360.com/news/farmers-can-now-book-urea-and-dap-online-from-home-rajasthan-launches-new-digital-fertilizer-booking-system" rel="noopener" target="_blank">CMV360: Rajasthan launches online fertilizer booking (June 2026)</a>
+74	<a href="https://www.egovtschemes.com/e-token-mp-krishi/" rel="noopener" target="_blank">eGovtSchemes: MP e-Token for fertilizer (unofficial summary, June 2026)</a>
+75	<a href="https://onlinegramin.com/framework-for-fertilizer-sale-app-download/" rel="noopener" target="_blank">Online Gramin Help: FFS app token booking (unofficial summary, September 2026)</a>
+76	<a href="https://www.nationalheraldindia.com/national/sowing-season-turns-into-struggle-as-dap-fertiliser-shortage-spreads-across-india" rel="noopener" target="_blank">National Herald: DAP shortage spreads across India (October 2025)</a>
+77	<a href="#why-dap-now-comes-with-a-token">Why DAP now comes with a token</a>
+78	<a href="#which-state-uses-which-system">Which state uses which system</a>
+79	<a href="#how-to-book-a-fertilizer-token-step-by-step">How to book a fertilizer token, step by step</a>
+80	<a href="#documents-to-keep-ready">Documents to keep ready</a>
+81	<a href="#common-problems-and-what-to-do">Common problems and what to do</a>
+82	<a href="#beware-of-fake-apps-and-fake-dap">Beware of fake apps and fake DAP</a>
+83	<a href="#if-your-token-comes-too-late-for-sowing">If your token comes too late for sowing</a>
+84	How do I book DAP online?
+85	Use your state's official fertilizer app or portal, or a CSC or e-Mitra centre. Log in with Farmer ID or Aadhaar and OTP, confirm your land and crop, choose a sale centre and date, and collect the bags with your token.
+86	What is the FFS app?
+87	Framework for Fertilizer Sale, a system built on the Farmer Registry under AgriStack. It lets farmers book subsidised fertilizer against their land and crop and collect it with a digital token.
+88	Is a Farmer ID needed to buy DAP?
+89	In states that have moved to the Farmer Registry, yes or soon. Madhya Pradesh reportedly needs it for e-Tokens. Ask your agriculture office about your state.
+90	How long is a DAP token valid?
+91	It depends on the state. In Rajasthan's system a token is valid for 48 hours.
+92	The printed maximum retail price is ₹1,350 for a 50 kg bag. Do not pay more, and always take a bill.
+93	Can a sharecropper book a DAP token?
+94	In Bihar's FFS app, yes, with the owner's land details and a declaration. Other states have their own rules; ask your agriculture office.
+95	What if DAP is not available at all?
+96	Use SSP or an NPK grade for phosphorus, and help the crop use the phosphorus already in your soil. Many farmers grow without DAP using Immunity Granules, their crop's Special and Immunity Gold.
+### /guides/farming-without-dap
+97	Farming Without DAP: Farmers Who Stopped Using DAP
+98	Farmers in Gujarat who grew cumin, sugarcane and castor without DAP, or with half their chemical fertilizer: what they used instead, what they saw in the...
+99	<a href="/">Home</a> / <a href="/guides">Guides</a> / Farming without DAP
+100	Farming without DAP: what happened when these farmers stopped using it
+101	A cumin farmer near Rajkot put no DAP in his field. At 60 days, his neighbours said they had never seen cumin like it. He had not found a secret bag. He had stopped feeding only the crop and started feeding the soil.
+102	Farmers in Gujarat have grown cumin with no DAP at all and sugarcane on half their usual chemical fertilizer, using Immunity Granules in the soil, the Immunity Special for their crop and Immunity Gold. These are their own field experiences, not a promise. The approach works best on old farms, where years of DAP have left phosphorus locked in the soil.
+103	bags of DAP in Bharatbhai's cumin
+104	6 vs 10-12
+105	bags of chemical fertilizer: Budhabhai's sugarcane vs the plot next door
+106	of fertilizer phosphorus that ever reaches the crop
+107	Why many farms can do without DAP for a season
+108	Only about 15 to 25% of the phosphorus in fertilizer becomes available to the crop. The rest stays in the soil, locked with calcium in alkaline soils or with iron and aluminium in acid soils. After 20 or 30 years of DAP, most old farms hold a large bank of this phosphorus.
+109	So the real question is not only where to buy the next bag. It is how to get the crop's roots to the phosphorus you have already paid for. That needs a loose, living soil and a big, healthy root system. This is what the Immunity program is made for. The science is explained in <a href="/guides/free-locked-phosphorus-in-soil">how to free locked phosphorus</a>.
+110	Bharatbhai, cumin, Lariya village, Padadhari (Rajkot): no DAP at all
+111	Bharatbhai has grown cumin for 30 to 35 years. This season he used Immunity Granules at sowing, Immunity Cumin Special through the irrigation water, and sprays of Immunity Gold with Cumin Special.
+112	In front of our team and his neighbours he said he had put no DAP in the field. He gave urea only once, a small amount, and mainly to carry a fungicide. At 60 days his cumin was even and green, with more than 95% of the plants standing, and in full flower.
+113	He said that in 30 to 35 years he had seen cumin like this only once: this season. He expected about 13 to 14 man per bigha (20 kg to a man). A farmer from the next village, looking at the field, estimated his own cumin at about 4 to 5 man. Bharatbhai also said his cost was lower than with full chemical fertilizer. These were his estimates at 60 days, in his own words.
+114	Budhabhai Patel, sugarcane: half the bags of chemical fertilizer
+115	Budhabhai planted variety 86032 on 3 September with Immunity Granules, Immunity Sugarcane Special and Immunity Gold. The plot next to his, planted two or three days apart, got 10 to 12 bags of chemical fertilizer. His got 6.
+116	He counted 8 to 12 tillers per clump, and said he expected nearly all of them to reach the mill rather than die in the shade.
+117	Falguniben Patel, sugarcane, Nani Chovisi (Navsari): less urea, green leaves at harvest
+118	Falguniben planted 86002 in October 2025 and the mill's first cutting began on 24 October 2026. She used Immunity Granules, Immunity Sugarcane Special and Immunity Gold with our schedule, and kept urea at about 2 to 2.5 bags where farmers might otherwise use 3 or 4.
+119	At cutting the leaves were still green and the canes long, and she said her cost was a little lower than in earlier years, when rising chemical prices pushed it up. She said she would recommend the products to other farmers.
+120	Jitendrabhai Patel, castor, Vadnagar (Mehsana): roots deep in hard soil
+121	Jitendrabhai applied Immunity Granules in pits in his 6 vigha of castor (variety Avni 11). His soil is hard, and he said the roots went deep, the plants stayed dark green, and fungus was lower than in his other castor field. He has since used the granules in tobacco and plans to use them in wheat.
+122	What these farms have in common
+123	They fed the soil first, with Immunity Granules at sowing or planting.
+124	They used the Immunity Special made for their crop, through irrigation water or drip and as a spray.
+125	They sprayed Immunity Gold for vigour and stress.
+126	They kept managing water, weeds, pests and disease as good farmers do.
+127	They compared their plot with a neighbour's, so the difference was there for everyone to see.
+128	Will it work on your farm?
+129	Old farms with years of DAP behind them usually hold a phosphorus bank. These are the fields where skipping or cutting DAP works best.
+130	A soil test tells you how much phosphorus is there. If it is very low, use the program with a reduced dose of SSP or NPK, not with nothing. See <a href="/guides/dap-shortage-what-to-use-instead">what to use instead of DAP</a>.
+131	Start with part of a field and compare it with the rest, as Budhabhai did.
+132	Results differ with soil, water, weather, variety and care. What these farmers saw is their own experience.
+133	Start this rabi
+134	Send us your crop, area, sowing date and village on <a href="https://wa.me/919978791167">WhatsApp +91 99787 91167</a>. Our team will tell you which Immunity products suit your crop, how much to use for your acreage, and when. See <a href="/products/immunity-granules">Immunity Granules</a>, <a href="/products/immunity-gold">Immunity Gold</a> and the <a href="/products">crop Specials</a>.
+135	<a href="https://www.youtube.com/watch?v=O8MwXfORioU" rel="noopener" target="_blank">Gujarat Bio Organics on YouTube: Bharatbhai's cumin without DAP</a>
+136	<a href="https://www.youtube.com/watch?v=bepJSpkepfg" rel="noopener" target="_blank">Gujarat Bio Organics on YouTube: Budhabhai Patel's sugarcane</a>
+137	<a href="https://www.youtube.com/watch?v=6lyzRwnubrQ" rel="noopener" target="_blank">Gujarat Bio Organics on YouTube: Falguniben Patel's sugarcane</a>
+138	<a href="https://www.youtube.com/watch?v=8OFyCo49cAI" rel="noopener" target="_blank">Gujarat Bio Organics on YouTube: Jitendrabhai Patel's castor</a>
+139	<a href="https://naas.org.in/Policy%20Papers/policy%2068.pdf" rel="noopener" target="_blank">NAAS Policy Paper 68: Efficient Utilization of Phosphorus (2014)</a>
+140	<a href="#why-many-farms-can-do-without-dap-for-a-season">Why many farms can do without DAP for a season</a>
+141	<a href="#bharatbhai-cumin-lariya-village-padadhari-rajkot">Bharatbhai, cumin, Lariya village, Padadhari (Rajkot): no DAP at all</a>
+142	<a href="#budhabhai-patel-sugarcane-half-the-bags-of-chemi">Budhabhai Patel, sugarcane: half the bags of chemical fertilizer</a>
+143	<a href="#falguniben-patel-sugarcane-nani-chovisi-navsari-">Falguniben Patel, sugarcane, Nani Chovisi (Navsari): less urea, green leaves at harvest</a>
+144	<a href="#jitendrabhai-patel-castor-vadnagar-mehsana-roots">Jitendrabhai Patel, castor, Vadnagar (Mehsana): roots deep in hard soil</a>
+145	<a href="#what-these-farms-have-in-common">What these farms have in common</a>
+146	<a href="#will-it-work-on-your-farm">Will it work on your farm?</a>
+147	<a href="#start-this-rabi">Start this rabi</a>
+148	Can a crop grow without DAP?
+149	Yes, on many farms. The crop needs phosphorus, not DAP. Old farms usually hold phosphorus locked from past DAP, and a loose, living soil with strong roots helps the crop reach it. On soils that test very low, add some phosphorus from SSP or NPK.
+150	What did these farmers use instead of DAP?
+151	Immunity Granules in the soil at sowing, the Immunity Special for their crop through water or drip and as a spray, and Immunity Gold as a spray.
+152	Did they use any chemical fertilizer?
+153	Bharatbhai used no DAP and a little urea once. Budhabhai used 6 bags of chemical fertilizer where the next plot used 10 to 12. Falguniben used about 2 to 2.5 bags of urea in sugarcane.
+154	Is the result guaranteed?
+155	No. These are the farmers' own experiences. Results depend on soil, water, weather, variety and care. Try it on part of a field first.
+156	How do I start?
+157	Send your crop, area, sowing date and village on WhatsApp to +91 99787 91167. Our team will suggest products and doses for your crop and acreage.
+### /guides/organic-alternative-to-dap
+158	Organic Alternative to DAP: Granules, Crop Specials, Gold
+159	What can really stand in for DAP, how Immunity Granules, your crop's Immunity Special and Immunity Gold work together, crop-by-crop plans for this rabi, and...
+160	<a href="/">Home</a> / <a href="/guides">Guides</a> / Organic alternative to DAP
+161	Organic alternative to DAP: how to feed your crop when DAP is not available
+162	Searching for a bag that replaces DAP is the wrong search. Your field already holds years of phosphorus it never gave to the crop. The alternative to DAP is getting that phosphorus back.
+163	No organic product carries 23 kg of phosphorus in a bag the way DAP does. What an organic program can do is help the crop use the phosphorus already in your soil: loosen the soil, feed soil life, grow a bigger root system and free locked phosphorus. Many farmers do this with Immunity Granules at sowing, the Immunity Special for their crop through water or drip, and Immunity Gold as a spray, and have cut or stopped DAP.
+164	of it the crop actually uses
+165	parts of the program: Granules, crop Special, Gold
+166	DAP feeds the crop. The Immunity program feeds the soil that feeds the crop
+167	A bag of DAP puts about 9 kg of nitrogen and 23 kg of phosphorus into the soil. But most of that phosphorus is locked up within weeks, and the crop uses only about 15 to 25% of it. Year after year the locked part builds up, while the soil gets harder and its life gets weaker.
+168	The Immunity program works the other way round. It starts with the soil and the roots, so the crop can reach the phosphorus, potash and micronutrients already in the field. That is why farmers using it have been able to skip DAP or cut chemical fertilizer, and why it keeps paying back season after season.
+169	The three parts of the program
+170	Product
+171	Where it goes
+172	Its job
+173	For
+174	<a href="/products/immunity-granules">Immunity Granules</a>
+175	In the soil at sowing or planting: in the furrow, in pits, or in the tree basin
+176	Made for hard, compact soil, weak soil life, poor roots and fields that need more fertilizer every year
+177	Your crop's Immunity Special
+178	With irrigation water as a drench, through drip, and as a spray
+179	Made for the needs of that crop at each stage
+180	Sugarcane, potato, cumin, cotton, onion, chilli, mango, banana, citrus, apple and more
+181	<a href="/products/immunity-gold">Immunity Gold</a>
+182	As a spray
+183	Our general formula for vigour and stress
+184	All crops, and crops without their own Special
+185	Biofertilizers add to the program: <a href="/products/immunity-psb">PSB</a> and <a href="/products/immunity-psf">PSF</a> free phosphorus, <a href="/products/immunity-kmb">KMB</a> frees potash, <a href="/products/immunity-azotobacter">Azotobacter</a> and <a href="/products/immunity-azospirillum">Azospirillum</a> add nitrogen, and <a href="/products/immunity-rhizobium">Rhizobium</a> feeds pulses.
+186	Crop by crop this rabi
+187	Immunity Granules at sowing, Immunity Gold sprays
+188	Add PSB and Azotobacter. Give the first irrigation at crown root stage on time.
+189	Immunity Granules, <a href="/products/immunity-potato-special">Potato Special</a>, Immunity Gold
+190	Potato needs a lot of phosphorus and potash at planting. On low-testing soils, keep a reduced dose of SSP or NPK.
+191	Cumin
+192	Immunity Granules, <a href="/products/immunity-cumin-special">Cumin Special</a>, Immunity Gold
+193	Bharatbhai of Lariya grew cumin with no DAP this way.
+194	Immunity Granules, <a href="/products/immunity-sugarcane-special">Sugarcane Special</a>, Immunity Gold
+195	Budhabhai and Falguniben cut chemical fertilizer this way.
+196	Gram and other pulses
+197	<a href="/products/immunity-pulses-special">Pulses Special</a>, with Rhizobium on the seed
+198	Pulses make their own nitrogen when Rhizobium is active.
+199	Mustard
+200	Immunity Granules, Immunity Gold
+201	Add PSB. Mustard also needs sulphur; SSP gives it.
+202	Onion and vegetables
+203	<a href="/products/immunity-onion-special">Onion Special</a> or <a href="/products/immunity-vegetable-special">Vegetable Special</a>
+204	Start with Immunity Granules at transplanting.
+205	Castor
+206	Immunity Granules, Immunity Gold
+207	Jitendrabhai of Vadnagar used the granules in pits in hard soil.
+208	Mango and fruit trees
+209	Immunity Granules in the basin, the Special for the tree
+210	See <a href="/products/immunity-mango-special">Mango Special</a> and the other fruit Specials.
+211	Doses depend on the crop, its stage and your acreage. Ask on <a href="https://wa.me/919978791167">WhatsApp +91 99787 91167</a> and our team will send the schedule for your field.
+212	When you still need some phosphorus
+213	Your soil test shows phosphorus is low.
+214	Very sandy soil, or the first crop on newly broken land.
+215	Potato on low-testing soil, which needs phosphorus fast at planting.
+216	In these fields, use the Immunity program with a reduced dose of SSP or NPK. See <a href="/guides/dap-shortage-what-to-use-instead">how many bags equal one DAP bag</a>.
+217	Drench and drip: put the product where the roots are
+218	Phosphorus barely moves in soil. Anything spread on top later reaches few roots.
+219	Immunity Granules go into the furrow, pits or basin, close to where roots will grow.
+220	The crop's Special goes in with irrigation water at the base of the plants, or through drip, so it soaks into the root zone.
+221	Sprays of the Special and of Immunity Gold feed the leaves and help the plant through stress.
+222	Apply biofertilizers and chemical fungicides at different times; fungicide can kill the microbes.
+223	How to start
+224	Send your crop, area, sowing date, village and, if you have it, your soil test on <a href="https://wa.me/919978791167">WhatsApp +91 99787 91167</a>.
+225	Get the schedule for your crop and acreage from our team.
+226	Buy direct from us, or ask us for the nearest dealer.
+227	Start on a block of your field, compare it with the rest, and decide for next season with your own eyes.
+228	<a href="https://tribuneindia.com/news/pau-urges-growers-to-use-dap-alternatives" rel="noopener" target="_blank">The Tribune: PAU urges growers to use DAP alternatives</a>
+229	<a href="#dap-feeds-the-crop-the-immunity-program-feeds-th">DAP feeds the crop. The Immunity program feeds the soil that feeds the crop</a>
+230	<a href="#the-three-parts-of-the-program">The three parts of the program</a>
+231	<a href="#crop-by-crop-this-rabi">Crop by crop this rabi</a>
+232	<a href="#when-you-still-need-some-phosphorus">When you still need some phosphorus</a>
+233	<a href="#drench-and-drip-put-the-product-where-the-roots-">Drench and drip: put the product where the roots are</a>
+234	<a href="#how-to-start">How to start</a>
+235	What is the best organic alternative to DAP?
+236	There is no organic bag that carries as much phosphorus as DAP. The working alternative is a program that frees the phosphorus already in your soil and grows stronger roots: Immunity Granules at sowing, your crop's Immunity Special and Immunity Gold, with PSB.
+237	Can Immunity Granules replace DAP?
+238	Many farmers have skipped DAP using Immunity Granules with their crop's Special and Immunity Gold, especially on old farms with phosphorus locked in the soil. On soils that test very low in phosphorus, use the program with a reduced dose of SSP or NPK.
+239	Can I use the Immunity program with SSP or NPK?
+240	Yes. Immunity products can be used with chemical fertilizers. Do a small jar test before mixing anything in one tank.
+241	Does it work for wheat?
+242	Yes. Use Immunity Granules at sowing with PSB and Azotobacter, and Immunity Gold sprays. Ask our team for doses for your acreage.
+243	Where can I buy Immunity products?
+244	Directly from Gujarat Bio Organics, Bhavnagar, or through a dealer near you. Call or WhatsApp +91 99787 91167.
+### /guides/free-locked-phosphorus-in-soil
+245	Locked Phosphorus in Soil: How to Free the DAP in Your Field
+246	Why only 15-25% of the phosphorus in fertilizer feeds the crop, how calcium in alkaline soils locks the rest, and how humic acid, phosphate-solubilising...
+247	<a href="/">Home</a> / <a href="/guides">Guides</a> / Locked phosphorus
+248	Locked phosphorus: how to free the DAP you have already paid for
+249	Every bag of DAP you ever bought is partly still in your field. It did not wash away. It turned into calcium phosphate, a rock the roots cannot eat, waiting for something to dissolve it.
+250	Only about 15-25% of the phosphorus you apply as fertilizer becomes available to the crop. The rest is locked by calcium in alkaline soils, or by iron and aluminium in acid soils, and builds up over the years. Humic substances, phosphate-solubilising microbes, organic matter, a looser soil with deeper roots, and products placed in the root zone by drench or drip help the crop reach it.
+251	of fertilizer phosphorus becomes available to plants
+252	of all soil phosphorus is available at any time
+253	higher wheat yield with humic acids in one alkaline-soil study
+254	Where your DAP goes
+255	India's National Academy of Agricultural Sciences reports that only 15 to 25% of fertilizer phosphorus becomes available to plants, and only 1 to 3% of all the phosphorus in a soil is available at any time. In alkaline soils, above pH 7, phosphorus reacts with calcium and magnesium. In acid soils, below pH 6, it reacts with iron and aluminium. Either way it turns into forms that roots cannot easily take up.
+256	Much of Gujarat has alkaline, calcium-rich black and coastal soils. Here a large share of each DAP bag ends up as calcium phosphate. It is not lost; it is locked. And after decades of DAP, many fields hold a large bank of it.
+257	Signs your soil is holding phosphorus back
+258	The soil test shows medium or high phosphorus, but the crop still shows phosphorus hunger: slow early growth, weak roots, a purple tinge on young wheat or maize leaves.
+259	Yields have stopped rising though you use more DAP every year.
+260	The soil is hard and crusts after irrigation, and water stands on the surface.
+261	Fields fed DAP for years run short of zinc. See <a href="/micronutrients/zinc/zinc-and-phosphorus-dap">zinc and phosphorus</a>.
+262	Five ways to bring locked phosphorus back
+263	<strong>Humic substances.</strong> In a study on alkaline soil (Wang and others, Soil Use and Management, 1995), adding humic acids with phosphorus fertilizer increased water-soluble phosphate, slowed the formation of locked forms, and raised phosphorus uptake and wheat yield by 25%. See <a href="/guides/humic-acid-and-root-zone-development">humic acid and the root zone</a>.
+264	<strong>Microbes that dissolve phosphate.</strong> Phosphate-solubilising bacteria and fungi release organic acids that dissolve calcium phosphate near the roots. The national academy recommends such consortia, with mycorrhiza, to raise phosphorus use. See <a href="/products/immunity-psb">Immunity PSB</a>, <a href="/products/immunity-psf">PSF</a> and <a href="/products/immunity-mycorrhiza">Mycorrhiza</a>.
+265	<strong>Organic matter.</strong> Compost and well-rotted farmyard manure release phosphorus slowly and keep it in forms roots can use. See <a href="/guides/compost-and-humic-acid">compost and humic acid</a>.
+266	<strong>Bigger roots.</strong> Phosphorus barely moves, so the roots must come to it. A larger, deeper root system, extended by mycorrhiza, reaches far more of the soil.
+267	<strong>Placement.</strong> Phosphorus and products placed near the seed or in the root zone work better than the same amount spread on top.
+268	A softer soil, deeper roots
+269	Hard, compact soil keeps roots short and shallow, so they touch only a thin layer of the phosphorus bank. When soil life and organic matter return, the soil crumbles, holds air and water, and roots travel deeper.
+270	A living soil also holds nutrients better. Soil scientists call this the cation exchange capacity: the soil's power to hold calcium, magnesium, potash and other nutrients like a sponge and release them to the roots. Organic matter raises it. And around every active root, the acids made by roots and microbes lower the pH in a thin zone, where locked calcium phosphate dissolves even when the rest of the soil stays alkaline.
+271	<a href="/products/immunity-granules">Immunity Granules</a> are made for exactly this: hard, compact soil, weak soil life and poor roots. The crop's Immunity Special, given with irrigation water or through drip, goes straight into that root zone. Jitendrabhai of Vadnagar saw his castor roots go deep into hard soil after using the granules.
+272	A season plan to unlock phosphorus
+273	Test your soil. Know how much phosphorus is already there. See <a href="/guides/how-to-take-a-soil-sample">how to take a soil sample</a>.
+274	Before sowing, add compost or farmyard manure, and put Immunity Granules in the furrow, pits or basin.
+275	Treat seed or soil with PSB, and Rhizobium for pulses. Keep chemical fungicide seed treatment separate in time.
+276	After the sowing irrigations, give the crop's Immunity Special as a drench or through drip.
+277	Spray Immunity Gold at fast growth and after stress.
+278	Use phosphorus fertilizer only as your soil test says, placed near the seed.
+279	Leave a strip on your old practice, compare at harvest, and ask us on <a href="https://wa.me/919978791167">WhatsApp +91 99787 91167</a> for doses for your crop.
+280	<a href="https://agris.fao.org/search/en/records/65dfbf654c5aef494fe4f324" rel="noopener" target="_blank">Wang, Wang and Li (1995): The effect of humic acids on the availability of phosphorus fertilizers in alkaline soils</a>
+281	<a href="#where-your-dap-goes">Where your DAP goes</a>
+282	<a href="#signs-your-soil-is-holding-phosphorus-back">Signs your soil is holding phosphorus back</a>
+283	<a href="#five-ways-to-bring-locked-phosphorus-back">Five ways to bring locked phosphorus back</a>
+284	<a href="#a-softer-soil-deeper-roots">A softer soil, deeper roots</a>
+285	<a href="#a-season-plan-to-unlock-phosphorus">A season plan to unlock phosphorus</a>
+286	Why does my crop show phosphorus deficiency even after DAP?
+287	Most of the DAP phosphorus gets locked in the soil, by calcium in alkaline soils or iron and aluminium in acid soils. Hard soil and weak roots make it worse. The crop needs a living soil and strong roots to reach it.
+288	Can I free phosphorus without adding more DAP?
+289	Yes, partly. Humic substances, phosphate-solubilising microbes, organic matter, deeper roots and placing products in the root zone all help the crop use phosphorus already in the soil.
+290	Does humic acid release phosphorus?
+291	Studies on alkaline soils show humic acids keep more phosphate soluble and slow its locking, so the crop takes up more.
+292	Is high pH soil bad for phosphorus?
+293	Above pH 7, phosphorus reacts with calcium and gets locked. Roots and microbes can dissolve it again in the zone right around the root.
+294	How long do PSB take to work?
+295	They start working once the soil is moist and warm, and work best with organic matter. The benefit builds over the season and over seasons.
+### /guides/urea-and-potash-alternatives
+296	Urea and Potash Shortage: Cut Urea, Potash and NPK Naturally
+297	Why only 30-45% of urea reaches the crop, how to stop the losses, how potash-mobilising bacteria, humic acid, seaweed extract and amino acids help the crop...
+298	<a href="/">Home</a> / <a href="/guides">Guides</a> / Urea and potash shortage
+299	Urea and potash shortage: how humic acid, seaweed and amino acids help you need fewer bags
+300	Of every three bags of urea, more than one may never reach the crop. When urea and potash are short, the cheapest bag is the one you stop losing.
+301	Indian crops use only about 30-45% of the nitrogen in urea; the rest is lost to the air and to leaching. You can need fewer bags by splitting urea, placing it well and using biostimulants and microbes: humic acid keeps nutrients in the root zone, seaweed extract and amino acids help the plant use what it takes up and cope with stress, and bacteria add nitrogen and free potash. Many farmers have cut urea this way; it does not mean starving the crop.
+302	nitrogen use efficiency of urea in India
+303	nitrogen in urea: no organic bag matches it, so cut the losses
+304	Where your urea goes
+305	In India, heavy urea use has pulled nitrogen use efficiency down to about 30 to 45%. Most of the rest escapes as gas from urea left on the soil surface, or washes below the roots with irrigation water. Too much urea also makes crops soft and lush, so pests and diseases come faster and the crop can fall over.
+306	So every bag saved from loss is a bag you do not need to buy. When urea, DAP or potash is short, that matters twice.
+307	Use fewer bags of urea
+308	Split urea into two or three doses at the stages the crop needs it, instead of one heavy dose.
+309	Give it just before irrigation, or mix it into the soil. Urea left on dry, hot soil turns to gas.
+310	Do not overdo early doses. Watch the leaf colour, and add more only if the crop turns pale.
+311	Use nitrogen-fixing bacteria: <a href="/products/immunity-azotobacter">Azotobacter</a> for wheat and vegetables, <a href="/products/immunity-azospirillum">Azospirillum</a> for cereals, <a href="/products/immunity-acetobacter">Acetobacter</a> for sugarcane and <a href="/products/immunity-rhizobium">Rhizobium</a> for pulses.
+312	Return crop residues and add compost. Organic matter releases nitrogen slowly through the season.
+313	Potash: the bag many farmers skip, and how to stretch it
+314	Potash fills grain, tubers, fruit and sugar, and helps the crop stand heat, cold and disease.
+315	Many Indian soils hold potash locked in their minerals. Potash-mobilising bacteria such as <a href="/products/immunity-kmb">Immunity KMB</a> help release it.
+316	Crop residues are rich in potash. Burning them or carrying them away takes that potash off the farm.
+317	Do not skip potash for potato, banana or sugarcane on soils that test low.
+318	How humic acid, seaweed and amino acids help
+319	Biostimulant
+320	Where it helps most
+321	Humic acid
+322	Holds nutrients in the root zone, improves soil structure, and helps roots grow
+323	Hard or sandy soils, at sowing and with fertilizer
+324	<a href="/guides/humic-acid-and-root-zone-development">Humic acid and the root zone</a>
+325	Seaweed extract
+326	Carries natural growth signals that support roots, flowering and fruit set, and helps plants cope with stress
+327	Heat, cold or drought, flowering, fruit set
+328	<a href="/guides/seaweed-extracts-and-plant-physiology">Seaweed extracts and plant physiology</a>
+329	Amino acids and protein hydrolysates
+330	Give the plant ready building blocks, so it recovers faster and uses nutrients better
+331	After stress, during fast growth
+332	<a href="/guides/protein-hydrolysates-and-nutrient-use-efficiency">Protein hydrolysates and nutrient use</a>
+333	Quality matters. A mildly processed seaweed extract keeps much more of what the plant uses than a cheap one made with harsh chemicals and high heat. Biostimulants sold in India must meet the Fertiliser Control Order; see <a href="/guides/what-are-biostimulants">what biostimulants are</a>.
+334	What farmers saw
+335	<strong>Falguniben Patel, Navsari:</strong> sugarcane with about 2 to 2.5 bags of urea where farmers might otherwise use 3 or 4, using Immunity Granules, Sugarcane Special and Gold. Leaves were still green at harvest.
+336	<strong>Budhabhai Patel:</strong> sugarcane on 6 bags of chemical fertilizer, while the plot next door got 10 to 12.
+337	<strong>Bharatbhai, Lariya:</strong> cumin with no DAP, and urea only once in a small amount.
+338	These are their own experiences. Read their stories in <a href="/guides/farming-without-dap">farming without DAP</a>.
+339	A simple plan to cut urea and NPK this season
+340	Test your soil, so you cut what the crop does not need, not what it does.
+341	At sowing: compost, <a href="/products/immunity-granules">Immunity Granules</a> and the right biofertilizers.
+342	During the crop: your crop's Immunity Special through irrigation water or drip, and <a href="/products/immunity-gold">Immunity Gold</a> sprays at fast growth and after stress.
+343	Cut one urea dose, or reduce each split, and watch the leaf colour.
+344	Leave a strip on your old practice and compare at harvest.
+345	Next season, cut a step more where the crop stayed strong. Ask on <a href="https://wa.me/919978791167">WhatsApp +91 99787 91167</a> for a schedule for your crop.
+346	<a href="https://www.downtoearth.org.in/agriculture/why-india-must-reduce-its-dependence-on-conventional-urea" rel="noopener" target="_blank">Down To Earth: Why India must reduce its dependence on conventional urea (July 2026)</a>
+347	<a href="#where-your-urea-goes">Where your urea goes</a>
+348	<a href="#use-fewer-bags-of-urea">Use fewer bags of urea</a>
+349	<a href="#potash-the-bag-many-farmers-skip-and-how-to-stre">Potash: the bag many farmers skip, and how to stretch it</a>
+350	<a href="#how-humic-acid-seaweed-and-amino-acids-help">How humic acid, seaweed and amino acids help</a>
+351	<a href="#what-farmers-saw">What farmers saw</a>
+352	<a href="#a-simple-plan-to-cut-urea-and-npk-this-season">A simple plan to cut urea and NPK this season</a>
+353	What is the organic alternative to urea?
+354	No organic product carries 46% nitrogen. What works is cutting losses and adding biological nitrogen: split urea, nitrogen-fixing bacteria such as Azotobacter, Azospirillum, Acetobacter and Rhizobium, compost, and biostimulants that help the crop use nitrogen better.
+355	Can I stop urea completely?
+356	Pulses can need little or none when Rhizobium is active. For most other crops, reduce urea step by step and watch the crop, rather than stopping at once.
+357	What can replace potash?
+358	Potash-mobilising bacteria release potash locked in soil minerals, and returning crop residues brings potash back. On soils that test low, potato, banana and sugarcane still need potash fertilizer.
+359	Do seaweed and humic acid reduce fertilizer need?
+360	They help the crop take up and use nutrients better and cope with stress, so many farmers can use fewer bags. They work alongside good nutrition, not in place of all of it.
+361	How do I know I have cut too much nitrogen?
+362	Older leaves turn pale yellow first and growth slows. Give a split dose of urea and adjust next time.
