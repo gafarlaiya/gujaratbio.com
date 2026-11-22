@@ -387,6 +387,11 @@ home += sec(f'<div class="hero-grid"><div class="prose"><p>{SHORT} started in 20
 home += sec('<div class="stats">' + "".join(f'<div class="stat"><b>{a}</b>{esc(b)}</div>' for a, b in [("2006", "Working with farmers since"), ("20", "Crops with their own Immunity Special"), ("36", "Biostimulant grades with Gujarat NOCs"), ("11", "Biofertilizer types")]) + "</div>", tint=True)
 home += sec('<div class="pgrid">' + "".join(pcard(p) for p in specials[:9]) + f'</div><div class="btns"><a class="btn btn-leaf" href="/products">See all 36 Immunity products</a></div>',
             "Immunity crop formulas", "One formula made for each crop, plus formulas for all crops, biofertilizers and soil granules.")
+home += sec('<div class="grid">'
+            + f'<div>{media("castor-nathubhai-before-2025-11-20.webp", "Castor before the Immunity treatment, 20 November 2025: small, yellowing plants on hard, dry soil")}<p><strong>Castor, before:</strong> 20 November 2025, after Cyclone Montha rain. Nathubhai, Moti Dav (Mehsana).</p></div>'
+            + f'<div>{media("castor-nathubhai-after-2025-12-11.webp", "The same castor field 21 days after the Immunity treatment, 11 December 2025: dark green, even crop")}<p><strong>Castor, 21 days later:</strong> 11 December 2025. <a href="/crops/castor">Read Nathubhai\'s story</a>.</p></div>'
+            + f'<div>{media("tobacco-shakilbhai-leaf-35-days.webp", "A single broad, heavy tobacco leaf at about 35 days in Shakilbhai's field")}<p><strong>Tobacco at 35 days:</strong> broad, heavy leaves. Shakilbhai, Danta (Banaskantha). <a href="/crops/tobacco">Read his story</a>.</p></div>'
+            + f'</div><p class="note" style="margin-top:14px">{RESULTS}</p>', "Fresh from the field", "Before and after photos from farmers using Immunity.")
 home += sec('<div class="grid">' + media("home-video-sugarcane-farmer.mp4", "Sugarcane farmer in South Gujarat talking about his crop, filmed in his field", "video")
             + media("home-video-apple-grower.mp4", "Apple grower in Himachal Pradesh walking through his orchard and talking about tree health", "video")
             + media("home-video-mango-grower.mp4", "Mango grower showing his trees and fruit, talking about flowering and fruit set", "video")
