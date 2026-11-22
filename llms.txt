@@ -8,7 +8,7 @@
 - Founder and main author of the guides: Gafar Laiya (https://www.gujaratbio.com/about).
 - Farmer results quoted on this site are individual farmers' own experiences, not promises; results vary with soil, water, weather and management.
 - This website is owned and maintained by Gujarat Bio Organics Private Limited (CIN U24123GJ2009PTC058701), Bhavnagar, Gujarat, India.
-- This file was last generated on 2026-11-21.
+- This file was last generated on 2026-11-22.
 - Related websites of the same company: https://b2b.gujaratbio.com (bulk, OEM, export), https://ganna.in (sugarcane, Gujarati), https://mangomastery.com (mango growers: free orchard check).
 
 ## Immunity products
@@ -90,6 +90,11 @@
 - [Humic Acid and Root-Zone Development | Gujarat Bio Organics](https://www.gujaratbio.com/guides/humic-acid-and-root-zone-development)
 - [Protein Hydrolysates and Nutrient-Use Efficiency | GBO](https://www.gujaratbio.com/guides/protein-hydrolysates-and-nutrient-use-efficiency)
 - [Biostimulants for Salinity and Drought Stress | GBO](https://www.gujaratbio.com/guides/biostimulants-for-salinity-and-drought-stress)
+- [DAP Token and Booking App 2026: Book DAP and Urea Online](https://www.gujaratbio.com/guides/dap-token-booking-online)
+- [Farming Without DAP: Farmers Who Stopped Using DAP](https://www.gujaratbio.com/guides/farming-without-dap)
+- [Organic Alternative to DAP: Granules, Crop Specials, Gold](https://www.gujaratbio.com/guides/organic-alternative-to-dap)
+- [Locked Phosphorus in Soil: How to Free the DAP in Your Field](https://www.gujaratbio.com/guides/free-locked-phosphorus-in-soil)
+- [Urea and Potash Shortage: Cut Urea, Potash and NPK Naturally](https://www.gujaratbio.com/guides/urea-and-potash-alternatives)
 - [DAP Shortage: What to Use Instead of DAP for Wheat and Potato](https://www.gujaratbio.com/guides/dap-shortage-what-to-use-instead)
 - [Potato Early Blight vs Late Blight: How to Tell Them Apart](https://www.gujaratbio.com/guides/potato-early-blight-vs-late-blight)
 - [Mango Flowering Spray Schedule and Care: Kesar, Nov to Fruit Set](https://www.gujaratbio.com/guides/mango-flowering-care)

@@ -2,7 +2,7 @@
 # (video id, upload date, ISO duration, caption shown on the page (the video's own title, cleaned), pages)
 # Farmer videos are their own accounts; captions keep the farmer's words and do not add claims.
 YT = [
- ("6lyzRwnubrQ", "2026-10-24", "PT3M32S", "શેરડીનું મુહૂર્ત કટિંગ: ફાલ્ગુનીબેન પટેલ, નવસારી", ["/farmer-stories", "/crops/sugarcane"]),
+ ("6lyzRwnubrQ", "2026-10-24", "PT3M32S", "શેરડીનું મુહૂર્ત કટિંગ: ફાલ્ગુનીબેન પટેલ, નવસારી", ["/farmer-stories", "/crops/sugarcane", "/guides/urea-and-potash-alternatives"]),
  ("FI413yXiuzw", "2026-10-16", "PT3M22S", "गन्ने की खेती में इम्यूनिटी शुगरकेन स्पेशल का महत्व", ["/products/immunity-sugarcane-special"]),
  ("sAP7TRPSLUw", "2026-10-08", "PT4M16S", "Sugarcane Farming: गन्ने में 99% जर्मिनेशन का सीक्रेट", ["/crop-problems/sugarcane-poor-germination"]),
  ("v6fzlCLp2q8", "2026-10-08", "PT1M20S", "86032 sugarcane germination with Immunity Sugarcane Special", ["/crops/sugarcane", "/products/immunity-sugarcane-special"]),
@@ -10,10 +10,10 @@ YT = [
  ("5emEYu06iwg", "2025-12-27", "PT5M49S", "707 શેરડી: એક જ છોડમાંથી 15 મજબૂત ફૂટ, ગણદેવીના નિમેશ પટેલ", ["/guides/how-to-increase-sugarcane-tillers", "/crops/sugarcane"]),
  ("f6K-x71PFTQ", "2025-12-10", "PT56S", "શેરડીની ફૂટ કેવી રીતે વધે? મુનાફભાઈનો અનુભવ", ["/guides/how-to-increase-sugarcane-tillers"]),
  ("4Yq3bmLdSlg", "2025-01-02", "PT59S", "गन्ना 86002: 7 महीने का रटून, विपुल भाई की कहानी", ["/guides/sugarcane-ratoon-management"]),
- ("3pKQAbrBjKw", "2026-09-03", "PT41S", "DAP વગર શેરડીનો વિકાસ", ["/guides/dap-shortage-what-to-use-instead"]),
- ("s3F7ubm6Hlo", "2025-01-04", "PT1M29S", "Cotton (કપાસ, कपास) with 0% DAP", ["/guides/dap-shortage-what-to-use-instead", "/crops/cotton"]),
+ ("3pKQAbrBjKw", "2026-09-03", "PT41S", "DAP વગર શેરડીનો વિકાસ", ["/guides/dap-shortage-what-to-use-instead", "/guides/organic-alternative-to-dap"]),
+ ("s3F7ubm6Hlo", "2025-01-04", "PT1M29S", "Cotton (કપાસ, कपास) with 0% DAP", ["/guides/dap-shortage-what-to-use-instead", "/crops/cotton", "/guides/organic-alternative-to-dap"]),
  ("ROnQwnEP_G4", "2014-09-11", "PT1M22S", "Immunity organic fertilizer in cotton", ["/crops/cotton", "/products/immunity-cotton-special"]),
- ("O8MwXfORioU", "2024-11-15", "PT13M30S", "जीरे की खेती: भरत भाई का 0% DAP अनुभव", ["/crops/cumin", "/products/immunity-cumin-special"]),
+ ("O8MwXfORioU", "2024-11-15", "PT13M30S", "जीरे की खेती: भरत भाई का 0% DAP अनुभव", ["/crops/cumin", "/products/immunity-cumin-special", "/guides/farming-without-dap"]),
  ("Sq0sOc95q9A", "2024-11-15", "PT1M", "Cumin (જીરું, जीरा) with Immunity Cumin Special", ["/crops/cumin"]),
  ("Dd1RSpsJb7M", "2026-05-31", "PT3M24S", "20 फीट दूर दो आम के बाग: एक में बंपर पैदावार, दूसरा फेल", ["/crops/mango"]),
  ("xl4WAGOVFLk", "2025-12-19", "PT3M43S", "આંબા માંદા હતા: હિતેશભાઈ કાપડીનો અનુભવ", ["/crops/mango", "/farmer-stories"]),
@@ -29,7 +29,7 @@ YT = [
  ("gwywPPiFF6Y", "2025-10-04", "PT4M45S", "26 days potato with Immunity Potato Special", ["/products/immunity-potato-special", "/crops/potato"]),
  ("qPsPRZsuOA4", "2025-10-13", "PT30S", "पुखराज आलू: मिट्टी फिर से जिंदा कैसे हुई?", ["/guides/soil-microbial-activity"]),
  ("sYhdy283Yds", "2025-02-06", "PT3M1S", "મૂળ તૂટતા નથી, જમીન પોચી થાય છે", ["/guides/hard-compact-soil"]),
- ("bepJSpkepfg", "2024-08-24", "PT2M25S", "गन्ने की खेती: 12 बैग केमिकल खाद बनाम जैविक, बिरंज पटेल", ["/guides/reduce-chemical-fertilizer-without-yield-loss"]),
+ ("bepJSpkepfg", "2024-08-24", "PT2M25S", "गन्ने की खेती: 12 बैग केमिकल खाद बनाम जैविक, बिरंज पटेल", ["/guides/reduce-chemical-fertilizer-without-yield-loss", "/guides/farming-without-dap"]),
  ("T246-ZSiEU4", "2025-02-07", "PT58S", "धान की नर्सरी 45 दिन: Immunity Paddy Special", ["/crops/paddy", "/products/immunity-paddy-special"]),
  ("ZZpcjc1SFeY", "2024-06-08", "PT2M", "Paddy: Karan Raj Singh, Karnal, on Dhanya Special", ["/crops/paddy", "/products/immunity-dhanya-special"]),
  ("0HQZteHZ_pg", "2025-01-01", "PT56S", "ખેડૂતની સમીક્ષા: ઇમ્યુનિટી ઓનિયન સ્પેશલ", ["/crops/onion", "/products/immunity-onion-special"]),
@@ -41,7 +41,7 @@ YT = [
  ("FCoqmDMicSE", "2024-10-08", "PT55S", "Immunity Onion Special organic fertilizer for onion", ["/products/immunity-onion-special"]),
  ("e9BM9km7Rrk", "2025-11-04", "PT31S", "Onion size and quality", ["/crops/onion"]),
  ("WU6XBvazK5k", "2026-09-21", "PT3M18S", "धान की बेहतर फसल के लिए कौन सा उर्वरक?", ["/products/immunity-paddy-special"]),
- ("8OFyCo49cAI", "2025-12-10", "PT3M48S", "એરંડા (અવની ૧૧) અને ઇમ્યુનિટી ગ્રેન્યુલ્સ: જીતેન્દ્રભાઈ પટેલ, વડનગર", ["/crops/castor"]),
+ ("8OFyCo49cAI", "2025-12-10", "PT3M48S", "એરંડા (અવની ૧૧) અને ઇમ્યુનિટી ગ્રેન્યુલ્સ: જીતેન્દ્રભાઈ પટેલ, વડનગર", ["/crops/castor", "/guides/free-locked-phosphorus-in-soil"]),
  ("HUSNRGNA3OE", "2025-12-09", "PT3M40S", "તમાકુ: શકીલભાઈ, દાંતા, બનાસકાંઠા", ["/crops/tobacco"]),
 ]
 VIDEOS = {}

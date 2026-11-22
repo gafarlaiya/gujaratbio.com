@@ -1,0 +1,17 @@
+### /knowledge
+0	<a href="/guides/dap-token-booking-online">DAP token and fertilizer booking app: how to book DAP and urea online in 2026</a>
+1	How the new fertilizer token systems work: the FFS app, MP e-Token, Rajasthan's 48-hour token and Haryana's portal rule. Documents, steps, price rules, and what to do if your token comes too late.
+2	<a href="/guides/farming-without-dap">Farming without DAP: what happened when these farmers stopped using it</a>
+3	Farmers in Gujarat who grew cumin, sugarcane and castor without DAP, or with half their chemical fertilizer: what they used instead, what they saw in the field, and what it means for your rabi crop.
+4	<a href="/guides/organic-alternative-to-dap">Organic alternative to DAP: how to feed your crop when DAP is not available</a>
+5	What can really stand in for DAP, how Immunity Granules, your crop's Immunity Special and Immunity Gold work together, crop-by-crop plans for this rabi, and when you still need some phosphorus.
+6	<a href="/guides/free-locked-phosphorus-in-soil">Locked phosphorus: how to free the DAP you have already paid for</a>
+7	Why only 15-25% of the phosphorus in fertilizer feeds the crop, how calcium in alkaline soils locks the rest, and how humic acid, phosphate-solubilising microbes, drench and drip, and a softer soil bring it back to the roots.
+8	<a href="/guides/urea-and-potash-alternatives">Urea and potash shortage: how humic acid, seaweed and amino acids help you need fewer bags</a>
+9	Why only 30-45% of urea reaches the crop, how to stop the losses, how potash-mobilising bacteria, humic acid, seaweed extract and amino acids help the crop do more with less, and how farmers cut urea.
+### /guides/dap-shortage-what-to-use-instead
+10	More on the DAP shortage
+11	<a href="/guides/dap-token-booking-online">DAP token and booking app: how to book DAP and urea online</a>
+12	<a href="/guides/organic-alternative-to-dap">Organic alternative to DAP: Immunity Granules, crop Specials and Gold</a>
+13	<a href="/guides/urea-and-potash-alternatives">Urea and potash shortage: how to need fewer bags</a>
+14	<a href="#more-on-the-dap-shortage">More on the DAP shortage</a>

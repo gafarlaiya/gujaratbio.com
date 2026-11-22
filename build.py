@@ -29,7 +29,7 @@ SOCIAL = ["https://www.facebook.com/gujaratbio", "https://www.youtube.com/@Gujar
 OWNER_LINE = f"This website is owned and maintained by {NAME.replace('Pvt. Ltd.', 'Private Limited')} (CIN {CIN}), Bhavnagar, Gujarat, India."
 RESULTS = "Results differ from farm to farm with soil, weather, crop and management. Farmer experiences on this site are their own reports, not a promise of results."
 
-for _f in ("content_products.py", "content_crops.py", "content_crops2.py", "content_knowledge.py", "content_series.py", "content_pages.py", "content_micro_a.py", "content_micro_b.py", "content_micro_general.py", "content_season.py"):
+for _f in ("content_products.py", "content_crops.py", "content_crops2.py", "content_knowledge.py", "content_series.py", "content_pages.py", "content_micro_a.py", "content_micro_b.py", "content_micro_general.py", "content_season.py", "content_dap.py"):
     exec(open(os.path.join(ROOT, _f), encoding="utf-8").read())
 SERIES = ["gravitropism-and-root-growth", "auxin-master-regulator-of-growth", "seaweed-extracts-and-plant-physiology", "humic-acid-and-root-zone-development",
           "protein-hydrolysates-and-nutrient-use-efficiency", "biostimulants-for-salinity-and-drought-stress"]
