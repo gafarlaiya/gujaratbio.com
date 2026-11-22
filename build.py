@@ -125,7 +125,7 @@ NAV = [("/", "Home", None),
        ("/farmer-stories", "Farmer Stories", None),
        ("/knowledge", "Knowledge", [("/micronutrients", "Micronutrients"), ("/crop-problems", "Crop problems"), ("/knowledge/soil-health", "Soil health"), ("/knowledge/soil-fertility", "Soil fertility"),
                                     ("/knowledge/sustainability", "Sustainability and the 5 Rs"), ("/guides", "Farming guides"), ("/articles", "Articles"), ("/knowledge/potato-fertilizer-schedule", "Potato fertilizer schedule"), ("/tools/fertilizer-dose-calculator", "Fertilizer dose calculator")]),
-       ("/about", "About", [("/about", "About us"), ("/our-story", "Our story: since 2006"), ("/our-impact", "Our impact"), ("/quality", "Quality and approvals"), ("/factory-and-rd", "Factory and R&D")]),
+       ("/about", "About", [("/about", "About us"), ("/our-story", "Our story: since 2006"), ("/our-impact", "Our impact"), ("/quality", "Quality and approvals"), ("/factory-and-rd", "Factory and R&D"), ("/organic-fertilizer-manufacturer-gujarat", "Manufacturer in Gujarat")]),
        ("/dealers", "Dealers & Bulk", [("/dealers", "Become a dealer"), ("/bulk-buyers", "Bulk buyers"), ("/oem-private-label", "Need OEM or private label?"), ("/where-to-buy", "Where to buy")])]
 
 def header(path):
@@ -742,7 +742,7 @@ about += sec(f'''<div class="prose"><p>{SHORT} is an organic fertilizer and bio 
 <h2>Founder</h2><p>Gafar Laiya founded {SHORT} and leads its product development and farmer programmes. He writes many of the guides on this site.</p>
 <h2>Company details</h2><p>{NAME}<br>Factory: {FACTORY}<br>Registered office: {REGOFF}<br>CIN {CIN}</p>
 <h2 id="this-website">About this website</h2><p>{OWNER_LINE} The content is written by Gafar Laiya, founder, and the Gujarat Bio Organics team from our field work with farmers since 2006. Crop guides give general guidance; farmer experiences are their own reports. If you see a mistake, write to <a href="mailto:{MAIL}">{MAIL}</a> and we will correct it. See also <a href="/our-websites">our other websites</a>, <a href="/terms">terms</a> and <a href="/privacy-policy">privacy policy</a>.</p>
-<h2>More about us</h2>{"".join(f'<p><a href="{u}">{t}</a>: {d}</p>' for u, t, d in [("/quality", "Quality and approvals", "NOCs for 36 biostimulant grades and 11 biofertilizer types, and how we check every batch."), ("/factory-and-rd", "Factory and R&amp;D", "how and where our products are made."), ("/bulk-buyers", "Bulk buyers", "supply for FPOs, plantations and farm companies."), ("/contact", "Contact", "phone, WhatsApp, email and addresses.")])}</div>''')
+<h2>More about us</h2>{"".join(f'<p><a href="{u}">{t}</a>: {d}</p>' for u, t, d in [("/quality", "Quality and approvals", "NOCs for 36 biostimulant grades and 11 biofertilizer types, and how we check every batch."), ("/factory-and-rd", "Factory and R&amp;D", "how and where our products are made."), ("/organic-fertilizer-manufacturer-gujarat", "Organic fertilizer manufacturer in Gujarat", "who we are, what we make and who we supply."), ("/bulk-buyers", "Bulk buyers", "supply for FPOs, plantations and farm companies."), ("/contact", "Contact", "phone, WhatsApp, email and addresses.")])}</div>''')
 about += sec('<div class="grid">' + media("about-founder-portrait.webp", "Portrait of Gafar Laiya, founder, in the field or at the factory") + media("about-team-group.webp", "Group photo of the Gujarat Bio Organics team at the factory")
              + media("about-company-video.mp4", "Two-minute company video: our story, factory and farmers", "video") + '</div><div class="btns"><a class="btn btn-leaf" href="/our-story">Our story since 2006</a><a class="btn btn-line" href="/our-impact">Our impact</a></div>', "Meet us", tint=True)
 render("/about", "About Gujarat Bio Organics: Fertilizer Company in Gujarat", "Gujarat Bio Organics has worked with farmers since 2006 and makes biostimulants, biofertilizers and organic fertilizers at its own factory in Shihor, Bhavnagar, Gujarat.",
@@ -805,6 +805,30 @@ fr += sec('<div class="grid">' + media("factory-liquid-line.webp", "Liquid produ
 fr += sec(f'<p class="prose">Bulk, OEM and private label buyers can see grades and specifications on our <a href="{B2B}/manufacturing-facility">business site</a>.</p>')
 render("/factory-and-rd", "Factory and R&D in Shihor, Bhavnagar | Gujarat Bio Organics", "Gujarat Bio Organics makes all its products at its own factory in Shihor, Bhavnagar, Gujarat, with in-house R&D and quality control.",
        fr, None, [("About", "/about"), ("Factory and R&D", None)], "0.6")
+
+start("/organic-fertilizer-manufacturer-gujarat")
+GM_FAQ = [("Is Gujarat Bio Organics a manufacturer or a trader?", "We are a manufacturer. Every Immunity product is made at our own factory in Shihor, Bhavnagar, Gujarat, by the same team that visits farms."),
+          ("Where is your factory?", FACTORY + ". Bulk, OEM and dealer partners can ask to visit; contact us to arrange a time."),
+          ("Which approvals do you hold?", "The Directorate of Agriculture, Government of Gujarat has issued No Objection Certificates to Gujarat Bio Organics for 36 Schedule VI biostimulant grades and 11 biofertilizer types."),
+          ("Do you supply outside Gujarat?", "Yes. We dispatch across India and abroad. Farmers can order on WhatsApp, and dealers and bulk buyers can write to us directly."),
+          ("Do you do OEM or private label manufacturing?", "Yes. Brands and formulators can ask for OEM and private label supply; see the OEM and private label page for how to start.")]
+gm = hero("Organic fertilizer manufacturer in Gujarat", "Gujarat Bio Organics Private Limited makes organic fertilizers, biofertilizers and biostimulants at its own factory in Shihor, Bhavnagar, and supplies farmers, dealers and bulk buyers across India.", [("About", "/about"), ("Organic fertilizer manufacturer in Gujarat", None)], light=True)
+gm += sec(f'''<div class="prose">{answer("Gujarat Bio Organics is an organic fertilizer, biofertilizer and biostimulant manufacturer in Bhavnagar, Gujarat. We have worked with farmers since 2006, make every product at our own factory in Shihor, and hold No Objection Certificates from the Directorate of Agriculture, Government of Gujarat for 36 Schedule VI biostimulant grades and 11 biofertilizer types.")}</div>''')
+gm += sec('<div class="grid">' + "".join(f'<article class="card"><h3>{esc(a)}</h3><p>{esc(b)}</p></article>' for a, b in [
+    ("Since 2006", "working with farmers in Gujarat and across India"),
+    ("36 + 11", "approved biostimulant grades and biofertilizer types"),
+    ("100 KL a month", "liquid production capacity"),
+    ("2,500 t a month", "solid and granule production capacity")]) + "</div>", "Our factory in numbers", tint=True)
+gm += sec(f'''<div class="grid two"><div class="prose"><h3>What we make</h3>{ul(["Immunity crop formulas for field crops, vegetables, fruit and plantation crops", "Immunity Granules for the soil", "Seaweed, humic acid and amino acid biostimulants", "Biofertilizers", "Pack sizes from 250 mL bottles to bulk"])}
+<div class="btns"><a class="btn btn-leaf" href="/products">See all products</a><a class="btn btn-line" href="/crops">Crop guides</a></div></div>
+<div class="prose"><h3>Who we supply</h3>{ul(["Farmers, directly on WhatsApp", "Agri input dealers", "FPOs, plantations, farm companies and sugar factories", "Brands and formulators for OEM and private label"])}
+<div class="btns"><a class="btn btn-leaf" href="/dealers">Become a dealer</a><a class="btn btn-line" href="/bulk-buyers">Bulk buyers</a><a class="btn btn-line" href="/oem-private-label">OEM and private label</a></div></div></div>''', "What we make and who we supply")
+gm += sec(f'''<div class="prose"><p>Our address: {FACTORY}.</p>
+<p>Since June 2025 only biostimulants listed in Schedule VI of the Fertiliser Control Order can be sold in India. Before you buy from any company, ask which Schedule VI grade the product is and ask for proof of approval. Read how we check every batch on our <a href="/quality">quality and approvals</a> page, and see how and where we make our products on <a href="/factory-and-rd">factory and R&amp;D</a>.</p>
+<div class="btns"><a class="btn btn-wa" href="{wa("Hello, I would like to know about Gujarat Bio Organics products.")}">{WA_SVG}Message us on WhatsApp</a><a class="btn btn-line" href="/contact">Contact and visit</a></div></div>''', "Where we are", tint=True)
+gm += sec(faq_html(GM_FAQ), "Questions about us")
+render("/organic-fertilizer-manufacturer-gujarat", "Organic Fertilizer Manufacturer in Gujarat | Gujarat Bio Organics", "Gujarat Bio Organics makes organic fertilizer, biofertilizer and biostimulants at its own factory in Shihor, Bhavnagar. NOCs for 36 grades. Since 2006.",
+       gm, [faq_ld(GM_FAQ)], [("About", "/about"), ("Organic fertilizer manufacturer in Gujarat", None)], "0.8")
 
 # ---------------------------------------------------------------- dealers & bulk
 start("/dealers")
