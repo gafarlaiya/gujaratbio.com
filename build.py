@@ -102,6 +102,16 @@ def mango_box():
     u = "?utm_source=gujaratbio_farmer_site&amp;utm_medium=referral&amp;utm_campaign=mango"
     return sec(f'''<div class="prose"><h3>Mango grower? Try the free orchard check</h3><p>mangomastery.com is our mango website in Gujarati, Hindi and English. Answer a few questions about your trees and get a per-tree plan for this month, plus a month-by-month mango calendar and stories from mango growers.</p>
 <div class="btns"><a class="btn btn-leaf" href="{MANGO}/check/{u}" rel="noopener">Free orchard check</a><a class="btn btn-line" href="{MANGO}/calendar/{u}" rel="noopener">Mango calendar</a></div></div>''', tint=True)
+# Mango guides: free orchard check card (links to mangomastery.com/check, problem pre-selected, tracked)
+_MCTA = {"/guides/mango-farming-in-india": None, "/guides/mango-diseases-and-pests": "pest", "/guides/mango-powdery-mildew": "pest",
+         "/guides/mango-flowering-care": "flowering", "/crop-problems/mango-fruit-drop": "drop", "/crop-problems/mango-alternate-bearing": "alternate"}
+def mango_cta(path, pos):
+    pr = _MCTA[path]; slug = path.rsplit("/", 1)[1]
+    u = f"?lang=en{'&amp;p=' + pr if pr else ''}&amp;utm_source=gujaratbio_www&amp;utm_medium=guide&amp;utm_campaign=mango_guide&amp;utm_content={slug}_{pos}"
+    k = f"?utm_source=gujaratbio_www&amp;utm_medium=guide&amp;utm_campaign=mango_guide&amp;utm_content={slug}_kit"
+    if pos == "top":
+        return f'''<div class="hook"><p class="hook-k">Free mango orchard check</p><p>Tell us your tree age and what you see in the orchard. Two minutes, no cost, and you get a plan for this month.</p><div class="btns"><a class="btn btn-leaf" href="{MANGO}/check/{u}" rel="noopener">Start the free check</a></div></div>'''
+    return f'''<h2>Get a plan for your own orchard</h2><p>Every orchard is different. The free check at <a href="{MANGO}/check/{u}" rel="noopener">mangomastery.com</a> asks about your tree age, variety and what you see, then gives a plan for this month. It is also available in Gujarati and Hindi. If you want product support for the flowering and fruit set stage, see <a href="/products/immunity-mango-special">Immunity Mango Special</a> or the <a href="{MANGO}/mango-kit/{k}" rel="noopener">Immunity Mango Kit</a>, always used as per the label.</p><div class="btns"><a class="btn btn-leaf" href="{MANGO}/check/{u}" rel="noopener">Start the free check</a><a class="btn btn-line" href="https://wa.me/919978791167">Ask on WhatsApp</a></div>'''
 GAL_F = [(f"field-{i:02d}", "Field visit with sugarcane growers") for i in range(1, 17)]
 GAL_E = [(f"expo-{i:02d}", "Farmers at the Immunity stall at a farmer fair") for i in range(1, 15)]
 def gallery(items):
@@ -571,6 +581,7 @@ def article_page(path, basename, baseurl, x, crop=None, hero_media=None):
     body = hero(cap(x["h1"]), x["desc"], [(basename, baseurl), (_cr(x["h1"].split(":")[0]), None)], light=True)
     dp = DEEP.get(path, {})
     inner = (f'<div class="hook"><p class="hook-k">Reality check</p><p>{dp["hook"]}</p></div>' if dp.get("hook") else "") + answer(x["answer"])
+    if path in _MCTA: inner += mango_cta(path, "top")
     if dp.get("stats"): inner += '<div class="stats">' + "".join(f'<div class="stat"><b>{esc(n)}</b><span>{esc(l)}</span></div>' for n, l in dp["stats"]) + "</div>"
     if x["slug"] in SERIES and path.startswith("/guides/"):
         _n = SERIES.index(x["slug"]) + 1
@@ -583,6 +594,7 @@ def article_page(path, basename, baseurl, x, crop=None, hero_media=None):
     if crop:
         c = CBY[crop]; p = PBY[c["product"]]
         inner += f'<p>See the full <a href="/crops/{crop}">{c["name"].lower()} guide</a> and <a href="/products/{p["slug"]}">{p["name"]}</a>.</p>'
+    if path in _MCTA: inner += mango_cta(path, "end")
     inner += f'<p class="note">Written by Gafar Laiya, founder of {SHORT}, working with farmers since 2006. {RESULTS}</p>'
     _fq = x["faq"] + dp.get("faq", [])
     body += sec(f'<div class="prose">{inner}</div>') + sec(faq_html(_fq), "Questions", tint=True) + x.get("extra", "") + (ganna_box() if crop == "sugarcane" else mango_box() if crop == "mango" else "") + enquiry_box(CBY[crop]["name"] if crop else "")
