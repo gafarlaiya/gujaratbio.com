@@ -29,7 +29,7 @@ SOCIAL = ["https://www.facebook.com/gujaratbio", "https://www.youtube.com/@Gujar
 OWNER_LINE = f"This website is owned and maintained by {NAME.replace('Pvt. Ltd.', 'Private Limited')} (CIN {CIN}), Bhavnagar, Gujarat, India."
 RESULTS = "Results differ from farm to farm with soil, weather, crop and management. Farmer experiences on this site are their own reports, not a promise of results."
 
-for _f in ("content_products.py", "content_crops.py", "content_crops2.py", "content_knowledge.py", "content_series.py", "content_pages.py", "content_micro_a.py", "content_micro_b.py", "content_micro_general.py", "content_season.py", "content_dap.py"):
+for _f in ("content_products.py", "content_crops.py", "content_crops2.py", "content_knowledge.py", "content_series.py", "content_pages.py", "content_micro_a.py", "content_micro_b.py", "content_micro_general.py", "content_season.py", "content_dap.py", "content_mango.py"):
     exec(open(os.path.join(ROOT, _f), encoding="utf-8").read())
 SERIES = ["gravitropism-and-root-growth", "auxin-master-regulator-of-growth", "seaweed-extracts-and-plant-physiology", "humic-acid-and-root-zone-development",
           "protein-hydrolysates-and-nutrient-use-efficiency", "biostimulants-for-salinity-and-drought-stress"]
@@ -462,11 +462,24 @@ for c in CROPS:
     if carts:
         body += sec('<div class="grid">' + "".join(card(f"/articles/{a['slug']}", a["h1"], (a["desc"] or "")[:140], "Hindi article" if a["lang"] == "hi" else "Article") for a in carts) + "</div>", f"Articles on {c['name'].lower()}")
     if c["slug"] == "sugarcane": body += ganna_box() + sec(gallery(GAL_F[:8]), "From sugarcane fields")
-    if c["slug"] == "mango": body += mango_box()
+    if c["slug"] == "mango":
+        body += sec('<div class="tablewrap"><table class="packs"><thead><tr><th>Month</th><th>What the tree is doing</th><th>What growers do</th></tr></thead><tbody>'
+                    '<tr><td>April to June</td><td>Fruit grows and ripens</td><td>Steady moisture; harvest mature fruit with a short stalk</td></tr>'
+                    '<tr><td>June to July, after harvest</td><td>New shoots begin</td><td>Prune, clean the orchard, feed with compost or manure</td></tr>'
+                    '<tr><td>August to September</td><td>New flush grows</td><td>Second feeding as advised for your soil; protect the flush</td></tr>'
+                    '<tr><td>October to November</td><td>Shoots mature</td><td>Reduce water, no nitrogen, clear weeds</td></tr>'
+                    '<tr><td>December to February</td><td>Panicles and flowers</td><td>Protect panicles at emergence; no spray at full bloom</td></tr>'
+                    '<tr><td>February to March</td><td>Fruit set</td><td>Restart light irrigation; watch for hoppers and fruit drop</td></tr>'
+                    '</tbody></table></div><p class="note">Timing shifts with location and weather. South Gujarat often flowers earlier than Saurashtra and Kutch.</p>'
+                    '<ul><li><a href="/guides/mango-farming-in-india">Mango farming in India: the complete guide</a></li><li><a href="/guides/mango-flowering-care">Mango flowering care and spray schedule</a></li>'
+                    '<li><a href="/guides/mango-powdery-mildew">Mango powdery mildew</a></li><li><a href="/guides/mango-diseases-and-pests">Mango diseases and pests</a></li>'
+                    '<li><a href="/crop-problems/mango-fruit-drop">Mango fruit drop</a></li><li><a href="/crop-problems/mango-alternate-bearing">Alternate bearing in mango</a></li></ul>', "Mango care calendar and guides")
+        body += mango_box()
     body += sec(faq_html(c["faq"]), f"{c['name']} questions", tint=not carts) + enquiry_box(c["name"], p["name"])
     title = f"{c['name']} Farming Guide: Stages, Problems & Care | GBO"
+    if c["slug"] == "mango": title = "Mango Farming in India: Care Calendar, Flowering, Diseases | GBO"
     if len(title) > 66: title = f"{c['name']} Guide: Stages, Problems & Care | GBO"
-    render(path, title, f"{c['name']} guide for growers: stage-by-stage care, common problems, what to check, and how farmers use {p['name']} through the season.",
+    render(path, title, ("Mango farming guide for growers: month-by-month care, flowering and fruit set, powdery mildew, hoppers, fruit drop and alternate bearing." if c["slug"] == "mango" else f"{c['name']} guide for growers: stage-by-stage care, common problems, what to check, and how farmers use {p['name']} through the season."),
            body, [faq_ld(c["faq"]), article_ld(path, f"{c['name']} farming guide", c["intro"])], [("Crops", "/crops"), (c["name"], None)], "0.8",
            og=(f"/assets/media/crop-{c['slug']}-hero.webp" if os.path.exists(os.path.join(ROOT, "assets", "media", f"crop-{c['slug']}-hero.webp")) else f"/assets/img/products/{p['slug']}.webp"))
 

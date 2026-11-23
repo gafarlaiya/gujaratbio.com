@@ -1,8 +1,8 @@
 {
 "/": [
 "2026-10-21",
-"2026-11-22",
-"ac262f6d7e43"
+"2026-11-23",
+"f3479e0fc80e"
 ],
 "/404": [
 "2026-11-13",
@@ -406,8 +406,8 @@
 ],
 "/crops/mango": [
 "2026-10-21",
-"2026-11-19",
-"538e3f148323"
+"2026-11-23",
+"58284f94784b"
 ],
 "/crops/onion": [
 "2026-10-21",
@@ -476,8 +476,8 @@
 ],
 "/guides": [
 "2026-10-21",
-"2026-11-22",
-"8c520a346415"
+"2026-11-23",
+"1070f92bae3d"
 ],
 "/guides/auxin-master-regulator-of-growth": [
 "2026-10-30",
@@ -496,13 +496,13 @@
 ],
 "/guides/compost-and-humic-acid": [
 "2026-10-21",
-"2026-11-19",
-"94727d3fb6a0"
+"2026-11-23",
+"ac9c901f1bbc"
 ],
 "/guides/dap-shortage-what-to-use-instead": [
 "2026-11-18",
-"2026-11-22",
-"901edeecadab"
+"2026-11-23",
+"a97fc7d50bcd"
 ],
 "/guides/dap-token-booking-online": [
 "2026-11-22",
@@ -511,8 +511,8 @@
 ],
 "/guides/farming-without-dap": [
 "2026-11-22",
-"2026-11-22",
-"8e0ee0ff5456"
+"2026-11-23",
+"db148e888491"
 ],
 "/guides/flower-drop-before-fruit-set": [
 "2026-11-18",
@@ -559,10 +559,20 @@
 "2026-11-19",
 "3c3e5c813bcb"
 ],
+"/guides/mango-diseases-and-pests": [
+"2026-11-23",
+"2026-11-23",
+"021bb492fab0"
+],
+"/guides/mango-farming-in-india": [
+"2026-11-23",
+"2026-11-23",
+"5f1920662cc0"
+],
 "/guides/mango-flowering-care": [
 "2026-11-18",
-"2026-11-19",
-"998c5ce3ff8d"
+"2026-11-23",
+"bdb2ef9049ed"
 ],
 "/guides/mango-fruit-set-and-fruit-drop": [
 "2026-11-14",
@@ -574,10 +584,15 @@
 "2026-11-14",
 "5142712e5b2f"
 ],
+"/guides/mango-powdery-mildew": [
+"2026-11-23",
+"2026-11-23",
+"48fa198e651e"
+],
 "/guides/organic-alternative-to-dap": [
 "2026-11-22",
-"2026-11-22",
-"12aafc189bba"
+"2026-11-23",
+"eac921ea55f2"
 ],
 "/guides/organic-vs-natural-farming": [
 "2026-11-18",
@@ -631,8 +646,8 @@
 ],
 "/guides/which-biofertilizers-to-use": [
 "2026-11-18",
-"2026-11-19",
-"0dc640937eb6"
+"2026-11-23",
+"7b21e3b229bc"
 ],
 "/guides/why-yields-fall-on-old-land": [
 "2026-10-21",
@@ -646,8 +661,8 @@
 ],
 "/knowledge": [
 "2026-10-21",
-"2026-11-22",
-"5f46b3664108"
+"2026-11-23",
+"c2638dc4f1f9"
 ],
 "/knowledge/potato-fertilizer-schedule": [
 "2026-10-21",
