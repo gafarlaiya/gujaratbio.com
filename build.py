@@ -945,7 +945,8 @@ render("/enquiry", "Send an Enquiry | Gujarat Bio Organics", "Send your crop, pr
 start("/contact")
 contact = hero("Contact us", "Questions about your crop, dealership or an order? We reply on WhatsApp and by phone.", [("Contact", None)], light=True)
 contact += sec(f'''<div class="grid two"><div><h2>Farmers, dealers and orders</h2><p>WhatsApp or call: <a href="tel:{TEL}">{PHONE}</a><br>Email: <a href="mailto:{MAIL}">{MAIL}</a></p><div class="btns">{btn_enq()}{btn_wa("Hello Gujarat Bio Organics, I have a question.")}{btn_call()}</div>
-<h2>Bulk, OEM and export</h2><p><a href="{B2B}/contact">Business site contact page</a>.</p></div>
+<h2>Bulk, OEM and export</h2><p><a href="{B2B}/contact">Business site contact page</a>.</p>
+<h2>Manufacturer in Gujarat</h2><p>We make organic fertilizer, biofertilizer and biostimulants at our own factory in Shihor, Bhavnagar. Read <a href="/organic-fertilizer-manufacturer-gujarat">who we are and what we make</a>, see our <a href="/factory-and-rd">factory and R&amp;D</a> and <a href="/quality">approvals</a>, or go to the business site for <a href="{B2B}/biostimulants-manufacturer-india">biostimulant</a> and <a href="{B2B}/manufacturing-facility">manufacturing facility</a> details and <a href="/bulk-buyers">bulk supply</a>.</p></div>
 <div><h2>Visit us</h2><p class="note">{OWNER_LINE}</p><p><b>Factory</b><br>{FACTORY}</p><p><b>Registered office</b><br>{REGOFF}</p><p>{NAME}<br>CIN {CIN}</p></div></div>''')
 render("/contact", "Contact Gujarat Bio Organics | WhatsApp, Phone, Address", "Contact Gujarat Bio Organics on WhatsApp or phone (+91 99787 91167), email sales@gujaratbio.com, or visit our factory in Shihor, Bhavnagar, Gujarat.",
        contact, None, [("Contact", None)], "0.7")
