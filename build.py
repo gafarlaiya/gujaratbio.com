@@ -617,6 +617,20 @@ render("/guides", "Farming Guides: Biostimulants, Compost, Soil Tests | GBO",
        "Plain farming guides from Gujarat Bio Organics: biostimulants, tired soil, compost and humic acid, and how to take a soil sample.",
        hero("Farming guides", "Plain answers to the questions farmers ask us most.", [("Knowledge", "/knowledge"), ("Guides", None)]) + sec('<p class="answer">New: the <a href="/plant-science-series">Plant Science Series</a>, six guides on roots, plant hormones and biostimulant science by Gafar Laiya.</p>')
        + sec('<div class="grid">' + "".join(card(f"/guides/{g['slug']}", g["h1"], g["desc"], "Guide") for g in GUIDES) + "</div>") + enquiry_box(), None, [("Knowledge", "/knowledge"), ("Guides", None)], "0.7")
+_B2BL = {  # topic guides -> matching business pages on b2b (keyword anchors, one short block)
+    "which-biofertilizers-to-use": [("biofertilisers-manufacturer-india", "Biofertiliser manufacturer in India: bulk, private label and export"), ("resources/types-of-biofertilizers", "Types of biofertilizers and what each one does")],
+    "compost-and-humic-acid": [("humic-acid-manufacturer-india", "Humic acid manufacturer in India: powder, granules and liquid"), ("resources/humic-acid-uses-in-agriculture", "Humic acid uses in agriculture")],
+    "humic-acid-and-root-zone-development": [("humic-acid-manufacturer-india", "Humic acid manufacturer in India: powder, granules and liquid")],
+    "seaweed-extracts-and-plant-physiology": [("seaweed-extract-manufacturer-india", "Seaweed extract manufacturer in India: liquid, powder and granules")],
+    "protein-hydrolysates-and-nutrient-use-efficiency": [("amino-acid-protein-hydrolysate-manufacturer-india", "Amino acid and protein hydrolysate manufacturer in India")],
+    "organic-alternative-to-dap": [("organic-fertilizer-manufacturer-india", "Organic fertilizer manufacturer in India")],
+    "dap-shortage-what-to-use-instead": [("organic-fertilizer-manufacturer-india", "Organic fertilizer manufacturer in India")],
+    "farming-without-dap": [("organic-fertilizer-manufacturer-india", "Organic fertilizer manufacturer in India")],
+}
+for g in GUIDES:
+    _l = _B2BL.get(g["slug"])
+    if _l and "For business buyers" not in g.get("extra", "") and "Business buyers" not in g.get("extra", ""):
+        g["extra"] = g.get("extra", "") + sec('<p class="note">For manufacturers, importers, dealers and brand owners, our business site has the matching pages:</p><ul>' + "".join(f'<li><a href="{B2B}/{k}">{t}</a></li>' for k, t in _l) + "</ul>", "For business buyers", tint=True)
 for g in GUIDES: article_page(f"/guides/{g['slug']}", "Guides", "/guides", g)
 
 start("/plant-science-series")
