@@ -598,9 +598,12 @@ _BL = {"gravitropism-and-root-growth": ["what-is-a-biostimulant", "fco-schedule-
 _BLT = {"what-is-a-biostimulant": "What is a biostimulant?", "fco-schedule-vi-biostimulants": "FCO Schedule VI biostimulants in India", "kappaphycus-vs-ascophyllum-vs-sargassum": "Kappaphycus vs Ascophyllum vs Sargassum",
         "seaweed-extract-uses-in-agriculture": "Seaweed extract uses in agriculture", "humic-acid-uses-in-agriculture": "Humic acid uses in agriculture", "humic-acid-vs-fulvic-acid": "Humic acid vs fulvic acid",
         "potassium-humate-vs-humic-acid": "Potassium humate vs humic acid", "protein-hydrolysate-vs-amino-acid": "Protein hydrolysate vs amino acid", "biostimulant-vs-fertilizer-vs-biofertilizer": "Biostimulant vs fertilizer vs biofertilizer"}
+_BLM = {"humic-acid-and-root-zone-development": f' | <a href="{B2B}/humic-acid-manufacturer-india">Humic acid manufacturer in India</a>',
+        "seaweed-extracts-and-plant-physiology": f' | <a href="{B2B}/seaweed-extract-manufacturer-india">Seaweed extract manufacturer in India</a>',
+        "protein-hydrolysates-and-nutrient-use-efficiency": f' | <a href="{B2B}/amino-acid-protein-hydrolysate-manufacturer-india">Amino acid and protein hydrolysate manufacturer in India</a>'}
 def _bl(slug):
     items = "".join(f'<li><a href="{B2B}/{("" if k.startswith("fco-") else "resources/")}{k}">{_BLT[k]}</a></li>' for k in _BL[slug])
-    return f'<h3 style="margin-top:1.4rem">For business buyers and formulators</h3><p class="note">Technical notes on our business site (b2b.gujaratbio.com), for manufacturers, importers and brand owners:</p><ul>{items}</ul><p class="note"><a href="{B2B}/biostimulants-manufacturer-india">Biostimulant manufacturer in India: bulk, private label and export</a></p>'
+    return f'<h3 style="margin-top:1.4rem">For business buyers and formulators</h3><p class="note">Technical notes on our business site (b2b.gujaratbio.com), for manufacturers, importers and brand owners:</p><ul>{items}</ul><p class="note"><a href="{B2B}/biostimulants-manufacturer-india">Biostimulant manufacturer in India: bulk, private label and export</a>{_BLM.get(slug, "")}</p>'
 
 for g in GUIDES:
     if g["slug"] in SERIES:
