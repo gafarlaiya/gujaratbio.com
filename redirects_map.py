@@ -66,4 +66,6 @@ for _n in range(1, 40):
     OLD.setdefault(f"/blog-post{_n}", "/knowledge")
 OLD["/guides/mango-not-flowering-causes-and-timing"] = "/guides/mango-flowering-care"  # merged duplicate guide, Nov 2026
 OLD["/guides/mango-fruit-set-and-fruit-drop"] = "/crop-problems/mango-fruit-drop"  # merged duplicate, Nov 2026
+# Old Wix post searched as "top 10 bio fertilizer company in india"; the scraped copy was an unrelated Hindi page. Send buyers to the b2b biofertiliser range (24 Nov 2026).
+OLD["/blog-top-10-biofertilizer-manufacturers-of-india"] = "https://b2b.gujaratbio.com/biofertilisers-manufacturer-india"
 json.dump(OLD, open(os.path.join(ROOT, "redirects-at-launch.json"), "w"), indent=0)
