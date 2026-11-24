@@ -90,19 +90,19 @@ def media(fname, desc, kind="img", cls=""):
 SITES = [("https://www.gujaratbio.com/", "www.gujaratbio.com", "Main company website: Immunity products, crop guides and farmer knowledge."),
          ("https://b2b.gujaratbio.com/", "b2b.gujaratbio.com", "Business buyers: bulk supply, private label, OEM and export of biostimulants and biofertilizers."),
          ("https://ganna.in/", "ganna.in", "Sugarcane growers, in Gujarati: Immunity Sugarcane Program, dose schedule and farmer results."),
-         ("https://mangomastery.com/", "mangomastery.com", "Mango growers, in Gujarati, Hindi and English: free orchard check, month-by-month mango calendar and farmer stories.")]
+         ("https://mangofarming.in/", "mangofarming.in", "Mango growers, in Gujarati, Hindi and English: free orchard check, month-by-month mango calendar and farmer stories.")]
 GANNA = "https://ganna.in"
 def ganna_box():
     u = "?utm_source=gujaratbio_farmer_site&amp;utm_medium=referral&amp;utm_campaign=sugarcane"
     return sec(f'''<div class="grid two"><div class="prose"><h3>Sugarcane grower? Visit ganna.in</h3><p>ganna.in is our sugarcane website in Gujarati: the stage-wise Immunity Sugarcane Program, a vigha and acre dose schedule, the sugarcane knowledge centre, and results from growers in Surat and Navsari.</p>
 <div class="btns"><a class="btn btn-leaf" href="{GANNA}/sugarcane-program/{u}" rel="noopener">Sugarcane Program</a><a class="btn btn-line" href="{GANNA}/sugarcane-dosage-schedule/{u}" rel="noopener">Dose schedule</a><a class="btn btn-line" href="{GANNA}/farmer-results/{u}" rel="noopener">Farmer results</a></div></div>
 <div>{media("ganna-in-farmers-gallery.webp", "Farmers with Immunity products in a sugarcane field (from ganna.in)")}</div></div>''', tint=True)
-MANGO = "https://mangomastery.com"
+MANGO = "https://mangofarming.in"
 def mango_box():
     u = "?utm_source=gujaratbio_farmer_site&amp;utm_medium=referral&amp;utm_campaign=mango"
-    return sec(f'''<div class="prose"><h3>Mango grower? Try the free orchard check</h3><p>mangomastery.com is our mango website in Gujarati, Hindi and English. Answer a few questions about your trees and get a per-tree plan for this month, plus a month-by-month mango calendar and stories from mango growers.</p>
+    return sec(f'''<div class="prose"><h3>Mango grower? Try the free orchard check</h3><p>mangofarming.in is our mango website in Gujarati, Hindi and English. Answer a few questions about your trees and get a per-tree plan for this month, plus a month-by-month mango calendar and stories from mango growers.</p>
 <div class="btns"><a class="btn btn-leaf" href="{MANGO}/check/{u}" rel="noopener">Free orchard check</a><a class="btn btn-line" href="{MANGO}/calendar/{u}" rel="noopener">Mango calendar</a></div></div>''', tint=True)
-# Mango guides: free orchard check card (links to mangomastery.com/check, problem pre-selected, tracked)
+# Mango guides: free orchard check card (links to mangofarming.in/check, problem pre-selected, tracked)
 _MCTA = {"/guides/mango-farming-in-india": None, "/guides/mango-diseases-and-pests": "pest", "/guides/mango-powdery-mildew": "pest",
          "/guides/mango-flowering-care": "flowering", "/crop-problems/mango-fruit-drop": "drop", "/crop-problems/mango-alternate-bearing": "alternate"}
 def mango_cta(path, pos):
@@ -111,7 +111,7 @@ def mango_cta(path, pos):
     k = f"?utm_source=gujaratbio_www&amp;utm_medium=guide&amp;utm_campaign=mango_guide&amp;utm_content={slug}_kit"
     if pos == "top":
         return f'''<div class="hook"><p class="hook-k">Free mango orchard check</p><p>Tell us your tree age and what you see in the orchard. Two minutes, no cost, and you get a plan for this month.</p><div class="btns"><a class="btn btn-leaf" href="{MANGO}/check/{u}" rel="noopener">Start the free check</a></div></div>'''
-    return f'''<h2>Get a plan for your own orchard</h2><p>Every orchard is different. The free check at <a href="{MANGO}/check/{u}" rel="noopener">mangomastery.com</a> asks about your tree age, variety and what you see, then gives a plan for this month. It is also available in Gujarati and Hindi. If you want product support for the flowering and fruit set stage, see <a href="/products/immunity-mango-special">Immunity Mango Special</a> or the <a href="{MANGO}/mango-kit/{k}" rel="noopener">Immunity Mango Kit</a>, always used as per the label.</p><div class="btns"><a class="btn btn-leaf" href="{MANGO}/check/{u}" rel="noopener">Start the free check</a><a class="btn btn-line" href="https://wa.me/919978791167">Ask on WhatsApp</a></div>'''
+    return f'''<h2>Get a plan for your own orchard</h2><p>Every orchard is different. The free check at <a href="{MANGO}/check/{u}" rel="noopener">mangofarming.in</a> asks about your tree age, variety and what you see, then gives a plan for this month. It is also available in Gujarati and Hindi. If you want product support for the flowering and fruit set stage, see <a href="/products/immunity-mango-special">Immunity Mango Special</a> or the <a href="{MANGO}/mango-kit/{k}" rel="noopener">Immunity Mango Kit</a>, always used as per the label.</p><div class="btns"><a class="btn btn-leaf" href="{MANGO}/check/{u}" rel="noopener">Start the free check</a><a class="btn btn-line" href="https://wa.me/919978791167">Ask on WhatsApp</a></div>'''
 GAL_F = [(f"field-{i:02d}", "Field visit with sugarcane growers") for i in range(1, 17)]
 GAL_E = [(f"expo-{i:02d}", "Farmers at the Immunity stall at a farmer fair") for i in range(1, 15)]
 def gallery(items):
@@ -161,7 +161,7 @@ def footer():
 <p><a href="{SOCIAL[0]}" rel="noopener">Facebook</a> &middot; <a href="{SOCIAL[1]}" rel="noopener">YouTube</a></p></div>
 <div><h2>Crops</h2><ul>{crops}<li><a href="/crops">All crops</a></li></ul></div>
 <div><h2>Immunity</h2><ul>{"".join(f'<li><a href="/products#{g}">{t}</a></li>' for g, t, _ in GROUPS)}<li><a href="/where-to-buy">Where to buy</a></li><li><a href="/enquiry">Send enquiry</a></li></ul></div>
-<div><h2>Company</h2><ul><li><a href="/about">About us</a></li><li><a href="/our-story">Our story</a></li><li><a href="/our-impact">Our impact</a></li><li><a href="/quality">Quality and approvals</a></li><li><a href="/farmer-stories">Farmer stories</a></li><li><a href="/knowledge">Knowledge</a></li><li><a href="/micronutrients">Micronutrients</a></li><li><a href="/plant-science-series">Plant science series</a></li><li><a href="/dealers">Dealers</a></li><li><a href="/contact">Contact</a></li><li><a href="/privacy-policy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/shipping-and-returns">Shipping and returns</a></li><li><a href="{OLD_SITE}" rel="nofollow">Old website</a></li></ul><h2>Our websites</h2><ul><li><a href="{GANNA}/" rel="noopener">ganna.in: sugarcane (Gujarati)</a></li><li><a href="{MANGO}/" rel="noopener">mangomastery.com: mango (Gujarati, Hindi, English)</a></li><li><a href="{B2B}/">b2b.gujaratbio.com: bulk, OEM, export</a></li><li><a href="/our-websites">All our websites</a></li></ul></div>
+<div><h2>Company</h2><ul><li><a href="/about">About us</a></li><li><a href="/our-story">Our story</a></li><li><a href="/our-impact">Our impact</a></li><li><a href="/quality">Quality and approvals</a></li><li><a href="/farmer-stories">Farmer stories</a></li><li><a href="/knowledge">Knowledge</a></li><li><a href="/micronutrients">Micronutrients</a></li><li><a href="/plant-science-series">Plant science series</a></li><li><a href="/dealers">Dealers</a></li><li><a href="/contact">Contact</a></li><li><a href="/privacy-policy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/shipping-and-returns">Shipping and returns</a></li><li><a href="{OLD_SITE}" rel="nofollow">Old website</a></li></ul><h2>Our websites</h2><ul><li><a href="{GANNA}/" rel="noopener">ganna.in: sugarcane (Gujarati)</a></li><li><a href="{MANGO}/" rel="noopener">mangofarming.in: mango (Gujarati, Hindi, English)</a></li><li><a href="{B2B}/">b2b.gujaratbio.com: bulk, OEM, export</a></li><li><a href="/our-websites">All our websites</a></li></ul></div>
 </div><p class="note" style="color:#bfb3a5;margin-top:20px">{RESULTS}</p><p class="note" style="color:#bfb3a5">{OWNER_LINE} &copy; 2026 Gujarat Bio Organics Private Limited. All rights reserved. Immunity is a brand of {SHORT}. <a href="/about#this-website">About this website</a> &middot; <a href="/our-websites">Our websites</a></p></div></footer>
 <nav class="bar" aria-label="Quick contact"><a class="c" href="tel:{TEL}" data-ev="click_phone">Call</a><a class="w" href="{wa("Hello Gujarat Bio Organics, I need help with my crop.")}" data-ev="click_whatsapp">WhatsApp</a></nav>'''
 
@@ -216,7 +216,7 @@ JS = ("document.querySelector('.menu-btn')?.addEventListener('click',function(){
       "o.push(['MOP (60% K2O)',K/0.6,50]);document.getElementById('cout').innerHTML=o.map(function(x){var kg=x[1]*A;return '<tr><td>'+x[0]+'</td><td>'+kg.toFixed(1)+' kg</td><td>'+B((kg/x[2]).toFixed(1),x[2])+'</td></tr>'}).join('')}")
 
 ORG = {"@context": "https://schema.org", "@type": "Organization", "@id": SITE + "/#org", "name": NAME, "legalName": "Gujarat Bio Organics Private Limited", "alternateName": ["Gujarat Bio Organics", "GBO"], "identifier": {"@type": "PropertyValue", "propertyID": "CIN", "value": CIN},
-       "url": SITE + "/", "logo": SITE + "/assets/img/brand/gbo-logo.png", "foundingDate": "2006", "email": MAIL, "telephone": TEL, "sameAs": SOCIAL + [B2B + "/", "https://ganna.in/", "https://mangomastery.com/"],
+       "url": SITE + "/", "logo": SITE + "/assets/img/brand/gbo-logo.png", "foundingDate": "2006", "email": MAIL, "telephone": TEL, "sameAs": SOCIAL + [B2B + "/", "https://ganna.in/", "https://mangofarming.in/"],
        "address": {"@type": "PostalAddress", "streetAddress": "Plot No. 321, GIDC 2, Ghanghali Road, Shihor", "addressLocality": "Bhavnagar", "addressRegion": "Gujarat", "postalCode": "364240", "addressCountry": "IN"},
        "brand": {"@type": "Brand", "name": "Immunity", "logo": SITE + "/assets/img/brand/immunity-logo.webp"}}
 
@@ -1114,7 +1114,7 @@ open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8").write(f"""# {NAME}
 - Farmer results quoted on this site are individual farmers' own experiences, not promises; results vary with soil, water, weather and management.
 - {OWNER_LINE}
 - This file was last generated on {TODAY}.
-- Related websites of the same company: https://b2b.gujaratbio.com (bulk, OEM, export), https://ganna.in (sugarcane, Gujarati), https://mangomastery.com (mango growers: free orchard check).
+- Related websites of the same company: https://b2b.gujaratbio.com (bulk, OEM, export), https://ganna.in (sugarcane, Gujarati), https://mangofarming.in (mango growers: free orchard check).
 
 ## Immunity products
 """ + "".join(f"- [{p['name']}]({SITE}/products/{p['slug']}): {p['line']}\n" for p in PRODUCTS) + "\n## Crop guides\n" +
