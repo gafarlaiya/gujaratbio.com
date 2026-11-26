@@ -237,7 +237,8 @@ def page_date(path, content):
         d[1], d[2] = TODAY, h
     return d[0], d[1]
 # Pages held out of Google until their claims pass QA (SEO_AUDIT.md H2). Remove a path once its text is fixed.
-HOLD = {"/articles/unlocking-profitability-the-power-of-compost-and-humic-acid",
+HOLD = {"/sugarcane-meeting",  # 28 Oct 2026 event is over: keep the link working, noindex, out of sitemap
+        "/articles/unlocking-profitability-the-power-of-compost-and-humic-acid",
         "/articles/sugarcane-production-in-india-current-scenario-and-way-ahead",
         "/articles/india-s-organic-market-is-growing-20-per-year",
         "/articles/inside-the-lab-breakthroughs-in-biofertilizers-and-bio-pesticides",
