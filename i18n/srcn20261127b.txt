@@ -1,0 +1,6 @@
+### /crops/chilli
+0	Chilli Farming (Mirchi Ki Kheti): Care, Flower Drop, Leaf Curl
+1	Chilli farming guide for growers: mirchi flower and fruit drop, leaf curl, plants that stop bearing, and stage-by-stage care from seedling to picking.
+### /crops/coconut
+2	Coconut Farming in India: Care, Button Shedding, Nut Yield
+3	Coconut farming guide: why palms shed buttons and give few nuts, yellow fronds, micronutrients to watch, and care for young and bearing palms.
