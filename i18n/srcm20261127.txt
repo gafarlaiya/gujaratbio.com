@@ -1,0 +1,53 @@
+### /organic-fertilizer-manufacturer-gujarat
+0	Our products by crop
+1	Immunity is our brand. We make a crop special formula for each of the crops below, made around the problems growers of that crop bring to us. Each product page says what the formula is for and how to order.
+2	<a href="/products/immunity-sugarcane-special">Immunity Sugarcane Special</a>
+3	<a href="/products/immunity-potato-special">Immunity Potato Special</a>
+4	<a href="/products/immunity-mango-special">Immunity Mango Special</a>
+5	<a href="/products/immunity-apple-special">Immunity Apple Special</a>
+6	<a href="/products/immunity-banana-special">Immunity Banana Special</a>
+7	<a href="/products/immunity-citrus-special">Immunity Citrus Special</a>
+8	<a href="/products/immunity-coconut-special">Immunity Coconut Special</a>
+9	<a href="/products/immunity-cotton-special">Immunity Cotton Special</a>
+10	<a href="/products/immunity-onion-special">Immunity Onion Special</a>
+11	<a href="/products/immunity-pomegranate-special">Immunity Pomegranate Special</a>
+12	<a href="/products/immunity-paddy-special">Immunity Paddy Special</a>
+13	<a href="/products/immunity-maize-special">Immunity Maize Special</a>
+14	<a href="/products/immunity-tea-special">Immunity Tea Special</a>
+15	<a href="/products/immunity-cumin-special">Immunity Cumin Special</a>
+16	<a href="/products/immunity-chilli-special">Immunity Chilli (Mirchi) Special</a>
+17	<a href="/products/immunity-mungfali-special">Immunity Mungfali (Groundnut) Special</a>
+18	<a href="/products/immunity-dhanya-special">Immunity Dhanya Special</a>
+19	<a href="/products/immunity-pulses-special">Immunity Pulses Special</a>
+20	<a href="/products/immunity-vegetable-special">Immunity Vegetable Special</a>
+21	<a href="/products/immunity-fruit-special">Immunity Fruit Special</a>
+22	For any crop there is <a href="/products/immunity-gold">Immunity Gold</a>, our general organic formula, and <a href="/products/immunity-granules">Immunity Granules</a> for the soil.
+23	Our 11 biofertilizer types
+24	<a href="/products/immunity-azotobacter">Immunity Azotobacter</a>
+25	<a href="/products/immunity-azospirillum">Immunity Azospirillum</a>
+26	<a href="/products/immunity-rhizobium">Immunity Rhizobium</a>
+27	<a href="/products/immunity-acetobacter">Immunity Acetobacter</a>
+28	<a href="/products/immunity-psb">Immunity PSB (Phosphate Solubilising Bacteria)</a>
+29	<a href="/products/immunity-kmb">Immunity KMB (Potash Mobilising Bacteria)</a>
+30	<a href="/products/immunity-zsb">Immunity ZSB (Zinc Solubilising Bacteria)</a>
+31	<a href="/products/immunity-psf">Immunity PSF (Phosphate Solubilising Fungi)</a>
+32	<a href="/products/immunity-mycorrhiza">Immunity Mycorrhiza</a>
+33	<a href="/products/immunity-npk-consortia">Immunity NPK Consortia</a>
+34	<a href="/products/immunity-consortia">Immunity Consortia</a>
+35	Not sure which one fits your field? Read <a href="/guides/which-biofertilizers-to-use">which biofertilizers to use</a>.
+36	How we make our products
+37	We have made everything we sell at our own factory in Shihor since we started. That lets us control what goes into each batch.
+38	Seaweed and humic substances are extracted in-house by a mild process, without harsh chemicals, very high pH or heat.
+39	Liquid capacity is 100 KL a month and solid and granule capacity is 2,500 t a month, so dealer and bulk orders come from the same line as farmer packs.
+40	The same team that makes the formulas walks farmers' fields, so problems we see in the field go back into the formulas.
+41	See <a href="/factory-and-rd">factory and R&amp;D</a> for the plant and <a href="/quality">quality and approvals</a> for the NOCs and batch checks.
+42	Where we supply
+43	From Bhavnagar we supply growers in Gujarat and Madhya Pradesh, Maharashtra and Karnataka, Andhra Pradesh and Telangana, Punjab, Haryana and Rajasthan, Himachal Pradesh and Jammu and Kashmir. <a href="/our-story">Our story</a> lists the crops we work on in each region.
+44	For bulk, export and OEM buyers, our business site has the details: <a href="https://b2b.gujaratbio.com/bulk-supply">bulk supply with no minimum order</a>, <a href="https://b2b.gujaratbio.com/export">export on FOB and CIF terms from Gujarat ports</a> and <a href="https://b2b.gujaratbio.com/biostimulants-manufacturer-india">our 36 biostimulant grades</a>.
+45	Vishalkumar Satishbhai Patel of Ashtagam, Navsari, grows 707 sugarcane. In his own words, his harvest went from 30 to 35 t to 45 t per vigha, with lower chemical spend. This is one farmer's experience, not a promise; results vary with soil, water, weather and management. More in <a href="/farmer-stories">farmer stories</a>.
+46	What is Immunity?
+47	Immunity is the brand under which Gujarat Bio Organics sells its products: crop special formulas, Immunity Gold, Immunity Granules and 11 biofertilizer types.
+48	Do you make biofertilizers?
+49	Yes. We make 11 biofertilizer types, including Azotobacter, Azospirillum, Rhizobium, Acetobacter, PSB, KMB, ZSB, PSF, mycorrhiza and two consortia.
+50	Is there a minimum order for bulk buyers?
+51	No. Our business site lists bulk supply with no minimum order. Our plant makes 100 KL of liquids and 2,500 t of solid products a month.
