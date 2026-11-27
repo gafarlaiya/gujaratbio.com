@@ -30,6 +30,11 @@ SEO = {
  "/articles/mastering-neem-optimal-dosage-timing-and-application-techniques-for": ("Neem Spray for Crops: Dose, Timing and How to Apply",
        "How much neem to use, the best time of day and crop stage to spray or drench, and simple mixing tips farmers use for natural pest control."),
 
+"/knowledge/potato-fertilizer-schedule": ("Potato Fertilizer Schedule: What to Apply and When",
+       "When to apply fertilizer to potato: basal dose at planting, nitrogen at earthing up, potash through tuber initiation and bulking, and when to stop irrigation."),
+"/tools/fertilizer-dose-calculator": ("Fertilizer Dose Calculator per Acre: Urea, DAP, SSP, MOP",
+       "Free calculator: enter N, P and K per acre from your soil test and get kilos and bags of urea, DAP or SSP, and MOP (potash) for your area."),
+
 "/crop-problems/citrus-dieback": ("Citrus Dieback in Lemon and Orange: Causes, Signs, Care",
        "What causes dieback in citrus and lemon trees: Colletotrichum twig blight, Phytophthora root rot, greening, zinc and iron shortage. Signs and a rescue plan."),
 
